@@ -1,7 +1,9 @@
 import json
 import math
 import random
+import time
 import numpy as np
+import sys
 
 _data = []
 roles = ["J", "S", "C"]
@@ -21,7 +23,6 @@ seed = random.seed(0)
 sum_fitness = 0
 
 def gen_starting_population(pop_size):
-    print("generating starting population...")
     population = []
     while len(population) < pop_size:
         genotype = []
@@ -29,7 +30,6 @@ def gen_starting_population(pop_size):
             role_index =  random.randint(0,len(roles)-1)
             genotype.append(roles[role_index])
         population.append(genotype)
-    print("population generated successfully")
     return population
 
 def compute_fitness(alpha, genotype):
@@ -76,8 +76,12 @@ def mutation(son):
     son[source],son[dest] = son[dest],son[source]
     return son
 
-def replacement():
-    pass
+def replacement(population, newborns, weights):
+    for newborn in newborns:
+        index = np.argmin(weights)
+        weights.pop(index)
+        population[index] = newborn
+    return population
 
 def load_problem(path):
     f = open(path, "r")
@@ -92,17 +96,25 @@ def get_weights_array(fitness_array):
     return weights
 
 if __name__ == '__main__':
-    population_size = 5
+    t_0 = time.perf_counter()
+    population_size = int(sys.argv[1])   #30
+    descendents = int(sys.argv[2])      #10
+    partitions = int(sys.argv[3])        #3
+    mutation_prob = float(sys.argv[4])     #0.05 
     alpha = 0.65
-    ancestors_size = 5
-    partitions = 3
-    mutation_prob = 0.05
-    iterations = 1000
+    iterations = 10000
 
-    _data = load_problem("./simplifiedProblem.json")
+    _data = load_problem("./problem{}.json".format(sys.argv[5]))
     population = gen_starting_population(population_size)
     best_sol = (0.0,[])
+    iter = 0
+    conv_limit = False
     for i in range(iterations):
+        
+        if(i-iter > 1500):
+            conv_limit = True
+            break
+        
         fitness_array = []
         sum_fitness = 0
 
@@ -110,18 +122,19 @@ if __name__ == '__main__':
             fit = compute_fitness(alpha,gen)
             if(fit > best_sol[0]):
                 best_sol = (fit, gen)
-            fitness_array.append(compute_fitness(alpha,gen))
+                iter = i
+            fitness_array.append(fit)
 
         weights = get_weights_array(fitness_array)
         new_population = []
-        for i in range(ancestors_size):
+        for i in range(math.floor(descendents/2)):
             parent_one, parent_two = select_specimens(population, weights)
             son_one, son_two = crossover(parent_one, parent_two, partitions, mutation_prob)
             new_population.append(son_one)
             new_population.append(son_two)
-        population = new_population
-        print(best_sol)
+        population = replacement(population, new_population, weights)
+    t_1 = time.perf_counter()
+    timelapse = t_1-t_0
+    print(json.dumps({"problem_size": sys.argv[5],"population_size":population_size, "descendents": descendents, "partitions": partitions, "mutation_prob": mutation_prob, "best_fitness": 1/best_sol[0], "iteration": iter, "conv_limit_reach": conv_limit, "time": timelapse}))
 
-    print("best solution:")
-    print(1/best_sol[0])
-    print(best_sol[1])
+
