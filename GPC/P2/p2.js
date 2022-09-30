@@ -41,7 +41,7 @@ function init(){
 }
 
 function loadScene(){
-    material = new THREE.MeshBasicMaterial({color: "yellow", wireframe: true});
+    material = new THREE.MeshNormalMaterial({wireframe: false})
 
     //floor
     const floor = new THREE.Mesh( new THREE.PlaneGeometry(1000, 1000, 5, 5), material);
@@ -208,16 +208,16 @@ function createFinger(){
     0,0,-1, 0,0,-1, 0,0,-1, 0,0,-1,
 
     //big rectangle left X
-    -1,0,0, -1,0,0, -1,0,0, -1,0,0,
+    0,0,1, 0,0,1, 0,0,1, 0,0,1,
     
     //big rectangle right X
-    1,0,0, 1,0,0, 1,0,0, 1,0,0,
+    0,0,-1, 0,0,-1, 0,0,-1, 0,0,-1,
 
     //polygon top X
     0,1,0, 0,1,0, 0,1,0, 0,1,0,
     
     //polygon front X
-    0,0,1, 0,0,1, 0,0,1, 0,0,1,
+    1,0,0, 1,0,0, 1,0,0, 1,0,0,
     
     //polygon bottom X
     2,-19,0, 2,-19,0, 2,-19,0, 2,-19,0,  
@@ -226,8 +226,7 @@ function createFinger(){
     5,0,19, 5,0,19, 5,0,19, 5,0,19, 
     
     //polygon right X
-    -5,0,19, -5,0,19, -5,0,19, -5,0,19
-    
+    5,0,-19, 5,0,-19, 5,0,-19, 5,0,-19
 ]
 
 // 0, -8, -10, //0
