@@ -2,12 +2,12 @@ import json
 import math
 import random
 import time
-import numpy as np
 import sys
+import numpy as np
 
 _data = []
 roles = ["J", "S", "C"]
-prices_hour = {"J": 19000/8760.0, "S":29615/8760.0, "C":37953/8760.0} #€/h
+prices_hour = {"J": 19000/1888.0, "S":29615/1888.0, "C":37953/1888.0} #€/h
 role_modifier = {#(task_p, worker_p) : modifier
     ("J","J"):1,
     ("J","S"):0.85,
@@ -19,17 +19,21 @@ role_modifier = {#(task_p, worker_p) : modifier
     ("C","S"):1.3,
     ("C","C"):1,
 }
-seed = random.seed(0)
+#seed = random.seed(0)
 sum_fitness = 0
 
-def gen_starting_population(pop_size):
+def gen_starting_population_random(pop_size):
     population = []
-    while len(population) < pop_size:
+    while len(population) < pop_size:# -1:
         genotype = []
         for _ in range(len(_data)):
             role_index =  random.randint(0,len(roles)-1)
             genotype.append(roles[role_index])
         population.append(genotype)
+    # base = []
+    # for i in range(len(_data)):
+    #     base.append(_data[i]['r'])
+    # population.append(base)
     return population
 
 def compute_fitness(alpha, genotype):
@@ -40,6 +44,12 @@ def compute_fitness(alpha, genotype):
 
     for index, gen in enumerate(genotype):
         task = _data[index]
+
+        #correct specimen
+        if(task['r']) == 'C' and gen == 'J':
+            gen = random.choice(['S', 'C'])
+            genotype[index] = gen
+
         task_real_time = task['t'] * role_modifier[(task['r'], gen)]
         performing_time += task_real_time
         cost += task_real_time * prices_hour[gen]
@@ -47,7 +57,7 @@ def compute_fitness(alpha, genotype):
     fitness = (alpha * performing_time + (1-alpha) * cost)
     fitness = 1/fitness #1/fitness because we want to minimize fitness
     sum_fitness += fitness
-    return fitness
+    return fitness, performing_time, cost
         
 def select_specimens(population, weights):
     return random.choices(population, weights, k=2)
@@ -67,6 +77,7 @@ def crossover(parent_one, parent_two, n, muration_prob):
     
     if(random.random() < muration_prob):
         son_two = mutation(son_two)
+        
 
     return son_one, son_two
 
@@ -95,6 +106,24 @@ def get_weights_array(fitness_array):
         weights.append(fit_value/sum_fitness)
     return weights
 
+def doomsday_population_refactor(population, new_population, population_size):
+    pop = unique2D(population)
+    pop += unique2D(new_population)
+    while len(pop) < population_size:
+        genotype = []
+        for _ in range(len(_data)):
+            role_index =  random.randint(0,len(roles)-1)
+            genotype.append(roles[role_index])
+        pop.append(genotype)
+    return pop
+
+def unique2D(array):
+    res = list()
+    for a in array:
+        if a != (b for b in res):
+            res.append(a)
+    return res
+
 if __name__ == '__main__':
     t_0 = time.perf_counter()
     population_size = int(sys.argv[1])   #30
@@ -102,27 +131,25 @@ if __name__ == '__main__':
     partitions = int(sys.argv[3])        #3
     mutation_prob = float(sys.argv[4])     #0.05 
     alpha = 0.65
-    iterations = 10000
+    iterations = 50000
 
     _data = load_problem("./problem{}.json".format(sys.argv[5]))
-    population = gen_starting_population(population_size)
+    population = gen_starting_population_random(population_size)
     best_sol = (0.0,[])
     iter = 0
     conv_limit = False
-    for i in range(iterations):
-        
-        if(i-iter > 1500):
-            conv_limit = True
-            break
+    doomsday = False
+    doomsday_iter = 0
+    for iteration in range(iterations):
         
         fitness_array = []
         sum_fitness = 0
 
         for gen in population:
-            fit = compute_fitness(alpha,gen)
+            fit, _time, _money = compute_fitness(alpha,gen)
             if(fit > best_sol[0]):
                 best_sol = (fit, gen)
-                iter = i
+                iter = iteration
             fitness_array.append(fit)
 
         weights = get_weights_array(fitness_array)
@@ -132,9 +159,22 @@ if __name__ == '__main__':
             son_one, son_two = crossover(parent_one, parent_two, partitions, mutation_prob)
             new_population.append(son_one)
             new_population.append(son_two)
-        population = replacement(population, new_population, weights)
+            
+        if(iteration-iter > 1500):
+            if not doomsday:
+                doomsday = True
+            else:
+                if(iteration - doomsday_iter) > 1500:
+                    conv_limit = True
+                    break
+
+        if doomsday and doomsday_iter == 0:
+            doomsday_iter = iteration
+            population = doomsday_population_refactor(population, new_population, population_size)
+        else:
+            population = replacement(population, new_population, weights)
     t_1 = time.perf_counter()
     timelapse = t_1-t_0
-    print(json.dumps({"problem_size": sys.argv[5],"population_size":population_size, "descendents": descendents, "partitions": partitions, "mutation_prob": mutation_prob, "best_fitness": 1/best_sol[0], "iteration": iter, "conv_limit_reach": conv_limit, "time": timelapse}))
+    print(json.dumps({"problem_size": sys.argv[5],"population_size":population_size, "descendents": descendents, "partitions": partitions, "mutation_prob": mutation_prob, "best_fitness": 1/best_sol[0], "task_time": _time, "task_cost": _money, "iteration": iter, "conv_limit_reach": conv_limit, "doomsday": doomsday, "doomsday_iter": doomsday_iter,"time": timelapse, "best_gen": best_sol[1]}))
 
 
