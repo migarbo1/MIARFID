@@ -3,6 +3,8 @@
 //required modules:
 import * as THREE from "../webgl/lib/three.module.js";
 import {OrbitControls} from "../webgl/lib/OrbitControls.module.js"
+import {TWEEN} from "../webgl/lib/tween.module.js";
+import {GUI} from "../webgl/lib/lil-gui.module.js";
 
 //consensus globals
 var renderer, scene, camera
@@ -10,18 +12,22 @@ let orthographicCamera
 
 //globals
 let cameraDriver;
-let robot;
+let floor, robot, base, arm, foreArm, hand, pinLeft, pinRight;
 const radius = 20;
 const depth = 18;
 const height = 120;
 const segments = 35; 
 let material;
+let effectController;
+var keyboard
+var movement_dist = 5;
 
-let L = 50;
+let L = 100;
 
 //Actions
 init();
 loadScene();
+setupGUI();
 render();
 
 //init
@@ -60,15 +66,21 @@ function init(){
     orthographicCamera.position.set(0,220,0);
     orthographicCamera.lookAt(0,0,0)
 
+    //keyboard
+    keyboard = new THREEx.KeyboardState();
+    renderer.domElement.setAttribute("tabIndex", "0");
+    renderer.domElement.focus();
+
     //listeners
     window.addEventListener('resize', updateAspectRatio);
+    document.addEventListener('keydown', moveRobot)
 }
 
 function loadScene(){
     material = new THREE.MeshNormalMaterial({wireframe: false})
 
     //floor
-    const floor = new THREE.Mesh( new THREE.PlaneGeometry(1000, 1000, 5, 5), material);
+    floor = new THREE.Mesh( new THREE.PlaneGeometry(1000, 1000, 5, 5), material);
 
     floor.rotateX(-Math.PI/2); // floor.rotate.x = -Math.PI/2
     scene.add(floor);
@@ -78,20 +90,20 @@ function loadScene(){
     robot = new THREE.Object3D();
 
     //1-base
-    const base = new THREE.Mesh( new THREE.CylinderGeometry(50, 50, 15, segments, 5), material )
+    base = new THREE.Object3D()
+    base.add(new THREE.Mesh( new THREE.CylinderGeometry(50, 50, 15, segments, 5), material ))
     robot.add(base);
 
     //2-robot arm
-    robot.add(createArm());
+    arm = new THREE.Object3D();
+    base.add(arm)
+    createArm()
 
     //3-robot forearm
-    robot.add(createForeArm())
+    foreArm = new THREE.Object3D();
+    arm.add(foreArm)
+    createForeArm()
     
-    //4-robot fingers
-    const fingers = createBothFingers()
-    fingers.position.y = 200;
-    robot.add(fingers)
-
     robot.rotateY(Math.PI/2)
 
     scene.add(robot);
@@ -113,11 +125,12 @@ function render(){
     renderer.setClearColor( new THREE.Color(0.7,0.7,0.7))
     renderer.setViewport(0,window.innerHeight-size+1,size, size);
     renderer.render(scene,orthographicCamera);
+
+    TWEEN.update();
     
 }
 
 function createArm(){
-    const arm = new THREE.Object3D();
     const axis = new THREE.Mesh( new THREE.CylinderGeometry(radius, radius, depth, segments/2, 10), material )
     axis.rotateX(-Math.PI/2)
     const armBar = new THREE.Mesh( new THREE.BoxGeometry(12, height, depth), material )
@@ -131,40 +144,43 @@ function createArm(){
 }
 
 function createForeArm() {
-
-    const foreArm = new THREE.Object3D();
-    const base = new THREE.Mesh( new THREE.CylinderGeometry(radius+2, radius+2, 6, 10, 10), material );
-    foreArm.add(base);
     for (let index = 0; index < 4; index++) {
         const bar = new THREE.Mesh( new THREE.BoxGeometry(4, 80, 4), material );
         bar.matrixAutoUpdate = false;
         var mt = new THREE.Matrix4();
         var mr = new THREE.Matrix4();
-        mt.makeTranslation(11,40,0);
+        mt.makeTranslation(8,40,-8);
         mr.makeRotationY(index*Math.PI/2);
         bar.matrix = mr.multiply(mt)
         foreArm.add(bar);
     }
-    const hand = new THREE.Mesh( new THREE.CylinderGeometry(15,15,40, 10, 10), material )
-    hand.rotateX(-Math.PI/2);
+
+    const base = new THREE.Mesh( new THREE.CylinderGeometry(radius+2, radius+2, 6, 10, 10), material );
+    foreArm.add(base);
+
+    hand = new THREE.Object3D();
     hand.position.y = 80;
-    foreArm.add(hand)
+    foreArm.add(hand);
+    const hand_cylinder = new THREE.Mesh( new THREE.CylinderGeometry(15,15,40, 10, 10), material )
+    hand_cylinder.rotateX(-Math.PI/2);
+
+    hand.add(hand_cylinder)
+    createBothFingers()
+
     foreArm.position.y = height;
-    return foreArm;
 
 }
 
 function createBothFingers(){ 
-    const fingers = new THREE.Object3D();
-    const finger1 = createFinger()
-    finger1.rotateX(-Math.PI/2)
-    fingers.add(finger1);
+    pinLeft = createFinger()
+    pinLeft.rotateX(-Math.PI/2)
+    pinLeft.position.z = 0;
+    hand.add(pinLeft)
 
-    const finger2 = createFinger()
-    finger2.rotateX(Math.PI/2)
-    fingers.add(finger2);
-
-    return fingers;
+    pinRight = createFinger()
+    pinRight.rotateX(Math.PI/2)
+    pinRight.position.z = 0;
+    hand.add(pinRight)
 }
 
 function createFinger(){
@@ -266,20 +282,7 @@ function createFinger(){
     //polygon right X
     5,0,-19, 5,0,-19, 5,0,-19, 5,0,-19
     
-]
-
-// 0, -8, -10, //0
-// 19, -8, -10, //1
-// 0, -8, 10, //2
-// 19, -8, 10, //3
-// 0, -12, -10, //4
-// 19, -12, -10, //5
-// 0, -12, 10, //6
-// 19, -12, 10, //7
-// 38, -8, -5, //8
-// 38, -12, -5, //9
-// 38, -8, 5, //10
-// 38, -12, 5, //11       
+]     
 
     const indexes = [
         //big rectangle top
@@ -344,7 +347,97 @@ function updateAspectRatio(){
     //update view perspective camera
     camera.aspect = newAspectRatio;
     camera.updateProjectionMatrix();
-
     orthographicCamera.updateProjectionMatrix();
 
+}
+
+function setupGUI()
+{
+	// Definicion de los controles
+	effectController = {
+		giroBase: 90,
+		giroBrazo: 0.0,
+		giroYAntebrazo: 0.0,
+		giroZAntebrazo: 0.0,
+		giroPinza: 0.0,
+		separacionPinza: 10,
+        alambres: false,
+        animate: animate
+	};
+
+	// Creacion interfaz
+	const gui = new GUI();
+
+	// Construccion del menu
+	const h = gui.addFolder("Control Robot");
+	h.add(effectController, "giroBase", -180.0, 180.0, 0.025).name("Giro Base");
+	h.add(effectController, "giroBrazo", -45.0, 45.0, 0.025).name("Giro Brazo");
+	h.add(effectController, "giroYAntebrazo", -180.0, 180.0, 0.025).name("Giro Antebrazo Y");
+	h.add(effectController, "giroZAntebrazo", -90.0, 90.0, 0.025).name("Giro Antebrazo Z");
+	h.add(effectController, "giroPinza", -40.0, 220.0, 0.025).name("Giro Pinza");
+	h.add(effectController, "separacionPinza", 0, 15.0, 0.025).name("Separacion pinza");
+	h.add(effectController, "alambres").name("Alambres");
+    h.add(effectController, "animate").name("Animar")
+    h.onChange(update)
+
+}
+
+function update(){
+
+	robot.rotation.y = effectController.giroBase * Math.PI/180;
+    arm.rotation.z = effectController.giroBrazo * Math.PI/180;
+    foreArm.rotation.y = effectController.giroYAntebrazo * Math.PI/180
+    foreArm.rotation.z = effectController.giroZAntebrazo * Math.PI/180
+    hand.rotation.z = effectController.giroPinza * Math.PI/180
+    robot.traverse(
+        function (child){
+            if(child instanceof THREE.Mesh){
+                child.material = new THREE.MeshNormalMaterial({wireframe: effectController.alambres})
+            }
+        }
+    )
+    pinLeft.position.z = ( effectController.separacionPinza/2 -5);
+    pinRight.position.z = ( - effectController.separacionPinza/2 +5);
+    floor.material = new THREE.MeshNormalMaterial({wireframe: effectController.alambres})
+}
+
+function moveRobot (event) {
+    if ( keyboard.eventMatches(event, 'a') || keyboard.eventMatches(event, 'left') ) {
+        robot.position.x += movement_dist;
+    }
+    if ( keyboard.eventMatches(event, 'd') || keyboard.eventMatches(event, 'right') ) {
+        robot.position.x -= movement_dist;
+    }
+    if ( keyboard.eventMatches(event, 's') || keyboard.eventMatches(event, 'down') ) {
+        robot.position.z -= movement_dist;
+    }
+    if ( keyboard.eventMatches(event, 'w') || keyboard.eventMatches(event, 'up') ) {
+        robot.position.z += movement_dist;
+    }
+}
+function animate(){
+    new TWEEN.Tween(robot.rotation)
+        .to({x: [0,0,0,0], y:[-Math.PI, Math.PI, Math.PI/2], z:[0,0,0,0]}, 10000)
+        .easing(TWEEN.Easing.Sinusoidal.InOut)
+        .start()
+    new TWEEN.Tween(arm.rotation)
+        .to({x: [0,0,0,0], y:[0,0,0,0], z:[-Math.PI/4, Math.PI/4, 0]}, 10000)
+        .easing(TWEEN.Easing.Sinusoidal.InOut)
+        .start()
+    new TWEEN.Tween(foreArm.rotation)
+        .to({x: [0,0,0,0], y:[-Math.PI, Math.PI, 0], z:[-Math.PI/2, Math.PI/2, 0]}, 10000)
+        .easing(TWEEN.Easing.Sinusoidal.InOut)
+        .start()
+    new TWEEN.Tween(hand.rotation)
+        .to({x: [0,0,0,0], y:[0,0,0,0], z:[-40*Math.PI/180, 220*Math.PI/180, 0]}, 10000)
+        .easing(TWEEN.Easing.Sinusoidal.InOut)
+        .start()
+    new TWEEN.Tween(pinLeft.position)
+        .to({x: [0,0,0,0], y:[0,0,0,0], z:[-5, 7.5, 0]}, 10000)
+        .easing(TWEEN.Easing.Sinusoidal.InOut)
+        .start()
+    new TWEEN.Tween(pinRight.position)
+        .to({x: [0,0,0,0], y:[0,0,0,0], z:[5, -7.5, 0]}, 10000)
+        .easing(TWEEN.Easing.Sinusoidal.InOut)
+        .start()
 }
