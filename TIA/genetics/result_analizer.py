@@ -1,9 +1,10 @@
 from cProfile import label
+import json
 import math
-from statistics import mean
+from time import sleep
+from matplotlib.dates import SA
 import pandas as pd
 import numpy as np
-import matplotlib as mpl
 import matplotlib.pyplot as plt
 
 alg_imp_problems = ['outputProblem50_base', 'outputProblem50_fixing', 'outputProblem50_doomsday']
@@ -172,25 +173,138 @@ def plot_best_partition_number():
 
     plt.show()
 
-plt.xlabel('% Descendents')
-plt.ylabel('Mean Std. Iteration')
-part_perc = [0.2, 0.4, 0.6, 0.8]
-means_mean = []
-for desc in desc_perc:
-    iter_avg = []
-    for pair in par_est_problems:
-        p = pair[0]
-        c = pair[1]
-        df = pd.read_json('./outputs/outputProblem{}.json'.format(p))
-        df = df.drop(['problem_size', 'mutation_prob', 'best_gen'], axis=1)
-        df_pop = df[df['population_size'] == 10]
-        aux = df_pop.loc[:,'population_size'] * desc #seems to prevent SettingWithCopyWarning 
-        aux = aux.apply(np.floor)
-        df_desc = df_pop[df_pop['descendents'] == aux]
-        #df_desc = df_pop[df_pop['partitions'] == math.floor(p*desc)]
-        iter_avg.append(np.std(df_desc['iteration']))
-    means_mean.append(np.mean(iter_avg))
+def stuff():
+        
+    plt.xlabel('% Descendents')
+    plt.ylabel('Mean Std. Iteration')
+    part_perc = [0.2, 0.4, 0.6, 0.8]
+    means_mean = []
+    for desc in desc_perc:
+        iter_avg = []
+        for pair in par_est_problems:
+            p = pair[0]
+            c = pair[1]
+            df = pd.read_json('./outputs/outputProblem{}.json'.format(p))
+            df = df.drop(['problem_size', 'mutation_prob', 'best_gen'], axis=1)
+            df_pop = df[df['population_size'] == 10]
+            aux = df_pop.loc[:,'population_size'] * desc #seems to prevent SettingWithCopyWarning 
+            aux = aux.apply(np.floor)
+            df_desc = df_pop[df_pop['descendents'] == aux]
+            #df_desc = df_pop[df_pop['partitions'] == math.floor(p*desc)]
+            iter_avg.append(np.std(df_desc['iteration']))
+        means_mean.append(np.mean(iter_avg))
 
-plt.plot(desc_perc, means_mean)
+    plt.plot(desc_perc, means_mean)
 
-plt.show()
+    plt.show()
+
+def fit_vs_time():
+    fig, axs = plt.subplots(2,2, sharex=True)
+    fig.suptitle('Fitness evolution by time')
+    coords = [[0,0],[0,1],[1,0],[1,1]]
+    for ind in range(4):    
+        SA_data = []    # [[best, best_in_iter, time]] 
+        SA_final_res = []
+        GA_data = []    # [[best, best_in_iter, time]] 
+        GA_final_res = [] 
+        with open('outputSA-{}.txt'.format(ind+1)) as file:
+            for line in file.readlines():
+                line = line.replace(' ','')
+                if line.__contains__('{'):
+                    pass
+                    #SA_final_res.append(json.load(line))
+                else:
+                    SA_data.append(line.split(','))
+
+        with open('./outputGA-{}.txt'.format(ind+1)) as file:
+            for line in file.readlines():
+                line = line.replace(' ','')
+                line = line
+                if line.__contains__('{'):
+                    pass
+                    #GA_final_res.append(json.load(line))
+                else:
+                    GA_data.append(line.split(','))
+
+        #plot y = fitness, x time, 
+        i,j = coords[ind]
+        x_sa = np.array([float(sol[0]) for sol in SA_data])
+        y_sa = np.array([float(sol[-1]) for sol in SA_data])
+        sa_argsort = np.argsort(y_sa)
+        if(i == 1):
+            axs[i,j].plot(y_sa,x_sa[sa_argsort], '.',label='Sim. Annealing')
+        else:
+            axs[i,j].plot(y_sa,x_sa[sa_argsort], '.')
+
+        x_ga = np.array([float(sol[0]) for sol in GA_data])
+        y_ga = np.array([float(sol[-1]) for sol in GA_data])
+        ga_argsort = np.argsort(y_ga)
+        if(i == 1):
+            axs[i,j].plot(y_ga,x_ga[ga_argsort], '.',label='Genetics')
+        else:
+            axs[i,j].plot(y_ga,x_ga[ga_argsort], '.')
+
+    for ax in axs.flat:
+        ax.set(xlabel='Neighbourhood size', ylabel='Fitness')
+
+    fig.tight_layout()
+    fig.legend()
+    fig.show()
+    fig.savefig('./fig1.png')
+
+    plt.clf()
+    plt.close()
+
+
+    fig2, axs2 = plt.subplots(2,2, sharex=True)
+    fig2.suptitle('Fitness evolution by time')
+    coords = [[0,0],[0,1],[1,0],[1,1]]
+    for ind in range(4):    
+        SA_data = []    # [[best, best_in_iter, time]] 
+        SA_final_res = []
+        GA_data = []    # [[best, best_in_iter, time]] 
+        GA_final_res = [] 
+        with open('outputSA-{}.txt'.format(ind+5)) as file:
+            for line in file.readlines():
+                line = line.replace(' ','')
+                if line.__contains__('{'):
+                    pass
+                    #SA_final_res.append(json.load(line))
+                else:
+                    SA_data.append(line.split(','))
+
+        with open('./outputGA-{}.txt'.format(ind+5)) as file:
+            for line in file.readlines():
+                line = line.replace(' ','')
+                line = line
+                if line.__contains__('{'):
+                    pass
+                    #GA_final_res.append(json.load(line))
+                else:
+                    GA_data.append(line.split(','))
+
+        #plot y = fitness, x time, 
+        i,j = coords[ind]
+        x_sa = np.array([float(sol[0]) for sol in SA_data])
+        y_sa = np.array([float(sol[-1]) for sol in SA_data])
+        sa_argsort = np.argsort(y_sa)
+        if(i == 0):
+            axs2[i,j].plot(y_sa,x_sa[sa_argsort], '.',label='Sim. Annealing')
+        else:
+            axs2[i,j].plot(y_sa,x_sa[sa_argsort], '.')
+
+        x_ga = np.array([float(sol[0]) for sol in GA_data])
+        y_ga = np.array([float(sol[-1]) for sol in GA_data])
+        ga_argsort = np.argsort(y_ga)
+        if(i == 0):
+            axs2[i,j].plot(y_ga,x_ga[ga_argsort], '.',label='Genetics')
+        else:
+            axs2[i,j].plot(y_ga,x_ga[ga_argsort], '.')
+
+    for ax in axs2.flat:
+        ax.set(xlabel='Neighbourhood size', ylabel='Fitness')
+
+    fig2.tight_layout()
+    fig2.legend()
+    fig2.show()
+    fig2.savefig('./fig2.png')

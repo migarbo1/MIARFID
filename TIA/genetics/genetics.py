@@ -125,7 +125,6 @@ def unique2D(array):
     return res
 
 if __name__ == '__main__':
-    t_0 = time.perf_counter()
     population_size = int(sys.argv[1])   #30
     descendents = int(sys.argv[2])      #10
     partitions = int(sys.argv[3])        #3
@@ -140,6 +139,7 @@ if __name__ == '__main__':
     conv_limit = False
     doomsday = False
     doomsday_iter = 0
+    t_0 = time.perf_counter()
     for iteration in range(iterations):
         
         fitness_array = []
@@ -160,6 +160,16 @@ if __name__ == '__main__':
             new_population.append(son_one)
             new_population.append(son_two)
             
+        if doomsday and doomsday_iter == 0:
+            doomsday_iter = iteration
+            population = doomsday_population_refactor(population, new_population, population_size)
+        else:
+            population = replacement(population, new_population, weights)
+
+        t_1 = time.perf_counter()
+        if iteration > 0:
+            print('{}, {}, {}'.format(1/best_sol[0], fitness_array[np.argmax(weights)], t_1-t_0))
+
         if(iteration-iter > 1500):
             if not doomsday:
                 doomsday = True
@@ -168,11 +178,6 @@ if __name__ == '__main__':
                     conv_limit = True
                     break
 
-        if doomsday and doomsday_iter == 0:
-            doomsday_iter = iteration
-            population = doomsday_population_refactor(population, new_population, population_size)
-        else:
-            population = replacement(population, new_population, weights)
     t_1 = time.perf_counter()
     timelapse = t_1-t_0
     print(json.dumps({"problem_size": sys.argv[5],"population_size":population_size, "descendents": descendents, "partitions": partitions, "mutation_prob": mutation_prob, "best_fitness": 1/best_sol[0], "task_time": _time, "task_cost": _money, "iteration": iter, "conv_limit_reach": conv_limit, "doomsday": doomsday, "doomsday_iter": doomsday_iter,"time": timelapse, "best_gen": best_sol[1]}))

@@ -1,11 +1,11 @@
 import json
 import random
 
-n_tasks = 85
+n_tasks = 65
 alpha = 0.65
 
 roles = ["J", "S", "C"]
-prices_hour = {"J": 19000/8760.0, "S":29615/8760.0, "C":37953/8760.0}
+prices_hour = {"J": 19000/1888.0, "S":29615/1888.0, "C":37953/1888.0}
 gen_tasks = []
 total_hours = 0
 total_cost = 0

@@ -2,11 +2,11 @@ from asyncio import subprocess
 import math
 import sys, os, subprocess
 import threading
-def fun(problem, population_size, partitions, descendents):
-    subprocess.run("python genetics.py {} {} {} 0.05 {}".format(population_size, descendents, partitions, problem))
+def fun(problem, population_size, partitions, descendents, name):
+    subprocess.run("python genetics.py {} {} {} 0.05 {} > output{}.txt".format(population_size, descendents, partitions, problem, name))
 
-def funnier(problem, temp, k, conv_time):
-    subprocess.run("python simulatedAnnealing.py {} {} {} {}".format(temp, k, conv_time, problem))
+def funnier(problem, temp, k, n, name):
+    subprocess.run("python simulatedAnnealing.py {} {} {} {} > output{}.txt".format(temp, k, problem, n, name))
 
 def run_genetics(problem):
     for population_size in [10, 30, 50, 75]:
@@ -25,20 +25,42 @@ def run_genetics(problem):
 
 def run_sim_ann(problem):
     for temp in [100, 75, 50, 20, 5]:
+        threads = []
         for k in [0.05, 0.01, 0.005, 0.001, 0.0005]:
-            threads = []
-            for conv_time in [10, 15, 20, 25]:
-
-                x = threading.Thread(target=funnier, args=(problem, temp, k, conv_time))
+            for n in [1,5,10,20]:
+                x = threading.Thread(target=funnier, args=(problem, temp, k, n))
                 threads.append(x)
                 x.start()
             for thread in threads:
                 thread.join()
+
+def run_both(problem):
+    threads = []
+    for i in range(4):
+        x = threading.Thread(target=funnier, args=(problem, 50, 0.001, 20, 'SA-'+str(i)))
+        y = threading.Thread(target=fun, args=(problem, 10, 0.6, 0.4, 'GA-'+str(i)))
+        threads.append(x)
+        x.start()
+        threads.append(y)
+        y.start()
+    for thread in threads:
+        thread.join()
+    for i in range(4):
+        x = threading.Thread(target=funnier, args=(problem, 50, 0.001, 20, 'SA-'+str(i+4)))
+        y = threading.Thread(target=fun, args=(problem, 10, 0.6, 0.4, 'GA'+str(i+4)))
+        threads.append(x)
+        x.start()
+        threads.append(y)
+        y.start()
+    for thread in threads:
+        thread.join()
 
 if __name__ == '__main__':
     problem = int(sys.argv[1])
     alg = int(sys.argv[2])
     if alg == 1:
         run_genetics(problem)
-    else:
+    if alg == 2:
         run_sim_ann(problem)
+    if alg == 3:
+        run_both(problem)
