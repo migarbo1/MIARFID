@@ -22,7 +22,11 @@ let effectController;
 var keyboard
 var movement_dist = 5;
 
-let L = 75;
+//texture globals
+let ironMaterial, goldMaterial, shinyGoldMaterial;
+let path, env;
+
+let L = 100;
 
 //Actions
 init();
@@ -32,10 +36,10 @@ render();
 
 //init
 function init(){
-
     //engine instance
     renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.shadowMap.enabled = true;
     
     //insert canvas
     document.getElementById("container").appendChild(renderer.domElement);
@@ -51,7 +55,7 @@ function init(){
     //main camera
     camera= new THREE.PerspectiveCamera(100,window.innerWidth/window.innerHeight,1,1000);
     const aspectRatio = window.innerWidth/window.innerHeight;
-    camera.position.set(-65,225,-100);
+    camera.position.set(-80,250,-100);
     camera.lookAt(0, 125, 0);
 
     cameraDriver = new OrbitControls(camera, renderer.domElement);
@@ -63,13 +67,47 @@ function init(){
     }else{
         orthographicCamera = new THREE.OrthographicCamera(-L,L,L,-L,0,300);
     }
-    orthographicCamera.position.set(0,220,0);
+    orthographicCamera.position.set(0,240,0);
     orthographicCamera.lookAt(0,0,0)
 
     //keyboard
     keyboard = new THREEx.KeyboardState();
     renderer.domElement.setAttribute("tabIndex", "0");
     renderer.domElement.focus();
+
+    const ambiental = new THREE.AmbientLight(0x555555);
+    scene.add(ambiental)
+
+    const focal = new THREE.SpotLight(0xFFFFFF, 0.7);
+    focal.position.set(150, 350, 150);
+    focal.target.position.set(0,150,0);
+    focal.shadow.camera.near = 0.5;
+    focal.shadow.camera.far = 1000 
+    focal.angle = Math.PI/5
+    focal.penumbra = 0.3
+    focal.castShadow = true
+    focal.shadow.camera.fov = 80
+    scene.add(focal)
+    scene.add(new THREE.CameraHelper(focal.shadow.camera))
+
+    const puntual = new THREE.PointLight(0xFFFFFFF, 0.3);
+    puntual.position.set(200,100,-50);
+    puntual.castShadow  =true
+    scene.add(puntual);
+
+    const directional = new THREE.DirectionalLight(0xFFFFFF, 0.5);
+    directional.position.set(-150,250,75); //vector L
+    directional.target.position.set( 0, 100, 0 );
+    directional.shadow.camera.near = 0.5;
+    directional.shadow.camera.far = 500  
+    directional.shadowCameraLeft = -350;
+    directional.shadowCameraRight = 350;
+    directional.shadowCameraTop = 350;
+    directional.shadowCameraBottom = -350;
+    directional.castShadow = true
+    scene.add(directional);
+    scene.add(new THREE.CameraHelper(directional.shadow.camera))
+    directional.target.updateMatrixWorld()
 
     //listeners
     window.addEventListener('resize', updateAspectRatio);
@@ -79,19 +117,35 @@ function init(){
 function loadScene(){
     material = new THREE.MeshNormalMaterial({wireframe: false})
 
-    //floor
-    floor = new THREE.Mesh( new THREE.PlaneGeometry(1000, 1000, 5, 5), material);
+    path = '../webgl/images/'
 
-    floor.rotateX(-Math.PI/2); // floor.rotate.x = -Math.PI/2
-    scene.add(floor);
-    floor.position.y = -0.2;
+    env = [
+        path + 'posx.jpg', 
+        path + 'negx.jpg',
+        path + 'posy.jpg', 
+        path + 'negy.jpg',
+        path + 'posz.jpg', 
+        path + 'negz.jpg'
+    ]
+    
+    const walls = []
+    for (let index = 0; index < env.length; index++) {
+        const element = env[index];
+        walls.push(new THREE.MeshBasicMaterial({side: THREE.BackSide, map: new THREE.TextureLoader().load(element)}))
+    }
+    const geoRoom = new THREE.BoxGeometry(1000,1000,1000);
+    const room = new THREE.Mesh(geoRoom, walls)
+    scene.add(room)
 
     //Robot creation
     robot = new THREE.Object3D();
-
+    
     //1-base
+    const baseTex = new THREE.TextureLoader().load(path+'metal_128.jpg')
+    ironMaterial = new THREE.MeshLambertMaterial({color:'gray', map: baseTex});
+
     base = new THREE.Object3D()
-    base.add(new THREE.Mesh( new THREE.CylinderGeometry(50, 50, 15, segments, 5), material ))
+    base.add(new THREE.Mesh( new THREE.CylinderGeometry(50, 50, 15, segments, 15), ironMaterial ))
     robot.add(base);
 
     //2-robot arm
@@ -100,6 +154,9 @@ function loadScene(){
     createArm()
 
     //3-robot forearm
+    const forearmTex = new THREE.TextureLoader().load(path+'gold_256.jpg')
+    goldMaterial = new THREE.MeshLambertMaterial({color:'white', map: forearmTex});
+    shinyGoldMaterial = new THREE.MeshPhongMaterial({color:'white',specular: 'white', shininess: 30, map: forearmTex});
     foreArm = new THREE.Object3D();
     arm.add(foreArm)
     createForeArm()
@@ -107,6 +164,26 @@ function loadScene(){
     robot.rotateY(Math.PI/2)
 
     scene.add(robot);
+
+    robot.traverse(
+        function (child){
+            if(child instanceof THREE.Mesh){
+                child.castShadow = true
+                child.receiveShadow = true 
+            }
+        }
+    )
+
+    //floor
+    const floorTex = new THREE.TextureLoader().load(path+'pisometalico_1024.jpg')
+    floorTex.repeat.set(4,4)
+    floorTex.wrapS = floorTex.wrapT = THREE.RepeatWrapping;
+    const matFloor = new THREE.MeshLambertMaterial({map:floorTex})
+    floor = new THREE.Mesh( new THREE.PlaneGeometry(1000, 1000, 25, 25), matFloor);
+    floor.rotateX(-Math.PI/2); // floor.rotate.x = -Math.PI/2
+    scene.add(floor);
+    floor.position.y = -0.2;
+    floor.receiveShadow = true
 
     scene.add(new THREE.AxesHelper(3));
 }
@@ -131,11 +208,16 @@ function render(){
 }
 
 function createArm(){
-    const axis = new THREE.Mesh( new THREE.CylinderGeometry(radius, radius, depth, segments/2, 10), material )
+    //define sphere material
+    
+    const textArt = new THREE.CubeTextureLoader().load(env)
+    const matArt = new THREE.MeshPhongMaterial({color: 'white', specular: 'gray', shininess: 30, envMap: textArt})
+
+    const axis = new THREE.Mesh( new THREE.CylinderGeometry(radius, radius, depth, segments, 15), ironMaterial )
     axis.rotateX(-Math.PI/2)
-    const armBar = new THREE.Mesh( new THREE.BoxGeometry(12, height, depth), material )
+    const armBar = new THREE.Mesh( new THREE.BoxGeometry(12, height, depth), ironMaterial )
     armBar.position.y = height/2;
-    const articulation = new THREE.Mesh( new THREE.SphereGeometry(radius, segments/4, segments/4), material )
+    const articulation = new THREE.Mesh( new THREE.SphereGeometry(radius, segments/2, segments/2), matArt )
     articulation.position.y = height;
     arm.add(axis);
     arm.add(armBar);
@@ -145,7 +227,7 @@ function createArm(){
 
 function createForeArm() {
     for (let index = 0; index < 4; index++) {
-        const bar = new THREE.Mesh( new THREE.BoxGeometry(4, 80, 4), material );
+        const bar = new THREE.Mesh( new THREE.BoxGeometry(4, 80, 4), goldMaterial );
         bar.matrixAutoUpdate = false;
         var mt = new THREE.Matrix4();
         var mr = new THREE.Matrix4();
@@ -155,13 +237,13 @@ function createForeArm() {
         foreArm.add(bar);
     }
 
-    const base = new THREE.Mesh( new THREE.CylinderGeometry(radius+2, radius+2, 6, 10, 10), material );
+    const base = new THREE.Mesh( new THREE.CylinderGeometry(radius+2, radius+2, 6, 20, 20), goldMaterial );
     foreArm.add(base);
 
     hand = new THREE.Object3D();
     hand.position.y = 80;
     foreArm.add(hand);
-    const hand_cylinder = new THREE.Mesh( new THREE.CylinderGeometry(15,15,40, 10, 10), material )
+    const hand_cylinder = new THREE.Mesh( new THREE.CylinderGeometry(15,15,40, 20, 20), shinyGoldMaterial )
     hand_cylinder.rotateX(-Math.PI/2);
 
     hand.add(hand_cylinder)
@@ -184,7 +266,8 @@ function createBothFingers(){
 }
 
 function createFinger(){
-
+    const fingerText = new THREE.TextureLoader().load(path+'black_iron_256.jpg')
+    const blackIronMaterial = new THREE.MeshPhongMaterial({color:'white', specular: 'white', shininess: 30, map: fingerText});
     const coords = [ //10 caras * 4 vertices * 3 coord = 120float
         //big rectangle top X
         0, -8, -10, //0 -- 0
@@ -332,7 +415,7 @@ function createFinger(){
     finger.setIndex(indexes);
     finger.setAttribute("position", new THREE.Float32BufferAttribute(coords,3));
     finger.setAttribute("normal", new THREE.Float32BufferAttribute(norms,3));
-    return new THREE.Mesh(finger, material); 
+    return new THREE.Mesh(finger, blackIronMaterial); 
 
 }
 
