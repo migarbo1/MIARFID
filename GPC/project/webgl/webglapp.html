@@ -1,0 +1,34 @@
+<!doctype html>
+<!--
+    pagina de carga de una app basica en webGL
+-->
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Basic WebGl app
+        </title>
+        <style>
+            body{
+                background-color: white;
+                margin: 0px;
+                overflow: hidden;
+            }
+            canvas{
+                background-color: rgb(177, 138, 236);
+            }
+        </style>
+    </head>
+    <body onload="main()">
+        <canvas id="canvas" width="400" height="300">
+        </canvas>
+
+        <!--library scripts-->
+        <script src="lib/webgl-utils.js"></script>
+        <script src="lib/webgl-debug.js"></script>
+        <script src="lib/cuon-utils.js"></script>
+        <script src="lib/cuon-matrix.js"></script>
+
+        <script src="js/drawPoints.js"></script>
+    </body>
+</html>
