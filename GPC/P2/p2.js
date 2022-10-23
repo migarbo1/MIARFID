@@ -8,7 +8,7 @@ import {GLTFLoader} from "../webgl/lib/GLTFLoader.module.js";
 var renderer, scene, camera
 
 //globals
-let robot;
+let floor, robot, base, arm, foreArm, hand, pinLeft, pinRight;
 const radius = 20;
 const depth = 18;
 const height = 120;
@@ -44,7 +44,7 @@ function loadScene(){
     material = new THREE.MeshNormalMaterial({wireframe: false})
 
     //floor
-    const floor = new THREE.Mesh( new THREE.PlaneGeometry(1000, 1000, 5, 5), material);
+    floor = new THREE.Mesh( new THREE.PlaneGeometry(1000, 1000, 5, 5), material);
 
     floor.rotateX(-Math.PI/2); // floor.rotate.x = -Math.PI/2
     scene.add(floor);
@@ -54,19 +54,19 @@ function loadScene(){
     robot = new THREE.Object3D();
 
     //1-base
-    const base = new THREE.Mesh( new THREE.CylinderGeometry(50, 50, 15, segments, 5), material )
+    base = new THREE.Object3D()
+    base.add(new THREE.Mesh( new THREE.CylinderGeometry(50, 50, 15, segments, 5), material ))
     robot.add(base);
 
     //2-robot arm
-    robot.add(createArm());
+    arm = new THREE.Object3D();
+    base.add(arm)
+    createArm()
 
     //3-robot forearm
-    robot.add(createForeArm())
-    
-    //4-robot fingers
-    const fingers = createBothFingers()
-    fingers.position.y = 200;
-    robot.add(fingers)
+    foreArm = new THREE.Object3D();
+    arm.add(foreArm)
+    createForeArm()
 
     scene.add(robot);
 
@@ -79,7 +79,6 @@ function render(){
 }
 
 function createArm(){
-    const arm = new THREE.Object3D();
     const axis = new THREE.Mesh( new THREE.CylinderGeometry(radius, radius, depth, segments/2, 10), material )
     axis.rotateX(-Math.PI/2)
     const armBar = new THREE.Mesh( new THREE.BoxGeometry(12, height, depth), material )
@@ -94,39 +93,42 @@ function createArm(){
 
 function createForeArm() {
 
-    const foreArm = new THREE.Object3D();
-    const base = new THREE.Mesh( new THREE.CylinderGeometry(radius+2, radius+2, 6, 10, 10), material );
-    foreArm.add(base);
     for (let index = 0; index < 4; index++) {
         const bar = new THREE.Mesh( new THREE.BoxGeometry(4, 80, 4), material );
         bar.matrixAutoUpdate = false;
         var mt = new THREE.Matrix4();
         var mr = new THREE.Matrix4();
-        mt.makeTranslation(11,40,0);
+        mt.makeTranslation(8,40,-8);
         mr.makeRotationY(index*Math.PI/2);
         bar.matrix = mr.multiply(mt)
         foreArm.add(bar);
     }
-    const hand = new THREE.Mesh( new THREE.CylinderGeometry(15,15,40, 10, 10), material )
-    hand.rotateX(-Math.PI/2);
+
+    const base = new THREE.Mesh( new THREE.CylinderGeometry(radius+2, radius+2, 6, 10, 10), material );
+    foreArm.add(base);
+
+    hand = new THREE.Object3D();
     hand.position.y = 80;
-    foreArm.add(hand)
+    foreArm.add(hand);
+    const hand_cylinder = new THREE.Mesh( new THREE.CylinderGeometry(15,15,40, 10, 10), material )
+    hand_cylinder.rotateX(-Math.PI/2);
+
+    hand.add(hand_cylinder)
+    createBothFingers()
+
     foreArm.position.y = height;
-    return foreArm;
-
 }
+
 function createBothFingers(){ 
-    const fingers = new THREE.Object3D();
-    const finger1 = createFinger()
-    finger1.rotateX(-Math.PI/2)
-    fingers.add(finger1);
+    pinLeft = createFinger()
+    pinLeft.rotateX(-Math.PI/2)
+    pinLeft.position.z = 0;
+    hand.add(pinLeft)
 
-    const finger2 = createFinger()
-    finger2.rotateX(-Math.PI/2)
-    finger2.position.z = -20
-    fingers.add(finger2);
-
-    return fingers;
+    pinRight = createFinger()
+    pinRight.rotateX(Math.PI/2)
+    pinRight.position.z = 0;
+    hand.add(pinRight)
 }
 
 function createFinger(){
@@ -227,20 +229,8 @@ function createFinger(){
     
     //polygon right X
     5,0,-19, 5,0,-19, 5,0,-19, 5,0,-19
-]
-
-// 0, -8, -10, //0
-// 19, -8, -10, //1
-// 0, -8, 10, //2
-// 19, -8, 10, //3
-// 0, -12, -10, //4
-// 19, -12, -10, //5
-// 0, -12, 10, //6
-// 19, -12, 10, //7
-// 38, -8, -5, //8
-// 38, -12, -5, //9
-// 38, -8, 5, //10
-// 38, -12, 5, //11       
+    
+]     
 
     const indexes = [
         //big rectangle top
@@ -287,7 +277,6 @@ function createFinger(){
     ]
 
     const finger = new THREE.BufferGeometry();
-    console.log(finger)
     finger.setIndex(indexes);
     finger.setAttribute("position", new THREE.Float32BufferAttribute(coords,3));
     finger.setAttribute("normal", new THREE.Float32BufferAttribute(norms,3));

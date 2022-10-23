@@ -12,7 +12,8 @@ let orthographicCamera
 
 //globals
 let cameraDriver;
-let floor, robot, base, arm, foreArm, hand, pinLeft, pinRight;
+let floor, robot, base, arm, foreArm, hand, pinLeft, pinRight, axis, armBar, articulation, matArt, hand_cylinder, baseMesh, forearmBase;
+let bars = []
 const radius = 20;
 const depth = 18;
 const height = 120;
@@ -23,7 +24,7 @@ var keyboard
 var movement_dist = 5;
 
 //texture globals
-let ironMaterial, goldMaterial, shinyGoldMaterial;
+let ironMaterial, goldMaterial, shinyGoldMaterial, blackIronMaterial, matFloor;
 let path, env;
 
 let L = 100;
@@ -88,7 +89,6 @@ function init(){
     focal.castShadow = true
     focal.shadow.camera.fov = 80
     scene.add(focal)
-    scene.add(new THREE.CameraHelper(focal.shadow.camera))
 
     const puntual = new THREE.PointLight(0xFFFFFFF, 0.3);
     puntual.position.set(200,100,-50);
@@ -106,7 +106,6 @@ function init(){
     directional.shadowCameraBottom = -350;
     directional.castShadow = true
     scene.add(directional);
-    scene.add(new THREE.CameraHelper(directional.shadow.camera))
     directional.target.updateMatrixWorld()
 
     //listeners
@@ -145,7 +144,8 @@ function loadScene(){
     ironMaterial = new THREE.MeshLambertMaterial({color:'gray', map: baseTex});
 
     base = new THREE.Object3D()
-    base.add(new THREE.Mesh( new THREE.CylinderGeometry(50, 50, 15, segments, 15), ironMaterial ))
+    baseMesh = new THREE.Mesh( new THREE.CylinderGeometry(50, 50, 15, segments, 15), ironMaterial )
+    base.add(baseMesh)
     robot.add(base);
 
     //2-robot arm
@@ -178,7 +178,7 @@ function loadScene(){
     const floorTex = new THREE.TextureLoader().load(path+'pisometalico_1024.jpg')
     floorTex.repeat.set(4,4)
     floorTex.wrapS = floorTex.wrapT = THREE.RepeatWrapping;
-    const matFloor = new THREE.MeshLambertMaterial({map:floorTex})
+    matFloor = new THREE.MeshLambertMaterial({map:floorTex})
     floor = new THREE.Mesh( new THREE.PlaneGeometry(1000, 1000, 25, 25), matFloor);
     floor.rotateX(-Math.PI/2); // floor.rotate.x = -Math.PI/2
     scene.add(floor);
@@ -211,13 +211,13 @@ function createArm(){
     //define sphere material
     
     const textArt = new THREE.CubeTextureLoader().load(env)
-    const matArt = new THREE.MeshPhongMaterial({color: 'white', specular: 'gray', shininess: 30, envMap: textArt})
+    matArt = new THREE.MeshPhongMaterial({color: 'white', specular: 'gray', shininess: 30, envMap: textArt})
 
-    const axis = new THREE.Mesh( new THREE.CylinderGeometry(radius, radius, depth, segments, 15), ironMaterial )
+    axis = new THREE.Mesh( new THREE.CylinderGeometry(radius, radius, depth, segments, 15), ironMaterial )
     axis.rotateX(-Math.PI/2)
-    const armBar = new THREE.Mesh( new THREE.BoxGeometry(12, height, depth), ironMaterial )
+    armBar = new THREE.Mesh( new THREE.BoxGeometry(12, height, depth), ironMaterial )
     armBar.position.y = height/2;
-    const articulation = new THREE.Mesh( new THREE.SphereGeometry(radius, segments/2, segments/2), matArt )
+    articulation = new THREE.Mesh( new THREE.SphereGeometry(radius, segments/2, segments/2), matArt )
     articulation.position.y = height;
     arm.add(axis);
     arm.add(armBar);
@@ -228,6 +228,7 @@ function createArm(){
 function createForeArm() {
     for (let index = 0; index < 4; index++) {
         const bar = new THREE.Mesh( new THREE.BoxGeometry(4, 80, 4), goldMaterial );
+        bars.push(bar)
         bar.matrixAutoUpdate = false;
         var mt = new THREE.Matrix4();
         var mr = new THREE.Matrix4();
@@ -237,13 +238,13 @@ function createForeArm() {
         foreArm.add(bar);
     }
 
-    const base = new THREE.Mesh( new THREE.CylinderGeometry(radius+2, radius+2, 6, 20, 20), goldMaterial );
-    foreArm.add(base);
+    forearmBase = new THREE.Mesh( new THREE.CylinderGeometry(radius+2, radius+2, 6, 20, 20), goldMaterial );
+    foreArm.add(forearmBase);
 
     hand = new THREE.Object3D();
     hand.position.y = 80;
     foreArm.add(hand);
-    const hand_cylinder = new THREE.Mesh( new THREE.CylinderGeometry(15,15,40, 20, 20), shinyGoldMaterial )
+    hand_cylinder = new THREE.Mesh( new THREE.CylinderGeometry(15,15,40, 20, 20), shinyGoldMaterial )
     hand_cylinder.rotateX(-Math.PI/2);
 
     hand.add(hand_cylinder)
@@ -267,7 +268,7 @@ function createBothFingers(){
 
 function createFinger(){
     const fingerText = new THREE.TextureLoader().load(path+'black_iron_256.jpg')
-    const blackIronMaterial = new THREE.MeshPhongMaterial({color:'white', specular: 'white', shininess: 30, map: fingerText});
+    blackIronMaterial = new THREE.MeshPhongMaterial({color:'white', specular: 'white', shininess: 30, map: fingerText});
     const coords = [ //10 caras * 4 vertices * 3 coord = 120float
         //big rectangle top X
         0, -8, -10, //0 -- 0
@@ -472,16 +473,32 @@ function update(){
     foreArm.rotation.y = effectController.giroYAntebrazo * Math.PI/180
     foreArm.rotation.z = effectController.giroZAntebrazo * Math.PI/180
     hand.rotation.z = effectController.giroPinza * Math.PI/180
-    robot.traverse(
-        function (child){
-            if(child instanceof THREE.Mesh){
-                child.material = new THREE.MeshNormalMaterial({wireframe: effectController.alambres})
+    if(effectController.alambres){
+        robot.traverse(
+            function (child){
+                if(child instanceof THREE.Mesh){
+                    child.material = new THREE.MeshNormalMaterial({wireframe: true})
+                }
             }
-        }
-    )
+        )
+        floor.material = new THREE.MeshNormalMaterial({wireframe: true})
+    }else{
+        floor.material = matFloor
+        baseMesh.material = ironMaterial
+        axis.material = ironMaterial
+        armBar.material = ironMaterial
+        articulation.material = matArt
+        pinLeft.material = blackIronMaterial
+        pinRight.material = blackIronMaterial
+        hand_cylinder.material = shinyGoldMaterial
+        forearmBase.material = goldMaterial
+        bars.forEach(bar => {
+            bar.material = goldMaterial
+        });
+    }
     pinLeft.position.z = ( effectController.separacionPinza/2 -5);
     pinRight.position.z = ( - effectController.separacionPinza/2 +5);
-    floor.material = new THREE.MeshNormalMaterial({wireframe: effectController.alambres})
+    // floor.material = new THREE.MeshNormalMaterial({wireframe: effectController.alambres})
 }
 
 function moveRobot (event) {
