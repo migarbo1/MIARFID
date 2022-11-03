@@ -246,7 +246,7 @@ def fit_vs_time():
             axs[i,j].plot(y_ga,x_ga[ga_argsort], '.')
 
     for ax in axs.flat:
-        ax.set(xlabel='Neighbourhood size', ylabel='Fitness')
+        ax.set(xlabel='Time in sec', ylabel='Fitness')
 
     fig.tight_layout()
     fig.legend()
@@ -303,42 +303,52 @@ def fit_vs_time():
             axs2[i,j].plot(y_ga,x_ga[ga_argsort], '.')
 
     for ax in axs2.flat:
-        ax.set(xlabel='Neighbourhood size', ylabel='Fitness')
+        ax.set(xlabel='Time in sec', ylabel='Fitness')
+
+    fig2.tight_layout()
+    fig2.legend()
+    fig2.show()
+    fig2.savefig('./fig2.png')
+
+    plt.clf()
+    plt.close()
+
+def coses():
+    SA_final_res = []
+    GA_final_res = [] 
+    for ind in range(8):
+        with open('outputSA-{}.txt'.format(ind+1)) as file:
+            for line in file.readlines():
+                line = line.replace(' ','')
+                if line.__contains__('{'):
+                    pass
+                    SA_final_res.append(json.loads(line))
+
+        with open('./outputGA-{}.txt'.format(ind+1)) as file:
+            for line in file.readlines():
+                line = line.replace(' ','')
+                line = line
+                if line.__contains__('{'):
+                    pass
+                    GA_final_res.append(json.loads(line))
 
 
-SA_final_res = []
-GA_final_res = [] 
-for ind in range(8):
-    with open('outputSA-{}.txt'.format(ind+1)) as file:
-        for line in file.readlines():
-            line = line.replace(' ','')
-            if line.__contains__('{'):
-                pass
-                SA_final_res.append(json.loads(line))
+    ga_fitness = [a['best_fitness'] for a in GA_final_res]
+    sa_fitness = [a['best_fitness'] for a in SA_final_res]
+    trivial_fit = [3330.0026483050847,3330.0026483050847,3330.0026483050847,3330.0026483050847,3330.0026483050847,3330.0026483050847,3330.0026483050847,3330.0026483050847]
 
-    with open('./outputGA-{}.txt'.format(ind+1)) as file:
-        for line in file.readlines():
-            line = line.replace(' ','')
-            line = line
-            if line.__contains__('{'):
-                pass
-                GA_final_res.append(json.loads(line))
+    plt.title('Fitness comparison')
+    plt.xlabel('Iteration')
+    plt.ylabel('Fitness')
 
+    plt.plot([1,2,3,4,5,6,7,8], trivial_fit, label='Trivial Assign')
+    plt.plot([1,2,3,4,5,6,7,8], ga_fitness, label='Genetics')
+    plt.plot([1,2,3,4,5,6,7,8], sa_fitness, label='Sim. Annealing')
 
-ga_fitness = [a['best_fitness'] for a in GA_final_res]
-sa_fitness = [a['best_fitness'] for a in SA_final_res]
-trivial_fit = [3330.0026483050847,3330.0026483050847,3330.0026483050847,3330.0026483050847,3330.0026483050847,3330.0026483050847,3330.0026483050847,3330.0026483050847]
+    plt.legend()
+    plt.show()
 
-plt.title('Fitness comparison')
-plt.xlabel('Iteration')
-plt.ylabel('Fitness')
+    # print('GA fitness std = {}'.format(np.std(ga_fitness)))
+    # print('SA fitness std = {}'.format(np.std(sa_fitness)))
 
-plt.plot([1,2,3,4,5,6,7,8], trivial_fit, label='Trivial Assign')
-plt.plot([1,2,3,4,5,6,7,8], ga_fitness, label='Genetics')
-plt.plot([1,2,3,4,5,6,7,8], sa_fitness, label='Sim. Annealing')
-
-plt.legend()
-plt.show()
-
-# print('GA fitness std = {}'.format(np.std(ga_fitness)))
-# print('SA fitness std = {}'.format(np.std(sa_fitness)))
+fit_vs_time()
