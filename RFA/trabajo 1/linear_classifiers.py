@@ -11,26 +11,26 @@ from sklearn.decomposition import PCA
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as LDA
 
 models = {
-    'SGD': [ #best in librispeech: pca: 15, LDA: true, stand: false, penalty: l1
-        {'penalty': 'l2', 'max_iter':20000,'n_jobs':4},
-        {'penalty': 'l1', 'max_iter':20000,'n_jobs':4},
-        # {'loss':'log', 'max_iter':20000,'n_jobs':4}, equivalent to l2
+    'SGD': [
+        {'penalty': 'l1', 'max_iter':5000,'n_jobs':4},
+        # {'penalty': 'l2', 'max_iter':20000,'n_jobs':4},
+        {'loss':'log', 'max_iter':20000,'n_jobs':4},
     ],
     'perceptron':[
-        {'penalty':'l2', 'max_iter':20000,'n_jobs':4}
+        {'penalty':'l2', 'max_iter':5000,'n_jobs':4}
         # {'penalty':'l1', 'max_iter':20000,'n_jobs':4}, l2 works better
     ],
     'logRes':[
-        # {'penalty':'l1','solver': 'saga' , 'max_iter':20000,'n_jobs':4},
-        {'penalty':'elasticnet', 'l1_ratio': 0.25, 'solver': 'saga' , 'max_iter':20000,'n_jobs':4},
-        {'penalty':'elasticnet', 'l1_ratio': 0.75, 'solver': 'saga' , 'max_iter':20000,'n_jobs':4}
+        {'penalty':'l1','solver': 'saga' , 'max_iter':5000,'n_jobs':4},
+        # {'penalty':'elasticnet', 'l1_ratio': 0.25, 'solver': 'saga' , 'max_iter':20000,'n_jobs':4},
+        # {'penalty':'elasticnet', 'l1_ratio': 0.75, 'solver': 'saga' , 'max_iter':20000,'n_jobs':4}
         # {'penalty':'elasticnet', 'l1_ratio': 0.5, 'solver': 'saga' , 'max_iter':20000,'n_jobs':4},
         # {'penalty':'l2','solver': 'saga' , 'max_iter':20000,'n_jobs':4},
         # {'penalty':'l2', 'max_iter':20000,'n_jobs':4},
     ],
     'ridge':[
         {'solver':'svd', 'max_iter':5000},
-        {'solver':'sag', 'max_iter':5000}
+        # {'solver':'sag', 'max_iter':5000}
         # {'solver':'cholesky', 'max_iter':5000},
     ]
 }
@@ -47,7 +47,7 @@ def load_data():
 
 def split_datalabels(tr):
     _,L=tr.shape
-    D=L-1   
+    D=L-1
     x_tr=tr[:,1:D]
     y_tr=tr[:,-1] 
     return x_tr, y_tr
@@ -95,40 +95,34 @@ if __name__ == '__main__':
 
     for key in models:
         for args in models[key]:
-            for pca in [20,15]:
-                for stand in [True, False]:
-                    for lda in [True, False]:
-                        x_tr, y_tr = split_datalabels(tr)
-                        x_dv, y_dv = split_datalabels(dv)
+                x_tr, y_tr = split_datalabels(tr)
+                x_dv, y_dv = split_datalabels(dv)
 
-                        if stand:
-                            x_tr = standarize(x_tr)
-                            x_dv = standarize(x_dv)
+                # x_tr = standarize(x_tr)
+                # x_dv = standarize(x_dv)
 
-                        
-                        X = np.concatenate((x_tr, x_dv))
-                        X = PCA(n_components=pca).fit_transform(X)
-                        x_tr = X[0:x_tr.shape[0],:]
-                        x_dv = X[x_tr.shape[0]:,:]
+                # X = np.concatenate((x_tr, x_dv))
+                # X = PCA(n_components=pca).fit_transform(X)
+                # x_tr = X[0:x_tr.shape[0],:]
+                # x_dv = X[x_tr.shape[0]:,:]
 
-                        if lda:
-                            X = np.concatenate((x_tr, x_dv))
-                            Y = np.concatenate((y_tr, y_dv))
-                            lin_dep_ana = LDA(n_components=1)
-                            lin_dep_ana = lin_dep_ana.fit(X,Y)
-                            X = lin_dep_ana.transform(X)
-                            x_tr = X[0:x_tr.shape[0],:]
-                            x_dv = X[x_tr.shape[0]:,:]
+                X = np.concatenate((x_tr, x_dv))
+                Y = np.concatenate((y_tr, y_dv))
+                lin_dep_ana = LDA(n_components=1)
+                lin_dep_ana = lin_dep_ana.fit(X,Y)
+                X = lin_dep_ana.transform(X)
+                x_tr = X[0:x_tr.shape[0],:]
+                x_dv = X[x_tr.shape[0]:,:]
 
 
-                        model = create_model(key, args)
-                        model = model.fit(x_tr, y_tr)
-                        y_pred = model.predict(x_dv)
+                model = create_model(key, args)
+                model = model.fit(x_tr, y_tr)
+                y_pred = model.predict(x_dv)
 
-                        err, ic = accuracy(y_dv, y_pred)
-                        probs = model.predict_proba(x_dv)[:,1]
-                        _auc = auc(y_dv, probs)
-                        result = { 'model': key, 'args': args, 'PCA': pca, 'use_LDA': lda, 'standarized_data': stand, 'CER': err, 'ic': ic, 'auc': _auc }
-                        print('{},'.format(result))
+                err, ic = accuracy(y_dv, y_pred)
+                probs = model.predict_proba(x_dv)[:,1]
+                _auc = auc(y_dv, probs)
+                result = { 'model': key, 'args': args, 'PCA': False, 'use_LDA': True, 'standarized_data': False, 'CER': err, 'ic': ic, 'auc': _auc }
+                print('{},'.format(result))
 
     # plot_roc(y_dv, probs, 'SGD(PCA-10)')
