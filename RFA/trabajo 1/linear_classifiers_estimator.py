@@ -114,7 +114,6 @@ if __name__ == '__main__':
                 x_tr = X[0:x_tr.shape[0],:]
                 x_dv = X[x_tr.shape[0]:,:]
 
-
                 model = create_model(key, args)
                 model = model.fit(x_tr, y_tr)
                 y_pred = model.predict(x_dv)
