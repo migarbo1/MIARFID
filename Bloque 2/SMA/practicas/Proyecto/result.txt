@@ -1,0 +1,164 @@
+auction items:
+[22, 23, 11, 18, 26]
+object preference for agent: 3@gtirouter.dsic.upv.es
+[85, 78, 95, 93, 98]
+object preference for agent: 5@gtirouter.dsic.upv.es
+[81, 68, 65, 70, 90]
+object preference for agent: 6@gtirouter.dsic.upv.es
+[79, 80, 74, 99, 93]
+object preference for agent: 2@gtirouter.dsic.upv.es
+[96, 71, 84, 83, 72]
+object preference for agent: 4@gtirouter.dsic.upv.es
+[83, 93, 70, 89, 85]
+agent 4@gtirouter.dsic.upv.es has item: 0 with profit 61
+agent 2@gtirouter.dsic.upv.es has item: 1 with profit 48
+agent 5@gtirouter.dsic.upv.es has item: 2 with profit 54
+agent 3@gtirouter.dsic.upv.es has item: 3 with profit 75
+agent 6@gtirouter.dsic.upv.es has item: 4 with profit 67
+actual item assignation: 
+['4@gtirouter.dsic.upv.es', '2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '3@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es']
+Actual Profit: 405
+sending actual information:
+['4@gtirouter.dsic.upv.es', '2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '3@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26]
+sending actual information:
+['4@gtirouter.dsic.upv.es', '2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '3@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26]
+sending actual information:
+['4@gtirouter.dsic.upv.es', '2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '3@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26]
+sending actual information:
+['4@gtirouter.dsic.upv.es', '2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '3@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26]
+sending actual information:
+['4@gtirouter.dsic.upv.es', '2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '3@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26]
+agent 2@gtirouter.dsic.upv.es has found better item: 0
+agent 3@gtirouter.dsic.upv.es has found better item: 2
+agent 4@gtirouter.dsic.upv.es has found better item: 3
+agent 5@gtirouter.dsic.upv.es has found better item: 4
+agent 6@gtirouter.dsic.upv.es has found better item: 3
+request from agent 2@gtirouter.dsic.upv.es to get item 0 from 4@gtirouter.dsic.upv.es
+request from agent 3@gtirouter.dsic.upv.es to get item 2 from 5@gtirouter.dsic.upv.es
+agent 2@gtirouter.dsic.upv.es has item: 0 with profit 74
+Object assignation received by agent 2@gtirouter.dsic.upv.es. New object 0. new profit: 74
+agent 4@gtirouter.dsic.upv.es has item: 1 with profit 70
+Object assignation received by agent 4@gtirouter.dsic.upv.es. New object 1. new profit: 70
+request from agent 4@gtirouter.dsic.upv.es to get item 3 from 5@gtirouter.dsic.upv.es
+bet rejected: out of date.
+agent 3@gtirouter.dsic.upv.es has item: 2 with profit 84
+Object assignation received by agent 3@gtirouter.dsic.upv.es. New object 2. new profit: 84
+agent 5@gtirouter.dsic.upv.es has item: 3 with profit 52
+Object assignation received by agent 5@gtirouter.dsic.upv.es. New object 3. new profit: 52
+request from agent 5@gtirouter.dsic.upv.es to get item 4 from 6@gtirouter.dsic.upv.es
+request from agent 6@gtirouter.dsic.upv.es to get item 3 from 5@gtirouter.dsic.upv.es
+bet rejected: out of date.
+agent 5@gtirouter.dsic.upv.es has item: 4 with profit 64
+Object assignation received by agent 5@gtirouter.dsic.upv.es. New object 4. new profit: 64
+agent 6@gtirouter.dsic.upv.es has item: 2 with profit 62.81
+Object assignation received by agent 6@gtirouter.dsic.upv.es. New object 2. new profit: 62.81
+Actual Profit: 448
+Actual Profit: 448
+sending actual information:
+['2@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 18, 31.19]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 18, 31.19]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 18, 31.19]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 18, 31.19]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 18, 31.19]
+agent 4@gtirouter.dsic.upv.es has found better item: 3
+agent 6@gtirouter.dsic.upv.es has found better item: 3
+request from agent 4@gtirouter.dsic.upv.es to get item 3 from 5@gtirouter.dsic.upv.es
+request from agent 6@gtirouter.dsic.upv.es to get item 3 from 4@gtirouter.dsic.upv.es
+bet rejected: out of date.
+agent 4@gtirouter.dsic.upv.es has item: 3 with profit 71
+Object assignation received by agent 4@gtirouter.dsic.upv.es. New object 3. new profit: 71
+agent 5@gtirouter.dsic.upv.es has item: 1 with profit 45
+Object assignation received by agent 5@gtirouter.dsic.upv.es. New object 1. new profit: 45
+Actual Profit: 422
+Actual Profit: 422
+sending actual information:
+['2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 19.19, 31.19]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 19.19, 31.19]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 19.19, 31.19]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 19.19, 31.19]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 19.19, 31.19]
+agent 5@gtirouter.dsic.upv.es has found better item: 4
+agent 6@gtirouter.dsic.upv.es has found better item: 3
+request from agent 5@gtirouter.dsic.upv.es to get item 4 from 5@gtirouter.dsic.upv.es
+request from agent 6@gtirouter.dsic.upv.es to get item 3 from 4@gtirouter.dsic.upv.es
+agent 5@gtirouter.dsic.upv.es has item: 4 with profit 58.81
+Object assignation received by agent 5@gtirouter.dsic.upv.es. New object 4. new profit: 58.81
+agent 5@gtirouter.dsic.upv.es has item: 1 with profit 45
+Object assignation received by agent 5@gtirouter.dsic.upv.es. New object 1. new profit: 45
+agent 6@gtirouter.dsic.upv.es has item: 3 with profit 79.81
+Object assignation received by agent 6@gtirouter.dsic.upv.es. New object 3. new profit: 79.81
+agent 4@gtirouter.dsic.upv.es has item: 2 with profit 58.81
+Object assignation received by agent 4@gtirouter.dsic.upv.es. New object 2. new profit: 58.81
+Actual Profit: 428
+Actual Profit: 428
+sending actual information:
+['2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 36.38, 36.38]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 36.38, 36.38]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 36.38, 36.38]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 36.38, 36.38]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23, 11.19, 36.38, 36.38]
+agent 4@gtirouter.dsic.upv.es has found better item: 1
+agent 5@gtirouter.dsic.upv.es has found better item: 2
+request from agent 4@gtirouter.dsic.upv.es to get item 1 from 5@gtirouter.dsic.upv.es
+request from agent 5@gtirouter.dsic.upv.es to get item 2 from 5@gtirouter.dsic.upv.es
+bet rejected: out of date.
+agent 4@gtirouter.dsic.upv.es has item: 1 with profit 70
+Object assignation received by agent 4@gtirouter.dsic.upv.es. New object 1. new profit: 70
+agent 5@gtirouter.dsic.upv.es has item: 2 with profit 53.81
+Object assignation received by agent 5@gtirouter.dsic.upv.es. New object 2. new profit: 53.81
+Actual Profit: 448
+Actual Profit: 448
+sending actual information:
+['2@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23.19, 11.19, 36.38, 36.38]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23.19, 11.19, 36.38, 36.38]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23.19, 11.19, 36.38, 36.38]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23.19, 11.19, 36.38, 36.38]
+sending actual information:
+['2@gtirouter.dsic.upv.es', '4@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es', '6@gtirouter.dsic.upv.es', '5@gtirouter.dsic.upv.es']
+[48.19, 23.19, 11.19, 36.38, 36.38]
+Actual Profit: 448
+agent 4@gtirouter.dsic.upv.es has item: 1 with profit 70
+agent 2@gtirouter.dsic.upv.es has item: 0 with profit 74
+agent 5@gtirouter.dsic.upv.es has item: 2 with profit 53.81
+agent 3@gtirouter.dsic.upv.es has item: 2 with profit 84
+agent 6@gtirouter.dsic.upv.es has item: 3 with profit 79.81
+All Happy.

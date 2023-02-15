@@ -1,0 +1,22 @@
+Añadir un control para indicar cuántos fuegos se inician simultáneamente:
+- en ejecutar, añadir control num_fires. En la creación de fuegos (spout-fires) reemplazar 1 por num_fires
+
+Añadir un control para la velocidad del fuego:
+- en ejecutar, añadir ontrol fire_speed y en (spread-fire) sustituir 2 por fire_speed
+
+Parar la simulación cuando todos los estudiantes están a salvo o muertos:
+- nuvo campo para student (finish-state) en el go insertar : if (all? students [finish-state? = true]) [stop]
+
+Añadir que un estudiante se hiere un % (fijado como parámetro) si toca el fuego. Inicialmente es el
+100% (es decir se muere si toca el fuego)
+- control fire-harm añadido. dos funciones maś en go: on-fire y check-corpses para saber si el estudiante está encima del fuego o muerto
+
+Añadir la raza profesor qye se encargará de intentar apagar el fuego:
+- añadido nuevo metodo 'move-towards-fire' que mueve a un profesor hacia el fuego, si no ve fuego se va a una salida opuesta
+- añadido metodo 'shut-up-fire' que hace que el profesor apague el fuego
+
+Añadir un control para la cantidad de profesores presentes en la simulación
+- control professor-count añadido. tiene rangos de 1 a 3
+
+Añadir que un alumno pueda cambiar de salida asignada si toca el humo:
+- añadido método change-exit-on-smoke que escoge de una lista global el numbre de la nueva salida objetivo

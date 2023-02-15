@@ -1,0 +1,31 @@
+@inproceedings{
+	author = 	{ A.V. Aho and J.D. Ullman  }
+	title = 	{ The theory of parsing translation and compiling. Volumen I: parsing 1972  }
+	publisher = 	{ Prentice-Hall  }
+}
+@inproceedings{
+	author = 	{ P.F. Brown  }
+	title = 	{ The acoustic-Modeling Problem in Automatic  }
+	journal = 	{ Speech Recognition  }
+	school = 	{ Carnegie-Mellon University  }
+	type = 	{ Ph. D. dissertation  }
+	year = 	{ 1987  }
+}
+@inproceedings{
+	author = 	{ L.E. Baum  }
+	title = 	{ An inequality and Associated Maximization Technique in Statistical Estimation for Probabilistic Functions of Markov Processes  }
+	journal = 	{ Inequalities  }
+	volume = 	{ 3  }
+	number = 	{ 1  }
+	year = 	{ 1972  }
+	pages = 	{ 8  }
+}
+@inproceedings{
+	author = 	{ J.  }
+	title = 	{ Kupiec Hidden Markov Estimation for Unrestricted Stochastic Context-Free Grammars  }
+	volume = 	{ Vol.  }
+	number = 	{ 1  }
+	year = 	{ ICASSP'92 1992  }
+	booktitle = 	{ Proc. of  }
+	pages = 	{ 177 180  }
+}

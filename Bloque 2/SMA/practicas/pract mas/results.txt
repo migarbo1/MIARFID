@@ -1,0 +1,371 @@
+auction items:
+[22, 23, 11, 18, 26, 25, 22, 19, 25, 21]
+object preference for agent: migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es
+[89, 85, 80, 83, 76, 77, 76, 67, 81, 95]
+object preference for agent: migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es
+[69, 70, 73, 74, 67, 70, 99, 90, 98, 82]
+object preference for agent: migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es
+[85, 72, 96, 86, 77, 80, 66, 82, 72, 79]
+object preference for agent: migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es
+[92, 68, 71, 74, 79, 67, 99, 69, 66, 72]
+object preference for agent: migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es
+[77, 72, 90, 70, 88, 72, 67, 66, 77, 76]
+object preference for agent: migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es
+[72, 95, 78, 68, 66, 99, 92, 71, 81, 69]
+object preference for agent: migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es
+[77, 81, 87, 95, 75, 78, 68, 75, 75, 86]
+object preference for agent: migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es
+[98, 81, 72, 93, 76, 65, 95, 91, 97, 84]
+object preference for agent: migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es
+[87, 89, 81, 74, 65, 94, 70, 86, 67, 99]
+object preference for agent: migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es
+[82, 73, 80, 95, 87, 83, 87, 73, 84, 89]
+agent migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es has item: 0 with profit 55
+agent migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es has item: 1 with profit 47
+agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es has item: 2 with profit 76
+agent migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es has item: 3 with profit 56
+agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es has item: 4 with profit 61
+agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es has item: 5 with profit 40
+agent migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es has item: 6 with profit 70
+agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es has item: 7 with profit 63
+agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es has item: 8 with profit 56
+agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es has item: 9 with profit 78
+actual item assignation: 
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+Actual Profit: 814
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26, 25, 22, 19, 25, 21]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26, 25, 22, 19, 25, 21]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26, 25, 22, 19, 25, 21]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26, 25, 22, 19, 25, 21]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26, 25, 22, 19, 25, 21]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26, 25, 22, 19, 25, 21]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26, 25, 22, 19, 25, 21]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26, 25, 22, 19, 25, 21]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26, 25, 22, 19, 25, 21]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 11, 18, 26, 25, 22, 19, 25, 21]
+agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es has found better item: 2
+agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es has found better item: 9
+agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es has found better item: 3
+agent migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es has found better item: 2
+agent migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es has found better item: 5
+agent migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es has found better item: 6
+agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es has found better item: 3
+agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es has found better item: 0
+agent migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es has found better item: 6
+request from agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es to get item 2 from migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+request from agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es to get item 9 from migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es has item: 2 with profit 85
+Object assignation received by agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es. New object 2. new profit: 85
+agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es has item: 7 with profit 56
+Object assignation received by agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es. New object 7. new profit: 56
+request from agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es to get item 3 from migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es has item: 9 with profit 74
+Object assignation received by agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es. New object 9. new profit: 74
+agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es has item: 8 with profit 42
+Object assignation received by agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es. New object 8. new profit: 42
+request from agent migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es to get item 2 from migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es
+bet rejected: out of date.
+agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es has item: 3 with profit 77
+Object assignation received by agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es. New object 3. new profit: 77
+agent migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es has item: 4 with profit 53
+Object assignation received by agent migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es. New object 4. new profit: 53
+request from agent migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es to get item 5 from migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+request from agent migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es to get item 6 from migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es
+bet rejected: out of date.
+agent migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es has item: 5 with profit 74
+Object assignation received by agent migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es. New object 5. new profit: 74
+agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es has item: 6 with profit 73
+Object assignation received by agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es. New object 6. new profit: 73
+request from agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es to get item 3 from migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es
+bet rejected: out of date.
+request from agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es to get item 0 from migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es
+bet rejected: out of date.
+request from agent migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es to get item 6 from migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es
+bet rejected: out of date.
+Actual Profit: 848
+Actual Profit: 848
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[22, 23, 11.1, 26.1, 26, 27.1, 22, 19, 25, 26.1]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[22, 23, 11.1, 26.1, 26, 27.1, 22, 19, 25, 26.1]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[22, 23, 11.1, 26.1, 26, 27.1, 22, 19, 25, 26.1]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[22, 23, 11.1, 26.1, 26, 27.1, 22, 19, 25, 26.1]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[22, 23, 11.1, 26.1, 26, 27.1, 22, 19, 25, 26.1]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[22, 23, 11.1, 26.1, 26, 27.1, 22, 19, 25, 26.1]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[22, 23, 11.1, 26.1, 26, 27.1, 22, 19, 25, 26.1]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[22, 23, 11.1, 26.1, 26, 27.1, 22, 19, 25, 26.1]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[22, 23, 11.1, 26.1, 26, 27.1, 22, 19, 25, 26.1]
+sending actual information:
+['migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[22, 23, 11.1, 26.1, 26, 27.1, 22, 19, 25, 26.1]
+agent migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es has found better item: 2
+agent migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es has found better item: 6
+agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es has found better item: 9
+agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es has found better item: 2
+agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es has found better item: 0
+agent migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es has found better item: 6
+request from agent migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es to get item 2 from migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+request from agent migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es to get item 6 from migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+agent migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es has item: 2 with profit 78.9
+Object assignation received by agent migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es. New object 2. new profit: 78.9
+agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es has item: 0 with profit 63
+Object assignation received by agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es. New object 0. new profit: 63
+request from agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es to get item 9 from migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+agent migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es has item: 6 with profit 77
+Object assignation received by agent migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es. New object 6. new profit: 77
+agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es has item: 4 with profit 50
+Object assignation received by agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es. New object 4. new profit: 50
+request from agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es to get item 2 from migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es
+bet rejected: out of date.
+agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es has item: 9 with profit 72.9
+Object assignation received by agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es. New object 9. new profit: 72.9
+agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es has item: 8 with profit 56
+Object assignation received by agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es. New object 8. new profit: 56
+request from agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es to get item 0 from migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es
+bet rejected: out of date.
+request from agent migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es to get item 6 from migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es
+bet rejected: out of date.
+Actual Profit: 869
+Actual Profit: 869
+sending actual information:
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 46.2, 26.1, 26, 27.1, 29.1, 19, 25, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 46.2, 26.1, 26, 27.1, 29.1, 19, 25, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 46.2, 26.1, 26, 27.1, 29.1, 19, 25, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 46.2, 26.1, 26, 27.1, 29.1, 19, 25, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 46.2, 26.1, 26, 27.1, 29.1, 19, 25, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 46.2, 26.1, 26, 27.1, 29.1, 19, 25, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 46.2, 26.1, 26, 27.1, 29.1, 19, 25, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 46.2, 26.1, 26, 27.1, 29.1, 19, 25, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 46.2, 26.1, 26, 27.1, 29.1, 19, 25, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[22, 23, 46.2, 26.1, 26, 27.1, 29.1, 19, 25, 29.200000000000003]
+agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es has found better item: 3
+agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es has found better item: 0
+agent migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es has found better item: 8
+agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es has found better item: 0
+request from agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es to get item 3 from migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+request from agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es to get item 0 from migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es has item: 3 with profit 68.9
+Object assignation received by agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es. New object 3. new profit: 68.9
+agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es has item: 7 with profit 54
+Object assignation received by agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es. New object 7. new profit: 54
+request from agent migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es to get item 8 from migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es has item: 0 with profit 76
+Object assignation received by agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es. New object 0. new profit: 76
+agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es has item: 4 with profit 51
+Object assignation received by agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es. New object 4. new profit: 51
+request from agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es to get item 0 from migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es
+bet rejected: out of date.
+agent migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es has item: 8 with profit 73
+Object assignation received by agent migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es. New object 8. new profit: 73
+agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es has item: 1 with profit 62
+Object assignation received by agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es. New object 1. new profit: 62
+Actual Profit: 913
+Actual Profit: 913
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 19, 27.1, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 19, 27.1, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 19, 27.1, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 19, 27.1, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 19, 27.1, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 19, 27.1, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 19, 27.1, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 19, 27.1, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 19, 27.1, 29.200000000000003]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 19, 27.1, 29.200000000000003]
+agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es has found better item: 7
+agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es has found better item: 9
+agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es has found better item: 4
+request from agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es to get item 7 from migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es']
+request from agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es to get item 9 from migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es has item: 7 with profit 63
+Object assignation received by agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es. New object 7. new profit: 63
+agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es has item: 4 with profit 61
+Object assignation received by agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es. New object 4. new profit: 61
+request from agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es to get item 4 from migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es
+bet rejected: out of date.
+agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es has item: 9 with profit 65.8
+Object assignation received by agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es. New object 9. new profit: 65.8
+agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es has item: 1 with profit 66
+Object assignation received by agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es. New object 1. new profit: 66
+Actual Profit: 932
+Actual Profit: 932
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 27.1, 29.1, 29.2, 27.1, 33.1]
+agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es has found better item: 5
+request from agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es to get item 5 from migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es
+actual item assignation: 
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es has item: 5 with profit 66.9
+Object assignation received by agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es. New object 5. new profit: 66.9
+agent migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es has item: 1 with profit 72
+Object assignation received by agent migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es. New object 1. new profit: 72
+Actual Profit: 933
+Actual Profit: 933
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 28.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 28.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 28.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 28.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 28.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 28.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 28.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 28.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 28.1, 29.1, 29.2, 27.1, 33.1]
+sending actual information:
+['migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es', 'migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es']
+[32.2, 23, 46.2, 37.1, 26, 28.1, 29.1, 29.2, 27.1, 33.1]
+Actual Profit: 933
+agent migarbo1_push_agent_1626_5@gtirouter.dsic.upv.es has item: 2 with profit 78.9
+agent migarbo1_push_agent_1626_11@gtirouter.dsic.upv.es has item: 8 with profit 73
+agent migarbo1_push_agent_1626_9@gtirouter.dsic.upv.es has item: 3 with profit 68.9
+agent migarbo1_push_agent_1626_7@gtirouter.dsic.upv.es has item: 6 with profit 77
+agent migarbo1_push_agent_1626_4@gtirouter.dsic.upv.es has item: 4 with profit 61
+agent migarbo1_push_agent_1626_10@gtirouter.dsic.upv.es has item: 0 with profit 76
+agent migarbo1_push_agent_1626_6@gtirouter.dsic.upv.es has item: 1 with profit 72
+agent migarbo1_push_agent_1626_2@gtirouter.dsic.upv.es has item: 7 with profit 63
+agent migarbo1_push_agent_1626_3@gtirouter.dsic.upv.es has item: 9 with profit 65.8
+agent migarbo1_push_agent_1626_8@gtirouter.dsic.upv.es has item: 5 with profit 66.9
+All Happy.

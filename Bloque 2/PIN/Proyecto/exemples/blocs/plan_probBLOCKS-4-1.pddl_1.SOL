@@ -1,0 +1,22 @@
+
+; Version LPG-td-1.4
+; Seed 16048010
+; Command line: /home/germol/cosesDeLaUni/master/pin/lpg-td -o exemples/blocs/domain.pddl -f exemples/blocs/probBLOCKS-4-1.pddl -n 1 
+; Problem exemples/blocs
+; Actions having STRIPS duration
+; Time 0.00
+; Search time 0.00
+; Parsing time 0.00
+; Mutex time 0.00
+; NrActions 10
+
+0:   (UNSTACK B C) [1]
+1:   (PUT-DOWN B) [1]
+2:   (UNSTACK C A) [1]
+3:   (PUT-DOWN C) [1]
+4:   (UNSTACK A D) [1]
+5:   (STACK A B) [1]
+6:   (PICK-UP C) [1]
+7:   (STACK C A) [1]
+8:   (PICK-UP D) [1]
+9:   (STACK D C) [1]

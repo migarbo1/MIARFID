@@ -1,0 +1,43 @@
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/nmt-keras/main.py", line 12, in <module>
+    from nmt_keras.training import train_model
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/nmt-keras/nmt_keras/training.py", line 13, in <module>
+    from keras_wrapper.cnn_model import updateModel
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/nmt-keras/multimodal_keras_wrapper/keras_wrapper/cnn_model.py", line 17, in <module>
+    import keras
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/nmt-keras/keras/keras/__init__.py", line 3, in <module>
+    from . import utils
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/nmt-keras/keras/keras/utils/__init__.py", line 6, in <module>
+    from . import conv_utils
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/nmt-keras/keras/keras/utils/conv_utils.py", line 9, in <module>
+    from .. import backend as K
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/nmt-keras/keras/keras/backend/__init__.py", line 1, in <module>
+    from .load_backend import epsilon
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/nmt-keras/keras/keras/backend/load_backend.py", line 89, in <module>
+    from .tensorflow_backend import *
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/nmt-keras/keras/keras/backend/tensorflow_backend.py", line 5, in <module>
+    import tensorflow as tf
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/miniconda/lib/python3.7/site-packages/tensorflow/__init__.py", line 28, in <module>
+    from tensorflow.python import pywrap_tensorflow  # pylint: disable=unused-import
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/miniconda/lib/python3.7/site-packages/tensorflow/python/__init__.py", line 52, in <module>
+    from tensorflow.core.framework.graph_pb2 import *
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/miniconda/lib/python3.7/site-packages/tensorflow/core/framework/graph_pb2.py", line 16, in <module>
+    from tensorflow.core.framework import node_def_pb2 as tensorflow_dot_core_dot_framework_dot_node__def__pb2
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/miniconda/lib/python3.7/site-packages/tensorflow/core/framework/node_def_pb2.py", line 16, in <module>
+    from tensorflow.core.framework import attr_value_pb2 as tensorflow_dot_core_dot_framework_dot_attr__value__pb2
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/miniconda/lib/python3.7/site-packages/tensorflow/core/framework/attr_value_pb2.py", line 16, in <module>
+    from tensorflow.core.framework import tensor_pb2 as tensorflow_dot_core_dot_framework_dot_tensor__pb2
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/miniconda/lib/python3.7/site-packages/tensorflow/core/framework/tensor_pb2.py", line 16, in <module>
+    from tensorflow.core.framework import resource_handle_pb2 as tensorflow_dot_core_dot_framework_dot_resource__handle__pb2
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/miniconda/lib/python3.7/site-packages/tensorflow/core/framework/resource_handle_pb2.py", line 42, in <module>
+    serialized_options=None, file=DESCRIPTOR),
+  File "/home/miguel/Documentos/TA/NMT/NMT_TA/miniconda/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 560, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates

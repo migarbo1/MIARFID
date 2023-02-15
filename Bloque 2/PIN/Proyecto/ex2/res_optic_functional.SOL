@@ -1,0 +1,20 @@
+; Plan found with metric 160.505
+; Theoretical reachable cost 160.505
+; States evaluated so far: 6121
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 39.52
+
+0.000: (unstack t7 c1 a1 s11 l1)  [10.500]
+0.000: (unstack c8 t4 a2 s21 l2)  [10.500]
+10.501: (stackoncontainer_target t7 c10 a1 s12 l1)  [9.500]
+10.501: (placeinrail l2 l1 a2 c8 r2)  [19.500]
+10.501: (stackoncontainer_regular c8 t4 a2 s21 l2)  [14.500]
+25.002: (unstack c2 t3 a2 s22 l2)  [5.500]
+30.001: (transport r2 c8 l2 l1)  [10.500]
+40.501: (pickfromrail r2 l1 l2 c8 a1)  [20.500]
+61.002: (stackoncontainer_regular c8 c1 a1 s11 l1)  [14.500]
+75.503: (unstack c8 t4 a1 s11 l1)  [10.500]
+80.503: (unstack c8 c1 a2 s21 l2)  [10.500]
+86.004: (stackoncontainer_regular c8 c11 a1 s13 l1)  [14.500]
+91.004: (stackoncontainer_regular c8 t3 a2 s22 l2)  [9.500]
+100.505: (unstack c8 t3 a1 s13 l1)  [10.500]

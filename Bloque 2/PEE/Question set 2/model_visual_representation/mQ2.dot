@@ -1,0 +1,12 @@
+digraph hmm {
+  rankdir=LR;
+  node [shape=doublecircle]; 0
+  node [shape=circle];
+  0 -> 0 [ label = 0.294 ];
+  0 -> 1 [ label = 0.278 ];
+  0 -> 2 [ label = 0.427 ];
+  1 -> 0 [ label = 0.053 ];
+  1 -> 2 [ label = 0.947 ];
+  2 -> 2 [ label = 0.040 ];
+  2 -> 3 [ label = 0.960 ];
+}

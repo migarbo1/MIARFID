@@ -1,0 +1,6162 @@
+
+\data\
+ngram 1=516
+ngram 2=2389
+ngram 3=3244
+
+\1-grams:
+-2.232117	!	-1.267032
+-2.533175	'Alvarez	-0.6649722
+-3.077386	'Angel	-0.1209041
+-3.378616	'Oscar	-0.1209041
+-1.373899	,	-1.425538
+-0.9872827	.	-2.511839
+-2.901228	</s>
+-99	<s>	-2.42653
+-3.703247	<unk>
+-1.50899	?	-1.990136
+-2.901228	Aguilera	-0.5980254
+-2.776256	Alicia	-0.1209041
+-2.901228	Alted	-0.5980254
+-2.901228	Amador	-0.1209041
+-2.901228	Amelia	-0.1209041
+-3.378616	Amparo	-0.1209041
+-3.077386	Ana	-0.1209041
+-3.077386	Andr'es	-0.1209041
+-2.901228	Antonio	-0.1878509
+-2.533175	April	-0.9660022
+-2.776256	Arag'on	-0.7229641
+-2.475176	Arenas	-1.023994
+-2.776256	Arnau	-0.7229641
+-2.679326	Arroyo	-0.8198742
+-2.901228	Arturo	-0.1666616
+-3.378616	Asunci'on	-0.1209041
+-2.776256	August	-0.7229641
+-3.077386	Bacete	-0.4219341
+-2.776256	Balaguer	-0.4219341
+-2.533175	Ballester	-0.6649722
+-2.533175	Barber	-0.9660022
+-2.679326	Barber'a	-0.8198742
+-2.776256	Barrachina	-0.7229641
+-3.077386	Beatriz	-0.1209041
+-2.679326	Belenguer	-0.8198742
+-2.776256	Bellver	-0.7229641
+-2.776256	Beltr'an	-0.7229641
+-2.679326	Berrueco	-0.5188441
+-2.679326	Betoret	-0.8198742
+-2.600132	Bordons	-0.5980254
+-2.600132	Borillo	-0.5980254
+-2.378256	Borr'as	-0.8198741
+-2.776256	Botella	-0.4219341
+-3.077386	C'esar	-0.1209041
+-2.424018	Cabedo	-1.075147
+-3.077386	Cabo	-0.4219341
+-2.679326	Cabrera	-0.8198742
+-2.600132	Calatayud	-0.8990554
+-2.679326	Calleja	-0.8198742
+-2.901228	Campo	-0.5980254
+-2.776256	Cantero	-0.7229641
+-3.378616	Carlos	-0.1209041
+-3.378616	Carmelo	-0.1209041
+-2.901228	Carmen	-0.1209041
+-2.679326	Carpio	-0.8198742
+-3.378616	Castillo	-0.1209041
+-2.901228	Celestino	-0.1209041
+-2.533175	Cerezo	-0.9660022
+-2.33686	Colomer	-1.162297
+-2.776256	Concepci'on	-0.1209041
+-2.533175	Cornelles	-0.9660022
+-2.901228	Cristina	-0.1209041
+-2.679326	Cutillas	-0.8198742
+-2.600132	D'iaz	-0.8990554
+-3.077386	Daniel	-0.1209041
+-2.901228	December	-0.5980254
+-3.077386	Dulce	-0.1209041
+-3.378616	Edo	-0.1209041
+-3.077386	Eduardo	-0.1209041
+-3.077386	Elvira	-0.1209041
+-2.901228	Emilio	-0.1209041
+-3.378616	Enrique	-0.1209041
+-2.600132	Escrig	-0.8990554
+-2.776256	Espinosa	-0.7229641
+-3.077386	Eva	-0.1209041
+-2.776256	February	-0.7229641
+-2.901228	Federico	-0.1209041
+-2.901228	Fern'andez	-0.5980254
+-3.378616	Ferrando	-0.1209041
+-3.378616	Fidel	-0.1209041
+-3.378616	Francisco	-0.1209041
+-3.077386	Friday	-0.1530888
+-2.901228	Fuster	-0.5980254
+-2.901228	G'omez	-0.5980254
+-2.600132	Gallego	-0.5980254
+-3.077386	Garc'ia	-0.1209041
+-3.077386	Gerardo	-0.1209041
+-2.600132	Gil	-0.8990554
+-2.600132	Gimeno	-0.5980254
+-2.901228	Gloria	-0.1878509
+-2.776256	Gonz'alez	-0.7229641
+-3.077386	Gracia	-0.4219341
+-2.600132	Granada	-0.8990554
+-2.901228	Gregorio	-0.1209041
+-2.901228	Gual	-0.5980254
+-2.600132	Guardiola	-0.8990554
+-2.679326	Guijarro	-0.8198742
+-2.776256	Gumbau	-0.7229641
+-2.600132	Herrero	-0.5980254
+-2.776256	I	-0.1489328
+-2.776256	Ib'a~nez	-0.7229641
+-2.533175	Iborra	-0.9660022
+-2.901228	Ignacio	-0.1209041
+-2.776256	Inmaculada	-0.1666616
+-2.776256	Isabel	-0.1209041
+-3.378616	Ivars	-0.1209041
+-2.776256	Izquierdo	-0.7229641
+-2.901228	Jacinto	-0.1209041
+-3.378616	Jaime	-0.1209041
+-2.776256	January	-0.7229641
+-3.077386	Javier	-0.1209041
+-3.077386	Jes'us	-0.1209041
+-2.901228	Jim'enez	-0.5980254
+-3.077386	Joaqu'in	-0.1209041
+-3.077386	Jorge	-0.1209041
+-3.378616	Jos'e	-0.1209041
+-3.077386	Juan	-0.1209041
+-3.077386	Julia	-0.1209041
+-2.901228	Julio	-0.1209041
+-2.901228	July	-0.5980254
+-2.679326	June	-0.8198741
+-2.679326	L'opez	-0.5980254
+-2.776256	Lidia	-0.1209041
+-2.475176	Llopis	-1.023994
+-2.679326	Llorens	-0.8198742
+-2.901228	Lobo	-0.5980254
+-3.077386	Luis	-0.1209041
+-2.901228	M'as	-0.5980254
+-2.679326	Maestro	-0.8198742
+-3.077386	Manuel	-0.1209041
+-2.901228	Manuela	-0.1586927
+-3.077386	Mar'ia	-0.1209041
+-2.776256	March	-0.7229641
+-2.776256	Margarita	-0.1209041
+-2.901228	Marina	-0.1209041
+-2.776256	Marqu'es	-0.4219341
+-2.600132	Mart'i	-0.8990554
+-3.077386	Mart'inez	-0.1209041
+-3.077386	Marta	-0.1209041
+-2.679326	May	-0.8198741
+-2.679326	Meda	-0.8198742
+-2.600132	Mestre	-0.8990554
+-2.901228	Micaela	-0.1209041
+-2.901228	Miguel	-0.1209041
+-2.776256	Mingot	-0.7229641
+-2.679326	Mira	-0.8198742
+-2.776256	Miralles	-0.7229641
+-3.378616	Miss	-0.1209041
+-3.378616	Modesto	-0.1209041
+-2.533175	Moliner	-0.6649722
+-3.077386	Monday	-0.1720566
+-2.533175	Monferrer	-0.6649722
+-3.378616	Monson'is	-0.1209041
+-2.533175	Montero	-0.9660022
+-2.533175	Montoro	-0.9660022
+-2.378256	Morales	-1.120904
+-2.776256	Moreno	-0.7229641
+-2.679326	Moya	-0.8198742
+-3.378616	Mr	-0.1209041
+-3.077386	Mrs	-0.1383948
+-2.901228	Nadal	-0.5980254
+-2.776256	Navarro	-0.7229641
+-2.901228	Nebot	-0.5980254
+-2.776256	November	-0.7229641
+-2.776256	October	-0.7229641
+-2.679326	Orenga	-0.8198742
+-3.378616	Ortega	-0.1209041
+-2.600132	Ortiz	-0.8990554
+-2.776256	P'erez	-0.7229641
+-3.077386	Pablo	-0.1209041
+-2.679326	Paches	-0.8198742
+-2.776256	Padilla	-0.7229641
+-3.077386	Pallar'es	-0.4219341
+-3.077386	Paloma	-0.1209041
+-2.901228	Pastor	-0.5980254
+-3.077386	Pedro	-0.1209041
+-2.901228	Peinado	-0.5980254
+-2.378256	Peris	-1.120904
+-2.901228	Pe~narroja	-0.5980254
+-2.901228	Pilar	-0.1209041
+-2.776256	Piquer	-0.7229641
+-2.600132	Pitarch	-0.8990554
+-2.679326	Puig	-0.8198742
+-2.679326	Quereda	-0.8198742
+-2.901228	Querol	-0.5980254
+-2.901228	R'ios	-0.5980254
+-2.776256	R'odenas	-0.7229641
+-3.077386	Rafael	-0.1209041
+-2.776256	Ram'irez	-0.4219341
+-2.679326	Ramos	-0.5980254
+-2.600132	Redondo	-0.8990554
+-2.901228	Revilla	-0.5980254
+-3.378616	Ricardo	-0.1209041
+-2.600132	Rivera	-0.8990554
+-3.378616	Roberto	-0.1209041
+-2.776256	Roda	-0.7229641
+-2.475176	Rodr'iguez	-1.023994
+-2.776256	Romero	-0.7229641
+-3.378616	Rosa	-0.1209041
+-2.901228	Rosal'ia	-0.1209041
+-2.901228	Rosario	-0.1586927
+-2.776256	Royo	-0.7229641
+-2.679326	Rubio	-0.8198742
+-3.378616	Ruiz	-0.1209041
+-2.776256	S'aez	-0.7229641
+-3.077386	Salgado	-0.4219341
+-2.776256	Salsas	-0.7229641
+-3.077386	Salt	-0.4219341
+-3.077386	Salvador	-0.1209041
+-3.077386	Sanfeli'u	-0.1209041
+-3.077386	Santiago	-0.1209041
+-2.679326	Santos	-0.8198742
+-2.600132	Sanz	-0.8990554
+-3.077386	Saturday	-0.1508673
+-3.077386	Segura	-0.4219341
+-2.901228	September	-0.5980254
+-3.077386	Sergio	-0.1209041
+-2.776256	Serrano	-0.7229641
+-2.679326	Sevilla	-0.8198742
+-2.901228	Silvestre	-0.5980254
+-3.378616	Silvia	-0.1209041
+-2.901228	Soler	-0.5980254
+-2.901228	Sonia	-0.1209041
+-3.077386	Soria	-0.4219341
+-2.776256	Su'arez	-0.7229641
+-3.077386	Sunday	-0.1622968
+-2.901228	Susana	-0.1209041
+-2.901228	Tena	-0.5980254
+-2.901228	Teresa	-0.1209041
+-3.077386	Thursday	-0.1489328
+-3.077386	Tom'as	-0.1209041
+-2.679326	Torres	-0.8198742
+-3.077386	Tuesday	-0.1209041
+-2.600132	V'azquez	-0.8990554
+-3.077386	V'ictor	-0.1209041
+-2.475176	Valls	-1.023994
+-2.533175	Varela	-0.9660022
+-2.475176	Velasco	-1.023994
+-3.378616	Vicenta	-0.1209041
+-3.378616	Vicente	-0.1209041
+-2.679326	Viciano	-0.5188441
+-2.776256	Victoria	-0.1209041
+-2.679326	Vidal	-0.8198742
+-2.776256	Vilanova	-0.7229641
+-2.901228	Villanueva	-0.5980254
+-3.077386	Virginia	-0.1209041
+-3.077386	Wednesday	-0.1666616
+-1.963258	a	-0.7703888
+-3.378616	accept	-0.1209041
+-3.378616	added	-0.1209041
+-2.901228	after	-0.2178141
+-2.475176	afternoon	-0.7741166
+-3.378616	agree	-0.1209041
+-2.679326	air	-0.8198741
+-2.901228	all	-0.1209041
+-3.077386	am	-0.1209041
+-2.901228	an	-0.5980254
+-2.174121	and	-0.9338176
+-2.776256	another	-0.7229641
+-3.077386	any	-0.4219341
+-2.901228	are	-0.1209041
+-2.901228	ask	-0.5980254
+-1.744757	at	-1.213449
+-2.33686	available	-1.162297
+-2.901228	bag	-0.5980254
+-2.776256	bags	-0.6649721
+-3.378616	bath	-0.1209041
+-3.378616	bathroom	-0.1209041
+-3.378616	been	-0.1209041
+-2.776256	bill	-0.3897494
+-3.077386	board	-0.3761767
+-2.901228	book	-0.4219341
+-2.901228	booked	-0.5980254
+-3.077386	breakfast	-0.1209041
+-3.378616	bus	-0.1209041
+-3.077386	by	-0.4219341
+-3.378616	bye	-0.1209041
+-2.901228	call	-0.5468729
+-3.378616	can	-0.1209041
+-3.378616	car	-0.1209041
+-3.378616	card	-0.1209041
+-3.378616	cards	-0.1209041
+-3.077386	care	-0.4219341
+-3.077386	carry	-0.4219341
+-3.378616	carrying	-0.1209041
+-3.077386	cash	-0.4219341
+-3.077386	change	-0.1209041
+-3.378616	changing	-0.1209041
+-2.679326	check	-0.4219341
+-3.378616	checks	-0.1209041
+-3.077386	cold	-0.4219341
+-3.378616	conditioning	-0.1209041
+-2.776256	cost	-0.7229641
+-3.378616	could	-0.1209041
+-3.077386	credit	-0.1209041
+-3.378616	date	-0.1209041
+-2.901228	day	-0.2670321
+-1.998022	days	-1.190942
+-3.077386	do	-0.1209041
+-2.901228	does	-0.1209041
+-2.776256	double	-0.5188441
+-2.679326	down	-0.4633268
+-2.202152	eight	-0.7866332
+-3.378616	eighteen	-0.1209041
+-3.378616	eighteenth	-0.1209041
+-3.378616	eighth	-0.1209041
+-2.776256	eleven	-0.4518974
+-3.378616	eleventh	-0.1209041
+-3.378616	error	-0.1209041
+-2.475176	evening	-1.023994
+-3.378616	everything	-0.1209041
+-3.077386	expenses	-0.4219341
+-2.901228	expensive	-0.5980254
+-2.901228	explain	-0.3427529
+-3.077386	extras	-0.4219341
+-3.378616	fifteen	-0.1209041
+-3.378616	fifteenth	-0.1209041
+-3.378616	fifth	-0.1209041
+-3.077386	fill	-0.4219341
+-3.378616	first	-0.1209041
+-2.202152	five	-0.8289222
+-1.585831	for	-0.6838465
+-3.378616	forest	-0.1209041
+-3.378616	form	-0.1209041
+-2.202152	four	-0.9066085
+-3.378616	fourteen	-0.1209041
+-3.378616	fourteenth	-0.1209041
+-3.378616	fourth	-0.1209041
+-3.378616	full	-0.1209041
+-2.776256	give	-0.722964
+-3.378616	giving	-0.1209041
+-3.077386	good	-0.1209041
+-3.077386	half	-0.1209041
+-3.077386	has	-0.4219341
+-2.533175	have	-0.5732018
+-3.378616	hello	-0.1209041
+-2.533175	hot	-0.5980254
+-3.378616	how	-0.1209041
+-3.378616	i	-0.1209041
+-1.600072	in	-1.325024
+-2.424018	included	-0.7899109
+-3.378616	including	-0.1209041
+-2.475176	is	-0.1692088
+-2.901228	it	-0.1209041
+-3.378616	key	-0.1209041
+-3.378616	keys	-0.1209041
+-3.378616	lake	-0.1209041
+-3.077386	leave	-0.3761767
+-3.077386	leaving	-0.4219341
+-3.378616	like	-0.1209041
+-3.077386	look	-0.1209041
+-3.378616	looking	-0.1209041
+-3.378616	lot	-0.1209041
+-2.901228	luggage	-0.5980254
+-2.776256	made	-0.3427528
+-2.901228	make	-0.5980254
+-3.378616	many	-0.1209041
+-3.378616	matter	-0.1209041
+-2.424018	me	-0.2758061
+-3.378616	meals	-0.1209041
+-3.378616	mind	-0.1209041
+-3.378616	minibar	-0.1209041
+-3.378616	mistake	-0.1209041
+-2.33686	morning	-0.8990554
+-3.378616	mountain	-0.1209041
+-3.077386	move	-0.1209041
+-3.378616	moving	-0.1209041
+-2.901228	much	-0.1209041
+-2.056016	my	-0.8369074
+-3.378616	name	-0.1209041
+-3.378616	next	-0.1209041
+-3.077386	night	-0.2000853
+-2.035812	nights	-0.8990554
+-2.202152	nine	-0.7950506
+-3.378616	nineteen	-0.1209041
+-3.378616	nineteenth	-0.1209041
+-3.378616	ninth	-0.1209041
+-3.378616	no	-0.1209041
+-3.077386	noise	-0.4219341
+-3.077386	noisy	-0.4219341
+-2.776256	not	-0.1209041
+-3.378616	number	-0.1209041
+-2.299068	o'clock	-1.109908
+-2.901228	of	-0.2458429
+-2.33686	oh	-0.9524996
+-3.378616	okay	-0.1209041
+-2.679326	on	-0.4431234
+-2.202152	one	-1.084102
+-2.016506	our	-0.8612668
+-3.378616	out	-0.1209041
+-3.378616	pardon	-0.1209041
+-3.077386	past	-0.4219341
+-3.077386	pay	-0.4219341
+-2.679326	per	-0.819874
+-3.378616	phone	-0.1209041
+-3.077386	please	-0.1556662
+-2.901228	prepare	-0.5980254
+-3.378616	price	-0.1209041
+-3.378616	problem	-0.1209041
+-3.077386	put	-0.4219341
+-3.378616	putting	-0.1209041
+-3.378616	quarter	-0.1209041
+-2.901228	quiet	-0.4219341
+-3.378616	quieter	-0.1209041
+-3.378616	reception	-0.1209041
+-3.077386	registration	-0.4219341
+-3.378616	reservation	-0.1209041
+-3.378616	right	-0.1209041
+-3.378616	river	-0.1209041
+-2.232117	room	-0.7601059
+-2.475176	rooms	-0.7618822
+-3.378616	safe	-0.1209041
+-3.378616	sea	-0.1209041
+-3.378616	second	-0.1209041
+-3.077386	see	-0.4219342
+-2.776256	send	-0.6772066
+-3.378616	sending	-0.1209041
+-3.378616	service	-0.1209041
+-2.202152	seven	-0.8507508
+-3.378616	seventeen	-0.1209041
+-3.378616	seventeenth	-0.1209041
+-3.378616	seventh	-0.1209041
+-2.901228	should	-0.2458428
+-3.378616	shower	-0.1209041
+-3.378616	showing	-0.1209041
+-3.077386	sign	-0.4219342
+-2.776256	single	-0.5188441
+-2.202152	six	-0.8612668
+-3.378616	sixteen	-0.1209041
+-3.378616	sixteenth	-0.1209041
+-3.378616	sixth	-0.1209041
+-3.077386	sorry	-0.4219341
+-3.378616	station	-0.1209041
+-3.077386	suitcase	-0.4219341
+-2.901228	suitcases	-0.5732018
+-3.378616	take	-0.1209041
+-2.901228	taking	-0.2969954
+-3.378616	tax	-0.1209041
+-3.077386	taxes	-0.4219341
+-2.776256	taxi	-0.5602368
+-3.378616	telephone	-0.1209041
+-2.776256	ten	-0.4219341
+-3.378616	tenth	-0.1209041
+-3.378616	thank	-0.1209041
+-3.378616	that	-0.1209041
+-1.744757	the	-0.7920449
+-2.776256	there	-0.3549873
+-3.077386	they	-0.1209041
+-3.378616	think	-0.1209041
+-3.378616	third	-0.1209041
+-3.378616	thirteen	-0.1209041
+-3.378616	thirteenth	-0.1209041
+-3.378616	thirtieth	-0.1209041
+-3.378616	thirty	-0.1209041
+-3.378616	thirty-first	-0.1209041
+-2.901228	this	-0.3639421
+-2.202152	three	-0.903058
+-3.378616	time	-0.1209041
+-2.202152	to	-0.4888809
+-2.901228	today	-0.3427529
+-2.679326	tomorrow	-0.4730867
+-3.378616	tonight	-0.1209041
+-3.077386	too	-0.2000854
+-3.378616	town	-0.1209041
+-2.901228	travel	-0.5188441
+-3.077386	traveler	-0.1209041
+-3.378616	tv	-0.1209041
+-3.378616	twelfth	-0.1209041
+-2.776256	twelve	-0.4219341
+-3.378616	twentieth	-0.1209041
+-3.378616	twenty	-0.1209041
+-3.378616	twenty-eight	-0.1209041
+-3.378616	twenty-eighth	-0.1209041
+-3.378616	twenty-fifth	-0.1209041
+-3.378616	twenty-first	-0.1209041
+-3.378616	twenty-five	-0.1209041
+-3.378616	twenty-four	-0.1209041
+-3.378616	twenty-fourth	-0.1209041
+-3.378616	twenty-nine	-0.1209041
+-3.378616	twenty-ninth	-0.1209041
+-3.378616	twenty-one	-0.1209041
+-3.378616	twenty-second	-0.1209041
+-3.378616	twenty-seven	-0.1209041
+-3.378616	twenty-seventh	-0.1209041
+-3.378616	twenty-six	-0.1209041
+-3.378616	twenty-sixth	-0.1209041
+-3.378616	twenty-third	-0.1209041
+-3.378616	twenty-three	-0.1209041
+-3.378616	twenty-two	-0.1209041
+-2.099483	two	-1.036731
+-2.378256	until	-0.5429778
+-2.776256	up	-0.4219341
+-2.424018	us	-0.2758061
+-3.378616	value	-0.1209041
+-2.901228	very	-0.2000854
+-3.077386	view	-0.4219341
+-2.776256	wake	-0.722964
+-3.378616	waking	-0.1209041
+-3.077386	want	-0.4219341
+-3.378616	warmer	-0.1209041
+-3.378616	was	-0.1209041
+-3.378616	water	-0.1209041
+-2.776256	we	-0.1556662
+-2.901228	week	-0.5188441
+-2.299068	weeks	-0.6649721
+-3.378616	what	-0.1209041
+-3.378616	when	-0.1209041
+-3.378616	where	-0.1209041
+-3.378616	which	-0.1209041
+-3.378616	who	-0.1209041
+-3.378616	why	-0.1209041
+-3.378616	will	-0.1209041
+-3.077386	with	-0.3250241
+-2.901228	would	-0.2969954
+-3.378616	yes	-0.1209041
+-2.475176	you	-0.4597227
+
+\2-grams:
+-0.02411049	! </s>
+-1.35795	'Alvarez ,
+-0.1127928	'Alvarez .	-0.9517726
+-1.432596	'Angel Cerezo
+-1.436339	'Angel Escrig
+-1.443921	'Angel Ib'a~nez	-0.4746513
+-1.440113	'Angel L'opez
+-1.443921	'Angel Roda
+-1.447763	'Angel Soler
+-1.440113	'Angel Viciano
+-1.499734	'Oscar Arag'on
+-1.482677	'Oscar Arenas
+-1.478515	'Oscar Cabedo
+-1.499734	'Oscar Mingot
+-1.504104	'Oscar Peinado
+-1.474393	'Oscar Peris
+-1.504104	'Oscar Pe~narroja
+-1.499734	'Oscar Piquer
+-0.959181	, a	-1.426549
+-1.286731	, air	-1.428894
+-2.683799	, double	-2.142103
+-1.729387	, hot	-0.6507426
+-0.1085188	, please	-3.315228
+-2.683799	, single	-2.13027
+-0.001336804	. </s>
+-0.5645408	<s> I	-2.586926
+-2.055361	<s> a	-1.337348
+-1.65698	<s> are	-1.717688
+-3.009817	<s> ask	-1.173621
+-3.179234	<s> call	-0.5896246
+-1.125697	<s> can	-2.548981
+-3.010514	<s> carry	-0.6965
+-3.612713	<s> check	-0.6507426
+-0.8387083	<s> could	-2.835747
+-1.457538	<s> do	-2.0927
+-2.169596	<s> does	-1.326303
+-3.618331	<s> explain	-0.6507426
+-2.083948	<s> give	-1.770218
+-2.430284	<s> good	-1.127864
+-2.966666	<s> hello	-0.9139839
+-1.584574	<s> how	-2.267043
+-3.34853	<s> i	-0.8725913
+-1.388487	<s> is	-1.98542
+-2.073075	<s> it	-1.781076
+-3.25446	<s> make	-0.9517726
+-2.117052	<s> my	-1.735914
+-2.926267	<s> no	-0.9517726
+-3.253238	<s> not	-0.9517726
+-2.575327	<s> okay	-1.287565
+-3.159133	<s> our	-1.018719
+-2.966666	<s> pardon	-1.215014
+-1.584547	<s> please	-1.52668
+-2.965407	<s> prepare	-0.6136332
+-2.51126	<s> put	-1.06536
+-1.783758	<s> send	-1.670551
+-2.143381	<s> should	-1.711441
+-3.060073	<s> sorry	-0.8268337
+-2.926267	<s> thank	-1.252803
+-1.73997	<s> the	-1.934546
+-1.976412	<s> there	-1.700822
+-3.010514	<s> they	-1.173621
+-1.972103	<s> wake	-1.881192
+-0.8916121	<s> we	-2.414885
+-1.947294	<s> what	-1.729923
+-3.181296	<s> when	-1.018719
+-3.181296	<s> where	-1.018719
+-3.116914	<s> which	-1.076711
+-2.966666	<s> who	-1.215014
+-3.624023	<s> why	-0.2399972
+-2.294155	<s> will	-1.863817
+-1.098463	<s> would	-3.053291
+-2.889308	<s> yes	-0.9865347
+-0.00445996	? </s>
+-0.1114556	Aguilera .	-0.6507426
+-1.543876	Alicia Barber'a
+-1.520448	Alicia Morales
+-1.543876	Alicia Moya
+-1.543876	Alicia Orenga
+-1.548717	Alicia Piquer
+-1.539088	Alicia Pitarch
+-1.543876	Alicia Quereda
+-1.529668	Alicia Rodr'iguez
+-1.548717	Alicia Royo
+-0.1114556	Alted .	-0.6507426
+-1.198702	Amador Arenas
+-1.205275	Amador Ramos
+-1.198702	Amador Rodr'iguez
+-1.205275	Amador Santos
+-1.200882	Amelia Cerezo
+-1.209713	Amelia Peinado
+-1.209713	Amelia Querol
+-1.205275	Amelia Torres
+-1.299434	Amparo Berrueco
+-1.299434	Amparo Meda
+-1.299434	Amparo Mira
+-1.293984	Amparo Monferrer
+-1.299434	Amparo Ramos
+-1.198702	Ana Llopis
+-1.200882	Ana Montero
+-1.207488	Ana Serrano
+-1.205275	Ana Torres
+-1.205275	Andr'es Barber'a
+-1.203073	Andr'es Bordons	-0.4746513
+-1.209713	Andr'es Nebot
+-1.203073	Andr'es Sanz
+-1.442829	Antonio Betoret
+-1.42678	Antonio Borr'as
+-1.446112	Antonio Izquierdo
+-0.7473188	Antonio Sevilla	-0.4746513
+-1.436338	Antonio Varela
+-1.442829	Antonio Vidal
+-0.04875791	April the	-0.2149493
+-0.08079772	Arag'on .	-0.7756813
+-0.03852258	Arenas .	-1.076711
+-0.08079772	Arnau .	-0.7756813
+-0.06339081	Arroyo .	-0.8725913
+-1.594475	Arturo Cantero
+-1.584846	Arturo Escrig
+-1.594475	Arturo Izquierdo
+-1.589634	Arturo Mira
+-1.58011	Arturo Monferrer
+-1.599371	Arturo Pastor
+-0.8956783	Arturo Peris	-0.4746513
+-1.589634	Arturo Quereda
+-1.594475	Arturo Vilanova
+-1.203073	Asunci'on Escrig
+-1.207488	Asunci'on Espinosa
+-1.200882	Asunci'on Monferrer
+-1.198702	Asunci'on Velasco
+-0.08929223	August the	-0.08643014
+-0.1801438	Bacete .	-0.4746513
+-1.114912	Balaguer ,
+-0.222048	Balaguer .	-0.6507426
+-1.35795	Ballester ,
+-0.1127928	Ballester .	-0.9517726
+-0.04431572	Barber .	-1.018719
+-0.06339081	Barber'a .	-0.8725913
+-0.08079772	Barrachina .	-0.7756813
+-1.495406	Beatriz Belenguer
+-1.512981	Beatriz Castillo
+-1.491121	Beatriz Granada
+-1.495406	Beatriz Llorens
+-1.499734	Beatriz Marqu'es
+-1.486878	Beatriz Montero
+-1.474393	Beatriz Morales
+-1.474393	Beatriz Peris
+-0.06339081	Belenguer .	-0.8725913
+-0.08079772	Bellver .	-0.7756813
+-0.08079772	Beltr'an .	-0.7756813
+-1.211822	Berrueco ,
+-0.1676317	Berrueco .	-0.7756813
+-0.06339081	Betoret .	-0.8725913
+-1.291003	Bordons ,
+-0.1348073	Bordons .	-0.9517726
+-1.291003	Borillo ,
+-0.1348073	Borillo .	-0.8725913
+-1.512852	Borr'as ,
+-0.07577764	Borr'as .	-1.215014
+-1.114912	Botella ,
+-0.222048	Botella .	-0.6507426
+-1.302185	C'esar Gonz'alez
+-1.296701	C'esar Herrero
+-1.285935	C'esar Morales
+-1.310544	C'esar Ruiz
+-1.293984	C'esar Varela
+-0.03406962	Cabedo .	-1.173621
+-0.1801438	Cabo .	-0.8725913
+-0.06339081	Cabrera .	-0.9517726
+-0.05216211	Calatayud .	-1.018719
+-0.06339081	Calleja .	-0.8725913
+-0.1114556	Campo .	-0.6507426
+-0.08079772	Cantero .	-0.7756813
+-1.379165	Carlos Balaguer
+-1.362996	Carlos Cabedo
+-1.372625	Carlos Gil
+-1.375882	Carlos Mira
+-1.369391	Carlos Monferrer
+-1.359833	Carlos Peris
+-1.203073	Carmelo Guardiola
+-1.207488	Carmelo Izquierdo
+-1.194374	Carmelo Peris
+-1.207488	Carmelo Romero
+-1.299434	Carmen Calleja
+-1.283285	Carmen Colomer
+-1.304954	Carmen Jim'enez
+-1.291285	Carmen Llopis
+-1.299434	Carmen Maestro
+-0.06339081	Carpio .	-0.8725913
+-0.4935633	Castillo .
+-1.486878	Celestino Cornelles
+-1.491121	Celestino Guardiola
+-1.491121	Celestino Mestre
+-1.486878	Celestino Montoro
+-1.495406	Celestino Puig
+-1.491121	Celestino Sanz
+-1.50852	Celestino Soria
+-1.482677	Celestino Valls
+-0.04431572	Cerezo .	-1.018719
+-0.02767303	Colomer .	-1.252803
+-1.553613	Concepci'on Alted
+-1.534353	Concepci'on Barber
+-1.548717	Concepci'on Beltr'an
+-1.539088	Concepci'on Borillo
+-1.539088	Concepci'on Calatayud
+-1.539088	Concepci'on Escrig
+-1.558565	Concepci'on Gracia
+-1.548717	Concepci'on Moreno
+-1.543876	Concepci'on Puig
+-0.04431572	Cornelles .	-1.018719
+-1.372625	Cristina Bordons
+-1.375882	Cristina Llorens
+-1.379165	Cristina Padilla
+-1.359833	Cristina Peris
+-1.382472	Cristina R'ios
+-1.366182	Cristina Velasco
+-0.06339081	Cutillas .	-0.8725913
+-0.05216211	D'iaz .	-0.9517726
+-1.366182	Daniel Arenas
+-1.372625	Daniel Guardiola
+-1.372625	Daniel Mestre
+-1.375882	Daniel Rubio
+-1.385805	Daniel Salgado
+-1.379165	Daniel Vilanova
+-0.1236618	December the	-0.1063798
+-1.372625	Dulce Bordons
+-1.382472	Dulce Campo
+-1.372625	Dulce D'iaz
+-1.379165	Dulce Gumbau
+-1.369391	Dulce Montoro
+-1.379165	Dulce P'erez
+-0.4935633	Edo .
+-1.486878	Eduardo 'Alvarez
+-1.491121	Eduardo Bordons
+-1.495406	Eduardo Cutillas
+-1.486878	Eduardo Montero
+-1.499734	Eduardo Navarro
+-1.495406	Eduardo Puig
+-1.482677	Eduardo Rodr'iguez
+-1.495406	Eduardo Sevilla
+-0.9075679	Elvira Cornelles
+-0.9086816	Elvira Redondo
+-1.631563	Emilio Balaguer
+-1.614238	Emilio Ballester
+-1.597579	Emilio Borr'as
+-1.614238	Emilio Cerezo
+-1.614238	Emilio Montero
+-1.631563	Emilio Navarro
+-1.619937	Emilio Ortiz
+-1.625711	Emilio Paches
+-1.619937	Emilio Pitarch
+-1.631563	Emilio Su'arez
+-1.625711	Emilio Vidal
+-1.369391	Enrique 'Alvarez
+-1.372625	Enrique D'iaz
+-1.372625	Enrique Gimeno
+-1.369391	Enrique Iborra
+-1.379165	Enrique Padilla
+-1.366182	Enrique Velasco
+-0.05216211	Escrig .	-0.9517726
+-0.08079772	Espinosa .	-0.7756813
+-1.548717	Eva Balaguer
+-1.534353	Eva Ballester
+-1.534353	Eva Barber
+-1.543876	Eva Carpio
+-1.543876	Eva Guijarro
+-1.543876	Eva Meda
+-1.534353	Eva Montoro
+-1.548717	Eva Padilla
+-1.553613	Eva Silvestre
+-0.08929223	February the	-0.05986081
+-1.200882	Federico Cornelles
+-1.209713	Federico Nadal
+-1.203073	Federico Redondo
+-1.205275	Federico Viciano
+-0.1114556	Fern'andez .	-0.6507426
+-0.4935633	Ferrando .
+-0.6098872	Fidel Arenas
+-1.285935	Francisco Borr'as
+-1.302185	Francisco Botella
+-1.296701	Francisco Mestre
+-1.304954	Francisco Nebot
+-1.296701	Francisco Ortiz
+-1.327213	Friday ,
+-0.7927229	Friday .	-0.7756813
+-1.711829	Friday April	-0.4746513
+-1.732035	Friday August	-0.4746513
+-1.738985	Friday December
+-1.732035	Friday March
+-1.725195	Friday May	-0.4746513
+-1.705297	Friday afternoon
+-1.522748	Friday at	-0.2365343
+-1.705297	Friday evening	-0.4746513
+-1.448556	Friday for
+-1.686271	Friday morning
+-1.522748	Friday the
+-0.1114556	Fuster .	-0.6507426
+-0.1114556	G'omez .	-0.6507426
+-1.291003	Gallego ,
+-0.1348073	Gallego .	-0.8725913
+-0.8138818	Garc'ia ,
+-0.7001671	Garc'ia .
+-1.205275	Gerardo Paches
+-1.207488	Gerardo R'odenas
+-1.209713	Gerardo Revilla
+-1.203073	Gerardo V'azquez
+-0.05216211	Gil .	-0.9517726
+-1.291003	Gimeno ,
+-0.1348073	Gimeno .	-0.8725913
+-1.429942	Gloria Cabedo
+-1.442829	Gloria Carpio
+-1.439571	Gloria Granada
+-1.439571	Gloria Guardiola
+-0.7479785	Gloria Izquierdo	-0.4746513
+-1.442829	Gloria Paches
+-0.08079772	Gonz'alez .	-0.7756813
+-0.1801438	Gracia .	-0.4746513
+-0.05216211	Granada .	-0.9517726
+-1.592317	Gregorio Barrachina
+-1.592317	Gregorio Bellver
+-1.566206	Gregorio Cabedo
+-1.556185	Gregorio Colomer
+-1.586968	Gregorio Guijarro
+-1.576463	Gregorio Iborra
+-1.586968	Gregorio Meda
+-1.581683	Gregorio Pitarch
+-1.603218	Gregorio Salt
+-1.571304	Gregorio Velasco
+-0.1114556	Gual .	-0.6507426
+-0.05216211	Guardiola .	-0.9517726
+-0.06339081	Guijarro .	-0.9517726
+-0.08079772	Gumbau .	-0.7756813
+-1.291003	Herrero ,
+-0.1348073	Herrero .	-0.8725913
+-1.801856	I am	-2.234319
+-1.793757	I book	-1.692135
+-1.793757	I booked	-2.108121
+-1.801856	I do	-1.018719
+-1.801856	I fill	-1.535349
+-1.762791	I have	-2.561604
+-1.801856	I leave	-1.184345
+-1.785806	I made	-2.259981
+-1.106342	I pay	-0.9975297
+-1.801856	I see	-1.831633
+-1.793757	I should	-2.483252
+-1.801856	I sign	-0.9139842
+-1.810109	I think	-2.66358
+-1.801856	I want	-2.286723
+-1.793757	I would	-2.739469
+-0.08079772	Ib'a~nez .	-1.018719
+-0.04431572	Iborra .	-1.018719
+-1.603218	Ignacio Bacete
+-1.592317	Ignacio Bellver
+-1.556185	Ignacio Colomer
+-1.571304	Ignacio Llopis
+-1.586968	Ignacio Llorens
+-1.597733	Ignacio Lobo
+-1.576463	Ignacio Montero
+-1.597733	Ignacio Nadal
+-1.608772	Ignacio Ortega
+-1.597733	Ignacio Pe~narroja
+-1.589634	Inmaculada Arroyo
+-0.8947054	Inmaculada Colomer	-0.4746513
+-1.599371	Inmaculada Fern'andez
+-1.575426	Inmaculada Llopis
+-1.584846	Inmaculada Mart'i
+-1.589634	Inmaculada Meda
+-1.594475	Inmaculada Ram'irez
+-1.594475	Inmaculada Royo
+-1.584846	Inmaculada Sanz
+-1.447763	Isabel Aguilera
+-1.425207	Isabel Cabedo
+-1.436339	Isabel Mart'i
+-1.436339	Isabel Pitarch
+-1.443921	Isabel R'odenas
+-1.428886	Isabel Valls
+-1.432596	Isabel Varela
+-0.4935633	Ivars .
+-0.08079772	Izquierdo .	-0.8725913
+-1.299434	Jacinto Cabrera
+-1.296701	Jacinto Gil
+-1.302185	Jacinto Gonz'alez
+-1.299434	Jacinto Mira
+-1.302185	Jacinto Roda
+-1.379165	Jaime Botella
+-1.375882	Jaime Cabrera
+-1.375882	Jaime Calleja
+-1.375882	Jaime Carpio
+-1.382472	Jaime Gual
+-1.375882	Jaime Orenga
+-0.08929223	January the	-0.4202027
+-1.283285	Javier Colomer
+-1.296701	Javier Granada
+-1.296701	Javier Mart'i
+-1.304954	Javier Nadal
+-1.302185	Javier Piquer
+-1.597733	Jes'us Aguilera
+-1.586968	Jes'us Barber'a
+-1.597733	Jes'us Campo
+-1.586968	Jes'us Carpio
+-1.581683	Jes'us Escrig
+-1.581683	Jes'us Gimeno
+-1.592317	Jes'us Gonz'alez
+-1.592317	Jes'us Mingot
+-1.581683	Jes'us Rivera
+-1.592317	Jes'us Royo
+-0.1114556	Jim'enez .	-0.6507426
+-1.079784	Joaqu'in Ballester
+-1.081441	Joaqu'in Granada
+-1.083104	Joaqu'in Torres
+-1.302185	Jorge Balaguer
+-1.299434	Jorge Berrueco
+-1.30774	Jorge Salgado
+-1.302185	Jorge Serrano
+-1.291285	Jorge Valls
+-1.296701	Jos'e Herrero
+-1.296701	Jos'e Mart'i
+-1.285935	Jos'e Morales
+-1.302185	Jos'e P'erez
+-1.302185	Jos'e Ram'irez
+-1.211949	Juan Gracia
+-1.200882	Juan Monferrer
+-1.209713	Juan Pastor
+-1.205275	Juan Rubio
+-1.372625	Julia Calatayud
+-1.382472	Julia M'as
+-1.369391	Julia Monferrer
+-1.372625	Julia Rivera
+-1.372625	Julia Sanz
+-1.379165	Julia Vilanova
+-1.207488	Julio Barrachina
+-1.194374	Julio Borr'as
+-1.203073	Julio Mart'i
+-1.207488	Julio Navarro
+-0.1236618	July the
+-0.0699046	June the	-0.04733451
+-0.4151023	L'opez ,	-0.6507426
+-0.3981393	L'opez .	-0.6507426
+-1.432596	Lidia 'Alvarez
+-1.440113	Lidia Barber'a
+-1.436339	Lidia Calatayud
+-1.440113	Lidia Llorens
+-1.443921	Lidia Moreno
+-1.443921	Lidia Navarro
+-1.451638	Lidia Soria
+-0.03852258	Llopis .	-1.076711
+-0.06339081	Llorens .	-0.8725913
+-0.1114556	Lobo .	-0.6507426
+-1.379165	Luis Beltr'an
+-1.369391	Luis Cerezo
+-1.356693	Luis Colomer
+-1.372625	Luis Gallego
+-1.366182	Luis Llopis
+-1.366182	Luis Velasco
+-0.1114556	M'as .	-0.6507426
+-0.06339081	Maestro .	-0.8725913
+-1.372625	Manuel Escrig
+-1.372625	Manuel Granada
+-1.372625	Manuel Herrero
+-1.379165	Manuel Su'arez
+-1.375882	Manuel Torres
+-1.375882	Manuel Viciano
+-1.646402	Manuela Arenas
+-1.652027	Manuela Barber
+-1.669351	Manuela Barrachina
+-1.663499	Manuela Belenguer
+-1.657725	Manuela Gimeno
+-1.663499	Manuela L'opez
+-1.663499	Manuela Maestro
+-1.669351	Manuela R'odenas
+-1.669351	Manuela Romero	-0.4746513
+-1.669351	Manuela S'aez
+-0.9750763	Manuela Valls	-0.4746513
+-1.432596	Mar'ia Barber
+-1.455549	Mar'ia Edo
+-1.440113	Mar'ia Moya
+-1.421559	Mar'ia Peris
+-1.451638	Mar'ia Sanfeli'u
+-1.436339	Mar'ia V'azquez
+-1.432596	Mar'ia Varela
+-0.08929223	March the	-0.07640186
+-1.660866	Margarita Arroyo
+-1.654608	Margarita Calatayud
+-1.64844	Margarita Cerezo
+-1.654608	Margarita D'iaz
+-1.654608	Margarita Herrero
+-1.64844	Margarita Iborra
+-1.64844	Margarita Montero
+-1.660866	Margarita Ramos
+-1.654608	Margarita Redondo
+-1.667215	Margarita Roda
+-1.667215	Margarita S'aez
+-1.667215	Margarita Serrano
+-1.520448	Marina Borr'as
+-1.543876	Marina Cutillas
+-1.548717	Marina Gumbau
+-1.548717	Marina Miralles
+-1.529668	Marina Rodr'iguez
+-1.548717	Marina S'aez
+-1.539088	Marina V'azquez
+-1.534353	Marina Varela
+-1.529668	Marina Velasco
+-1.114912	Marqu'es ,
+-0.222048	Marqu'es .	-0.6507426
+-0.05216211	Mart'i .	-0.9517726
+-0.8138818	Mart'inez ,
+-0.7001671	Mart'inez .
+-0.9097982	Marta Calleja
+-0.9109177	Marta Gumbau
+-0.0699046	May the	-0.2210534
+-0.06339081	Meda .	-0.9517726
+-0.05216211	Mestre .	-0.9517726
+-1.299434	Micaela Cabrera
+-1.299434	Micaela Carpio
+-1.296701	Micaela Granada
+-1.302185	Micaela Miralles
+-1.304954	Micaela Peinado
+-1.699851	Miguel Bellver
+-1.69301	Miguel Berrueco
+-1.69301	Miguel Betoret
+-1.686275	Miguel Borillo
+-1.699851	Miguel Botella
+-1.654086	Miguel Colomer
+-1.679644	Miguel Cornelles
+-1.660336	Miguel Morales
+-1.699851	Miguel Ram'irez
+-1.686275	Miguel Redondo
+-1.686275	Miguel Rivera
+-1.69301	Miguel Santos
+-1.713864	Miguel Segura
+-0.08079772	Mingot .	-0.7756813
+-0.06339081	Mira .	-0.8725913
+-0.08079772	Miralles .	-0.7756813
+-2.028499	Miss 'Alvarez
+-2.091656	Miss Aguilera
+-2.074985	Miss Alicia
+-2.028499	Miss Ballester
+-2.074985	Miss Bellver
+-2.000061	Miss Cabedo
+-2.05893	Miss Calleja
+-2.074985	Miss Concepci'on
+-2.043448	Miss D'iaz
+-2.074985	Miss Espinosa
+-2.108992	Miss Eva
+-2.043448	Miss Gimeno
+-2.028499	Miss Iborra
+-2.074985	Miss Inmaculada
+-2.074985	Miss Isabel
+-2.108992	Miss Julia
+-2.05893	Miss L'opez
+-2.074985	Miss Lidia
+-2.05893	Miss Maestro
+-2.074985	Miss Margarita
+-2.091656	Miss Marina
+-2.074985	Miss Marqu'es
+-2.043448	Miss Mestre
+-2.091656	Miss Micaela
+-2.074985	Miss Miralles
+-2.028499	Miss Moliner
+-2.028499	Miss Montoro
+-2.091656	Miss Pilar
+-2.05893	Miss Ramos	-0.4746513
+-2.091656	Miss Rosal'ia
+-2.091656	Miss Rosario
+-2.091656	Miss Sonia
+-2.05893	Miss Viciano
+-2.074985	Miss Victoria
+-1.293984	Modesto 'Alvarez
+-1.296701	Modesto Gil
+-1.302185	Modesto Gumbau
+-1.285935	Modesto Morales
+-1.302185	Modesto Romero
+-0.7288201	Moliner ,	-0.4746513
+-0.201754	Moliner .	-0.8725913
+-0.6831923	Monday .	-0.6507426
+-1.538031	Monday April	-0.6507426
+-1.555257	Monday July
+-1.407699	Monday at	-0.3590989
+-1.533829	Monday evening	-0.4746513
+-1.352004	Monday for
+-1.521462	Monday morning	-0.6507426
+-1.407699	Monday the	-0.188506
+-1.35795	Monferrer ,
+-0.1127928	Monferrer .	-0.9517726
+-0.4935633	Monson'is .
+-0.04431572	Montero .	-1.018719
+-0.04431572	Montoro .	-1.018719
+-0.03053985	Morales .	-1.215014
+-0.08079772	Moreno .	-0.7756813
+-0.06339081	Moya .	-0.8725913
+-2.407021	Mr 'Angel
+-2.373239	Mr Amador
+-2.407021	Mr Andr'es
+-2.373239	Mr Antonio
+-2.312664	Mr Arroyo
+-2.373239	Mr Arturo
+-2.312664	Mr Belenguer
+-2.285276	Mr Borillo
+-2.190293	Mr Borr'as	-0.6507426
+-2.341896	Mr Botella
+-2.407021	Mr C'esar
+-2.407021	Mr Cabo	-0.6507426
+-2.285276	Mr Calatayud	-0.4746513
+-2.373239	Mr Celestino
+-2.169472	Mr Colomer
+-2.259513	Mr Cornelles
+-2.285276	Mr D'iaz
+-2.407021	Mr Daniel
+-2.407021	Mr Eduardo
+-2.373239	Mr Emilio
+-2.373239	Mr Federico
+-2.373239	Mr Fern'andez
+-2.443654	Mr Fidel
+-2.373239	Mr G'omez
+-2.285276	Mr Gallego
+-2.407021	Mr Gerardo
+-2.373239	Mr Gregorio
+-2.312664	Mr Guijarro	-0.4746513
+-2.285276	Mr Herrero
+-2.341896	Mr Ib'a~nez	-0.4746513
+-2.259513	Mr Iborra
+-2.373239	Mr Ignacio
+-2.443654	Mr Ivars
+-2.373239	Mr Jacinto
+-2.407021	Mr Javier
+-2.407021	Mr Joaqu'in
+-2.407021	Mr Jorge
+-2.407021	Mr Juan
+-2.373239	Mr Julio
+-2.312664	Mr Llorens
+-2.312664	Mr Maestro
+-2.407021	Mr Manuel
+-2.312664	Mr Meda	-0.4746513
+-2.373239	Mr Miguel
+-2.341896	Mr Miralles
+-2.259513	Mr Moliner
+-2.259513	Mr Monferrer
+-2.285276	Mr Ortiz	-0.4746513
+-2.312664	Mr Paches
+-2.407021	Mr Pedro
+-2.190293	Mr Peris
+-2.373239	Mr Pe~narroja	-0.4746513
+-2.285276	Mr Pitarch
+-2.373239	Mr Querol
+-2.373239	Mr R'ios
+-2.407021	Mr Rafael
+-2.312664	Mr Ramos
+-2.285276	Mr Rivera
+-2.341896	Mr Roda
+-2.235193	Mr Rodr'iguez
+-2.341896	Mr Romero	-0.4746513
+-2.341896	Mr S'aez
+-2.341896	Mr Salsas
+-2.407021	Mr Salvador
+-2.407021	Mr Sanfeli'u
+-2.312664	Mr Sevilla
+-2.373239	Mr Silvestre
+-2.341896	Mr Su'arez
+-2.407021	Mr Tom'as
+-2.285276	Mr V'azquez
+-2.407021	Mr V'ictor
+-2.259513	Mr Varela
+-2.235193	Mr Velasco
+-2.078137	Mr and	-1.796871
+-2.355115	Mrs Alicia
+-2.38614	Mrs Alted
+-2.38614	Mrs Amelia
+-2.419553	Mrs Ana
+-2.355115	Mrs Arag'on
+-2.249339	Mrs Arenas
+-2.355115	Mrs Arnau
+-2.273467	Mrs Barber
+-2.419553	Mrs Beatriz
+-2.355115	Mrs Beltr'an
+-2.32616	Mrs Berrueco
+-2.32616	Mrs Betoret
+-2.204767	Mrs Borr'as
+-2.419553	Mrs Cabo	-0.4746513
+-2.299015	Mrs Calatayud
+-2.38614	Mrs Campo
+-2.355115	Mrs Cantero
+-2.38614	Mrs Carmen
+-2.273467	Mrs Cerezo
+-2.184086	Mrs Colomer
+-2.355115	Mrs Concepci'on
+-2.38614	Mrs Cristina
+-2.32616	Mrs Cutillas
+-2.455752	Mrs Ferrando
+-2.38614	Mrs Fuster
+-2.38614	Mrs G'omez
+-2.299015	Mrs Gallego
+-2.419553	Mrs Garc'ia
+-2.299015	Mrs Gil
+-2.38614	Mrs Gloria
+-2.38614	Mrs Gual
+-2.299015	Mrs Guardiola
+-2.32616	Mrs Guijarro
+-2.299015	Mrs Herrero
+-2.355115	Mrs Inmaculada
+-2.355115	Mrs Isabel
+-2.355115	Mrs Lidia
+-2.38614	Mrs Lobo
+-2.32616	Mrs Maestro
+-2.38614	Mrs Manuela
+-2.355115	Mrs Margarita
+-2.299015	Mrs Mestre
+-2.273467	Mrs Moliner
+-2.204767	Mrs Morales	-0.4746513
+-2.355115	Mrs Moreno
+-2.32616	Mrs Orenga
+-2.299015	Mrs Ortiz
+-2.419553	Mrs Pallar'es
+-2.38614	Mrs Pilar
+-2.299015	Mrs Pitarch
+-2.32616	Mrs Quereda
+-2.355115	Mrs R'odenas
+-2.355115	Mrs Ram'irez
+-2.38614	Mrs Revilla	-0.4746513
+-2.249339	Mrs Rodr'iguez
+-2.38614	Mrs Rosario
+-2.355115	Mrs Royo
+-2.32616	Mrs Rubio
+-2.355115	Mrs Salsas
+-1.74771	Mrs Santos	-0.4746513
+-2.355115	Mrs Serrano
+-2.38614	Mrs Silvestre
+-2.38614	Mrs Sonia
+-2.355115	Mrs Su'arez
+-2.38614	Mrs Susana
+-2.38614	Mrs Tena
+-2.38614	Mrs Teresa
+-2.249339	Mrs Valls
+-1.733169	Mrs Varela	-0.7756813
+-2.355115	Mrs Victoria
+-1.74771	Mrs Vidal	-0.4746513
+-2.38614	Mrs Villanueva
+-2.419553	Mrs Virginia
+-0.1114556	Nadal .	-0.6507426
+-0.08079772	Navarro .	-0.7756813
+-0.1114556	Nebot .	-0.6507426
+-0.08929223	November the	-0.2036813
+-0.08929223	October the	-0.2289506
+-0.06339081	Orenga .	-0.8725913
+-0.4935633	Ortega .
+-0.05216211	Ortiz .	-1.018719
+-0.08079772	P'erez .	-0.7756813
+-1.200882	Pablo Ballester
+-1.203073	Pablo Borillo
+-1.205275	Pablo Cabrera	-0.4746513
+-1.209713	Pablo G'omez
+-0.06339081	Paches .	-0.8725913
+-0.08079772	Padilla .	-0.7756813
+-0.1801438	Pallar'es .	-0.4746513
+-1.543876	Paloma Betoret
+-1.543876	Paloma Cabrera
+-1.51591	Paloma Colomer
+-1.543876	Paloma L'opez
+-1.534353	Paloma Montero
+-1.548717	Paloma Moreno
+-1.539088	Paloma Rivera
+-1.553613	Paloma Tena
+-1.529668	Paloma Valls
+-0.1114556	Pastor .	-0.6507426
+-1.447763	Pedro Alted
+-1.421559	Pedro Borr'as
+-1.436339	Pedro Gimeno
+-1.443921	Pedro Mingot
+-1.440113	Pedro Paches
+-1.421559	Pedro Peris
+-1.440113	Pedro Vidal
+-0.1114556	Peinado .	-0.6507426
+-0.03053985	Peris .	-1.215014
+-0.1114556	Pe~narroja .	-0.7756813
+-1.379165	Pilar Arag'on
+-1.362996	Pilar Cabedo
+-1.382472	Pilar Jim'enez
+-1.379165	Pilar Marqu'es
+-1.389163	Pilar Monson'is
+-1.375882	Pilar Moya
+-0.08079772	Piquer .	-0.7756813
+-0.05216211	Pitarch .	-0.9517726
+-0.06339081	Puig .	-0.8725913
+-0.06339081	Quereda .	-0.8725913
+-0.1114556	Querol .	-0.6507426
+-0.1114556	R'ios .	-0.6507426
+-0.08079772	R'odenas .	-0.7756813
+-1.379165	Rafael Arnau
+-1.375882	Rafael Belenguer
+-1.379165	Rafael Cantero
+-1.372625	Rafael Ortiz
+-1.375882	Rafael Rubio
+-1.382472	Rafael Soler
+-1.114912	Ram'irez ,
+-0.222048	Ram'irez .	-0.6507426
+-1.291003	Ramos ,
+-0.1348073	Ramos .	-0.9517726
+-0.05216211	Redondo .	-0.9517726
+-0.1114556	Revilla .	-0.7756813
+-1.372625	Ricardo Bordons
+-1.382472	Ricardo Jim'enez
+-1.369391	Ricardo Moliner
+-1.382472	Ricardo Pastor
+-1.379165	Ricardo Salsas
+-1.379165	Ricardo Vilanova
+-0.05216211	Rivera .	-0.9517726
+-1.499734	Roberto Arnau
+-1.486878	Roberto Ballester
+-1.495406	Roberto Barber'a
+-1.491121	Roberto Gil
+-1.474393	Roberto Morales
+-1.495406	Roberto Santos
+-1.495406	Roberto Sevilla
+-1.491121	Roberto V'azquez
+-0.08079772	Roda .	-0.7756813
+-0.03852258	Rodr'iguez .	-1.076711
+-0.08079772	Romero .	-0.9517726
+-1.299434	Rosa Berrueco
+-1.30774	Rosa Pallar'es
+-1.296701	Rosa Rivera
+-1.299434	Rosa Santos
+-1.30774	Rosa Segura
+-1.428886	Rosal'ia Arenas
+-1.440113	Rosal'ia Betoret
+-1.421559	Rosal'ia Borr'as
+-1.425207	Rosal'ia Cabedo
+-1.436339	Rosal'ia Gallego
+-1.447763	Rosal'ia Revilla
+-1.440113	Rosal'ia Torres
+-1.657725	Rosario Borillo
+-0.9738868	Rosario Cabedo	-0.4746513
+-1.669351	Rosario Cantero
+-1.652027	Rosario Cornelles
+-1.681297	Rosario Garc'ia
+-1.669351	Rosario Marqu'es
+-1.669351	Rosario Mingot
+-1.663499	Rosario Orenga
+-1.657725	Rosario Sanz
+-1.675283	Rosario Soler
+-1.646402	Rosario Velasco
+-0.08079772	Royo .	-0.7756813
+-0.06339081	Rubio .	-0.8725913
+-0.4935633	Ruiz .
+-0.08079772	S'aez .	-0.7756813
+-0.1801438	Salgado .	-0.4746513
+-0.08079772	Salsas .	-0.7756813
+-0.1801438	Salt .	-0.4746513
+-1.200882	Salvador Barber
+-1.203073	Salvador Gil
+-1.200882	Salvador Moliner
+-1.209713	Salvador Tena
+-0.8138818	Sanfeli'u ,
+-0.7001671	Sanfeli'u .
+-1.198702	Santiago Arenas
+-1.200882	Santiago Ballester
+-1.205275	Santiago Puig
+-1.198702	Santiago Rodr'iguez
+-0.06339081	Santos .	-0.9517726
+-0.05216211	Sanz .	-0.9517726
+-1.336583	Saturday ,
+-0.807936	Saturday .	-0.7756813
+-1.419248	Saturday ?
+-1.738263	Saturday April
+-1.759883	Saturday January
+-1.752556	Saturday June
+-1.759883	Saturday March
+-1.752556	Saturday May	-0.4746513
+-1.731289	Saturday afternoon
+-1.538851	Saturday at	-0.186182
+-1.731289	Saturday evening	-0.4746513
+-1.46173	Saturday for
+-1.711015	Saturday morning
+-1.538851	Saturday the	-0.08899707
+-0.1801438	Segura .	-0.4746513
+-0.1236618	September the	-0.1924496
+-1.592317	Sergio Beltr'an
+-1.592317	Sergio Espinosa
+-1.592317	Sergio Ib'a~nez	-0.4746513
+-1.576463	Sergio Iborra
+-1.571304	Sergio Llopis
+-1.581683	Sergio Mart'i
+-1.576463	Sergio Moliner
+-1.586968	Sergio Orenga
+-1.592317	Sergio P'erez
+-1.581683	Sergio Redondo
+-0.08079772	Serrano .	-0.7756813
+-0.06339081	Sevilla .	-0.9517726
+-0.1114556	Silvestre .	-0.6507426
+-1.586968	Silvia Cutillas
+-1.597733	Silvia Fuster
+-1.581683	Silvia Gimeno
+-1.603218	Silvia Mart'inez
+-1.576463	Silvia Moliner
+-1.576463	Silvia Montoro
+-1.581683	Silvia Ortiz
+-1.586968	Silvia Quereda
+-1.571304	Silvia Valls
+-1.597733	Silvia Villanueva
+-0.1114556	Soler .	-0.6507426
+-1.379165	Sonia Arag'on
+-1.375882	Sonia Belenguer
+-1.375882	Sonia Cutillas
+-1.369391	Sonia Iborra
+-1.382472	Sonia R'ios
+-1.375882	Sonia Viciano
+-0.1801438	Soria .	-0.4746513
+-0.08079772	Su'arez .	-0.7756813
+-1.290857	Sunday ,
+-0.7355053	Sunday .	-1.076711
+-1.63371	Sunday August
+-1.63371	Sunday February
+-1.63371	Sunday October
+-1.612697	Sunday afternoon
+-1.462466	Sunday at	-0.2265314
+-1.398477	Sunday for
+-1.597578	Sunday morning
+-1.462466	Sunday the
+-1.625711	Susana Arroyo
+-1.631563	Susana Barrachina
+-1.614238	Susana Cerezo
+-1.614238	Susana Cornelles
+-1.631563	Susana Gonz'alez
+-1.637494	Susana Gual
+-1.608614	Susana Llopis
+-1.631563	Susana Padilla
+-1.597579	Susana Peris
+-1.643508	Susana Salt
+-1.625711	Susana Vidal
+-0.1114556	Tena .	-0.6507426
+-1.722593	Teresa Arroyo
+-1.715387	Teresa Borillo
+-1.687705	Teresa Borr'as
+-1.729919	Teresa Espinosa
+-1.737372	Teresa Fuster
+-1.729919	Teresa Ib'a~nez
+-1.737372	Teresa M'as
+-1.744955	Teresa Mart'inez
+-1.722593	Teresa Puig
+-1.737372	Teresa Querol
+-1.715387	Teresa Redondo
+-1.722593	Teresa Rubio
+-1.729919	Teresa Salsas
+-1.701326	Teresa Valls
+-1.34495	Thursday ,
+-0.8216991	Thursday .	-0.4746513
+-1.762791	Thursday April	-0.4746513
+-1.785806	Thursday February
+-1.785806	Thursday January
+-1.777998	Thursday June	-0.4746513
+-1.785806	Thursday November
+-1.785806	Thursday October
+-1.793757	Thursday September	-0.4746513
+-1.755383	Thursday afternoon	-0.4746513
+-1.553447	Thursday at	-0.3265319
+-1.755383	Thursday evening
+-1.473593	Thursday for
+-1.733887	Thursday morning
+-1.553447	Thursday the
+-1.209713	Tom'as Fern'andez
+-1.198702	Tom'as Llopis
+-1.200882	Tom'as Montoro
+-1.205275	Tom'as Moya
+-0.06339081	Torres .	-0.8725913
+-1.229122	Tuesday ,	-0.4746513
+-0.9790198	Tuesday .	-0.7756813
+-1.543876	Tuesday June	-0.4746513
+-1.548717	Tuesday March	-0.6507426
+-1.548717	Tuesday November
+-1.391206	Tuesday at	-0.1291484
+-1.33119	Tuesday for
+-1.51591	Tuesday morning	-0.4746513
+-1.391206	Tuesday the	-0.1277004
+-0.05216211	V'azquez .	-0.9517726
+-1.296701	V'ictor Gallego
+-1.304954	V'ictor Lobo
+-1.285935	V'ictor Morales
+-1.299434	V'ictor Moya
+-1.304954	V'ictor Villanueva
+-0.03852258	Valls .	-1.127864
+-0.04431572	Varela .	-1.173621
+-0.03852258	Velasco .	-1.076711
+-1.302185	Vicenta Arnau
+-1.296701	Vicenta Guardiola
+-1.299434	Vicenta Guijarro
+-1.299434	Vicenta Mira
+-1.296701	Vicenta V'azquez
+-1.079784	Vicente 'Alvarez
+-1.081441	Vicente Bordons
+-1.078133	Vicente Rodr'iguez
+-1.211822	Viciano ,
+-0.1676317	Viciano .	-0.7756813
+-1.432596	Victoria Barber
+-1.417942	Victoria Colomer
+-1.440113	Victoria L'opez
+-1.447763	Victoria M'as
+-1.432596	Victoria Montoro
+-1.443921	Victoria Piquer
+-1.436339	Victoria Sanz
+-0.06339081	Vidal .	-0.9517726
+-0.08079772	Vilanova .	-0.7756813
+-0.1114556	Villanueva .	-0.6507426
+-1.614238	Virginia 'Alvarez
+-1.643508	Virginia Bacete
+-1.625711	Virginia Calleja
+-1.619937	Virginia D'iaz
+-1.619937	Virginia Gallego
+-1.619937	Virginia Mestre
+-1.597579	Virginia Morales
+-1.637494	Virginia Nebot
+-1.631563	Virginia P'erez
+-1.625711	Virginia Quereda
+-1.625711	Virginia Sevilla
+-1.27488	Wednesday ,	-0.4746513
+-0.7111819	Wednesday .	-0.7756813
+-1.342913	Wednesday ?
+-1.58011	Wednesday April	-0.4746513
+-1.589634	Wednesday May	-0.4746513
+-1.436963	Wednesday at
+-1.575426	Wednesday evening
+-1.561667	Wednesday morning
+-1.436963	Wednesday the	-0.04836026
+-1.435943	a bath	-1.311924
+-1.435943	a bathroom	-1.115135
+-2.636796	a day	-1.279131
+-0.9413925	a double	-2.820025
+-1.710451	a good	-2.065716
+-2.650372	a look	-1.741823
+-2.664385	a lot	-1.018719
+-1.435943	a minibar	-0.7258056
+-1.435943	a mistake	-2.010367
+-2.650372	a night	-1.090075
+-1.712038	a problem	-1.876913
+-2.664385	a quarter	-2.504036
+-1.012622	a quiet	-2.592751
+-2.664385	a quieter	-1.775681
+-1.96427	a registration	-1.692135
+-1.967121	a reservation	-2.652183
+-0.9724981	a room	-2.405891
+-1.435943	a safe	-0.7329294
+-1.435943	a shower	-1.221062
+-0.9413925	a single	-2.815095
+-1.958625	a taxi	-2.283089
+-1.435943	a telephone	-1.880127
+-1.435943	a tv	-1.898921
+-1.710451	a view	-1.267043
+-2.664385	a warmer	-1.428894
+-2.636796	a week	-0.8725913
+-1.088132	accept cash	-0.9517726
+-1.088132	accept credit	-1.076711
+-1.088132	accept traveler	-0.9517726
+-0.6138283	added tax	-1.428894
+-1.268225	after my
+-0.5944314	after our	-0.4746513
+-1.225483	after the
+-1.302185	after tomorrow	-1.243659
+-1.553063	afternoon !	-0.7756813
+-0.08507542	afternoon .	-2.385809
+-0.8998505	agree !	-0.8725913
+-0.7001671	agree .	-0.4746513
+-0.07126457	air conditioning	-1.714576
+-0.8977396	all .	-0.9517726
+-1.30774	all expenses	-1.474651
+-1.30774	all extras	-1.377741
+-1.310544	all right	-1.836379
+-1.30774	all taxes	-1.40407
+-0.9131654	am leaving	-1.53535
+-0.9131654	am sorry	-0.5715613
+-0.1262307	an error	-1.925671
+-2.024862	and Mrs	-0.06635822
+-0.2603682	and a	-1.788754
+-0.6191394	and air	-1.854863
+-1.06243	and hot	-1.173621
+-0.09051941	another room	-1.735913
+-0.8068515	any double	-1.692135
+-0.8072928	any quiet	-1.377742
+-0.8050908	any rooms	-1.723849
+-0.8068515	any single	-1.650743
+-1.553613	are all	-1.420776
+-1.558565	are expenses	-1.319749
+-1.558565	are extras	-1.319749
+-1.558565	are leaving	-1.681478
+-1.563574	are meals	-1.018719
+-1.558565	are taxes	-1.215014
+-1.548717	are there	-1.741823
+-1.558565	are too	-0.8725914
+-1.553613	are very	-0.8725914
+-0.1225047	ask for	-1.984303
+-0.7126189	at a	-2.134568
+-2.884701	at all	-0.9517726
+-2.876256	at another	-1.076711
+-1.172192	at eight	-1.127864
+-1.174014	at eleven	-1.182222
+-1.570832	at five	-0.9798014
+-1.376592	at four	-0.8896246
+-0.7748326	at half	-2.531556
+-1.242855	at nine	-1.146749
+-1.496014	at one	-1.325909
+-1.283026	at seven	-1.054435
+-1.206088	at six	-0.9517727
+-1.245	at ten	-1.118104
+-1.327294	at three	-0.8360682
+-1.499864	at twelve	-0.7956359
+-1.431009	at two	-1.018719
+-0.02997247	available ?	-2.819044
+-0.1253727	bag to	-1.463657
+-1.470535	bags .
+-0.792829	bags ?	-1.287565
+-0.8100014	bags down	-1.127864
+-0.7962587	bags in	-1.452375
+-0.8100014	bags on	-1.173621
+-0.8074702	bags to	-1.647838
+-1.204965	bath ,	-0.533779
+-0.9652734	bath .	-1.319749
+-1.269032	bath ?	-1.076711
+-1.45045	bath and	-1.31975
+-1.47031	bath available	-0.7756813
+-1.300851	bath for	-0.08089231
+-1.306389	bath in	-0.7155085
+-1.474393	bath until	-0.4746513
+-1.204965	bathroom ,	-0.6835412
+-0.9652734	bathroom .	-0.9517726
+-1.269032	bathroom ?	-0.4746513
+-1.45045	bathroom and	-1.495841
+-1.47031	bathroom available	-0.8725913
+-1.300851	bathroom for	-0.1055147
+-1.306389	bathroom in	-0.5046551
+-1.474393	bathroom until
+-1.049449	been a	-1.495841
+-1.086449	been an	-1.349713
+-1.084773	been made	-1.901975
+-0.7217699	bill ,	-1.921809
+-0.6685499	bill .	-2.60819
+-1.504204	bill ?	-1.921809
+-1.720484	bill by	-0.6964999
+-0.7372717	bill for	-2.391106
+-1.53866	bill in	-0.8725913
+-1.694052	bill included	-1.937049
+-0.8071795	board ,	-1.173621
+-1.39765	board ?	-0.7756813
+-0.8575633	board cost	-1.10304
+-0.8267399	board for	-0.4746513
+-0.8570129	board per	-0.8268341
+-0.5018699	book a	-2.026407
+-0.5034023	book two	-1.469188
+-0.4241434	booked a	-2.515552
+-0.4249969	booked two	-1.370902
+-1.139641	breakfast ,	-0.8725913
+-1.194173	breakfast ?	-0.4746513
+-1.379165	breakfast cost	-0.4914932
+-1.220796	breakfast for	-0.2511869
+-1.362996	breakfast included	-0.4746513
+-1.375882	breakfast per
+-0.7001671	bus .	-1.571561
+-0.8387877	bus ?	-2.097901
+-0.6820229	by check	-1.076711
+-0.6830167	by credit	-0.9517726
+-0.6830167	by traveler	-1.252803
+-0.8998505	bye !	-0.9517726
+-0.7001671	bye .	-0.8725913
+-0.5475015	call a	-2.544689
+-0.8016998	call my	-1.377741
+-0.548048	call our	-1.588595
+-1.084773	can I	-1.252803
+-1.084773	can we	-1.127864
+-1.078133	can you	-1.80462
+-0.7001671	car .	-1.452375
+-0.8387877	car ?	-1.881191
+-0.5743875	card ?	-0.9517726
+-0.5743875	cards ?	-1.076711
+-0.206227	care of	-0.4746514
+-0.676761	carry my	-0.4441928
+-0.6761077	carry our	-0.7378928
+-0.6696284	carry the	-0.6642227
+-1.057228	carrying my
+-1.0541	carrying our
+-1.023994	carrying the	-0.4058028
+-0.1984426	cash ?	-1.495841
+-1.057228	change my	-1.377741
+-1.0541	change our	-1.452375
+-1.078133	change rooms	-1.747653
+-0.892268	changing my	-1.535349
+-0.8901256	changing our	-1.428894
+-0.7770261	check ?	-1.474651
+-1.472345	check my	-1.018719
+-0.7985514	check our	-1.018719
+-0.5418344	check the	-1.897897
+-0.5743875	checks ?	-0.9517726
+-0.4562736	cold .	-1.604985
+-0.4945028	cold in	-1.535349
+-1.204965	conditioning ,	-0.7504879
+-0.9652734	conditioning .	-1.7051
+-1.269032	conditioning ?	-1.845719
+-1.45045	conditioning and	-1.664983
+-1.47031	conditioning available	-1.620779
+-1.300851	conditioning for	-0.3146935
+-1.306389	conditioning in	-1.404071
+-1.474393	conditioning until	-0.3099116
+-0.6763594	cost ,	-1.717689
+-0.6807908	cost ?	-1.796871
+-0.682775	cost for	-0.3534788
+-0.6923254	cost per	-1.580163
+-1.084773	could I	-1.817074
+-1.084773	could we	-1.872592
+-1.078133	could you	-2.097201
+-0.9142936	credit card	-0.9517726
+-0.9142936	credit cards	-1.076711
+-0.5743875	date ?	-1.252803
+-0.698035	day ,	-1.897897
+-1.043868	day .	-1.474651
+-0.7114825	day ?	-1.741823
+-1.451082	day after	-1.845719
+-1.312053	day for	-0.1718835
+-0.4853953	days ,	-1.40407
+-0.5400048	days .	-1.516044
+-0.9448176	days ?	-1.127864
+-0.6583516	days for	-0.3315825
+-1.302185	do not	-1.018719
+-1.252684	do our	-0.4746513
+-1.206035	do the	-1.495841
+-1.30774	do they	-1.452375
+-1.291285	do you	-2.334989
+-1.31213	does a	-2.030955
+-1.382472	does it	-1.604985
+-1.326482	does my	-1.215014
+-1.379165	does not	-1.252803
+-1.320684	does our
+-1.266601	does the	-1.588595
+-0.6014102	double room	-1.961789
+-0.3471603	double rooms	-1.100097
+-1.240162	down .
+-0.6684365	down ?	-1.076711
+-0.9354502	down my	-1.257274
+-0.9343733	down our	-1.334989
+-0.6859865	down to	-1.764686
+-0.9090103	eight ,	-1.897897
+-0.8398576	eight .	-1.786405
+-1.05864	eight ?	-1.452375
+-2.356226	eight days
+-1.819554	eight eight
+-1.819554	eight five
+-1.12387	eight for	-1.127864
+-1.217487	eight four	-0.2520991
+-1.528804	eight in	-1.796871
+-2.369936	eight nights
+-1.576512	eight nine
+-2.445841	eight o'clock	-0.3493523
+-1.144507	eight oh	-0.2345973
+-1.142852	eight one	-0.4225676
+-1.576512	eight seven	-0.1177058
+-1.421608	eight six
+-1.421608	eight three	-0.3967183
+-1.305257	eight two	-0.3903897
+-2.445841	eight weeks
+-0.8890584	eighteen days	-0.1463118
+-0.9020416	eighteen weeks
+-1.03267	eighteenth ,
+-0.8579252	eighteenth .
+-1.128573	eighteenth at	-0.1472279
+-1.098205	eighteenth in	-0.4746513
+-1.03267	eighth ,
+-0.8579252	eighth .	-0.7756813
+-1.128573	eighth at
+-1.098205	eighth in	-0.9517726
+-0.7839178	eleven ,	-1.516044
+-0.7306978	eleven .	-1.377741
+-0.7945906	eleven ?	-1.349713
+-1.704459	eleven days
+-0.8002297	eleven in	-1.796871
+-1.711012	eleven nights
+-1.745347	eleven o'clock	-0.4747489
+-0.8579252	eleventh .	-0.8725913
+-1.128573	eleventh at	-0.2751982
+-1.094768	eleventh for
+-1.098205	eleventh in	-0.4746513
+-0.7001671	error .	-1.495841
+-0.8522871	error in	-1.66029
+-0.03852258	evening .	-2.40407
+-0.6093271	everything included	-1.650743
+-0.2055637	expenses included	-1.404069
+-0.1114556	expensive .	-2.123011
+-1.279077	explain my	-0.9517726
+-1.275949	explain our	-1.173621
+-0.3402976	explain the	-2.10304
+-0.2055637	extras included	-1.349713
+-0.8890584	fifteen days
+-0.8911955	fifteen nights
+-0.7987409	fifteenth .	-0.4746513
+-1.023994	fifteenth at	-0.4746513
+-0.9999486	fifteenth in
+-1.03267	fifth ,
+-0.8579252	fifth .
+-1.128573	fifth at
+-1.098205	fifth in	-0.6507426
+-0.1999666	fill in	-1.49584
+-1.093646	first ,
+-0.8977396	first .	-0.6507426
+-1.206035	first at	-0.3111734
+-1.165925	first for
+-1.169977	first in	-0.4746513
+-0.9512993	five ,	-1.986535
+-0.8821467	five .	-1.786405
+-1.000515	five ?	-1.620779
+-2.398515	five days	-0.6507426
+-1.349953	five eight	-0.2546329
+-1.349953	five five	-0.04976107
+-1.10503	five for	-1.048683
+-1.463897	five four	-0.3272502
+-1.571093	five in	-1.349713
+-2.412225	five nights
+-1.349953	five nine	-0.2333146
+-2.48813	five o'clock	-0.4904663
+-1.352373	five oh	-0.2668558
+-1.349953	five one	-0.4699442
+-1.349953	five seven	-0.1588979
+-1.861843	five six	-0.1058484
+-1.349953	five three	-0.1329696
+-1.120048	five two	-0.4471439
+-2.48813	five weeks
+-2.273305	for 'Angel	-0.1042399
+-2.122526	for 'Oscar
+-2.49429	for Alicia
+-2.506202	for Amador
+-2.506202	for Amelia
+-2.280426	for Amparo
+-2.273305	for Ana
+-2.273305	for Andr'es	-0.168367
+-2.506202	for Antonio
+-2.266298	for Arturo
+-2.122526	for Asunci'on
+-2.117563	for Beatriz
+-2.273305	for C'esar
+-2.531051	for Carlos
+-2.122526	for Carmelo
+-2.506202	for Carmen
+-2.266298	for Celestino
+-2.259402	for Concepci'on
+-3.086932	for Cristina
+-2.518449	for Daniel
+-2.273305	for Dulce
+-2.117563	for Eduardo
+-3.135543	for Elvira
+-1.999393	for Emilio
+-2.531051	for Enrique
+-2.003168	for Eva
+-2.506202	for Federico
+-2.122526	for Francisco
+-2.273305	for Gerardo
+-2.506202	for Gloria
+-1.999393	for Gregorio
+-2.266298	for Ignacio
+-2.107804	for Inmaculada
+-2.259402	for Isabel
+-2.506202	for Jacinto
+-2.280426	for Jaime
+-2.518449	for Javier
+-2.117563	for Jes'us
+-2.518449	for Joaqu'in
+-2.273305	for Jorge
+-2.122526	for Jos'e
+-2.518449	for Juan
+-2.273305	for Julia
+-2.506202	for Julio
+-2.49429	for Lidia
+-2.273305	for Luis
+-2.273305	for Manuel
+-1.999393	for Manuela	-0.1290099
+-2.003168	for Mar'ia
+-1.995649	for Margarita
+-2.112656	for Marina
+-3.135543	for Marta
+-2.266298	for Micaela
+-2.112656	for Miguel
+-1.454347	for Miss	-0.0461157
+-2.280426	for Modesto
+-1.157324	for Mr	-0.3281053
+-1.514038	for Mrs	-0.1252415
+-2.518449	for Pablo	-0.168405
+-2.117563	for Paloma
+-2.117563	for Pedro
+-2.112656	for Pilar
+-2.273305	for Rafael
+-1.9158	for Ricardo
+-1.776318	for Roberto
+-2.122526	for Rosa
+-2.266298	for Rosal'ia
+-1.835299	for Rosario
+-2.273305	for Salvador
+-2.273305	for Santiago
+-2.117563	for Sergio	-0.06600726
+-1.9158	for Silvia
+-2.266298	for Sonia
+-2.266298	for Susana
+-1.999393	for Teresa
+-2.518449	for Tom'as
+-3.135543	for V'ictor
+-2.122526	for Vicenta
+-2.280426	for Vicente
+-2.259402	for Victoria
+-2.273305	for Virginia
+-1.455979	for a	-1.974681
+-2.381152	for eight	-0.2719087
+-2.280426	for eighteen	-0.4636134
+-3.043219	for eleven	-0.5715613
+-2.280426	for fifteen	-0.4636134
+-2.190003	for five	-0.2719528
+-2.381152	for four	-0.1751805
+-2.280426	for fourteen	-0.8725913
+-1.574693	for me	-2.716447
+-2.623624	for my	-1.452375
+-2.730768	for nine	-0.4757472
+-3.190289	for nineteen
+-2.593074	for our	-1.553833
+-2.390303	for room	-2.731128
+-2.730768	for seven	-0.1750639
+-2.531051	for seventeen
+-2.730768	for six	-0.2539629
+-2.531051	for sixteen
+-2.259402	for ten	-0.3775425
+-2.280426	for thirteen	-0.2417646
+-2.531051	for thirty	-0.4662054
+-1.909642	for this	-1.826834
+-2.381152	for three
+-1.909642	for today	-1.224774
+-1.776318	for tonight	-1.215014
+-2.49429	for twelve	-0.2524348
+-2.531051	for twenty	-0.2417646
+-2.280426	for twenty-eight	-0.4636134
+-3.190289	for twenty-five	-0.4746513
+-3.190289	for twenty-four
+-2.531051	for twenty-nine	-0.7756813
+-2.280426	for twenty-one	-0.3667033
+-3.190289	for twenty-seven
+-3.190289	for twenty-six	-0.4746513
+-2.280426	for twenty-three	-0.2417646
+-2.531051	for twenty-two
+-2.656487	for two
+-1.574693	for us	-2.733528
+-0.8138818	forest ,
+-0.8503327	forest for
+-0.8138818	form ,	-1.428894
+-0.8387877	form ?	-1.881191
+-0.9229748	four ,	-2.030954
+-0.926976	four .	-1.817074
+-1.035541	four ?	-1.474651
+-2.476201	four days
+-1.696487	four eight	-0.06107527
+-1.337462	four five	-0.2908921
+-1.182716	four for	-1.270531
+-1.427639	four four	-0.3127035
+-1.64878	four in	-1.349713
+-2.489911	four nights
+-1.337462	four nine	-0.5256312
+-2.565816	four o'clock	-0.2243062
+-1.264482	four oh	-0.3250743
+-1.094423	four one	-0.5591768
+-1.337462	four seven	-0.3467053
+-1.262828	four six	-0.2522889
+-1.199158	four three	-0.3754667
+-1.425232	four two	-0.530306
+-2.565816	four weeks
+-0.601011	fourteen days	-0.2903206
+-1.093646	fourteenth ,	-0.4746513
+-0.8977396	fourteenth .	-0.7756813
+-1.206035	fourteenth at
+-1.165925	fourteenth for
+-1.169977	fourteenth in	-0.4746513
+-1.03267	fourth ,	-0.6507426
+-0.8579252	fourth .	-0.4746513
+-1.128573	fourth at	-0.186182
+-1.098205	fourth in
+-0.6132631	full board	-0.9695012
+-0.39138	give me	-2.576742
+-0.39138	give us	-2.650743
+-0.9053489	giving me	-1.906015
+-0.9053489	giving us	-1.889625
+-1.291285	good afternoon	-0.6507424
+-1.310544	good bye	-0.9139841
+-1.283285	good morning	-0.9865347
+-1.30774	good night	-0.6507426
+-1.30774	good view	-1.366745
+-0.9131654	half board	-1.030954
+-0.9131654	half past	-1.452376
+-0.2064483	has been	-1.911343
+-0.4316306	have a	-1.640088
+-0.718231	have air	-1.664983
+-1.838103	have any	-1.520952
+-1.13399	have booked	-2.687498
+-1.821689	have hot
+-1.133329	have made	-2.656495
+-0.8998505	hello !	-1.018719
+-0.7001671	hello .	-0.7756813
+-0.7849066	hot .	-1.535349
+-0.8402873	hot in	-1.650743
+-0.3264723	hot water	-0.8529503
+-0.9142936	how many	-1.076711
+-0.9120401	how much	-2.076712
+-0.6132631	i am	-0.8725913
+-2.449479	in a	-1.495841
+-1.807514	in cash	-1.349713
+-0.9852554	in my	-1.678771
+-0.9355683	in our	-1.452375
+-0.144851	in the	-2.22456
+-1.019344	included ,	-1.018719
+-0.2263523	included ?	-2.4313
+-0.7843935	included in	-1.921809
+-0.9131654	including breakfast	-0.8363791
+-0.8998505	including room	-1.553833
+-2.267851	is Alicia
+-2.291287	is Amador
+-2.291287	is Amelia
+-2.291287	is Antonio
+-2.291287	is Arturo
+-2.291287	is Carmen
+-2.291287	is Celestino
+-2.267851	is Concepci'on
+-2.291287	is Cristina
+-2.31606	is Dulce
+-2.31606	is Elvira
+-2.291287	is Emilio
+-2.291287	is Federico
+-2.291287	is Gloria
+-2.291287	is Gregorio
+-2.291287	is Ignacio
+-2.267851	is Inmaculada
+-2.267851	is Isabel
+-2.291287	is Jacinto
+-2.31606	is Jes'us
+-2.291287	is Julio
+-2.267851	is Lidia
+-2.31606	is Luis
+-2.291287	is Manuela
+-2.31606	is Mar'ia
+-2.267851	is Margarita
+-2.291287	is Marina
+-2.31606	is Marta
+-2.291287	is Micaela
+-2.291287	is Miguel
+-2.31606	is Pablo
+-2.31606	is Paloma
+-2.291287	is Rosal'ia
+-2.31606	is Santiago
+-2.31606	is Sergio
+-2.291287	is Susana
+-2.291287	is Teresa
+-2.267851	is Victoria
+-1.534943	is a	-1.813108
+-2.291287	is all	-1.836379
+-2.291287	is an	-2.076711
+-2.31606	is breakfast	-0.4746513
+-2.342331	is everything	-1.951773
+-1.644792	is expensive	-1.319749
+-2.291287	is it	-1.173621
+-2.08449	is room	-1.018719
+-1.468548	is the	-1.863817
+-2.267851	is there	-2.08389
+-1.398835	is too	-1.539109
+-2.342331	is value	-1.428894
+-1.644792	is very	-1.520951
+-1.074698	it ?	-1.173621
+-1.209713	it does	-1.252803
+-1.200882	it have	-1.303955
+-1.198702	it is	-1.535349
+-0.6059815	key to	-2.226698
+-0.6059815	keys to	-1.919866
+-0.8138818	lake ,	-0.4746513
+-0.8976706	lake and
+-1.153012	leave .	-1.474651
+-0.8570129	leave on	-1.17985
+-0.8581144	leave this	-1.076712
+-0.8581144	leave today	-1.678771
+-0.8570129	leave tomorrow	-1.452375
+-0.787081	leaving .	-1.287565
+-0.9027704	leaving on	-0.9003371
+-0.9038719	leaving this	-0.90062
+-0.9038719	leaving today	-1.467352
+-0.9027704	leaving tomorrow	-1.229039
+-1.161224	like a	-1.544689
+-1.18374	like to	-1.975255
+-1.175417	like two	-0.327175
+-1.198702	like you	-2.50606
+-0.9120401	look after
+-0.8692641	look at	-1.440793
+-0.6126986	looking after	-0.168744
+-0.6126986	lot of	-1.018719
+-0.8221915	luggage .	-0.8725913
+-0.8780231	luggage ?	-1.495841
+-0.9026068	luggage down	-1.194811
+-0.8828998	luggage in	-1.620779
+-0.9026068	luggage on	-1.650743
+-0.8989566	luggage to	-2.15408
+-1.02059	made .	-1.650743
+-0.3433816	made a	-2.846642
+-1.221797	made in	-1.582993
+-0.1262307	make out	-1.833221
+-0.5743875	many ?	-1.076711
+-0.8998505	matter !	-1.076711
+-0.7001671	matter .	-0.7756813
+-1.33066	me ,	-2.716447
+-1.521913	me a	-0.8798177
+-1.598823	me another	-0.9517726
+-1.602665	me taking	-1.553833
+-0.873422	me the	-2.359731
+-0.8940577	me to	-1.741823
+-0.9024407	me up	-2.342415
+-0.6093271	meals included	-0.7176893
+-1.686838	mind carrying	-0.7378927
+-1.686838	mind changing	-1.485375
+-1.686838	mind giving	-1.897897
+-1.686838	mind looking	-0.7756813
+-1.636359	mind me	-1.553833
+-1.686838	mind moving	-1.485375
+-1.686838	mind putting	-1.038923
+-1.686838	mind sending	-1.741823
+-1.686838	mind showing	-1.685505
+-1.673658	mind taking
+-1.636359	mind us	-1.287565
+-1.686838	mind waking	-1.831634
+-1.204965	minibar ,	-0.1624423
+-0.9652734	minibar .	-0.9517726
+-1.269032	minibar ?	-1.018719
+-1.45045	minibar and	-0.7756813
+-1.47031	minibar available
+-1.300851	minibar for
+-1.306389	minibar in	-0.3005351
+-1.474393	minibar until
+-0.7987409	mistake .	-1.553833
+-1.088132	mistake has	-2.203005
+-0.9999486	mistake in	-1.571564
+-1.678002	morning !	-1.215014
+-0.06219389	morning .	-2.40915
+-1.03267	mountain ,	-0.8725913
+-0.8579252	mountain .
+-1.181645	mountain and	-0.9517726
+-1.094768	mountain for
+-1.076489	move me	-1.495841
+-1.066752	move to	-1.913984
+-1.076489	move us	-1.495841
+-0.9053489	moving me	-1.377741
+-0.9053489	moving us	-1.571561
+-1.347407	much !	-0.6507426
+-0.9264669	much .	-0.6507426
+-1.194173	much ?	-1.40407
+-1.382472	much does	-2.331984
+-1.366182	much is	-2.071248
+-1.385805	much noise	-1.40407
+-1.203786	my bag	-1.452375
+-0.9953751	my bags	-0.9532323
+-1.087035	my bill	-1.620779
+-0.8555154	my luggage	-1.666302
+-2.324776	my name	-1.937049
+-0.9927646	my room	-1.88795
+-1.204209	my suitcase	-1.921809
+-0.8555154	my suitcases	-1.331984
+-1.617127	my taxi	-1.240568
+-0.8555154	my travel	-1.664983
+-0.6098872	name is	-0.2280993
+-1.451638	next Friday	-0.2522626
+-1.451638	next Monday	-0.2324243
+-1.451638	next Saturday	-0.1923898
+-1.451638	next Sunday	-0.3950113
+-1.451638	next Thursday
+-1.451638	next Tuesday	-0.5995901
+-1.451638	next Wednesday	-0.3099182
+-1.354612	night !	-0.6507426
+-1.172827	night ,	-1.127864
+-0.5652323	night .	-1.377741
+-1.221559	night ?	-0.6507426
+-1.245107	night for	-0.2246545
+-0.6501549	nights ,	-0.9517726
+-0.2814015	nights .	-1.319749
+-1.852849	nights ?
+-0.8588662	nights for
+-0.9373489	nine ,	-1.944473
+-0.8632388	nine .	-1.80709
+-0.9916471	nine ?	-1.40407
+-2.34977	nine days	-0.345818
+-1.407164	nine eight	-0.1123476
+-1.407164	nine five	-0.09362042
+-1.181493	nine for	-1.10304
+-1.293077	nine four	-0.2747352
+-1.516923	nine in	-1.753405
+-2.363011	nine nights
+-2.412818	nine nine	-0.171126
+-2.436047	nine o'clock	-0.5860949
+-1.295372	nine oh	-0.1976057
+-1.293077	nine one	-0.3163476
+-1.562333	nine seven	-0.1265421
+-1.293077	nine six	-0.2313954
+-1.293077	nine three	-0.1199998
+-1.200954	nine two	-0.5359793
+-0.6021107	nineteen nights
+-0.8579252	nineteenth .	-0.7756813
+-1.128573	nineteenth at	-0.08472998
+-1.094768	nineteenth for
+-1.098205	nineteenth in	-0.6507426
+-1.093646	ninth ,	-0.4746513
+-0.8977396	ninth .
+-1.206035	ninth at	-0.2751982
+-1.165925	ninth for
+-1.169977	ninth in
+-0.8998505	no !	-1.173621
+-0.7001671	no .	-0.4746513
+-0.1999666	noise in	-1.553833
+-0.1801438	noisy .	-1.474651
+-1.074698	not ?
+-1.214196	not agree	-0.7176894
+-1.128573	not at	-0.9517726
+-1.214196	not matter	-0.9517725
+-1.536813	number eight	-1.087435
+-1.536813	number five	-1.094117
+-1.536813	number four	-1.1434
+-1.536813	number nine	-1.042853
+-1.556185	number oh	-0.9996964
+-1.536813	number one	-1.043015
+-1.536813	number seven	-1.010647
+-1.536813	number six	-1.058587
+-1.536813	number three	-1.252803
+-1.518268	number two	-1.219174
+-0.5752434	o'clock ,	-1.786405
+-0.6108431	o'clock .	-1.474651
+-0.7891952	o'clock ?	-1.173621
+-0.577425	o'clock in	-1.80709
+-1.213071	of noise	-1.018719
+-1.179039	of our
+-0.4935372	of the	-1.185856
+-0.9913529	oh ,	-1.845719
+-1.056855	oh .	-1.553833
+-1.231769	oh ?	-1.076711
+-1.113834	oh eight	-0.3609509
+-1.457956	oh five	-0.1576154
+-1.163607	oh for	-1.048683
+-1.113834	oh four	-0.3747756
+-1.058147	oh nine	-0.5370381
+-1.345085	oh oh	-0.3388658
+-1.177726	oh one	-0.357953
+-1.343293	oh seven	-0.1594946
+-1.343293	oh six	-0.1910089
+-1.343293	oh three	-0.3293348
+-1.112781	oh two	-0.3772765
+-0.8998505	okay !	-1.287565
+-0.7001671	okay .	-1.287565
+-1.513551	on April	-0.9517726
+-1.520012	on August	-1.127864
+-1.522188	on December	-0.6507426
+-2.194558	on February	-0.6507426
+-1.524374	on Friday	-0.5236599
+-1.520012	on January	-0.8725913
+-1.522188	on July	-0.7756813
+-1.517848	on June	-0.8725913
+-1.520012	on March	-0.6507426
+-1.517848	on May	-0.4746513
+-1.524374	on Monday	-0.6588393
+-1.520012	on November	-1.018719
+-1.520012	on October	-0.7756813
+-1.524374	on Saturday	-0.3836373
+-1.522188	on September	-1.076711
+-1.524374	on Sunday	-0.5681247
+-1.524374	on Thursday	-0.4074847
+-1.524374	on Tuesday	-0.7163877
+-1.524374	on Wednesday	-0.6087638
+-0.9685433	on the	-0.8591063
+-1.028855	one ,	-2.218944
+-1.037299	one .	-2.097901
+-1.184225	one ?	-1.796871
+-1.247244	one eight	-0.5237858
+-1.247244	one five	-0.6724566
+-1.288949	one for	-1.194811
+-1.153678	one four	-0.5991479
+-1.761256	one in	-1.428894
+-1.197946	one nine	-0.422898
+-2.684681	one o'clock	-0.6849697
+-1.198892	one oh	-0.4976394
+-1.153678	one one	-0.5052425
+-1.302863	one seven	-0.5527024
+-1.197946	one six	-0.5971969
+-1.197946	one three	-0.576629
+-1.197002	one two	-0.5402337
+-1.228145	our bag	-1.495841
+-0.879685	our bags	-1.182222
+-1.111395	our bill	-1.625919
+-0.7741035	our luggage	-1.815426
+-1.017124	our room	-1.711786
+-1.637125	our rooms	-0.99753
+-1.228568	our suitcase	-1.678771
+-0.9443088	our suitcases	-0.9937806
+-1.641487	our taxi	-1.39547
+-0.9443088	our travel	-1.58016
+-1.057228	out my	-1.215014
+-1.0541	out our	-1.377741
+-1.023994	out the	-2.215014
+-0.5743875	pardon ?	-1.215014
+-1.266257	past eight	-1.162626
+-1.280459	past eleven	-1.173621
+-1.266257	past five	-0.9865349
+-1.266257	past four	-1.076711
+-1.266257	past nine	-1.062923
+-1.266257	past one	-1.446623
+-1.266257	past seven	-1.115629
+-1.266257	past six	-1.184345
+-1.280459	past ten	-1.279131
+-1.266257	past three	-1.139763
+-1.280459	past twelve	-1.002925
+-1.261205	past two	-1.033959
+-0.6830167	pay by	-0.90062
+-0.664196	pay in	-1.173621
+-0.6696284	pay the	-1.349713
+-0.3721325	per day	-1.692136
+-0.3721325	per week	-1.553832
+-0.6121349	phone bill	-1.937049
+-1.642314	please !	-0.7756813
+-0.775807	please .	-0.5952297
+-1.3943	please ?	-3.45579
+-1.70842	please ask	-1.377741
+-1.70842	please call	-0.7609073
+-1.695628	please check	-0.5715613
+-1.70842	please explain	-1.018719
+-1.701977	please give	-1.580162
+-1.70842	please make	-1.319749
+-1.70842	please prepare	-1.018719
+-1.701977	please send	-1.356891
+-1.701977	please wake	-1.580161
+-0.5995653	prepare my	-1.428894
+-0.5992005	prepare our	-1.516044
+-0.5955701	prepare the	-2.366746
+-0.5806299	price for	-2.060112
+-0.7001671	problem .	-1.535349
+-0.8522871	problem in	-1.588593
+-0.676761	put my	-1.002925
+-0.6761077	put our	-0.9802736
+-0.6696284	put the	-0.9332892
+-1.057228	putting my	-0.1584392
+-1.0541	putting our	-0.6072493
+-1.023994	putting the	-0.7756814
+-0.9131654	quarter past	-1.465508
+-0.8987592	quarter to	-1.379997
+-0.4091191	quiet ,	-2.437256
+-1.36939	quiet room	-1.588595
+-0.6810315	quiet rooms	-0.8534864
+-0.6065373	quieter room	-1.29856
+-0.7001671	reception .	-1.452375
+-0.8387877	reception ?	-1.999696
+-0.2064483	registration form	-1.71144
+-0.7001671	reservation .	-2.678771
+-0.8503327	reservation for	-0.814668
+-0.4935633	right .	-1.836379
+-0.9469082	river ,
+-1.06515	river and
+-0.9972053	river for
+-0.7989591	room ,	-3.010578
+-0.8152484	room .	-0.544898
+-0.8043602	room ?	-2.881191
+-1.267897	room available	-2.485375
+-1.684704	room cost	-1.511083
+-1.239029	room for	-0.7231836
+-1.42853	room have	-1.452375
+-1.689313	room including	-1.544689
+-1.427684	room is	-1.824415
+-1.689313	room number	-2.185615
+-1.683179	room per	-1.544689
+-1.689313	room service	-0.8868316
+-1.268483	room until	-1.163409
+-1.273197	room with	-2.321607
+-0.8037821	rooms ,	-1.929496
+-0.8568428	rooms .	-2.132663
+-0.8976071	rooms ?	-2.203005
+-1.029403	rooms available	-2.280831
+-1.012568	rooms for	-0.3450074
+-1.443442	rooms have	-1.234319
+-1.02974	rooms until	-0.6881893
+-0.9158766	rooms with	-1.522575
+-1.204965	safe ,	-0.02512789
+-0.9652734	safe .	-0.4746513
+-1.269032	safe ?	-0.7756813
+-1.45045	safe and	-0.1607887
+-1.47031	safe available	-0.8725913
+-1.300851	safe for
+-1.306389	safe in	-0.4466632
+-1.474393	safe until	-0.4746513
+-1.03267	sea ,	-0.4656852
+-0.8579252	sea .	-0.9517726
+-1.181645	sea and	-1.319749
+-1.094768	sea for
+-0.7987409	second .	-0.9517726
+-1.023994	second at
+-0.9999486	second in
+-0.5018699	see a	-1.701895
+-0.5067043	see another	-1.872591
+-0.7432662	send down	-1.969502
+-0.7398928	send my	-1.662641
+-0.739473	send our	-1.62078
+-1.137628	send the	-1.516044
+-0.7434779	send up	-2.190656
+-1.299434	sending down	-1.562787
+-1.257637	sending my	-0.9006202
+-1.252684	sending our	-0.7713358
+-1.206035	sending the	-1.002925
+-1.302185	sending up	-1.525804
+-1.139641	service ,	-0.4746513
+-1.194173	service ?	-0.4746513
+-1.379165	service cost	-0.5284158
+-1.220796	service for	-0.6507426
+-1.362996	service included	-1.018719
+-1.375882	service per	-0.5715612
+-0.899661	seven ,	-1.979801
+-0.9395229	seven .	-1.775681
+-0.940841	seven ?	-1.650743
+-2.420343	seven days
+-1.371781	seven eight	-0.1972815
+-1.640629	seven five
+-1.073281	seven for	-1.234319
+-1.281604	seven four	-0.1599916
+-1.592922	seven in	-1.40407
+-2.434053	seven nights
+-1.371781	seven nine	-0.1844472
+-2.509958	seven o'clock	-0.8104433
+-1.374202	seven oh	-0.1005893
+-1.640629	seven one	-0.4547748
+-1.281604	seven seven	-0.2734046
+-1.485726	seven six
+-1.281604	seven three	-0.4142678
+-1.205322	seven two	-0.4904231
+-2.509958	seven weeks
+-0.8890584	seventeen days
+-0.9020416	seventeen weeks
+-1.03267	seventeenth ,
+-0.8579252	seventeenth .	-0.7756813
+-1.128573	seventeenth at	-0.1070007
+-1.094768	seventeenth for	-0.4746513
+-1.03267	seventh ,
+-0.8579252	seventh .	-0.6507426
+-1.128573	seventh at	-0.2082514
+-1.098205	seventh in
+-1.209712	should I	-1.40407
+-0.5069254	should leave	-2.088493
+-1.209712	should we	-1.416659
+-1.175758	shower ,	-0.7183034
+-0.9482158	shower .	-0.7756813
+-1.235358	shower ?	-0.7756813
+-1.400293	shower and	-1.287565
+-1.417942	shower available
+-1.264722	shower for	-0.1408077
+-1.269814	shower in	-0.7756813
+-0.9053489	showing me	-1.349713
+-0.9053489	showing us	-1.416659
+-0.5018699	sign a	-1.252803
+-0.4981707	sign the	-1.349713
+-0.6014102	single room	-1.95895
+-0.3471603	single rooms	-1.134704
+-0.8877789	six ,	-2.036944
+-0.8936789	six .	-1.817074
+-1.057863	six ?	-1.535349
+-1.359293	six eight	-0.1250045
+-1.269026	six five	-0.1227856
+-1.247709	six for	-1.048683
+-1.359293	six four	-0.3794012
+-1.583139	six in	-1.588595
+-2.429227	six nights
+-1.62855	six nine	-0.07189249
+-2.502263	six o'clock	-0.3446527
+-1.632826	six oh	-0.2291395
+-1.075066	six one	-0.5205926
+-1.269026	six seven	-0.2621139
+-1.269026	six six	-0.3505225
+-1.359293	six three	-0.05254219
+-1.35701	six two	-0.415498
+-2.502263	six weeks
+-0.8890584	sixteen days
+-0.8911955	sixteen nights
+-0.7987409	sixteenth .	-0.8725913
+-0.9810998	sixteenth ?
+-1.023994	sixteenth at	-0.2327331
+-0.9469082	sixth ,
+-0.9810998	sixth ?
+-1.023994	sixth at
+-0.5045002	sorry !	-1.127864
+-0.4562736	sorry .	-0.8725913
+-0.7001671	station .	-1.349713
+-0.8387877	station ?	-1.796871
+-0.2049015	suitcase to	-1.516045
+-0.9972759	suitcases .	-0.7756813
+-0.8531995	suitcases ?	-1.215014
+-0.8777833	suitcases down	-0.5425911
+-0.8580762	suitcases in	-1.018719
+-0.8777833	suitcases on	-1.127864
+-0.8741331	suitcases to	-1.546533
+-0.6132631	take care	-0.6507426
+-0.3769312	taking a	-1.741823
+-1.089257	taking care
+-0.6093271	tax included	-1.428894
+-0.2055637	taxes included	-1.31975
+-0.6664586	taxi ,	-1.764686
+-0.4905778	taxi .	-1.854863
+-1.514031	taxi ?	-1.775681
+-0.6756086	taxi for	-2.291996
+-1.204965	telephone ,	-0.9775683
+-0.9652734	telephone .	-1.906015
+-1.269032	telephone ?	-1.826834
+-1.45045	telephone and	-1.705102
+-1.47031	telephone available	-1.571561
+-1.300851	telephone for	-0.1499014
+-1.306389	telephone in	-1.29856
+-1.474393	telephone until	-0.4796945
+-0.7539546	ten ,	-1.571561
+-0.7007346	ten .	-1.452375
+-0.9977919	ten ?	-1.076711
+-0.7702664	ten in	-1.854863
+-1.681049	ten nights
+-1.715384	ten o'clock	-0.6804448
+-1.715384	ten weeks	-0.2279276
+-0.8579252	tenth .	-0.7756813
+-1.128573	tenth at	-0.2473507
+-1.094768	tenth for
+-1.098205	tenth in	-0.4746513
+-0.6098872	thank you	-0.7756814
+-0.8869318	that a	-2.036944
+-0.9109177	that there	-2.069413
+-2.843493	the afternoon	-2.287565
+-1.799438	the bags	-0.6729505
+-1.708943	the bill	-2.255818
+-2.333729	the bus	-1.910018
+-2.333729	the car	-1.71769
+-3.017327	the date	-1.252803
+-2.96018	the day	-1.845719
+-1.805021	the eighteenth	-0.5021867
+-1.713471	the eighth	-0.6159272
+-1.467894	the eleventh	-0.7756814
+-2.843493	the evening	-2.319749
+-1.805021	the fifteenth	-0.3092927
+-1.6379	the fifth	-0.3058921
+-1.713471	the first	-0.5295812
+-3.017327	the forest
+-1.423364	the fourteenth	-0.4937918
+-1.573551	the fourth	-0.5799636
+-2.080199	the key	-2.82876
+-2.080199	the keys	-2.521926
+-3.017327	the lake	-0.2390184
+-1.571358	the luggage	-1.354511
+-2.786067	the morning	-2.328957
+-3.017327	the mountain	-0.6526865
+-1.713471	the nineteenth	-0.6481118
+-1.573551	the ninth	-0.4254223
+-3.017327	the phone	-1.937049
+-3.017327	the price	-2.060112
+-2.327447	the registration	-1.729924
+-3.017327	the river	-0.1636405
+-1.890466	the room	-2.312243
+-2.291551	the rooms	-1.687726
+-3.017327	the sea	-1.090075
+-1.805021	the second	-0.6103227
+-1.713471	the seventeenth	-0.5811074
+-1.713471	the seventh	-0.4949252
+-1.713471	the sixteenth	-0.689504
+-2.080199	the sixth	-0.2613223
+-3.017327	the station	-1.628467
+-1.801291	the suitcases	-0.8250667
+-2.315149	the taxi	-1.571561
+-1.6379	the tenth	-0.5811651
+-1.6379	the third	-0.4673726
+-1.92117	the thirteenth	-0.603745
+-1.6379	the thirtieth	-0.7242661
+-1.805021	the thirty-first	-0.4554208
+-3.017327	the town	-0.6477062
+-1.710447	the travel	-1.588595
+-1.713471	the twelfth	-0.7378928
+-1.713471	the twentieth	-0.5715614
+-1.423364	the twenty-eighth	-0.7155871
+-1.573551	the twenty-fifth	-0.8020102
+-1.713471	the twenty-first	-0.4592716
+-1.805021	the twenty-fourth	-0.4949252
+-1.517517	the twenty-ninth	-0.8453279
+-1.805021	the twenty-second	-0.3405036
+-1.467894	the twenty-seventh	-0.6296238
+-1.573551	the twenty-sixth	-0.5907019
+-1.713471	the twenty-third	-0.6090766
+-0.9650148	there a	-1.466683
+-0.9808531	there air	-1.897897
+-1.685722	there any	-1.458052
+-0.9831637	there has	-1.929496
+-1.66668	there hot	-1.127864
+-0.9785548	there is	-2.069412
+-0.9839365	there was	-1.516044
+-0.9120401	they are	-0.8725913
+-0.9075679	they have	-0.837397
+-0.6138283	think that	-2.362548
+-1.03267	third ,
+-0.8579252	third .
+-1.128573	third at	-0.3331901
+-1.094768	third for
+-0.8890584	thirteen days
+-0.8911955	thirteen nights
+-0.7987409	thirteenth .
+-1.023994	thirteenth at	-0.4060895
+-0.9999486	thirteenth in
+-0.9469082	thirtieth ,
+-0.7987409	thirtieth .	-0.8725913
+-1.023994	thirtieth at	-0.4423696
+-1.052544	thirty days	-0.173768
+-1.055661	thirty nights
+-1.071593	thirty weeks
+-0.7987409	thirty-first .	-0.4746513
+-1.023994	thirty-first at	-0.3622645
+-0.9999486	thirty-first in
+-0.7470989	this afternoon	-1.377741
+-0.7470989	this evening	-1.349713
+-0.7457832	this morning	-1.127864
+-1.452751	this week	-1.224773
+-0.9295703	three ,	-2.10304
+-0.9712464	three .	-1.897897
+-1.099655	three ?	-1.452375
+-2.457778	three days
+-1.172408	three eight	-0.2152555
+-1.236122	three five	-0.2806568
+-1.218105	three for	-1.10304
+-1.236122	three four	-0.3969308
+-1.62493	three in	-1.319749
+-2.471019	three nights
+-1.310817	three nine	-0.4063952
+-2.544054	three o'clock	-0.5415981
+-1.237691	three oh	-0.3198788
+-1.236122	three one	-0.4175525
+-1.236122	three seven	-0.2886124
+-1.670341	three six	-0.1375094
+-1.310817	three three	-0.3426979
+-1.398801	three two	-0.4070281
+-0.6098872	time is	-1.173621
+-1.36067	to a	-1.83638
+-1.64582	to book	-2.330475
+-1.648437	to change	-2.048683
+-2.19544	to eight	-0.7176894
+-2.31137	to eleven	-0.6506936
+-2.19544	to five	-0.7756812
+-2.19544	to four	-0.7476525
+-2.31137	to give	-1.955376
+-1.648437	to move	-1.913984
+-0.9418252	to my	-2.40915
+-2.19544	to nine	-0.7816251
+-2.19544	to one	-0.8937806
+-0.9407948	to our	-2.358313
+-1.236225	to reception	-1.80709
+-0.9454511	to room	-2.997747
+-2.31137	to send	-1.783748
+-2.19544	to seven	-0.5834826
+-2.19544	to six	-0.7756813
+-2.31137	to ten	-0.9517728
+-0.9306225	to the	-2.212639
+-2.19544	to three	-0.8268338
+-2.31137	to twelve	-0.7756814
+-2.159933	to two	-0.8020102
+-2.31137	to wake	-2.048684
+-1.36149	today ,	-1.127864
+-0.566919	today .	-1.817074
+-1.416022	today ?	-0.6507426
+-0.8778659	today at	-1.072816
+-1.442645	today for	-0.275807
+-0.8673974	today in	-1.553833
+-1.079463	tomorrow ,	-1.452375
+-0.6679437	tomorrow .	-1.999696
+-1.099759	tomorrow ?	-1.018719
+-1.153774	tomorrow afternoon	-1.173621
+-0.8838351	tomorrow at	-1.673895
+-1.834859	tomorrow evening	-1.018719
+-1.109093	tomorrow for	-0.3102773
+-1.151167	tomorrow morning	-1.076711
+-1.03267	tonight ,	-1.319749
+-0.8579252	tonight .	-1.40407
+-1.074698	tonight ?	-0.6507426
+-1.094768	tonight for	-0.1848408
+-1.386921	too cold	-1.234319
+-0.6820231	too expensive	-1.80709
+-1.373165	too hot	-1.319749
+-1.384135	too much	-1.40407
+-1.386921	too noisy	-1.173621
+-1.03267	town ,	-0.9517726
+-0.8579252	town .	-0.4746513
+-1.181645	town and	-0.8725913
+-1.094768	town for
+-0.6038353	travel bag	-1.753405
+-0.3476503	travel bags	-1.258736
+-0.9097982	traveler check	-1.252803
+-0.9142936	traveler checks	-0.9517726
+-1.204965	tv ,	-0.977568
+-0.9652734	tv .	-1.786405
+-1.269032	tv ?	-1.826834
+-1.45045	tv and	-1.760957
+-1.47031	tv available	-1.741823
+-1.300851	tv for	-0.2330198
+-1.306389	tv in	-1.107974
+-1.474393	tv until	-0.3535071
+-0.9469082	twelfth ,	-0.4746513
+-1.023994	twelfth at	-0.154789
+-0.9999486	twelfth in	-0.4746513
+-0.9796907	twelve ,	-1.349713
+-0.7007346	twelve .	-1.495841
+-0.7646274	twelve ?	-1.127864
+-1.674496	twelve days	-0.4746513
+-0.7702664	twelve in	-1.319749
+-1.681049	twelve nights
+-1.715384	twelve o'clock	-0.2702925
+-1.03267	twentieth ,	-0.4746513
+-0.8579252	twentieth .	-0.6507426
+-1.128573	twentieth at
+-1.098205	twentieth in	-0.4746513
+-0.8890584	twenty days
+-0.9020416	twenty weeks
+-0.8890584	twenty-eight days	-0.1619556
+-0.9020416	twenty-eight weeks
+-1.093646	twenty-eighth ,	-0.4746513
+-0.8977396	twenty-eighth .	-0.7756813
+-1.142378	twenty-eighth ?
+-1.206035	twenty-eighth at	-0.3461491
+-1.165925	twenty-eighth for	-0.2479198
+-1.03267	twenty-fifth ,	-0.4746513
+-0.8579252	twenty-fifth .	-0.7756813
+-1.128573	twenty-fifth at	-0.04903939
+-1.098205	twenty-fifth in	-0.6507426
+-1.03267	twenty-first ,	-0.4746513
+-1.074698	twenty-first ?
+-1.128573	twenty-first at	-0.08028109
+-1.094768	twenty-first for
+-0.8890584	twenty-five days
+-0.8911955	twenty-five nights	-0.4746513
+-0.6021107	twenty-four nights
+-1.03267	twenty-fourth ,
+-0.8579252	twenty-fourth .	-0.6507426
+-1.128573	twenty-fourth at	-0.10004
+-1.098205	twenty-fourth in
+-0.601011	twenty-nine days	-0.345818
+-0.9469082	twenty-ninth ,	-0.7756813
+-1.023994	twenty-ninth at	-0.2642231
+-0.9999486	twenty-ninth in
+-0.8890584	twenty-one days	-0.2308193
+-0.8911955	twenty-one nights
+-0.9469082	twenty-second ,
+-0.7987409	twenty-second .
+-1.023994	twenty-second at
+-1.052544	twenty-seven days
+-1.055661	twenty-seven nights
+-1.071593	twenty-seven weeks
+-1.03267	twenty-seventh ,
+-0.8579252	twenty-seventh .	-0.9517726
+-1.128573	twenty-seventh at	-0.2531288
+-1.098205	twenty-seventh in
+-0.6021107	twenty-six nights	-0.4746513
+-1.093646	twenty-sixth ,	-0.4746513
+-0.8977396	twenty-sixth .	-0.6507426
+-1.206035	twenty-sixth at	-0.194965
+-1.165925	twenty-sixth for
+-1.169977	twenty-sixth in	-0.4746513
+-0.8692641	twenty-third at	-0.2299982
+-0.8522871	twenty-third in
+-0.8890584	twenty-three days	-0.4746513
+-0.8911955	twenty-three nights
+-0.8890584	twenty-two days
+-0.8911955	twenty-two nights
+-1.094561	two ,	-1.972962
+-1.128132	two .	-1.937049
+-1.133033	two ?	-1.664983
+-2.633069	two days
+-1.72355	two double	-1.571561
+-1.267569	two eight	-0.6462257
+-1.223408	two five	-0.6526322
+-1.354069	two for	-1.127864
+-1.223408	two four	-0.5219232
+-1.816072	two in	-1.349713
+-1.223408	two nine	-0.6677686
+-2.729052	two o'clock	-0.387116
+-1.268808	two oh	-0.5971449
+-1.267569	two one	-0.5909612
+-1.88337	two quiet	-1.173621
+-1.720029	two rooms	-1.395469
+-1.223408	two seven	-0.4670176
+-1.72355	two single	-1.571561
+-1.267569	two six	-0.5248378
+-1.223408	two three	-0.6462997
+-1.222291	two two	-0.6382858
+-2.130373	until April	-0.4746513
+-2.151993	until August	-0.4746513
+-2.159446	until December	-0.4746513
+-1.213951	until February	-0.8725913
+-2.151993	until January
+-1.469107	until July	-0.4746513
+-1.466051	until June	-0.4746513
+-2.144666	until May
+-2.151993	until November	-0.7756813
+-1.467576	until October	-0.4746513
+-1.055477	until September	-1.018719
+-0.9400753	until next	-0.896725
+-0.6969937	until the	-0.6311789
+-0.9382647	until tomorrow	-1.19481
+-0.7899825	up at	-1.548627
+-0.7994177	up my	-1.50268
+-0.7985514	up our	-1.492382
+-0.8064107	up tomorrow	-2.703821
+-1.33066	us ,	-2.733528
+-1.521913	us a	-0.9865345
+-1.598823	us another	-1.127864
+-1.602665	us taking	-1.287565
+-0.873422	us the	-2.419134
+-0.8940577	us to	-1.836379
+-0.9024407	us up	-2.447778
+-0.6138283	value added	-1.428894
+-1.386921	very cold	-1.303955
+-0.6820231	very expensive	-1.678771
+-1.373165	very hot	-1.270532
+-1.384135	very much	-0.6507426
+-1.386921	very noisy	-1.173621
+-0.8529369	view ,	-1.173621
+-0.787081	view .	-0.8725913
+-0.8967615	view and	-1.604985
+-0.8724974	view for	-0.05006012
+-0.9038719	view of	-2.018719
+-0.39138	wake me	-2.580162
+-0.39138	wake us	-2.685505
+-0.9053489	waking me	-1.775681
+-0.9053489	waking us	-1.881191
+-0.7972552	want a	-1.967759
+-0.8020269	want to	-2.052526
+-0.8002856	want two	-0.9332892
+-0.8050908	want you	-2.514066
+-0.6065373	warmer room	-0.9517725
+-0.8869318	was a	-1.287565
+-0.9120401	was an	-1.428894
+-1.204965	water ,	-0.6507426
+-0.9652734	water .	-0.9517726
+-1.269032	water ?	-0.8725913
+-1.45045	water and	-0.8268337
+-1.47031	water available	-0.6507426
+-1.300851	water for
+-1.306389	water in	-0.9139841
+-1.474393	water until	-0.3581983
+-1.70842	we are	-2.380447
+-1.70842	we book	-1.817074
+-1.70842	we booked	-1.940778
+-1.71496	we fill	-1.452375
+-1.683202	we have	-2.246731
+-1.701977	we made	-1.826834
+-1.016824	we pay	-1.018719
+-1.71496	we see	-1.845719
+-1.70842	we should	-2.489592
+-1.71496	we sign	-1.076712
+-1.71496	we want	-1.870416
+-1.70842	we would	-2.30716
+-0.6250659	week ,	-1.796871
+-0.8083261	week .	-1.377741
+-0.63138	week ?	-1.786405
+-0.8789058	week for	-0.4329597
+-0.6183675	weeks ,	-0.8725913
+-0.5953131	weeks .	-0.7756813
+-0.6227989	weeks ?	-0.7756813
+-1.025034	weeks for
+-0.9810998	what ?	-1.127864
+-1.078133	what is	-2.123011
+-1.089821	what time	-1.173621
+-0.5743875	when ?	-1.018719
+-0.5743875	where ?	-1.018719
+-0.6059815	which one	-1.076711
+-0.5743875	who ?	-1.215014
+-0.8387877	why ?	-0.4746513
+-0.9109177	why not
+-0.6098872	will you	-1.085666
+-0.7944602	with a	-1.969114
+-0.8058603	with air	-2.280831
+-1.514664	with full	-1.571561
+-1.51186	with half	-1.729924
+-0.8047616	with hot	-1.452375
+-0.382429	would like	-2.273992
+-1.082548	would you	-2.1502
+-0.8998505	yes !	-1.215014
+-0.7001671	yes .	-0.4746513
+-2.14901	you !	-0.7756813
+-1.389453	you .	-0.4746513
+-1.584343	you accept	-0.99753
+-1.167503	you ask	-2.398931
+-1.167503	you call	-2.10304
+-1.581928	you carry	-1.09444
+-2.271417	you change	-1.416659
+-1.165652	you check	-1.467352
+-1.167503	you explain	-1.655541
+-1.577137	you give	-2.352601
+-2.216169	you have	-2.315072
+-2.271417	you look
+-1.167503	you make	-2.241807
+-2.283363	you mind	-1.852933
+-2.271417	you move	-1.495841
+-1.167503	you prepare	-1.911345
+-1.581928	you put	-1.40407
+-1.577137	you send	-2.069045
+-1.584343	you take	-0.6507426
+-1.551693	you to	-2.333992
+-2.25979	you very	-0.9517726
+-1.577137	you wake	-2.315064
+
+\3-grams:
+-0.003949102	afternoon ! </s>
+-0.003156404	agree ! </s>
+-0.002628741	bye ! </s>
+-0.002252231	hello ! </s>
+-0.001970062	matter ! </s>
+-0.001431886	morning ! </s>
+-0.00527349	much ! </s>
+-0.00527349	night ! </s>
+-0.001575334	no ! </s>
+-0.001211288	okay ! </s>
+-0.003949102	please ! </s>
+-0.001750725	sorry ! </s>
+-0.001431886	yes ! </s>
+-0.003949102	you ! </s>
+-0.6167373	for 'Angel Ib'a~nez
+-0.02200847	L'opez , please
+-0.03344559	Moliner , please
+-0.03344559	Tuesday , please
+-0.03344559	Wednesday , please
+-0.4141749	bath , a
+-0.2349798	bath , please
+-0.2482561	bathroom , a
+-0.3847422	bathroom , please
+-0.001151173	bill , please
+-0.006486231	board , please
+-0.01307081	breakfast , please
+-0.3845575	conditioning , a
+-0.2458643	conditioning , please
+-0.001843345	cost , please
+-0.001216426	day , please
+-0.003803688	days , please
+-0.001216426	eight , please
+-0.002936283	eleven , please
+-0.0009915981	five , please
+-0.003591496	form , please
+-0.0008950933	four , please
+-0.03344559	fourteenth , please
+-0.02200847	fourth , please
+-0.009295976	included , please
+-0.153915	lake , a
+-0.0001845101	me , please
+-0.41159	minibar , a
+-0.05520304	mountain , a
+-0.00721294	night , please
+-0.01086484	nights , please
+-0.001092566	nine , please
+-0.03344559	ninth , please
+-0.001573098	o'clock , please
+-0.001371959	oh , please
+-0.0005803908	one , please
+-0.2967149	quiet , double
+-0.3085925	quiet , single
+-9.372242e-05	room , please
+-0.001130951	rooms , please
+-0.101643	safe , please
+-0.1577854	sea , a
+-0.03344559	service , please
+-0.00100711	seven , please
+-0.2232292	shower , a
+-0.4195043	shower , please
+-0.0008828193	six , please
+-0.001653924	taxi , please
+-0.2425247	telephone , a
+-1.154257	telephone , air
+-0.4540518	telephone , please
+-0.00258288	ten , please
+-0.0007580771	three , please
+-0.00721294	today , please
+-0.003401727	tomorrow , please
+-0.004623116	tonight , please
+-0.04550139	town , a
+-0.2941347	tv , a
+-1.081317	tv , air
+-0.3949099	tv , please
+-0.03344559	twelfth , please
+-0.004313373	twelve , please
+-0.03344559	twentieth , please
+-0.03344559	twenty-eighth , please
+-0.03344559	twenty-fifth , please
+-0.03344559	twenty-first , please
+-0.01640091	twenty-ninth , please
+-0.03344559	twenty-sixth , please
+-0.001023115	two , please
+-0.0001773926	us , please
+-0.0585671	view , a
+-0.9255518	view , please
+-0.02200847	water , please
+-0.001535577	week , please
+-0.01307081	weeks , please
+-0.0001491769	'Alvarez . </s>
+-0.000298405	Aguilera . </s>
+-0.000298405	Alted . </s>
+-0.0002237846	Arag'on . </s>
+-0.0001118779	Arenas . </s>
+-0.0002237846	Arnau . </s>
+-0.0001790184	Arroyo . </s>
+-0.0004476845	Bacete . </s>
+-0.000298405	Balaguer . </s>
+-0.0001491769	Ballester . </s>
+-0.0001278628	Barber . </s>
+-0.0001790184	Barber'a . </s>
+-0.0002237846	Barrachina . </s>
+-0.0001790184	Belenguer . </s>
+-0.0002237846	Bellver . </s>
+-0.0002237846	Beltr'an . </s>
+-0.0002237846	Berrueco . </s>
+-0.0001790184	Betoret . </s>
+-0.0001491769	Bordons . </s>
+-0.0001790184	Borillo . </s>
+-8.136286e-05	Borr'as . </s>
+-0.000298405	Botella . </s>
+-8.949998e-05	Cabedo . </s>
+-0.0001790184	Cabo . </s>
+-0.0001491769	Cabrera . </s>
+-0.0001278628	Calatayud . </s>
+-0.0001790184	Calleja . </s>
+-0.000298405	Campo . </s>
+-0.0002237846	Cantero . </s>
+-0.0001790184	Carpio . </s>
+-0.0001278628	Cerezo . </s>
+-7.458204e-05	Colomer . </s>
+-0.0001278628	Cornelles . </s>
+-0.0001790184	Cutillas . </s>
+-0.0001491769	D'iaz . </s>
+-0.0001491769	Escrig . </s>
+-0.0002237846	Espinosa . </s>
+-0.000298405	Fern'andez . </s>
+-0.0002237846	Friday . </s>
+-0.000298405	Fuster . </s>
+-0.000298405	G'omez . </s>
+-0.0001790184	Gallego . </s>
+-0.0001491769	Gil . </s>
+-0.0001790184	Gimeno . </s>
+-0.0002237846	Gonz'alez . </s>
+-0.0004476845	Gracia . </s>
+-0.0001491769	Granada . </s>
+-0.000298405	Gual . </s>
+-0.0001491769	Guardiola . </s>
+-0.0001491769	Guijarro . </s>
+-0.0002237846	Gumbau . </s>
+-0.0001790184	Herrero . </s>
+-0.0001278628	Ib'a~nez . </s>
+-0.0001278628	Iborra . </s>
+-0.0001790184	Izquierdo . </s>
+-0.000298405	Jim'enez . </s>
+-0.000298405	L'opez . </s>
+-0.0001118779	Llopis . </s>
+-0.0001790184	Llorens . </s>
+-0.000298405	Lobo . </s>
+-0.000298405	M'as . </s>
+-0.0001790184	Maestro . </s>
+-0.000298405	Marqu'es . </s>
+-0.0001491769	Mart'i . </s>
+-0.0001491769	Meda . </s>
+-0.0001491769	Mestre . </s>
+-0.0002237846	Mingot . </s>
+-0.0001790184	Mira . </s>
+-0.0002237846	Miralles . </s>
+-0.0001790184	Moliner . </s>
+-0.000298405	Monday . </s>
+-0.0001491769	Monferrer . </s>
+-0.0001278628	Montero . </s>
+-0.0001278628	Montoro . </s>
+-8.136286e-05	Morales . </s>
+-0.0002237846	Moreno . </s>
+-0.0001790184	Moya . </s>
+-0.000298405	Nadal . </s>
+-0.0002237846	Navarro . </s>
+-0.000298405	Nebot . </s>
+-0.0001790184	Orenga . </s>
+-0.0001278628	Ortiz . </s>
+-0.0002237846	P'erez . </s>
+-0.0001790184	Paches . </s>
+-0.0002237846	Padilla . </s>
+-0.0004476845	Pallar'es . </s>
+-0.000298405	Pastor . </s>
+-0.000298405	Peinado . </s>
+-8.136286e-05	Peris . </s>
+-0.0002237846	Pe~narroja . </s>
+-0.0002237846	Piquer . </s>
+-0.0001491769	Pitarch . </s>
+-0.0001790184	Puig . </s>
+-0.0001790184	Quereda . </s>
+-0.000298405	Querol . </s>
+-0.000298405	R'ios . </s>
+-0.0002237846	R'odenas . </s>
+-0.000298405	Ram'irez . </s>
+-0.0001491769	Ramos . </s>
+-0.0001491769	Redondo . </s>
+-0.0002237846	Revilla . </s>
+-0.0001491769	Rivera . </s>
+-0.0002237846	Roda . </s>
+-0.0001118779	Rodr'iguez . </s>
+-0.0001491769	Romero . </s>
+-0.0002237846	Royo . </s>
+-0.0001790184	Rubio . </s>
+-0.0002237846	S'aez . </s>
+-0.0004476845	Salgado . </s>
+-0.0002237846	Salsas . </s>
+-0.0004476845	Salt . </s>
+-0.0001491769	Santos . </s>
+-0.0001491769	Sanz . </s>
+-0.0002237846	Saturday . </s>
+-0.0004476845	Segura . </s>
+-0.0002237846	Serrano . </s>
+-0.0001491769	Sevilla . </s>
+-0.000298405	Silvestre . </s>
+-0.000298405	Soler . </s>
+-0.0004476845	Soria . </s>
+-0.0002237846	Su'arez . </s>
+-0.0001118779	Sunday . </s>
+-0.000298405	Tena . </s>
+-0.0004476845	Thursday . </s>
+-0.0001790184	Torres . </s>
+-0.0002237846	Tuesday . </s>
+-0.0001491769	V'azquez . </s>
+-9.944557e-05	Valls . </s>
+-8.949998e-05	Varela . </s>
+-0.0001118779	Velasco . </s>
+-0.0002237846	Viciano . </s>
+-0.0001491769	Vidal . </s>
+-0.0002237846	Vilanova . </s>
+-0.000298405	Villanueva . </s>
+-0.0002237846	Wednesday . </s>
+-5.490266e-06	afternoon . </s>
+-0.0004476845	agree . </s>
+-0.0001491769	all . </s>
+-6.392668e-05	bath . </s>
+-0.0001491769	bathroom . </s>
+-3.290114e-06	bill . </s>
+-3.579778e-05	bus . </s>
+-0.0001790184	bye . </s>
+-4.710296e-05	car . </s>
+-3.314599e-05	cold . </s>
+-2.632161e-05	conditioning . </s>
+-4.474769e-05	day . </s>
+-4.067953e-05	days . </s>
+-2.182756e-05	eight . </s>
+-0.0002237846	eighth . </s>
+-5.593533e-05	eleven . </s>
+-0.0001790184	eleventh . </s>
+-4.261674e-05	error . </s>
+-5.264194e-06	evening . </s>
+-1.005526e-05	expensive . </s>
+-0.0004476845	fifteenth . </s>
+-0.000298405	first . </s>
+-2.182756e-05	five . </s>
+-2.033929e-05	four . </s>
+-0.0002237846	fourteenth . </s>
+-0.0004476845	fourth . </s>
+-0.0002237846	hello . </s>
+-3.891077e-05	hot . </s>
+-4.474769e-05	leave . </s>
+-6.884451e-05	leaving . </s>
+-0.0001790184	luggage . </s>
+-2.983128e-05	made . </s>
+-0.0002237846	matter . </s>
+-0.0001491769	minibar . </s>
+-3.728942e-05	mistake . </s>
+-5.202983e-06	morning . </s>
+-0.000298405	much . </s>
+-5.593533e-05	night . </s>
+-6.392668e-05	nights . </s>
+-2.08123e-05	nine . </s>
+-0.0002237846	nineteenth . </s>
+-0.0004476845	no . </s>
+-4.474769e-05	noisy . </s>
+-4.474769e-05	o'clock . </s>
+-3.728942e-05	oh . </s>
+-6.884451e-05	okay . </s>
+-1.065379e-05	one . </s>
+-0.000339109	please . </s>
+-3.891077e-05	problem . </s>
+-4.710296e-05	reception . </s>
+-2.796595e-06	reservation . </s>
+-1.945495e-05	right . </s>
+-0.0003807956	room . </s>
+-9.834262e-06	rooms . </s>
+-0.0004476845	safe . </s>
+-0.0001491769	sea . </s>
+-0.0001491769	second . </s>
+-2.237327e-05	seven . </s>
+-0.0002237846	seventeenth . </s>
+-0.000298405	seventh . </s>
+-0.0002237846	shower . </s>
+-2.033929e-05	six . </s>
+-0.0001790184	sixteenth . </s>
+-0.0001790184	sorry . </s>
+-5.966461e-05	station . </s>
+-0.0002237846	suitcases . </s>
+-1.864431e-05	taxi . </s>
+-1.657268e-05	telephone . </s>
+-4.710296e-05	ten . </s>
+-0.0002237846	tenth . </s>
+-0.0001790184	thirtieth . </s>
+-0.0004476845	thirty-first . </s>
+-1.688538e-05	three . </s>
+-2.033929e-05	today . </s>
+-1.335704e-05	tomorrow . </s>
+-5.264482e-05	tonight . </s>
+-0.0004476845	town . </s>
+-2.182756e-05	tv . </s>
+-4.261674e-05	twelve . </s>
+-0.000298405	twentieth . </s>
+-0.0002237846	twenty-eighth . </s>
+-0.0002237846	twenty-fifth . </s>
+-0.000298405	twenty-fourth . </s>
+-0.0001491769	twenty-seventh . </s>
+-0.000298405	twenty-sixth . </s>
+-1.542972e-05	two . </s>
+-0.0001790184	view . </s>
+-0.0001491769	water . </s>
+-5.593533e-05	week . </s>
+-0.0002237846	weeks . </s>
+-0.0004476845	yes . </s>
+-0.0004476845	you . </s>
+-6.730738e-06	available ? </s>
+-0.0002289036	bags ? </s>
+-0.0003720297	bath ? </s>
+-0.001490035	bathroom ? </s>
+-5.312759e-05	bill ? </s>
+-0.0007443784	board ? </s>
+-0.001490035	breakfast ? </s>
+-3.541767e-05	bus ? </s>
+-5.833653e-05	car ? </s>
+-0.0004961105	card ? </s>
+-0.0003720297	cards ? </s>
+-0.000141688	cash ? </s>
+-0.0001487736	check ? </s>
+-0.0004961105	checks ? </s>
+-6.33017e-05	conditioning ? </s>
+-7.083824e-05	cost ? </s>
+-0.0002479844	date ? </s>
+-8.041185e-05	day ? </s>
+-0.0003306773	days ? </s>
+-0.0003720297	down ? </s>
+-0.0001566052	eight ? </s>
+-0.0001983762	eleven ? </s>
+-0.0001062617	five ? </s>
+-5.833653e-05	form ? </s>
+-0.0001487736	four ? </s>
+-1.643657e-05	included ? </s>
+-0.0002975982	it ? </s>
+-0.000141688	luggage ? </s>
+-0.0003720297	many ? </s>
+-0.0004252028	minibar ? </s>
+-0.0001750331	much ? </s>
+-0.0009927882	night ? </s>
+-0.0001750331	nine ? </s>
+-0.0002975982	o'clock ? </s>
+-0.0003720297	oh ? </s>
+-7.083824e-05	one ? </s>
+-0.0002705354	pardon ? </s>
+-1.553508e-06	please ? </s>
+-4.440471e-05	reception ? </s>
+-5.8333e-06	room ? </s>
+-2.780428e-05	rooms ? </s>
+-0.0007443784	safe ? </s>
+-0.001490035	service ? </s>
+-9.917677e-05	seven ? </s>
+-0.0007443784	shower ? </s>
+-0.0001293655	six ? </s>
+-7.083824e-05	station ? </s>
+-0.0002705354	suitcases ? </s>
+-7.438045e-05	taxi ? </s>
+-6.611532e-05	telephone ? </s>
+-0.0003720297	ten ? </s>
+-0.0001566052	three ? </s>
+-0.0009927882	today ? </s>
+-0.0004252028	tomorrow ? </s>
+-0.0009927882	tonight ? </s>
+-6.611532e-05	tv ? </s>
+-0.0003306773	twelve ? </s>
+-9.597716e-05	two ? </s>
+-0.0005954006	water ? </s>
+-7.256614e-05	week ? </s>
+-0.0007443784	weeks ? </s>
+-0.0003306773	what ? </s>
+-0.0004252028	when ? </s>
+-0.0004252028	where ? </s>
+-0.0002705354	who ? </s>
+-0.001490035	why ? </s>
+-0.4390336	for Andr'es Bordons
+-0.01574311	Friday April the
+-0.01043175	Monday April the
+-0.01574311	Thursday April the
+-0.01574311	Wednesday April the
+-0.005184553	on April the
+-0.01574311	until April the
+-0.02793665	Friday August the
+-0.006054694	on August the
+-0.02793665	until August the
+-0.04069972	Andr'es Bordons .
+-0.01582519	Mr Borr'as .
+-0.01112612	Rosario Cabedo .
+-0.03427181	Mr Cabo .
+-0.05247834	Mrs Cabo .
+-0.02023691	Pablo Cabrera .
+-0.01679793	Mr Calatayud .
+-0.009081873	Inmaculada Colomer .
+-0.02474234	on December the
+-0.03766301	until December the
+-0.01842336	on February the
+-0.01095997	until February the
+-0.2751175	next Friday .
+-1.323238	on Friday April
+-1.325162	on Friday August
+-1.32452	on Friday May
+-0.4287477	on Friday at
+-1.322599	on Friday evening
+-0.747002	on Friday the
+-0.02023691	Mr Guijarro .
+-1.35474	<s> I am
+-1.179194	<s> I booked
+-2.604728	<s> I do
+-0.5485246	<s> I have
+-1.806539	<s> I leave
+-1.32894	<s> I made
+-1.104869	<s> I should
+-0.9241384	<s> I think
+-0.6986052	<s> I want
+-0.8481165	<s> I would
+-0.02296204	can I pay
+-0.6105403	could I book
+-1.246267	could I pay
+-0.1645916	could I see
+-0.1821879	should I fill
+-0.5165095	should I sign
+-0.02544699	'Angel Ib'a~nez .
+-0.02544699	Mr Ib'a~nez .
+-0.02544699	Sergio Ib'a~nez .
+-0.02544699	Gloria Izquierdo .
+-0.01095997	on January the
+-0.01842336	on July the
+-0.03766301	until July the
+-0.0222037	Thursday June the
+-0.0222037	Tuesday June the
+-0.008745736	on June the
+-0.0222037	until June the
+-0.8398511	for Manuela L'opez
+-0.8403193	for Manuela Romero
+-0.01842336	Tuesday March the
+-0.01842336	on March the
+-0.0222037	Friday May the
+-0.0222037	Saturday May the
+-0.0222037	Wednesday May the
+-0.0222037	on May the
+-0.02023691	Mr Meda .
+-1.390119	for Miss Eva
+-1.385975	for Miss Margarita
+-1.383918	for Miss Ramos
+-0.2709322	next Monday .
+-1.006035	on Monday April
+-0.8522506	on Monday at
+-1.231562	on Monday evening
+-1.005104	on Monday morning
+-0.3762096	on Monday the
+-0.01000059	Mrs Morales .
+-1.978416	for Mr 'Angel
+-1.973959	for Mr Arturo
+-1.738179	for Mr Borr'as
+-1.978416	for Mr C'esar
+-1.759299	for Mr Cabo
+-1.960854	for Mr Calatayud
+-1.973959	for Mr Celestino
+-1.978416	for Mr Daniel
+-1.759299	for Mr Eduardo
+-1.973959	for Mr Emilio
+-1.965179	for Mr Guijarro
+-1.969547	for Mr Ib'a~nez
+-1.973959	for Mr Ignacio
+-1.978416	for Mr Javier
+-1.978416	for Mr Jorge
+-1.965179	for Mr Meda
+-1.756602	for Mr Miguel
+-1.960854	for Mr Ortiz
+-1.759299	for Mr Pedro
+-1.973959	for Mr Pe~narroja
+-1.965179	for Mr Ramos
+-1.969547	for Mr Romero
+-1.614347	for Mr V'ictor
+-0.5407741	for Mr and
+-1.469757	and Mrs Cabo
+-1.451714	and Mrs Morales
+-1.46746	and Mrs Revilla
+-1.17794	and Mrs Varela
+-1.530339	for Mrs Alicia
+-1.532738	for Mrs Carmen
+-1.532738	for Mrs Cristina
+-1.301924	for Mrs Inmaculada
+-1.30334	for Mrs Manuela
+-1.530339	for Mrs Margarita
+-1.532738	for Mrs Rosario
+-1.530339	for Mrs Victoria
+-0.007800225	on November the
+-0.01374373	until November the
+-0.01374373	on October the
+-0.02793665	until October the
+-0.01679793	Mr Ortiz .
+-0.4392238	for Pablo Cabrera
+-0.01000059	Arturo Peris .
+-0.03427181	Mr Pe~narroja .
+-0.04069972	Miss Ramos .
+-0.03427181	Mrs Revilla .
+-0.02544699	Manuela Romero .
+-0.02544699	Mr Romero .
+-0.02023691	Mrs Santos .
+-0.3393111	next Saturday .
+-1.215884	on Saturday May
+-0.6364823	on Saturday at
+-1.213942	on Saturday evening
+-0.5644478	on Saturday the
+-0.03766301	Thursday September the
+-0.009113993	on September the
+-0.01043175	until September the
+-0.7879109	for Sergio Ib'a~nez
+-0.02023691	Antonio Sevilla .
+-0.1730598	next Sunday .
+-0.9265792	on Sunday .
+-0.2564214	on Sunday at
+-0.9012995	on Sunday the
+-1.292128	on Thursday April
+-1.29365	on Thursday June
+-1.295178	on Thursday September
+-1.291369	on Thursday afternoon
+-0.7162901	on Thursday at
+-0.5831162	on Thursday the
+-0.7422581	next Tuesday ,
+-0.3540098	next Tuesday .
+-0.749777	next Tuesday for
+-1.202004	on Tuesday June
+-0.9737609	on Tuesday March
+-0.7091954	on Tuesday at
+-1.199711	on Tuesday morning
+-0.3843263	on Tuesday the
+-0.01253714	Manuela Valls .
+-0.007119705	Mrs Varela .
+-0.02023691	Mrs Vidal .
+-0.5417118	next Wednesday ,
+-0.4632754	next Wednesday .
+-1.011061	on Wednesday .
+-1.199479	on Wednesday April
+-1.200279	on Wednesday May
+-0.9635916	on Wednesday at
+-0.3009873	on Wednesday the
+-1.075163	, a bath
+-1.106085	, a bathroom
+-0.9066782	, a good
+-1.831391	, a minibar
+-1.106085	, a shower
+-0.6520141	, a telephone
+-0.5258117	, a tv
+-1.142979	, a view
+-1.250963	<s> a double
+-0.3998521	<s> a mistake
+-0.5691121	<s> a quiet
+-0.6085885	<s> a room
+-1.098807	and a bath
+-1.216214	and a bathroom
+-1.181147	and a good
+-1.58934	and a minibar
+-1.691388	and a safe
+-1.056814	and a shower
+-0.4882043	and a telephone
+-0.5846186	and a tv
+-1.199285	and a view
+-2.226434	at a double
+-0.02914592	at a quarter
+-1.722641	at a quiet
+-1.592225	at a room
+-1.9866	at a single
+-0.3832327	been a mistake
+-0.2548591	been a problem
+-0.7418883	book a double
+-0.6446793	book a quiet
+-0.3161783	book a room
+-0.9830185	book a single
+-0.8625103	booked a double
+-0.6825118	booked a quiet
+-0.2940553	booked a room
+-0.8380141	booked a single
+-0.001227171	call a taxi
+-0.3227797	does a double
+-0.2863053	does a single
+-1.002221	for a day
+-1.102705	for a double
+-1.19439	for a night
+-0.8922369	for a quiet
+-0.745582	for a room
+-0.964235	for a single
+-0.5269358	for a taxi
+-1.417651	for a week
+-1.659768	have a bath
+-2.384805	have a bathroom
+-1.26813	have a double
+-2.176468	have a minibar
+-0.9412133	have a quiet
+-0.4801643	have a reservation
+-0.6034436	have a room
+-1.845421	have a shower
+-1.210778	have a single
+-1.109429	have a telephone
+-1.240919	have a tv
+-0.01393645	in a registration
+-0.7979618	is a double
+-1.536587	is a lot
+-0.5030679	is a mistake
+-0.5433096	is a problem
+-0.6978439	is a single
+-0.9073067	like a double
+-0.5323756	like a quiet
+-0.2953818	like a room
+-1.222121	like a single
+-0.0006119812	made a reservation
+-0.5613235	me a quiet
+-0.3972506	me a room
+-0.6292043	me a single
+-0.6585073	see a double
+-0.8166767	see a quiet
+-0.3002891	see a room
+-0.9361952	see a single
+-0.02469035	sign a registration
+-0.007924004	taking a look
+-0.003859698	that a mistake
+-1.234089	there a bath
+-1.58628	there a bathroom
+-1.125647	there a double
+-1.778173	there a minibar
+-1.032428	there a quiet
+-0.7204507	there a room
+-1.58628	there a safe
+-1.778173	there a shower
+-1.286261	there a single
+-0.6660695	there a telephone
+-0.6568484	there a tv
+-0.5451122	to a quieter
+-0.2392726	to a room
+-0.9009831	to a warmer
+-0.9939512	us a double
+-0.8598745	us a quiet
+-0.2214244	us a room
+-0.9939512	us a single
+-0.8566658	want a double
+-0.659086	want a quiet
+-0.3006282	want a room
+-0.869389	want a single
+-0.3588817	was a mistake
+-0.2893114	was a problem
+-1.12083	with a bath
+-1.250728	with a bathroom
+-1.266191	with a good
+-1.617775	with a minibar
+-1.651069	with a safe
+-1.279169	with a shower
+-0.5230058	with a telephone
+-0.4389354	with a tv
+-1.36151	with a view
+-0.5611628	you accept cash
+-0.426332	you accept credit
+-0.5611628	you accept traveler
+-0.01241647	value added tax
+-0.005926651	day after tomorrow
+-0.4409287	looking after the
+-0.02670505	Thursday afternoon .
+-0.2509006	good afternoon !
+-0.3922027	good afternoon .
+-0.0003986531	the afternoon .
+-0.003249699	this afternoon .
+-0.005211254	tomorrow afternoon .
+-0.1920397	not agree !
+-0.6417984	not agree .
+-0.002455057	, air conditioning
+-0.0009190209	and air conditioning
+-0.001423827	have air conditioning
+-0.0008322377	there air conditioning
+-0.000344405	with air conditioning
+-0.4358353	are all expenses
+-0.5359505	are all extras
+-0.5086764	are all taxes
+-0.04460263	at all .
+-0.006062496	is all right
+-0.002228473	I am leaving
+-0.05439182	i am sorry
+-0.004924072	been an error
+-0.0009190209	is an error
+-0.004099506	was an error
+-0.006922285	Mr and Mrs
+-0.1034382	bath and a
+-0.6949683	bath and air
+-0.00629786	bathroom and a
+-0.02105555	conditioning and a
+-1.403994	conditioning and hot
+-0.1202014	minibar and a
+-0.6851226	minibar and air
+-0.02245404	mountain and a
+-0.1620316	safe and a
+-0.009481372	sea and a
+-0.09139525	shower and a
+-0.7473488	shower and air
+-0.1031608	telephone and a
+-0.7829552	telephone and air
+-1.355027	telephone and hot
+-0.0270876	town and a
+-0.05827468	tv and a
+-0.9568075	tv and air
+-1.887285	tv and hot
+-0.004890422	view and a
+-0.2495939	water and a
+-0.3917311	water and air
+-0.006902448	at another room
+-0.00922786	me another room
+-0.001097046	see another room
+-0.00613007	us another room
+-0.7254289	have any double
+-0.6764466	have any quiet
+-0.3961185	have any rooms
+-0.7254289	have any single
+-0.6892673	there any double
+-0.7810656	there any quiet
+-0.3455406	there any rooms
+-0.7810512	there any single
+-0.6025403	<s> are all
+-1.193798	<s> are expenses
+-1.193798	<s> are extras
+-1.513373	<s> are meals
+-1.30349	<s> are taxes
+-0.2790802	<s> are there
+-0.359858	they are too
+-0.3598157	they are very
+-0.00176217	we are leaving
+-0.00721641	<s> ask for
+-0.004496185	please ask for
+-0.0004262082	you ask for
+-0.5687507	Friday at a
+-0.7533076	Friday at half
+-0.6647913	Friday at ten
+-0.1888573	Monday at a
+-0.3234114	Saturday at a
+-0.391271	Sunday at a
+-0.9647103	Sunday at eight
+-0.8343571	Sunday at half
+-0.2076823	Thursday at a
+-0.5399412	Tuesday at four
+-0.3709902	eighteenth at a
+-0.3903582	eleventh at a
+-0.5946929	eleventh at half
+-0.136833	fifteenth at a
+-0.5331815	first at eight
+-0.4769466	first at half
+-0.3234114	fourth at a
+-0.1119964	look at a
+-0.7030199	look at another
+-0.501106	nineteenth at half
+-0.3903582	ninth at a
+-0.5946929	ninth at half
+-0.05139101	not at all
+-0.43196	seventeenth at a
+-0.5111412	seventh at a
+-0.5277461	seventh at half
+-0.5277461	sixteenth at half
+-0.623137	sixteenth at two
+-0.2645023	tenth at a
+-0.63608	third at a
+-0.3256052	third at half
+-0.2685625	thirteenth at a
+-0.8034488	thirteenth at one
+-0.2746291	thirtieth at a
+-0.6230747	thirtieth at half
+-0.1947141	thirty-first at half
+-0.4638425	today at a
+-1.202655	today at eight
+-1.144503	today at eleven
+-1.846202	today at five
+-1.808808	today at four
+-0.7250529	today at half
+-1.208611	today at nine
+-1.379827	today at one
+-1.463405	today at seven
+-1.452753	today at six
+-1.358375	today at ten
+-1.797026	today at three
+-1.380075	today at twelve
+-1.617599	today at two
+-0.3956209	tomorrow at a
+-1.648103	tomorrow at eight
+-1.443417	tomorrow at eleven
+-1.482596	tomorrow at five
+-1.705693	tomorrow at four
+-0.6926153	tomorrow at half
+-1.445933	tomorrow at nine
+-1.189596	tomorrow at one
+-1.505936	tomorrow at seven
+-1.806703	tomorrow at six
+-1.287261	tomorrow at ten
+-1.540168	tomorrow at three
+-1.620015	tomorrow at twelve
+-1.510398	tomorrow at two
+-0.548596	twelfth at a
+-0.5680528	twelfth at half
+-0.4001981	twenty-eighth at a
+-0.8082595	twenty-eighth at eight
+-0.7229547	twenty-eighth at half
+-0.5530075	twenty-fifth at a
+-0.4816492	twenty-first at a
+-0.5864107	twenty-fourth at eight
+-0.4519028	twenty-ninth at a
+-0.8756503	twenty-ninth at nine
+-0.9095091	twenty-ninth at twelve
+-0.259715	twenty-seventh at a
+-0.6629191	twenty-sixth at nine
+-0.6631888	twenty-sixth at ten
+-0.5111412	twenty-third at a
+-0.6273575	twenty-third at one
+-0.400075	up at a
+-1.923339	up at eight
+-1.318151	up at eleven
+-1.457366	up at five
+-1.633301	up at four
+-0.6583751	up at half
+-1.41169	up at nine
+-1.035004	up at one
+-1.448568	up at seven
+-1.571088	up at six
+-1.934159	up at ten
+-1.944645	up at three
+-1.961656	up at twelve
+-1.453789	up at two
+-0.004881798	bath available ?
+-0.003901039	bathroom available ?
+-0.000694049	conditioning available ?
+-9.473156e-05	room available ?
+-0.0001517285	rooms available ?
+-0.003901039	safe available ?
+-0.0007774095	telephone available ?
+-0.0005251242	tv available ?
+-0.006521335	water available ?
+-0.003859911	my bag to
+-0.003490819	our bag to
+-0.001925667	travel bag to
+-0.8941541	my bags down
+-1.309003	my bags in
+-1.312906	my bags on
+-0.1349306	my bags to
+-1.119894	our bags ?
+-1.440693	our bags down
+-0.9392697	our bags in
+-1.252916	our bags on
+-0.1530594	our bags to
+-1.029261	the bags ?
+-1.034153	the bags down
+-0.8438389	the bags in
+-0.2272464	the bags to
+-1.227786	travel bags ?
+-1.052373	travel bags down
+-1.10272	travel bags in
+-1.40744	travel bags on
+-0.141259	travel bags to
+-0.8196105	a bath ,
+-0.8980482	a bath .
+-1.159539	a bath ?
+-0.6017498	a bath and
+-1.495943	a bath available
+-0.6685206	a bath for
+-0.9412142	a bath in
+-1.862574	a bath until
+-0.5124005	a bathroom ,
+-1.114862	a bathroom .
+-1.677452	a bathroom ?
+-0.5743209	a bathroom and
+-1.232203	a bathroom available
+-0.9043177	a bathroom for
+-1.005996	a bathroom in
+-0.5967013	has been a
+-1.053645	has been an
+-0.1875146	has been made
+-1.491112	my bill ,
+-0.4089221	my bill .
+-0.2457805	my bill for
+-0.8608161	our bill ,
+-0.4859838	our bill .
+-0.2791322	our bill for
+-0.004946878	phone bill included
+-1.246571	the bill ,
+-0.5356596	the bill .
+-1.116393	the bill ?
+-1.886928	the bill by
+-0.2560405	the bill for
+-2.212378	the bill in
+-0.7214649	full board ,
+-0.2611619	full board cost
+-1.160095	full board for
+-0.8294698	full board per
+-0.87037	half board ,
+-1.01676	half board ?
+-0.2597495	half board cost
+-1.294061	half board for
+-0.8754706	half board per
+-0.006087835	I book a
+-0.0569094	to book a
+-0.9169238	to book two
+-0.004565275	we book two
+-0.02112309	I booked a
+-1.341572	I booked two
+-0.02898962	have booked a
+-1.193389	have booked two
+-0.05184418	we booked a
+-0.9598404	we booked two
+-0.7015658	including breakfast ,
+-1.173107	including breakfast ?
+-0.3417999	including breakfast cost
+-0.9584083	including breakfast for
+-1.19423	including breakfast per
+-0.1679394	is breakfast included
+-0.6465447	the bus .
+-0.1156157	the bus ?
+-0.7575032	bill by check
+-0.5611628	bill by credit
+-0.3235932	bill by traveler
+-0.4446168	pay by check
+-0.7652828	pay by credit
+-0.375018	pay by traveler
+-0.3011561	good bye !
+-0.37892	good bye .
+-0.08848938	<s> call a
+-0.138677	please call a
+-0.7533255	please call my
+-0.06828356	you call a
+-1.30455	you call my
+-1.028161	you call our
+-1.791971	<s> can I
+-1.923316	<s> can we
+-0.01331785	<s> can you
+-0.5756556	the car .
+-0.1416012	the car ?
+-0.03714343	credit card ?
+-0.02755553	credit cards ?
+-0.03833437	take care of
+-0.756238	<s> carry my
+-0.425557	<s> carry our
+-0.4248202	<s> carry the
+-0.5084748	you carry my
+-0.5684075	you carry our
+-0.4084933	you carry the
+-0.8636142	mind carrying my
+-0.6422187	mind carrying our
+-0.2994646	mind carrying the
+-0.01817474	accept cash ?
+-0.007178887	in cash ?
+-0.003572752	to change rooms
+-0.3552219	you change my
+-0.2781207	you change our
+-0.2605748	mind changing my
+-0.3696905	mind changing our
+-0.07536216	<s> check the
+-0.03142566	by check ?
+-0.5106701	please check our
+-0.2652591	please check the
+-0.02069579	traveler check ?
+-0.964854	you check my
+-1.103457	you check our
+-0.09961267	you check the
+-0.03714343	traveler checks ?
+-0.2545691	too cold .
+-0.3723237	too cold in
+-0.2915322	very cold .
+-0.325548	very cold in
+-1.002128	air conditioning ,
+-0.9137099	air conditioning .
+-0.7754891	air conditioning ?
+-0.655031	air conditioning and
+-1.004536	air conditioning available
+-1.151837	air conditioning for
+-0.7399421	air conditioning in
+-1.568437	air conditioning until
+-0.7610267	board cost ,
+-0.4944975	board cost ?
+-0.6934939	board cost for
+-0.5369781	board cost per
+-0.4515732	breakfast cost ?
+-0.5810534	breakfast cost for
+-0.5828794	breakfast cost per
+-0.5434146	room cost ,
+-0.5435147	room cost ?
+-1.25054	room cost for
+-0.4360803	room cost per
+-0.617597	service cost ,
+-0.8029872	service cost ?
+-0.3102343	service cost per
+-1.02034	<s> could I
+-0.9646226	<s> could we
+-0.09963781	<s> could you
+-0.03320114	accept credit cards
+-0.04485724	by credit card
+-0.01817474	the date ?
+-0.455517	a day ,
+-0.415936	a day .
+-0.9403644	a day ?
+-0.8973199	a day for
+-0.2804892	per day ,
+-0.333963	per day ?
+-0.006017565	the day after
+-0.3537796	eighteen days for
+-0.0752222	five days .
+-0.4180229	fourteen days .
+-0.5064238	fourteen days ?
+-0.168089	nine days .
+-0.4553153	thirty days .
+-0.4951911	thirty days for
+-0.1110338	twelve days ,
+-0.4095138	twenty-eight days ?
+-0.168089	twenty-nine days .
+-0.266532	twenty-one days for
+-0.1531491	twenty-three days ?
+-2.351048	<s> do our
+-1.20946	<s> do the
+-1.254869	<s> do they
+-0.05953952	<s> do you
+-0.04143848	I do not
+-0.3906405	<s> does it
+-0.7935481	<s> does my
+-0.4068045	<s> does the
+-0.02389717	it does not
+-0.001927809	much does a
+-0.0373678	, double room
+-1.095382	, double rooms
+-0.0004930037	a double room
+-0.004883781	any double rooms
+-0.006458261	two double rooms
+-0.6968937	bags down ?
+-0.1215466	bags down to
+-1.113441	luggage down ?
+-0.05256961	luggage down to
+-0.3152615	send down my
+-0.2942355	send down our
+-0.2839095	sending down my
+-0.3382936	sending down our
+-0.7084553	suitcases down ?
+-0.1950265	suitcases down to
+-0.8034687	at eight ,
+-1.122164	at eight .
+-0.3155313	at eight in
+-0.6351813	at eight o'clock
+-0.2806085	five eight .
+-0.3300535	for eight days
+-0.7355482	four eight four
+-0.490611	nine eight ,
+-1.528008	number eight eight
+-1.378379	number eight five
+-1.025304	number eight four
+-1.36884	number eight nine
+-1.02115	number eight oh
+-0.5751171	number eight one
+-1.514607	number eight seven
+-1.359507	number eight six
+-1.501606	number eight three
+-0.5585248	number eight two
+-0.7587274	oh eight ,
+-0.5506371	oh eight .
+-0.588115	oh eight for
+-0.6127577	one eight ,
+-0.7462254	one eight .
+-0.7760534	one eight ?
+-0.7002288	one eight for
+-1.216353	one eight oh
+-0.6060773	past eight ,
+-0.6506823	past eight .
+-1.182173	past eight ?
+-0.3759852	past eight in
+-0.3532326	seven eight ,
+-0.6736076	six eight ,
+-0.7283146	six eight for
+-0.8148891	three eight ,
+-0.5006214	three eight .
+-0.8591152	three eight ?
+-0.9259607	to eight ,
+-0.91128	to eight .
+-0.7372363	to eight ?
+-0.3393447	to eight in
+-0.3556506	two eight ,
+-0.6227214	two eight .
+-1.084607	two eight ?
+-0.9594437	two eight for
+-0.154573	for eighteen days
+-0.2265463	the eighteenth at
+-0.8529022	the eighteenth in
+-0.5455649	the eighth .
+-0.9295371	the eighth at
+-0.3701638	the eighth in
+-0.6709059	at eleven ,
+-1.012722	at eleven .
+-0.8117334	at eleven ?
+-0.5072516	at eleven in
+-0.6909635	at eleven o'clock
+-0.3267923	for eleven days
+-0.5668332	for eleven nights
+-1.025648	past eleven ,
+-0.7084026	past eleven .
+-0.8416445	past eleven ?
+-0.2645138	past eleven in
+-0.3454632	to eleven ,
+-0.7245938	to eleven .
+-0.6015559	to eleven in
+-0.531883	the eleventh .
+-0.3892736	the eleventh at
+-1.015152	the eleventh for
+-1.01563	the eleventh in
+-0.7392749	an error .
+-0.09157217	an error in
+-0.01253714	Friday evening .
+-0.01253714	Monday evening .
+-0.01253714	Saturday evening .
+-0.0001765775	the evening .
+-0.001650855	this evening .
+-0.003545263	tomorrow evening .
+-0.003675403	is everything included
+-0.005524836	all expenses included
+-0.007914308	are expenses included
+-0.004733478	is expensive .
+-0.001535475	too expensive .
+-0.002064551	very expensive .
+-0.05621135	<s> explain the
+-0.02320576	please explain the
+-1.223817	you explain my
+-0.9842498	you explain our
+-0.08254475	you explain the
+-0.006917096	all extras included
+-0.007914308	are extras included
+-0.154573	for fifteen days
+-0.4816853	the fifteenth .
+-0.5171663	the fifteenth at
+-0.6606917	the fifth at
+-0.4396761	the fifth in
+-0.004696786	I fill in
+-0.005692089	we fill in
+-0.6740159	the first .
+-0.4570663	the first at
+-0.9212884	the first for
+-0.921881	the first in
+-0.6787806	at five ,
+-0.8266974	at five .
+-0.9411508	at five ?
+-0.6976465	at five in
+-0.5839617	at five o'clock
+-0.829458	five five seven
+-0.3302061	for five days
+-0.5047541	four five ,
+-1.017477	four five four
+-1.000245	four five nine
+-1.000652	four five oh
+-0.5465423	nine five ,
+-1.132791	number five five
+-1.295284	number five four
+-1.534443	number five nine
+-0.927816	number five oh
+-0.5807962	number five one
+-1.288751	number five seven
+-1.308654	number five six
+-1.394449	number five three
+-0.5591245	number five two
+-0.4027316	oh five .
+-0.3823727	one five ,
+-0.4676756	one five .
+-0.9785982	one five ?
+-0.5934897	past five ,
+-0.4763872	past five .
+-0.752461	past five ?
+-0.7713693	past five in
+-0.6860033	six five ,
+-0.6993795	six five ?
+-0.3620057	three five ,
+-0.7725279	three five .
+-0.644268	to five ,
+-0.7757701	to five .
+-0.4561336	to five ?
+-0.8236314	to five in
+-0.3406984	two five ,
+-0.9266964	two five .
+-1.041479	two five ?
+-0.7482528	two five for
+-1.431518	two five seven
+-0.1105541	ask for a
+-1.024537	ask for my
+-0.9198002	ask for our
+-1.1248	bath for Miss
+-0.8665984	bath for Mr
+-1.125226	bath for a
+-0.5681691	bathroom for Mr
+-0.6140397	bill for me
+-0.2841018	bill for room
+-0.632463	bill for us
+-0.4632968	board for a
+-0.4770738	board for thirty
+-0.338358	breakfast for a
+-1.035523	conditioning for Mr
+-0.8881272	conditioning for a
+-1.148638	conditioning for this
+-0.7669607	conditioning for today
+-0.9113377	conditioning for tonight
+-0.3900561	cost for a
+-1.071331	cost for eighteen
+-1.071331	cost for twenty-eight
+-0.4591042	day for Mrs
+-0.3228995	days for Mr
+-0.9778589	days for Mrs
+-0.3327944	eight for me
+-0.3327944	eight for us
+-0.3722768	five for me
+-0.3089046	five for us
+-0.4754619	four for me
+-0.2114008	four for us
+-0.3512875	night for Mr
+-0.5904413	nine for me
+-0.1748705	nine for us
+-0.3089046	oh for me
+-0.3722768	oh for us
+-0.4550327	one for me
+-0.2300169	one for us
+-0.003664648	price for a
+-2.273854	reservation for 'Angel
+-2.274662	reservation for Amparo
+-2.051642	reservation for Arturo
+-2.065666	reservation for Carlos
+-2.295804	reservation for Daniel
+-2.233024	reservation for Eva
+-2.253729	reservation for Francisco
+-2.026707	reservation for Gregorio
+-2.273047	reservation for Ignacio
+-2.274662	reservation for Jaime
+-1.887741	reservation for Manuela
+-2.026251	reservation for Margarita
+-1.89663	reservation for Marina
+-2.252191	reservation for Miguel
+-1.911168	reservation for Miss
+-1.059848	reservation for Mr
+-1.724757	reservation for Mrs
+-2.273854	reservation for Rafael
+-2.039466	reservation for Sergio
+-2.273047	reservation for Sonia
+-2.273047	reservation for Susana
+-1.887741	reservation for Teresa
+-2.253729	reservation for Vicenta
+-2.052126	reservation for Virginia
+-0.2085637	reservation for a
+-2.23785	room for 'Angel
+-2.214712	room for 'Oscar
+-2.261307	room for Alicia
+-2.441846	room for Amparo
+-2.440359	room for Andr'es
+-2.264266	room for Carlos
+-2.23692	room for Celestino
+-2.098927	room for Concepci'on
+-2.289236	room for Cristina
+-2.481627	room for Daniel
+-2.23785	room for Dulce
+-2.402673	room for Eduardo
+-2.190234	room for Emilio
+-2.119365	room for Enrique
+-2.367999	room for Eva
+-2.262291	room for Gloria
+-2.366744	room for Gregorio
+-2.099604	room for Ignacio
+-2.238782	room for Jaime
+-2.481627	room for Javier
+-2.082653	room for Jes'us
+-2.404037	room for Jos'e
+-2.481627	room for Juan
+-2.23785	room for Julia
+-2.261307	room for Lidia
+-2.23785	room for Luis
+-2.440359	room for Manuel
+-2.366744	room for Manuela
+-2.367999	room for Mar'ia
+-2.21295	room for Miguel
+-1.471693	room for Miss
+-2.238782	room for Modesto
+-0.9593734	room for Mr
+-1.279809	room for Mrs
+-2.263277	room for Pablo
+-2.402673	room for Paloma
+-2.440359	room for Rafael
+-2.404037	room for Rosa
+-2.23692	room for Rosal'ia
+-2.304903	room for Rosario
+-2.082653	room for Sergio
+-1.955952	room for Silvia
+-1.995434	room for Susana
+-2.190234	room for Teresa
+-2.481627	room for Tom'as
+-1.995967	room for Virginia
+-0.7876949	room for a
+-2.109552	room for eight
+-2.441846	room for eighteen
+-2.024091	room for eleven
+-2.225909	room for five
+-2.460907	room for four
+-2.238782	room for fourteen
+-2.017874	room for nine
+-2.128333	room for seven
+-2.276836	room for six
+-2.4374	room for ten
+-1.92419	room for thirty
+-1.108448	room for this
+-1.173104	room for today
+-1.228126	room for tonight
+-2.478375	room for twelve
+-2.483263	room for twenty
+-2.441846	room for twenty-eight
+-2.138584	room for twenty-five
+-2.264266	room for twenty-nine
+-2.441846	room for twenty-one
+-2.291338	room for twenty-seven
+-2.52905	room for twenty-six
+-1.29383	rooms for a
+-1.15321	rooms for fifteen
+-1.39257	rooms for four
+-0.9911654	rooms for this
+-0.7935017	rooms for today
+-0.7895162	rooms for tonight
+-0.1055003	service for a
+-0.3461487	seven for me
+-0.3061494	seven for us
+-0.1623475	seventeenth for Mr
+-1.199321	shower for Manuel
+-1.015482	shower for Mr
+-1.117501	shower for Mrs
+-1.199321	shower for Virginia
+-1.175143	shower for today
+-0.3722768	six for me
+-0.3089046	six for us
+-0.4182972	taxi for me
+-0.5854605	taxi for room
+-0.4512861	taxi for us
+-1.315185	telephone for 'Oscar
+-1.53451	telephone for Beatriz
+-1.51791	telephone for Manuela
+-0.8098629	telephone for Mr
+-1.396053	telephone for Mrs
+-1.211166	telephone for a
+-1.277503	telephone for tonight
+-0.5008602	three for me
+-0.2148698	three for us
+-0.2950025	today for Mr
+-1.042505	tomorrow for Miss
+-0.4011723	tomorrow for Mr
+-1.050243	tomorrow for Mrs
+-0.8255341	tonight for Miss
+-0.5757337	tonight for Mr
+-1.251173	tv for Beatriz
+-1.502685	tv for Enrique
+-1.349993	tv for Miss
+-0.8960664	tv for Mr
+-1.183491	tv for Mrs
+-1.440953	tv for Rosario
+-1.243639	tv for Teresa
+-1.045422	tv for a
+-1.430595	tv for tonight
+-0.3239546	twenty-eighth for Mr
+-0.4514581	two for me
+-0.2396934	two for us
+-0.7672465	view for Mr
+-0.7532827	week for Miss
+-0.3971991	week for Mr
+-0.9839529	week for Mrs
+-0.5949342	registration form ,
+-0.1353523	registration form ?
+-0.5869699	at four ,
+-0.7404659	at four .
+-1.200547	at four ?
+-0.4904464	at four in
+-1.04601	at four o'clock
+-0.3701541	eight four ,
+-0.900345	eight four one
+-0.5181084	five four ,
+-0.7503237	five four one
+-0.7745298	five four six
+-0.4765796	for four weeks
+-0.825197	four four ,
+-0.9842184	four four .
+-1.168838	four four eight
+-1.112116	four four five
+-1.130213	four four four
+-0.9111485	four four nine
+-1.094743	four four six
+-1.078039	four four three
+-0.665089	nine four ,
+-0.7128599	nine four for
+-0.6991712	nine four one
+-1.429516	number four eight
+-1.182137	number four five
+-0.975605	number four four
+-1.495376	number four nine
+-1.098247	number four oh
+-0.6646936	number four one
+-1.182137	number four seven
+-1.277866	number four six
+-1.060327	number four three
+-0.6562862	number four two
+-0.4867881	oh four ,
+-0.9008268	oh four .
+-0.7348706	oh four ?
+-0.9618622	oh four for
+-0.5835921	one four ,
+-0.7571203	one four .
+-0.6536613	one four for
+-1.32981	one four nine
+-1.315104	one four oh
+-1.272462	one four one
+-1.122828	one four seven
+-0.4388329	past four ,
+-0.4779298	past four .
+-0.8446027	past four ?
+-0.9749836	past four in
+-0.7143878	seven four .
+-1.018239	seven four four
+-0.9831801	seven four oh
+-0.934469	seven four one
+-0.8696809	six four ,
+-0.6860129	six four .
+-0.9138563	six four one
+-0.9571116	six four seven
+-0.726795	six four three
+-0.6048367	three four ,
+-1.139359	three four for
+-0.9716538	three four nine
+-0.8334377	three four seven
+-0.9514378	three four three
+-1.192041	three four two
+-0.2924433	to four ,
+-0.7533659	to four .
+-0.9783573	to four ?
+-1.033158	to four in
+-0.6382655	two four ,
+-0.7818571	two four .
+-1.201925	two four ?
+-0.600955	two four for
+-1.070121	two four nine
+-1.262041	two four six
+-0.04599366	for fourteen days
+-0.8751314	the fourteenth ,
+-0.5047138	the fourteenth .
+-0.6746672	the fourteenth at
+-0.8871188	the fourteenth in
+-0.6678504	the fourth ,
+-0.8483478	the fourth .
+-0.336535	the fourth at
+-0.008900159	with full board
+-0.2360598	<s> give me
+-0.3807736	<s> give us
+-0.2947054	please give me
+-0.3118233	please give us
+-0.4505907	to give me
+-0.1913925	to give us
+-0.3405243	you give me
+-0.2654967	you give us
+-0.2969823	mind giving me
+-0.31353	mind giving us
+-0.8185798	<s> good afternoon
+-0.536741	<s> good bye
+-0.4604633	<s> good morning
+-0.818985	<s> good night
+-0.003563879	a good view
+-0.001122581	at half past
+-0.007159186	with half board
+-0.00103081	mistake has been
+-0.001937049	there has been
+-0.8477616	I have a
+-0.2791052	I have booked
+-0.4804325	I have made
+-0.1127606	it have a
+-0.6842563	it have air
+-0.1353348	room have a
+-0.5981423	room have air
+-0.3272651	rooms have a
+-0.2977912	rooms have air
+-0.100524	they have a
+-0.845086	they have air
+-1.117675	we have a
+-0.1245682	we have booked
+-0.7686345	we have made
+-0.1687244	you have a
+-0.4962781	you have any
+-0.228586	<s> hello !
+-0.4854546	<s> hello .
+-0.05458219	, hot water
+-0.01566667	and hot water
+-0.01744282	there hot water
+-0.3845922	too hot .
+-0.256176	too hot in
+-0.3747052	very hot .
+-0.2668597	very hot in
+-0.008175126	with hot water
+-1.519803	<s> how many
+-0.01515753	<s> how much
+-0.04644521	<s> i am
+-0.004368322	bags in the
+-0.02438566	bath in the
+-0.04035267	bathroom in the
+-0.06148278	bill in cash
+-0.003605451	cold in the
+-0.6093552	conditioning in my
+-0.8288853	conditioning in our
+-0.2194359	conditioning in the
+-0.001970705	eight in the
+-0.04338797	eighteenth in the
+-0.0139865	eighth in the
+-0.001970705	eleven in the
+-0.04338797	eleventh in the
+-0.9843479	error in my
+-0.8647	error in our
+-0.1201161	error in the
+-0.02843848	fifth in the
+-0.3150202	fill in a
+-0.2950703	fill in the
+-0.04338797	first in the
+-0.005540667	five in the
+-0.005540667	four in the
+-0.04338797	fourteenth in the
+-0.002761498	hot in the
+-0.00147719	included in the
+-0.002959421	luggage in the
+-1.071071	made in my
+-1.007806	made in our
+-0.08873527	made in the
+-0.06649608	minibar in the
+-0.6565883	mistake in my
+-1.129765	mistake in our
+-0.1526702	mistake in the
+-0.002178669	nine in the
+-0.02843848	nineteenth in the
+-0.003454625	noise in the
+-0.001924773	o'clock in the
+-0.0046123	one in the
+-0.02965429	pay in cash
+-1.014861	problem in my
+-1.483373	problem in our
+-0.06105404	problem in the
+-0.04643605	safe in the
+-0.004885143	seven in the
+-0.02115238	shower in the
+-0.003187906	six in the
+-0.01196064	suitcases in the
+-0.858737	telephone in my
+-1.193339	telephone in our
+-0.1000362	telephone in the
+-0.001723877	ten in the
+-0.04338797	tenth in the
+-0.005939147	three in the
+-0.003454625	today in the
+-0.6837895	tv in our
+-0.1080093	tv in the
+-0.04338797	twelfth in the
+-0.005939147	twelve in the
+-0.04338797	twentieth in the
+-0.02843848	twenty-fifth in the
+-0.04338797	twenty-sixth in the
+-0.005540667	two in the
+-0.646054	water in our
+-0.1228295	water in the
+-0.002044022	bill included ?
+-0.06357111	breakfast included ?
+-1.129032	everything included ,
+-0.03679639	everything included ?
+-0.5260499	expenses included ?
+-0.1594911	expenses included in
+-0.4307902	extras included ?
+-0.2087813	extras included in
+-0.6814051	meals included ,
+-0.1353369	meals included ?
+-0.01723385	service included ?
+-0.006621032	tax included ?
+-0.2674398	taxes included ?
+-0.3485201	taxes included in
+-0.3200446	room including breakfast
+-0.3010595	room including room
+-2.45995	<s> is breakfast
+-0.8165448	<s> is everything
+-1.786312	<s> is room
+-0.8305364	<s> is the
+-0.203716	<s> is there
+-1.350705	<s> is value
+-1.700513	it is expensive
+-0.3417836	it is too
+-0.3026051	it is very
+-0.003593112	much is a
+-1.596988	name is Alicia
+-1.224376	name is Antonio
+-1.372526	name is Arturo
+-1.599132	name is Emilio
+-1.599132	name is Gloria
+-1.596988	name is Inmaculada
+-1.596988	name is Isabel
+-1.599132	name is Jacinto
+-1.373804	name is Jes'us
+-1.372526	name is Miguel
+-1.225283	name is Paloma
+-1.601286	name is Sergio
+-1.599132	name is Susana
+-0.5963404	room is all
+-1.196318	room is expensive
+-0.4304457	room is too
+-0.5253907	room is very
+-0.2318129	there is a
+-0.4734208	there is an
+-1.157808	there is too
+-0.02998062	time is it
+-0.003172021	what is the
+-0.8511131	<s> it does
+-0.07333755	<s> it is
+-0.01022483	does it have
+-0.02752023	is it ?
+-0.0004848725	the key to
+-0.000983355	the keys to
+-0.2909083	the lake ,
+-0.2567142	I leave on
+-1.181204	I leave this
+-0.6259519	I leave today
+-0.9404746	I leave tomorrow
+-1.322357	should leave .
+-0.3264982	should leave on
+-1.295898	should leave this
+-0.6803834	should leave today
+-0.6605874	should leave tomorrow
+-1.291551	am leaving .
+-0.3817346	am leaving on
+-1.621709	am leaving this
+-0.5872427	am leaving today
+-0.6174523	am leaving tomorrow
+-1.369434	are leaving .
+-0.2786919	are leaving on
+-1.10139	are leaving this
+-0.748221	are leaving today
+-0.7795202	are leaving tomorrow
+-0.7315513	would like a
+-0.4248094	would like to
+-2.048389	would like two
+-0.3710048	would like you
+-0.006860254	a look at
+-0.05884995	mind looking after
+-0.03264647	a lot of
+-1.772994	my luggage ?
+-2.096687	my luggage down
+-1.523745	my luggage in
+-1.465911	my luggage on
+-0.04420685	my luggage to
+-2.133198	our luggage .
+-1.583489	our luggage ?
+-1.585348	our luggage down
+-1.426241	our luggage in
+-1.279041	our luggage on
+-0.07196807	our luggage to
+-1.672283	the luggage .
+-0.9650649	the luggage ?
+-0.8859487	the luggage down
+-0.9233591	the luggage in
+-1.065116	the luggage on
+-0.2792757	the luggage to
+-0.001306207	I made a
+-0.5601891	been made .
+-0.1462336	been made in
+-0.0005237298	have made a
+-0.003550426	we made a
+-0.01241647	<s> make out
+-0.005277937	please make out
+-0.00062818	you make out
+-0.02755553	how many ?
+-0.2042125	not matter !
+-0.5232432	not matter .
+-0.0007960934	for me ,
+-0.0009980234	give me the
+-0.004695852	giving me the
+-0.01199375	mind me taking
+-0.01226776	move me to
+-0.01617361	moving me to
+-0.1084654	showing me a
+-0.7476887	showing me another
+-0.001000087	wake me up
+-0.006415374	waking me up
+-0.03256122	are meals included
+-1.760054	you mind carrying
+-1.173635	you mind changing
+-0.757805	you mind giving
+-2.23759	you mind looking
+-1.409685	you mind me
+-1.173635	you mind moving
+-1.448699	you mind putting
+-0.5150523	you mind sending
+-0.9715109	you mind showing
+-1.683592	you mind us
+-0.8244123	you mind waking
+-0.96751	a minibar ,
+-0.7598506	a minibar .
+-0.7107374	a minibar ?
+-0.6552815	a minibar and
+-1.327949	a minibar for
+-0.8692473	a minibar in
+-0.9400499	a mistake .
+-0.2865432	a mistake has
+-0.441532	a mistake in
+-0.01314729	Monday morning .
+-0.01987327	Tuesday morning .
+-0.09868101	good morning !
+-0.717473	good morning .
+-0.0002717693	the morning .
+-0.004338358	this morning .
+-0.004883712	tomorrow morning .
+-0.4854253	the mountain ,
+-0.4052878	the mountain and
+-0.9571596	the mountain for
+-0.004867381	to move to
+-0.3127265	you move me
+-0.3127265	you move us
+-0.4225564	mind moving me
+-0.2236837	mind moving us
+-1.16383	how much ?
+-0.223623	how much does
+-0.485806	how much is
+-0.01674235	too much noise
+-0.399792	very much !
+-0.3822373	very much .
+-0.1048964	<s> my name
+-0.7029781	<s> my room
+-0.01813268	call my taxi
+-0.4313788	carry my luggage
+-0.4313788	carry my suitcases
+-0.01666401	change my room
+-0.01152433	changing my room
+-0.03997781	check my bill
+-0.02445522	does my room
+-1.111109	down my bags
+-0.2873639	down my luggage
+-0.8398073	down my suitcase
+-0.8292462	down my suitcases
+-1.042409	down my travel
+-0.04701376	explain my bill
+-0.01521881	for my taxi
+-0.1887679	in my bill
+-0.4744313	in my room
+-0.02501119	out my bill
+-0.01511275	prepare my bill
+-0.8749901	put my bags
+-0.3274378	put my luggage
+-0.6050572	put my suitcases
+-0.9994252	put my travel
+-0.3952167	putting my luggage
+-1.387437	send my bag
+-0.9299897	send my bags
+-0.3756867	send my luggage
+-0.9331021	send my suitcase
+-0.8375713	send my suitcases
+-0.8217139	send my travel
+-1.306177	sending my bag
+-1.26557	sending my bags
+-0.2525251	sending my luggage
+-0.9511572	sending my suitcase
+-1.044162	sending my suitcases
+-1.044162	sending my travel
+-0.001523446	to my room
+-1.227475	up my bag
+-1.86763	up my bags
+-0.2754003	up my luggage
+-0.8876017	up my suitcase
+-0.9060698	up my suitcases
+-0.8795649	up my travel
+-0.003804303	my name is
+-0.9154307	until next Friday
+-1.171057	until next Monday
+-0.8282002	until next Saturday
+-0.755594	until next Sunday
+-1.171057	until next Thursday
+-0.6934053	until next Tuesday
+-0.9154307	until next Wednesday
+-0.5886012	a night ,
+-0.4025929	a night .
+-1.122218	a night ?
+-0.6444932	a night for
+-0.3999722	good night !
+-0.3476838	good night .
+-0.07565235	twenty-five nights .
+-0.1480316	twenty-six nights for
+-0.7846612	at nine ,
+-0.7806248	at nine .
+-1.245379	at nine ?
+-0.613995	at nine in
+-0.4862211	at nine o'clock
+-0.4690342	five nine ,
+-0.6505172	five nine .
+-0.1758059	for nine days
+-0.7841852	four nine ,
+-0.4610193	four nine .
+-0.6748221	four nine for
+-1.044513	four nine one
+-0.4533659	nine nine eight
+-1.207222	number nine eight
+-1.667266	number nine five
+-1.442564	number nine four
+-1.343481	number nine nine
+-1.199993	number nine oh
+-0.8837621	number nine one
+-1.469004	number nine seven
+-1.646265	number nine six
+-0.9311644	number nine three
+-0.3813635	number nine two
+-0.4411235	oh nine ,
+-0.9297986	oh nine .
+-0.9636645	oh nine ?
+-0.7900825	oh nine for
+-1.018184	oh nine four
+-0.4557389	one nine ,
+-0.7867725	one nine .
+-0.9359713	one nine ?
+-0.9723392	one nine for
+-1.192475	one nine oh
+-0.7401336	past nine ,
+-0.8195428	past nine .
+-0.9347063	past nine ?
+-0.3035281	past nine in
+-0.3751177	seven nine ,
+-0.5707766	six nine .
+-0.8066759	three nine ,
+-0.4628858	three nine .
+-0.6364589	three nine two
+-0.7177314	to nine ,
+-0.7109062	to nine .
+-0.3051133	to nine in
+-0.3202686	two nine ,
+-0.765817	two nine .
+-1.282468	two nine five
+-0.7960159	two nine for
+-0.5777496	the nineteenth .
+-0.4034818	the nineteenth at
+-0.7407061	the nineteenth in
+-0.8751314	the ninth ,
+-0.2637276	the ninth at
+-0.1015306	<s> no !
+-0.8758817	<s> no .
+-0.006366679	much noise in
+-0.01562696	of noise in
+-0.01000059	too noisy .
+-0.01000059	very noisy .
+-0.04741764	<s> not at
+-0.04092627	do not agree
+-0.02340266	does not matter
+-1.100706	room number eight
+-1.060052	room number five
+-0.8431295	room number four
+-1.145562	room number nine
+-1.189068	room number oh
+-0.9804864	room number one
+-0.9969507	room number seven
+-1.014064	room number six
+-0.9345368	room number three
+-0.8831649	room number two
+-0.173268	eight o'clock in
+-0.7432873	eleven o'clock .
+-0.7945773	eleven o'clock ?
+-0.2604182	eleven o'clock in
+-0.1176392	five o'clock ,
+-0.2502333	four o'clock ,
+-0.7208602	nine o'clock ,
+-0.7289463	nine o'clock .
+-0.2479933	nine o'clock in
+-0.1198722	one o'clock ,
+-0.8533198	one o'clock .
+-0.52686	seven o'clock ,
+-0.5316169	seven o'clock .
+-0.4271524	seven o'clock in
+-0.5076095	six o'clock ,
+-0.3215224	six o'clock in
+-0.52686	ten o'clock ,
+-0.2184252	ten o'clock in
+-0.3880627	three o'clock ,
+-0.5844745	three o'clock .
+-0.6259464	three o'clock ?
+-0.4383465	twelve o'clock .
+-0.429053	twelve o'clock in
+-0.3475705	two o'clock ,
+-0.6561372	two o'clock .
+-0.7074271	two o'clock ?
+-0.450285	care of our
+-0.3565645	care of the
+-0.04091903	lot of noise
+-0.00283381	view of the
+-0.4819172	eight oh ,
+-0.7605729	eight oh three
+-0.7350217	five oh ,
+-0.7679095	five oh one
+-0.6249143	five oh two
+-0.5219039	four oh ,
+-1.064813	four oh ?
+-0.8468856	four oh four
+-0.8806736	four oh oh
+-0.7591339	nine oh .
+-0.7821105	nine oh for
+-0.8117931	nine oh three
+-1.37193	number oh eight
+-1.417309	number oh five
+-1.37193	number oh four
+-1.36129	number oh nine
+-0.9434121	number oh oh
+-0.529962	number oh one
+-1.405512	number oh seven
+-1.160149	number oh six
+-1.160149	number oh three
+-0.6847298	number oh two
+-0.4641367	oh oh ,
+-0.905567	oh oh nine
+-0.7408782	oh oh seven
+-0.505043	one oh ,
+-0.6611733	one oh .
+-1.126498	one oh ?
+-0.9114543	one oh for
+-1.101317	one oh four
+-0.5411065	seven oh ,
+-0.7841228	six oh ,
+-0.6115364	six oh four
+-0.8008317	six oh nine
+-0.7621345	three oh ,
+-0.774328	three oh .
+-1.173434	three oh five
+-1.105696	three oh for
+-0.7745537	three oh nine
+-1.151167	three oh seven
+-0.4406244	two oh ,
+-0.5326341	two oh .
+-0.8052505	two oh for
+-0.3181188	<s> okay !
+-0.3147069	<s> okay .
+-0.02679756	bags on the
+-1.662518	leave on April
+-1.663049	leave on August
+-1.088232	leave on Friday
+-1.766591	leave on January
+-2.102878	leave on July
+-1.766366	leave on June
+-2.102391	leave on March
+-1.041765	leave on Monday
+-1.766591	leave on November
+-2.102391	leave on October
+-1.232301	leave on Saturday
+-1.579648	leave on September
+-1.140273	leave on Sunday
+-1.168836	leave on Thursday
+-1.19941	leave on Tuesday
+-1.113473	leave on Wednesday
+-0.4995086	leave on the
+-1.551622	leaving on August
+-1.88519	leaving on December
+-1.740898	leaving on February
+-1.019009	leaving on Friday
+-1.88519	leaving on July
+-1.448951	leaving on Monday
+-1.686978	leaving on November
+-1.884683	leaving on October
+-1.093235	leaving on Saturday
+-1.88519	leaving on September
+-1.054538	leaving on Sunday
+-0.9861675	leaving on Thursday
+-1.182816	leaving on Tuesday
+-1.365664	leaving on Wednesday
+-0.5134981	leaving on the
+-0.008750076	luggage on the
+-0.02987976	suitcases on the
+-0.5159366	at one ,
+-0.5160578	at one .
+-1.035092	at one ?
+-1.045919	at one in
+-0.7600678	at one o'clock
+-1.128599	eight one ,
+-0.9603199	eight one .
+-1.002356	eight one eight
+-1.195556	eight one five
+-1.008907	eight one for
+-0.6807762	eight one nine
+-1.169706	eight one one
+-1.182439	eight one six
+-1.182439	eight one three
+-0.8429711	five one ,
+-1.008314	five one five
+-1.214494	five one for
+-0.9927325	five one four
+-0.9927325	five one one
+-0.7661812	five one six
+-1.192591	five one three
+-1.000296	five one two
+-0.8803415	four one .
+-1.076195	four one ?
+-1.085428	four one eight
+-1.402413	four one five
+-1.090934	four one for
+-0.9741327	four one four
+-0.8397881	four one seven
+-1.206033	four one six
+-0.9797277	four one three
+-1.20584	four one two
+-0.4920158	nine one ,
+-0.9440987	nine one four
+-0.9440987	nine one one
+-0.9532954	nine one two
+-1.201883	number one eight
+-1.588622	number one five
+-0.8905866	number one four
+-1.139131	number one nine
+-1.267125	number one oh
+-0.8321819	number one one
+-1.092404	number one seven
+-1.086992	number one six
+-1.086992	number one three
+-0.6382601	number one two
+-0.8312703	oh one .
+-1.168445	oh one ?
+-0.9964789	oh one five
+-1.159047	oh one four
+-1.172518	oh one nine
+-1.172518	oh one six
+-0.8580928	oh one three
+-0.8579583	oh one two
+-0.5116696	one one ,
+-0.8514763	one one .
+-0.9701706	one one ?
+-0.9782538	one one eight
+-1.118051	one one for
+-1.291845	one one oh
+-1.291583	one one six
+-0.3238495	past one ,
+-0.4845563	past one .
+-1.134304	past one ?
+-1.00724	past one in
+-0.9882358	seven one ,
+-1.161596	seven one .
+-1.032319	seven one eight
+-1.032319	seven one five
+-1.023867	seven one nine
+-1.212664	seven one oh
+-1.239046	seven one seven
+-0.8928372	seven one six
+-0.7923133	seven one three
+-0.8568069	six one ,
+-1.239943	six one .
+-0.9858209	six one eight
+-0.9858209	six one five
+-1.124527	six one for
+-1.280091	six one four
+-1.293562	six one nine
+-1.108676	six one oh
+-0.9725534	six one one
+-0.9926097	six one seven
+-1.293562	six one three
+-0.85303	three one .
+-1.210796	three one eight
+-1.000852	three one four
+-1.009313	three one oh
+-0.787526	three one seven
+-0.878114	three one six
+-1.009143	three one three
+-0.297714	to one ,
+-0.911333	to one .
+-0.7775306	to one ?
+-0.9463724	to one in
+-0.7933408	two one ,
+-0.9158139	two one .
+-1.013519	two one ?
+-1.020868	two one five
+-1.126406	two one for
+-1.423524	two one oh
+-1.106767	two one one
+-1.45305	two one seven
+-1.423232	two one six
+-0.9349118	two one three
+-1.113633	two one two
+-0.03542221	which one ?
+-0.03932637	<s> our room
+-0.1419677	after our luggage
+-0.01108383	call our taxi
+-0.6272756	carry our bags
+-0.3722707	carry our luggage
+-0.6334596	carry our suitcases
+-0.01407775	change our room
+-0.01487339	changing our room
+-0.04018145	check our bill
+-0.1723101	do our rooms
+-1.193865	down our bag
+-1.352907	down our bags
+-0.207075	down our luggage
+-1.387192	down our suitcase
+-0.8681214	down our suitcases
+-1.107851	down our travel
+-0.02773192	explain our bill
+-0.01202037	for our taxi
+-0.2862713	in our bill
+-0.8252877	in our room
+-0.5159271	in our rooms
+-0.01712386	out our bill
+-0.01238636	prepare our bill
+-0.6058124	put our bags
+-0.2665517	put our luggage
+-0.8253671	put our suitcases
+-0.1760106	putting our luggage
+-0.8073791	putting our travel
+-1.479655	send our bag
+-0.9734223	send our bags
+-0.247557	send our luggage
+-1.244525	send our suitcase
+-0.9075205	send our suitcases
+-0.9752102	send our travel
+-1.235584	sending our bags
+-0.1828009	sending our luggage
+-1.253061	sending our suitcases
+-0.8250999	sending our travel
+-0.001723603	to our room
+-1.217962	up our bag
+-0.9551397	up our bags
+-0.3187133	up our luggage
+-0.877661	up our suitcase
+-1.153077	up our suitcases
+-0.8719407	up our travel
+-1.11529	make out my
+-0.9461896	make out our
+-0.09722769	make out the
+-0.01986534	<s> pardon ?
+-0.9819907	half past eight
+-1.000928	half past eleven
+-1.28733	half past five
+-1.108361	half past four
+-1.188691	half past nine
+-0.8425201	half past one
+-1.133522	half past seven
+-1.084578	half past six
+-0.9146511	half past ten
+-1.084578	half past three
+-1.415861	half past twelve
+-1.325701	half past two
+-1.201824	quarter past eight
+-1.147019	quarter past eleven
+-1.232281	quarter past five
+-1.232281	quarter past four
+-1.173364	quarter past nine
+-0.7502518	quarter past one
+-1.121494	quarter past seven
+-1.033302	quarter past six
+-1.014061	quarter past ten
+-1.121494	quarter past three
+-1.121837	quarter past twelve
+-1.121369	quarter past two
+-0.541599	I pay by
+-0.6229354	I pay in
+-0.3585294	I pay the
+-0.3333544	we pay by
+-0.6441247	we pay in
+-0.5618021	we pay the
+-0.3633176	board per day
+-0.2641576	board per week
+-0.2778381	cost per day
+-0.3291951	cost per week
+-0.1683242	room per day
+-0.4989482	room per week
+-0.4205032	service per day
+-0.2367599	service per week
+-0.003810722	the phone bill
+-0.510389	, please .
+-0.1606076	, please ?
+-1.850683	<s> please !
+-1.842346	<s> please .
+-1.204853	<s> please ask
+-1.233867	<s> please call
+-1.743351	<s> please check
+-1.583288	<s> please explain
+-0.6913666	<s> please give
+-1.26496	<s> please make
+-1.083252	<s> please prepare
+-0.6128685	<s> please send
+-0.6913666	<s> please wake
+-0.5887317	<s> prepare our
+-0.2063395	<s> prepare the
+-1.058517	please prepare my
+-1.058416	please prepare our
+-0.09587841	please prepare the
+-1.043548	you prepare my
+-0.9886125	you prepare our
+-0.09479681	you prepare the
+-0.002797348	the price for
+-0.6502709	a problem .
+-0.1149191	a problem in
+-0.3082433	<s> put my
+-0.3387062	<s> put our
+-0.6374244	you put my
+-0.4834632	you put our
+-0.3699127	you put the
+-0.7976307	mind putting my
+-0.364374	mind putting our
+-0.4662129	mind putting the
+-0.2613133	a quarter past
+-0.3470157	a quarter to
+-0.1850523	a quiet ,
+-0.4615536	a quiet room
+-0.3050584	any quiet ,
+-0.3117741	any quiet rooms
+-0.4060345	two quiet ,
+-0.2362341	two quiet rooms
+-0.005513154	a quieter room
+-0.665056	to reception .
+-0.1115208	to reception ?
+-0.003351258	a registration form
+-0.003070996	the registration form
+-0.2749938	a reservation .
+-0.3300891	a reservation for
+-0.004319817	all right .
+-0.4168096	the river for
+-1.035679	a room ,
+-0.669047	a room .
+-1.360814	a room ?
+-1.247532	a room available
+-0.7051923	a room for
+-1.228671	a room until
+-0.4735961	a room with
+-0.2773823	another room ,
+-0.3377607	another room ?
+-1.000037	double room ,
+-0.7186649	double room .
+-1.335132	double room ?
+-1.091888	double room available
+-1.14012	double room cost
+-0.7807782	double room for
+-1.477122	double room including
+-1.598718	double room per
+-1.235611	double room until
+-0.6492756	double room with
+-0.0007908204	for room number
+-0.01205007	including room service
+-0.04278676	is room service
+-0.4408094	my room ,
+-0.7520314	my room .
+-0.445492	my room ?
+-1.393996	my room have
+-1.253289	my room is
+-0.4246441	our room ,
+-0.6840954	our room .
+-0.4246809	our room ?
+-1.506091	our room is
+-0.9363007	quiet room ,
+-0.6467825	quiet room .
+-1.353417	quiet room ?
+-0.6850823	quiet room available
+-0.7086189	quiet room for
+-1.160306	quiet room until
+-0.8694943	quiet room with
+-0.7184507	quieter room ,
+-0.935793	quieter room .
+-0.1764421	quieter room ?
+-1.049773	single room ,
+-0.7270728	single room .
+-1.275032	single room ?
+-1.097878	single room available
+-1.167616	single room cost
+-0.8324589	single room for
+-1.379358	single room including
+-1.301477	single room per
+-1.257818	single room until
+-0.646437	single room with
+-0.4974178	the room ,
+-0.6888547	the room .
+-0.6766533	the room ?
+-1.431824	the room have
+-0.6431997	the room is
+-0.0004278365	to room number
+-0.832177	warmer room ,
+-1.041139	warmer room .
+-0.1533491	warmer room ?
+-0.3399788	any rooms available
+-0.2773165	any rooms with
+-0.3494954	change rooms ,
+-0.2674349	change rooms .
+-1.548	double rooms ,
+-0.9612051	double rooms .
+-0.2123538	double rooms available
+-0.9720379	double rooms for
+-1.287235	double rooms until
+-1.1732	double rooms with
+-1.084718	our rooms ,
+-0.1083468	our rooms ?
+-1.154287	our rooms have
+-1.000674	quiet rooms .
+-0.252843	quiet rooms available
+-0.7792194	quiet rooms for
+-1.02513	quiet rooms until
+-1.023212	single rooms ,
+-0.9040622	single rooms .
+-1.21249	single rooms ?
+-0.2776729	single rooms available
+-1.22806	single rooms for
+-1.230093	single rooms until
+-1.215208	single rooms with
+-1.107817	the rooms ,
+-0.1550023	the rooms ?
+-0.6815537	the rooms have
+-1.30438	two rooms ,
+-0.5101978	two rooms .
+-0.7736896	two rooms ?
+-0.776755	two rooms for
+-0.9704058	two rooms until
+-0.7254313	two rooms with
+-1.036845	a safe ,
+-1.181238	a safe .
+-0.9039025	a safe ?
+-1.061058	a safe and
+-0.8081108	a safe available
+-1.047787	a safe for
+-0.6432207	a safe in
+-1.283579	a safe until
+-0.8578112	the sea ,
+-0.7625244	the sea .
+-0.3879856	the sea and
+-0.6408466	the sea for
+-0.2480097	the second .
+-0.5986235	the second at
+-0.1217576	I see a
+-0.6216405	I see another
+-0.1552205	we see a
+-0.5299106	we see another
+-1.198732	<s> send down
+-0.5837549	<s> send my
+-0.5151989	<s> send our
+-1.132427	<s> send the
+-0.5337588	<s> send up
+-1.102833	please send down
+-0.644895	please send my
+-0.614536	please send our
+-0.3569737	please send up
+-0.9152178	to send down
+-0.5236105	to send my
+-0.7525216	to send our
+-0.4005211	to send up
+-0.6404639	you send down
+-0.6862309	you send my
+-0.7139202	you send our
+-0.7160218	you send the
+-0.7496999	you send up
+-0.58145	mind sending down
+-0.7686577	mind sending my
+-0.7686284	mind sending our
+-0.8433014	mind sending the
+-0.6188439	mind sending up
+-1.281525	room service ,
+-1.290844	room service ?
+-0.4307563	room service cost
+-1.081178	room service for
+-0.6781861	room service included
+-0.8382624	room service per
+-0.5096757	at seven ,
+-0.8227784	at seven .
+-1.146224	at seven ?
+-1.046377	at seven in
+-0.4884723	at seven o'clock
+-0.4769242	eight seven ,
+-0.7392101	five seven ,
+-0.7903329	five seven for
+-0.8202813	five seven two
+-0.4758727	for seven days
+-0.608371	four seven ,
+-1.000446	four seven ?
+-0.7316117	four seven for
+-1.096884	four seven four
+-0.9272593	four seven one
+-0.5238395	nine seven two
+-1.649422	number seven .
+-1.78663	number seven eight
+-1.274393	number seven five
+-0.9842022	number seven four
+-1.448853	number seven nine
+-1.261329	number seven oh
+-0.610001	number seven one
+-1.12576	number seven seven
+-1.599667	number seven six
+-1.073278	number seven three
+-0.621309	number seven two
+-0.4125866	oh seven ?
+-0.5328079	one seven ,
+-0.8867994	one seven .
+-0.8870263	one seven ?
+-0.7250038	one seven for
+-0.9224999	one seven two
+-0.5160086	past seven ,
+-0.5172166	past seven .
+-1.122982	past seven ?
+-0.5710324	past seven in
+-0.8117608	seven seven ,
+-0.8628835	seven seven for
+-0.9215428	seven seven nine
+-0.9071209	seven seven three
+-0.892832	seven seven two
+-0.6595817	six seven ,
+-0.6688626	six seven .
+-0.6691585	six seven ?
+-0.6982013	three seven ,
+-0.7068513	three seven .
+-0.7071268	three seven ?
+-0.9250314	three seven for
+-0.3257956	to seven ,
+-0.864923	to seven .
+-0.6993314	to seven in
+-0.5646728	two seven ,
+-0.625852	two seven .
+-0.7697348	two seven ?
+-0.8865137	two seven for
+-0.5108028	the seventeenth .
+-0.4231793	the seventeenth at
+-0.8902128	the seventeenth for
+-0.6097867	the seventh .
+-0.2987464	the seventh at
+-0.3149431	<s> should I
+-0.3021358	<s> should we
+-0.0009842427	I should leave
+-0.0009699623	we should leave
+-0.5305563	a shower ,
+-1.353124	a shower .
+-1.382915	a shower ?
+-0.5327024	a shower and
+-0.6053741	a shower for
+-1.385432	a shower in
+-0.3431461	mind showing me
+-0.2751411	mind showing us
+-0.364539	I sign a
+-0.28132	I sign the
+-0.3747036	we sign a
+-0.2618458	we sign the
+-0.02299614	, single room
+-1.306709	, single rooms
+-0.0004986348	a single room
+-0.005375193	any single rooms
+-0.006458261	two single rooms
+-0.7164266	at six ,
+-0.7168682	at six .
+-1.266817	at six ?
+-0.5032054	at six in
+-0.7495737	at six o'clock
+-0.6294312	five six nine
+-0.3517955	for six nights
+-0.5156184	four six .
+-0.9479707	four six ?
+-0.9978194	four six for
+-1.058522	four six oh
+-0.5548866	nine six .
+-0.583841	nine six ?
+-1.329633	number six eight
+-1.424515	number six five
+-1.748517	number six for
+-1.061415	number six four
+-1.453609	number six nine
+-1.12396	number six oh
+-0.58492	number six one
+-1.558686	number six seven
+-1.558686	number six six
+-1.245552	number six three
+-0.542373	number six two
+-0.4993326	oh six ,
+-0.6886233	oh six .
+-0.3521893	one six ,
+-0.7461255	one six .
+-1.075465	one six ?
+-0.9667354	one six for
+-1.267329	one six one
+-0.3906713	past six ,
+-0.8590392	past six .
+-0.8673761	past six ?
+-0.5558956	past six in
+-0.67861	six six ,
+-0.3381744	six six .
+-0.7547187	three six ,
+-0.8562946	three six for
+-0.8150318	three six one
+-0.5341716	to six ,
+-0.6392044	to six .
+-0.7951571	to six ?
+-0.6726968	to six in
+-0.3486434	two six ,
+-0.8095135	two six .
+-1.130807	two six ?
+-1.034791	two six for
+-1.387137	two six four
+-1.31037	two six one
+-0.411799	the sixteenth .
+-0.3372531	the sixteenth at
+-0.2975935	the sixth at
+-0.194635	<s> sorry !
+-0.5073187	<s> sorry .
+-0.2597634	am sorry !
+-0.4440619	am sorry .
+-0.5916118	the station .
+-0.1375767	the station ?
+-0.001960132	my suitcase to
+-0.003436058	our suitcase to
+-1.176129	my suitcases ?
+-1.608448	my suitcases down
+-1.603428	my suitcases in
+-1.095877	my suitcases on
+-0.1031565	my suitcases to
+-1.485141	our suitcases .
+-1.446988	our suitcases ?
+-1.134628	our suitcases in
+-0.09215223	our suitcases to
+-1.279379	the suitcases .
+-0.9281629	the suitcases ?
+-0.750427	the suitcases down
+-1.248405	the suitcases on
+-0.266461	the suitcases to
+-0.08041993	you take care
+-0.007096658	me taking a
+-0.01319345	us taking a
+-0.01237428	added tax included
+-0.006507144	all taxes included
+-0.01009802	are taxes included
+-1.058145	a taxi ,
+-1.155553	a taxi .
+-0.07503273	a taxi for
+-1.297795	my taxi ,
+-1.069918	my taxi .
+-0.07052204	my taxi for
+-1.257576	our taxi ,
+-0.7969919	our taxi .
+-0.110653	our taxi for
+-0.7093924	the taxi .
+-0.1037981	the taxi ?
+-0.719374	a telephone ,
+-0.8779206	a telephone .
+-0.9600821	a telephone ?
+-0.6030443	a telephone and
+-1.220231	a telephone available
+-0.896963	a telephone for
+-1.01196	a telephone in
+-1.588014	a telephone until
+-0.6930748	at ten ,
+-0.7985234	at ten .
+-1.421654	at ten ?
+-0.5329137	at ten in
+-0.550238	at ten o'clock
+-0.2300036	for ten weeks
+-0.6740612	past ten ,
+-0.9393961	past ten .
+-0.959453	past ten ?
+-0.2637645	past ten in
+-0.5846581	to ten ,
+-0.4971041	to ten .
+-0.4310876	to ten in
+-0.5108028	the tenth .
+-0.4231793	the tenth at
+-0.8906908	the tenth in
+-0.01870422	<s> thank you
+-0.6295995	think that a
+-0.1179783	think that there
+-1.223263	<s> the key
+-1.599931	<s> the keys
+-0.04393318	<s> the room
+-0.8397186	April the eleventh
+-0.8599182	April the nineteenth
+-1.101153	April the thirteenth
+-1.05021	April the twenty-seventh
+-0.9657902	August the thirtieth
+-0.983092	August the thirty-first
+-0.6337713	December the seventeenth
+-0.8464693	February the second
+-0.7505428	January the eleventh
+-0.7627683	January the first
+-0.5226749	January the twenty-fifth
+-0.8955073	June the twenty-fifth
+-0.7507055	March the seventh
+-0.8058419	May the sixteenth
+-0.5647726	May the twenty-ninth
+-0.8791261	Monday the tenth
+-0.8791261	Monday the third
+-0.8850606	Monday the twelfth
+-0.7254421	November the first
+-0.947088	November the third
+-0.9604127	November the twenty-fourth
+-0.3645162	October the twenty-eighth
+-0.6966974	Saturday the nineteenth
+-1.058676	September the eighth
+-1.076329	September the thirteenth
+-1.050111	September the thirtieth
+-0.8248774	September the twenty-sixth
+-0.8204017	Tuesday the eleventh
+-0.8436679	Tuesday the seventeenth
+-0.9112172	Wednesday the seventh
+-0.4136145	carry the luggage
+-0.5054569	carry the suitcases
+-1.005692	carry the travel
+-0.4009361	carrying the luggage
+-0.6418398	carrying the travel
+-0.00542028	check the bill
+-0.01401874	do the rooms
+-0.01119829	does the room
+-0.003371756	explain the bill
+-0.8934538	in the afternoon
+-0.5202439	in the bill
+-1.552512	in the car
+-0.8611104	in the evening
+-0.8518553	in the morning
+-1.696447	in the registration
+-0.8577912	in the room
+-1.122313	in the rooms
+-1.618526	in the taxi
+-1.113031	is the date
+-0.4089243	is the phone
+-0.2846138	is the price
+-0.1875424	me the key
+-0.4604389	me the keys
+-1.732163	of the forest
+-1.489224	of the lake
+-1.694333	of the luggage
+-0.7323707	of the mountain
+-1.334362	of the river
+-0.3476725	of the sea
+-0.7323707	of the town
+-0.5108218	on the bus
+-1.372741	on the eighteenth
+-1.437626	on the eighth
+-1.713423	on the eleventh
+-1.520894	on the first
+-1.870869	on the fourteenth
+-1.735844	on the fourth
+-1.520894	on the nineteenth
+-1.920727	on the ninth
+-1.632994	on the second
+-1.957459	on the seventeenth
+-1.759487	on the seventh
+-1.520894	on the sixteenth
+-1.797555	on the sixth
+-1.513937	on the tenth
+-1.747505	on the third
+-1.449363	on the thirteenth
+-1.615204	on the thirtieth
+-1.97706	on the thirty-first
+-1.520894	on the twelfth
+-1.759487	on the twentieth
+-1.581673	on the twenty-eighth
+-1.507089	on the twenty-fifth
+-1.957459	on the twenty-first
+-1.771809	on the twenty-fourth
+-1.598115	on the twenty-ninth
+-1.97706	on the twenty-second
+-1.589817	on the twenty-seventh
+-1.735844	on the twenty-sixth
+-1.957459	on the twenty-third
+-0.002603146	out the bill
+-0.01946228	pay the bill
+-0.001833928	prepare the bill
+-0.8338286	put the bags
+-0.2345748	put the luggage
+-0.9866297	put the suitcases
+-1.221292	put the travel
+-0.263055	putting the luggage
+-0.5309792	putting the travel
+-0.8886424	send the bags
+-0.2779508	send the luggage
+-0.8182892	send the suitcases
+-0.7866703	send the travel
+-1.293981	sending the bags
+-0.3378899	sending the luggage
+-0.4595357	sending the suitcases
+-1.290928	sending the travel
+-0.01976369	sign the registration
+-0.9646026	to the bus
+-1.132197	to the car
+-0.1776351	to the room
+-0.9872264	to the station
+-1.351564	to the taxi
+-0.3713689	until the day
+-1.805541	until the eighth
+-1.582795	until the fourth
+-1.805541	until the nineteenth
+-1.452124	until the ninth
+-1.824135	until the second
+-1.468564	until the seventeenth
+-1.805541	until the seventh
+-1.805541	until the sixteenth
+-1.78771	until the thirtieth
+-1.605158	until the twentieth
+-1.428574	until the twenty-eighth
+-1.582795	until the twenty-fifth
+-1.468564	until the twenty-first
+-1.477024	until the twenty-fourth
+-1.444131	until the twenty-ninth
+-1.738231	until the twenty-seventh
+-1.452124	until the twenty-sixth
+-0.1657154	us the key
+-0.503807	us the keys
+-0.9421674	<s> there has
+-0.131927	<s> there is
+-0.8727588	<s> there was
+-0.6922237	are there a
+-1.022493	are there air
+-0.1623945	are there any
+-0.1028518	is there a
+-0.7689261	is there air
+-1.464516	is there hot
+-0.7241752	that there has
+-0.1673264	that there is
+-0.9025272	that there was
+-0.02633515	<s> they are
+-0.01364131	do they have
+-0.000713634	I think that
+-0.1646556	the third at
+-0.3002628	for thirteen days
+-0.1109602	the thirteenth at
+-0.4465611	the thirtieth .
+-0.299705	the thirtieth at
+-0.1621157	for thirty days
+-0.6278133	the thirty-first .
+-0.2985726	the thirty-first at
+-0.006287849	for this week
+-0.4412108	leave this afternoon
+-0.4412108	leave this evening
+-0.6250451	leave this morning
+-0.378719	leaving this afternoon
+-0.4490373	leaving this evening
+-0.7742538	leaving this morning
+-0.5271431	at three ,
+-0.5896958	at three .
+-1.033129	at three in
+-0.6129451	at three o'clock
+-0.3688803	eight three ,
+-0.6234655	eight three three
+-0.4555229	five three ,
+-0.5407948	four three ,
+-0.9041295	four three .
+-0.9331783	four three ?
+-1.152987	four three four
+-0.9576309	four three oh
+-1.152987	four three seven
+-0.6302288	nine three .
+-0.8787165	nine three seven
+-1.501653	number three eight
+-1.508778	number three five
+-0.8827617	number three four
+-1.411047	number three nine
+-0.9113501	number three oh
+-0.7227957	number three one
+-1.405349	number three seven
+-1.151156	number three six
+-0.9438165	number three three
+-0.6882958	number three two
+-0.3155558	oh three ,
+-0.8854296	oh three oh
+-0.5825967	one three ,
+-0.5859901	one three .
+-1.308708	one three ?
+-0.7003155	one three for
+-1.346112	one three four
+-1.418729	one three six
+-0.2976408	past three ,
+-0.7476013	past three .
+-0.9108849	past three ?
+-0.8363602	past three in
+-0.7164742	seven three ,
+-0.9134067	seven three .
+-0.9449714	seven three ?
+-0.9832547	seven three three
+-0.6299324	seven three two
+-0.7606409	six three eight
+-0.8376944	three three ,
+-0.6333624	three three .
+-1.081066	three three eight
+-1.09747	three three four
+-1.09747	three three seven
+-1.114518	three three three
+-1.131849	three three two
+-0.5036135	to three ,
+-0.5909996	to three .
+-1.066983	to three ?
+-0.6124976	to three in
+-0.411569	two three ,
+-0.6346132	two three .
+-1.320962	two three ?
+-1.355838	two three five
+-1.01874	two three for
+-1.371665	two three nine
+-1.355838	two three seven
+-0.02254371	what time is
+-0.7574025	bag to my
+-1.141055	bag to our
+-0.2424326	bag to room
+-0.7902042	bag to the
+-1.416336	bags to my
+-1.104491	bags to our
+-1.151	bags to reception
+-0.6327363	bags to room
+-0.2451858	bags to the
+-0.007090359	down to reception
+-0.8944434	key to my
+-1.03566	key to our
+-0.3154215	key to room
+-0.5324503	key to the
+-0.8913901	keys to my
+-0.8764722	keys to our
+-0.3328042	keys to room
+-0.5727369	keys to the
+-0.2358829	like to book
+-0.6415169	like to change
+-0.7425144	like to move
+-1.009992	luggage to my
+-1.04886	luggage to our
+-1.239714	luggage to reception
+-0.415296	luggage to room
+-0.4345997	luggage to the
+-0.007592745	me to a
+-0.005093204	move to a
+-1.159074	quarter to eight
+-1.128136	quarter to eleven
+-1.098577	quarter to five
+-1.127773	quarter to four
+-1.021192	quarter to nine
+-0.9763354	quarter to one
+-1.229383	quarter to seven
+-1.098577	quarter to six
+-1.045787	quarter to ten
+-1.045487	quarter to three
+-1.229842	quarter to twelve
+-1.071105	quarter to two
+-0.8428676	suitcase to my
+-0.8786458	suitcase to our
+-0.3250386	suitcase to room
+-0.6296852	suitcase to the
+-1.398601	suitcases to my
+-1.184618	suitcases to our
+-1.195426	suitcases to reception
+-0.4954297	suitcases to room
+-0.303075	suitcases to the
+-0.006096726	us to a
+-0.1120582	want to book
+-0.8735135	want to change
+-1.06879	want to move
+-0.5570821	you to give
+-0.4270659	you to send
+-0.4633155	you to wake
+-0.7265512	for today ,
+-0.27198	for today .
+-1.267172	for today ?
+-0.7275749	for today for
+-0.8400457	leave today .
+-0.1523503	leave today at
+-0.8486527	leave today in
+-1.001862	leaving today .
+-0.1414833	leaving today at
+-0.788468	leaving today in
+-0.6919637	after tomorrow ,
+-0.2264061	after tomorrow .
+-1.266806	after tomorrow ?
+-0.9287335	after tomorrow for
+-0.772258	leave tomorrow .
+-1.318301	leave tomorrow afternoon
+-0.201258	leave tomorrow at
+-1.173001	leave tomorrow evening
+-1.160408	leave tomorrow morning
+-1.049668	leaving tomorrow .
+-1.08544	leaving tomorrow afternoon
+-0.1000804	leaving tomorrow at
+-0.6911371	until tomorrow ,
+-0.3702598	until tomorrow .
+-1.073918	until tomorrow ?
+-0.6004851	until tomorrow for
+-0.0007473486	up tomorrow at
+-0.5106078	for tonight ,
+-0.420697	for tonight .
+-1.236004	for tonight ?
+-0.6636703	for tonight for
+-0.04876345	are too expensive
+-0.7129115	is too cold
+-0.4843696	is too expensive
+-0.6255757	is too hot
+-0.8478183	is too much
+-1.088242	is too noisy
+-0.3996274	the town ,
+-0.9152946	the town .
+-0.4923319	the town and
+-0.4370667	my travel bag
+-0.2020877	my travel bags
+-0.5413356	our travel bag
+-0.1520917	our travel bags
+-0.006213842	the travel bags
+-0.04485724	accept traveler checks
+-0.02181739	by traveler check
+-0.7381685	a tv ,
+-1.016554	a tv .
+-0.9788767	a tv ?
+-0.5657331	a tv and
+-1.065963	a tv available
+-0.9889241	a tv for
+-0.9242862	a tv in
+-1.531151	a tv until
+-0.8491523	the twelfth ,
+-0.2271544	the twelfth at
+-0.8565038	the twelfth in
+-0.6435294	at twelve ,
+-0.6992062	at twelve .
+-0.5003958	at twelve in
+-0.7550709	at twelve o'clock
+-0.344252	for twelve days
+-0.4963325	past twelve ,
+-0.3953848	past twelve .
+-0.8526503	past twelve ?
+-0.9865854	past twelve in
+-0.4043035	to twelve .
+-0.5138803	to twelve ?
+-0.6525224	to twelve in
+-0.8018147	the twentieth ,
+-0.5683941	the twentieth .
+-0.5970519	the twentieth at
+-0.8115095	the twentieth in
+-0.3002628	for twenty days
+-0.154573	for twenty-eight days
+-1.09698	the twenty-eighth ,
+-0.7265625	the twenty-eighth .
+-0.3215667	the twenty-eighth at
+-0.8930762	the twenty-eighth for
+-1.032264	the twenty-fifth ,
+-0.6620705	the twenty-fifth .
+-0.3537119	the twenty-fifth at
+-0.825027	the twenty-fifth in
+-0.8018147	the twenty-first ,
+-0.2573538	the twenty-first at
+-0.4252015	for twenty-five days
+-0.4254472	for twenty-five nights
+-0.6097867	the twenty-fourth .
+-0.2987464	the twenty-fourth at
+-0.05829561	for twenty-nine days
+-0.6793862	the twenty-ninth ,
+-0.1690017	the twenty-ninth at
+-0.2036595	for twenty-one days
+-0.2316258	the twenty-second at
+-0.4201017	the twenty-seventh .
+-0.3612449	the twenty-seventh at
+-0.1257709	for twenty-six nights
+-0.9720414	the twenty-sixth ,
+-0.7361639	the twenty-sixth .
+-0.3606376	the twenty-sixth at
+-0.9840288	the twenty-sixth in
+-0.1038893	the twenty-third at
+-0.3002628	for twenty-three days
+-0.9878653	at two ,
+-0.6644496	at two .
+-0.6646101	at two ?
+-0.8132267	at two in
+-0.6231214	at two o'clock
+-1.029558	book two double
+-0.8820741	book two quiet
+-0.2220263	book two rooms
+-0.8414766	book two single
+-0.7831341	booked two double
+-1.069802	booked two quiet
+-0.2266939	booked two rooms
+-0.9312714	booked two single
+-0.9841684	eight two eight
+-1.164046	eight two five
+-1.19704	eight two for
+-1.164046	eight two four
+-1.164046	eight two nine
+-1.176033	eight two one
+-0.8458328	eight two seven
+-0.9841684	eight two six
+-1.164046	eight two three
+-1.163731	eight two two
+-1.023621	five two ,
+-0.9054362	five two .
+-1.210427	five two ?
+-0.8193524	five two five
+-1.237832	five two nine
+-1.249819	five two one
+-1.237832	five two seven
+-1.249819	five two six
+-1.05021	five two three
+-0.9194677	five two two
+-0.9800698	four two .
+-1.28506	four two ?
+-1.132588	four two eight
+-0.9942526	four two five
+-1.124844	four two four
+-1.132796	four two oh
+-1.132588	four two one
+-0.9942526	four two seven
+-0.9999725	four two six
+-0.893986	four two three
+-0.5630282	like two double
+-0.5629299	like two rooms
+-1.260776	nine two ,
+-1.272637	nine two .
+-1.27432	nine two ?
+-0.8952569	nine two eight
+-0.9897551	nine two five
+-1.303159	nine two four
+-1.303159	nine two nine
+-1.316146	nine two oh
+-0.8136349	nine two one
+-1.11878	nine two seven
+-1.127009	nine two six
+-1.303159	nine two three
+-1.302828	nine two two
+-1.302459	number two eight
+-1.0981	number two five
+-1.059541	number two four
+-1.239887	number two nine
+-1.37243	number two oh
+-0.672031	number two one
+-1.299716	number two seven
+-1.061116	number two six
+-1.0981	number two three
+-0.6421838	number two two
+-0.539933	oh two ,
+-1.106373	oh two .
+-1.132126	oh two four
+-0.8038175	oh two nine
+-1.142997	oh two oh
+-1.132126	oh two three
+-0.69491	one two ,
+-0.7485853	one two .
+-1.389234	one two eight
+-0.9638408	one two five
+-0.9769852	one two for
+-1.063184	one two nine
+-1.389575	one two oh
+-1.192208	one two seven
+-1.389234	one two six
+-0.4826109	past two ,
+-0.5314898	past two .
+-0.8065916	past two ?
+-0.8218677	past two in
+-0.7878411	seven two ,
+-1.094212	seven two .
+-1.113262	seven two five
+-1.134395	seven two for
+-1.300884	seven two nine
+-0.9885439	seven two oh
+-0.8009996	seven two three
+-0.8822842	seven two two
+-1.254535	six two eight
+-0.8291423	six two five
+-1.276743	six two for
+-1.05751	six two four
+-1.06596	six two oh
+-1.254535	six two one
+-1.24189	six two seven
+-0.7523652	six two six
+-1.05751	six two three
+-0.9073719	three two ,
+-1.211368	three two .
+-1.065739	three two eight
+-1.276743	three two for
+-1.05751	three two four
+-0.7524727	three two oh
+-1.254535	three two one
+-1.065739	three two six
+-1.05751	three two three
+-0.5728917	to two ,
+-0.5744276	to two .
+-0.827851	to two ?
+-0.7027557	to two in
+-0.7740913	two two ,
+-0.7311636	two two .
+-1.252311	two two ?
+-0.8975632	two two eight
+-1.27139	two two five
+-1.490622	two two for
+-1.45577	two two nine
+-1.279619	two two one
+-1.45577	two two seven
+-1.047867	two two six
+-1.042894	two two two
+-0.8327832	want two double
+-0.987968	want two quiet
+-0.3055615	want two rooms
+-0.8327832	want two single
+-0.1527916	bath until tomorrow
+-0.215708	conditioning until the
+-2.04478	room until April
+-2.045686	room until August
+-2.045988	room until December
+-1.737098	room until February
+-1.657804	room until November
+-1.581396	room until September
+-0.7521043	room until next
+-0.2957269	room until the
+-0.706695	room until tomorrow
+-0.7725381	rooms until next
+-0.3422899	rooms until the
+-0.5853325	rooms until tomorrow
+-0.1527916	safe until tomorrow
+-0.8272384	telephone until next
+-0.2045401	telephone until the
+-0.6681319	tv until next
+-0.4031692	tv until the
+-0.8602998	tv until tomorrow
+-0.1872634	water until the
+-0.2979581	me up at
+-0.3068428	me up tomorrow
+-0.2784813	send up my
+-0.3288683	send up our
+-0.409125	sending up my
+-0.2292663	sending up our
+-0.3138131	us up at
+-0.2906693	us up tomorrow
+-0.000765363	for us ,
+-0.0008415148	give us the
+-0.004877479	giving us the
+-0.0224076	mind us taking
+-0.01226776	move us to
+-0.01028148	moving us to
+-0.1397502	showing us a
+-0.6216901	showing us another
+-0.0007844893	wake us up
+-0.005023627	waking us up
+-0.01241647	is value added
+-0.04876345	are very expensive
+-0.5271357	is very cold
+-0.5198436	is very expensive
+-0.5612336	is very hot
+-0.9744381	is very noisy
+-0.04921209	you very much
+-0.7205144	a view ,
+-1.518954	a view .
+-0.962784	a view and
+-0.961216	a view for
+-0.264146	a view of
+-1.000007	good view ,
+-1.433172	good view .
+-0.5964236	good view and
+-0.8595098	good view for
+-0.338845	good view of
+-0.269233	<s> wake me
+-0.3376675	<s> wake us
+-0.3879631	please wake me
+-0.2322758	please wake us
+-0.4695948	to wake me
+-0.1810088	to wake us
+-0.3356973	you wake me
+-0.2696607	you wake us
+-0.3624852	mind waking me
+-0.255782	mind waking us
+-0.4190349	I want a
+-0.5090094	I want to
+-1.609511	I want two
+-0.5485904	I want you
+-0.5933548	we want a
+-0.4809401	we want to
+-1.309657	we want two
+-0.4430334	we want you
+-0.01234791	a warmer room
+-0.2368529	there was a
+-0.4005703	there was an
+-1.197697	hot water ,
+-0.8516209	hot water .
+-0.9587743	hot water ?
+-0.6928277	hot water and
+-1.223377	hot water available
+-0.5981717	hot water in
+-1.07801	hot water until
+-0.8810976	<s> we are
+-1.020327	<s> we booked
+-0.5368332	<s> we have
+-1.438754	<s> we made
+-0.7716051	<s> we should
+-0.7887744	<s> we want
+-0.9546726	<s> we would
+-0.03027198	can we pay
+-0.5389129	could we book
+-1.114525	could we pay
+-0.2058918	could we see
+-0.2803047	should we fill
+-0.3578075	should we sign
+-0.2610052	a week ,
+-1.058859	a week .
+-0.7037485	a week ?
+-0.8722535	a week for
+-0.459893	per week ,
+-0.1949117	per week ?
+-0.5081589	this week ,
+-0.5150201	this week .
+-0.8782411	this week ?
+-0.6244801	this week for
+-0.2590032	ten weeks ,
+-1.101985	<s> what ?
+-0.08649249	<s> what is
+-1.056016	<s> what time
+-0.03163874	<s> when ?
+-0.03163874	<s> where ?
+-0.02828118	<s> which one
+-0.01986534	<s> who ?
+-0.2941656	<s> why ?
+-0.004506689	<s> will you
+-0.13695	room with a
+-0.7983049	room with air
+-1.458996	room with full
+-1.297551	room with half
+-1.620225	room with hot
+-0.1389704	rooms with a
+-0.6317257	rooms with air
+-1.609951	rooms with hot
+-0.000352522	<s> would you
+-0.0004634905	I would like
+-0.001255294	we would like
+-0.0928201	<s> yes !
+-0.9106438	<s> yes .
+-1.362163	can you ask
+-1.237273	can you call
+-2.020402	can you carry
+-1.30313	can you change
+-2.235651	can you check
+-1.88459	can you explain
+-0.670404	can you give
+-1.662999	can you make
+-1.222652	can you move
+-1.362163	can you prepare
+-1.570131	can you put
+-0.617814	can you send
+-2.637692	can you take
+-0.6884276	can you wake
+-1.062651	could you ask
+-0.8414927	could you call
+-1.795776	could you carry
+-1.407566	could you check
+-1.262553	could you explain
+-0.8535818	could you give
+-1.165464	could you make
+-1.044717	could you prepare
+-1.540946	could you put
+-0.6865821	could you send
+-0.9109509	could you wake
+-1.370223	do you accept
+-0.02095789	do you have
+-0.001318307	like you to
+-0.5549405	thank you !
+-0.9294773	thank you .
+-0.351592	thank you very
+-0.001294193	want you to
+-0.625623	will you ask
+-0.556559	will you call
+-1.274515	will you check
+-1.133523	will you explain
+-0.8092068	will you make
+-0.8092068	will you prepare
+-2.068818	would you accept
+-1.392612	would you ask
+-1.2493	would you call
+-1.940359	would you check
+-1.631837	would you explain
+-1.607961	would you make
+-0.09909452	would you mind
+-1.453251	would you prepare
+
+\end\

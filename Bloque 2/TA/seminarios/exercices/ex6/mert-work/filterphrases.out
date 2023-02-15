@@ -1,0 +1,2 @@
+To run the decoder, please call:
+  moses -f /home/miguel/Documentos/TA/exercices/ex6/mert-work/filtered/moses.ini -i /home/miguel/Documentos/TA/exercices/ex6/mert-work/filtered/input.26144

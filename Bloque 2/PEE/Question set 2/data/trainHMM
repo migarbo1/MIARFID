@@ -1,0 +1,216 @@
+P. Koehn and H. Hoang and A. Birch and C. Callison-Burch and M. Federico and N. Bertoldi and B. Cowan and W. Shen and C. Moran and R. Zens and C. Dyer and O. Bojar and A. Constantin and E. Herbst Moses: Open Source Toolkit for Statistical Machine Translation Proc. of the ACL Companion Volume Proceedings of the Demo and Poster Sessions 177 180 June 2007 
+Harrison Introduction Language Theory 1987
+A. de Gispert and D. Gupta and M. Popovic and P. Lambert and J. B. Mariño and M. Federico and H. Ney and R. Banchs Improving Statistical Word Alignments with Morpho-syntactic Transformations FinTAL - 5th International Conference on Natural Language Processing 368 379 2006 LNCS Turku Finland August Springer Verlag 
+P.F. Brown and J. Cocke and S.A. Della Pietra and V.J. Della Pietra and F. Jelinek and J.D. Lafferty and R.L. Mercer and P.S. Roossin A statistical approach to machine translation Computational Linguistics 1987 16 2 79 85  
+T.L. Booth and R.A. Thompson Applying Probability Measures to Abstract Languages IEEE Transactions on Computers 1973 May C-22 5 442 450 
+M.A. Harrison Introduction to Formal Language Theory 1978 Addison-Wesley 
+F. Amaya and J.M. Benedí and J.A. Sánchez Learning of stochastic context-free grammars from bracketed corpora by means of reestimation algorithms Proc. VIII Spanish Symposium on Pattern Recognition and Image Analysis AERFAI 1999 May M.I. Torres and A. Sanfeliu 119 126 1 Bilbao España 
+A.V. Aho and J.E. Hopcroft and J.D. Ullman The Design and Analysis of Computer Algorithms 1974 Addison-Wesley 
+J.C. Amengual and J.M. Benedí and F. Casacuberta and A. Castaño and A. Castellanos and V. Jiménez and D. Llorens and A. Marzal and M. Pastor and F. Prat and E. Vidal and J.M. Vilar The {E}u{T}rans-{I} Speech Translation System Machine Translation 15 75 103 2000 
+L.R. Bahl and F. Jelinek and R.L. Mercer A Maximum Likelihood Approach to Continuous Speech Recognition IEEE Trans. Pattern Analysis and Machine Intelligence 1983 PAMI-5 2 179 190 
+L.R. Bahl and P.E. Brown and P.V. de Souza and R.L. Mercer A new Algorithm for the estimation of Hidden Markov Models Parameters Proc. of ICASSP'88 1988 493 496 
+L.R. Bahl and P.E. Brown and P.V. de Souza and R.L. Mercer Estimating Hidden Markov Model Parameters so as to Maximize Speech Recognition Accuracy IEEE Trans. Speech and Audio Processing 1993 1 1 77 83 
+J.K. Baker The dragon system - an overview IEEE Trans. on Acoustics Speech and Signal Processing 1975 1 23 143 159 
+J.K. Baker Trainable Grammars for Speech Recognition Speech Communications for the 97th Meeting of the Acoustical Society of America Acoustical Society of America 1979 June Klatt and Wolf 31 35 
+S. Bangalore and G. Riccardi A finite-state approach to machine translation Proc. of the NAACL 2001 
+S. Barrachina and O. Bender and F. Casacuberta and J. Civera and E. Cubel and S. Khadivi and A. Lagarda H. Ney and J. TomÃ¡s and E. Vidal Statistical approaches to computer-assisted translation Computational Linguistics 2009 35 1 2 28 
+L.E. Baum and J.A. Eagon An Inequality with Applications to Statistical Prediction for Functions of Markov Chains Bull. Amer. Math. Soc. 1967 73 360 363 
+L.E. Baum and G.R. Sell Growth transformation for functions on manifolds Pacific J. Mathematics 1968 27 2 211 227 
+J.R. Bellegarda Large Vocabulary Speech Recognition with Multispan Statistical Language Models IEEE Transactions on Speech and Audio Processing 2000 8 1 76 84 
+J.R. Bellegarda A multispan language modeling framework for large vocabulary speech recognition IEEE Trans. Speech and Audio Processing 1998 6 5 456 476 
+J.M. Benedí and J.A. Sánchez Combination of N-Grams and Stochastic Context-Free Grammars for Language Modeling Proceedings of COLING 2000 55 61 International Committee on Computational Linguistics Saarbrücken Germany 
+J.M. Benedí and J.A. Sánchez Stochastic Context-Free Grammars in General Form to Chomsky Normal Form Departamento de Sistemas Informáticos y Computaci\'{o}n. Universidad Polit\'{e}cnica de Valencia. 2000 DSIC-II/13/00 
+J.M. Benedí and J.A. Sánchez and J. González and Francisco Nevado A hybrid language model combining word-based and category-based n-gram models Departamento de Sistemas Informáticos y Computación. Universidad Politécnica de Valencia. 2001 DSIC-II/03/01 
+J.M. Benedí and J.A. Sánchez Estimation of stochastic context-free grammars and their use as language models Computer Speech and Language 2005 19 3 249 274 
+J.M Benedí and J.A. Sánchez Corrective Training for the Estimation of Stochastic Context-Free Grammars Proc. VI Spanish Symposium on Pattern Recognition and Image Analysis AERFAI 1995 April A. Calvo and R. Medina 442 450 Córdoba España 
+J.M. Benedí and J.A. Sánchez Probabilidad de la mejor Derivaci\'{o}n que genera una Subcadena Inicial a partir de una Gramática Incontextual Probabilística Departamento de Sistemas Informáticos y Computaci\'{o}n. Universidad Polit\'{e}cnica de Valencia. 1996 DSIC-II/29/96 
+J.M. Benedí and J.A. Sánchez Study of Different Algorithms for Estimating the Probability Distributions of Stochastic Context-Free Grammars: a new Proposal based on the $k$-best derivations Departamento de Sistemas Informáticos y Computaci\'{o}n. Universidad Polit\'{e}cnica de Valencia. 1998 DSIC-II/5/98 
+D.M. Bikel A statistical model for parsing and word-sense disambiguation Proceedings of the 2000 Joint SIGDAT conference on Empirical methods in natural language processing and very large corpora 2000 155 163 Hong Kong 
+S. Bird and E. Loper NLTK: The Natural Language Toolkit Proceedings of the ACL demonstration session 214 217 2004 Barcelona July 
+E. Brill Transformation-Based Error-Driven Learning and Natural Language Processing: a Case Study in Part-of-Speech Tagging Computational Linguistics 21 4 1995 543 565 
+P.F. Brown and P.V. deSouza and R.L. Mercer and V.J.Della Pietra and J.C. Lai Class-Based n-gram Models of Natural Language Computational Linguistics 1992 18 4 467 479 
+P.F. Brown and S.A. Della Pietra and V.J. Della Pietra and R.L. Mercer The mathematics of statistical machine translation: parameter estimation Computational Linguistics 1993 19 2 263 311 
+C. Callison-Burch and C. Bannard and J. Schroeder Scaling Phrase-Based Statistical Machine Translation to Larger Corpora and Longer Phrases Proc. of the 43rd Annual Meeting of the ACL 255 262 2005 June 
+F. Casacuberta and D. LLorens and C. Martínez and S. Molau and F. Nevado and H. Ney and M. Pastor and D. Picó and A. Sanchis and E. Vidal and J. Vilar Proceedings of the IEEE Int. Conf. on Acoustics Speech and Signal Processing Speech-to-speech translation based on finite-state transducers 2001 
+F. Casacuberta and E. Vidal Machine translation with inferred stochastic finite-state transducers Computational Linguistics 2004 30 2 205 225 
+F. Casacuberta and J. Civera and E. Cubel and A.L. Lagarda and G. Lapalme and E. Macklovitch and E. Vidal Human interaction for high quality machine translation Communications of the ACM 52 10 2009 135 138 
+F. Casacuberta Statistical estimation of stochastic context-free grammar using the inside-outside algorithm and a transformation on grammars Grammatical Inference and Applications LNAI 862 1994 R.C. Carrasco and J. Oncina Springer-Verlag 119 129 
+F. Casacuberta Statistical Estimation of Stochastic Context-Free Grammars Pattern Recognition Letters 1995 16 565 573 
+F. Casacuberta Probabilistic Estimation of Stochastic Regular Syntax-Directed Translation Schemes Proc. VI Spanish Symposium on Pattern Recognition and Image Analysis 201 207 1995 A. Calvo and R. Medina Córdoba España April AERFAI 
+F. Casacuberta Growth Transformations for Probabilistic Functions of Stochastic Grammars IJPRAI 1996 10 3 183 201 
+M.J. Castro and D. Llorens and J.A. Sánchez and F. Casacuberta and P. Aibar and E. Segarra A fast version of the ATROS system Proc. EUROSPEECH'99 3 1239 1242 Budapest Hungría 1999 
+E. Charniak A Maximum-Entropy-Inspired Parser Proc. of NAACL-2000 132 139 2000 
+E. Charniak Immediate-Head Parsing for Language Models Proceedings of the 39th Annual Meeting of the Association for Computational Linguistics 116 123 2001 Toulouse July Association for Computational Linguistics 
+E. Charniak and K. Knight and K. Yamada Syntax-based language models for statistical machine translation Proc. of MT Summit IX New Orleans USA September 2003 
+Charniak Eugene and Johnson Mark Coarse-to-Fine n-Best Parsing and MaxEnt Discriminative Reranking Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL'05) June 2005 Ann Arbor Michigan Association for Computational Linguistics 173 180 http://www.aclweb.org/anthology/P/P05/P 05 1022 
+E. Charniak Tree-bank grammars Departament of Computer Science Brown University 1996 CS- 96 02 Providence Rhode Island January 
+Eugene Charniak and Sharon Goldwater and Mark Johnson Edge-Based Best-First Chart Parsing Sixth Workshop on Very Large Corpora 1998 127 133 
+R. Chaudhuri and S. Pham and O.N. Garcia Solution of an Open Problem on Probabilistic Grammars IEEE Transactions on Computers 1983 August C-32 8 748 750 
+R. Chaudhuri and A.N.V. Rao On a Property of Probabilistic Context-Free Grammars International Journal of Mathematics and Mathematical Science 1983 6 2 403 406 
+C. Chelba and F. Jelinek Structured language modeling Computer Speech and Language 2000 14 283 332 
+C. Chelba and F. Jelinek Exploiting Syntactic Structure for Language Modeling Proc. COLING 1998 225 231 International Committee on Computational Linguistics Montreal Canada 
+S.F. Chen Building Probabilistic Models for Natural Language 1996 Harvard University Ph. D. dissertation 
+Z. Chi and S. Geman Estimation of Probabilistic Context-Free Grammars Computational Linguistics 1998 24 2 299 306 
+Z. Chi Statistical Properties of Probabilistic Context-Free Grammars Computational Linguistics 1999 25 1 131 160 
+Chiang David A Hierarchical Phrase-Based Model for Statistical Machine Translation Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL'05) June 2005 Ann Arbor Michigan Association for Computational Linguistics 263 270 http://www.aclweb.org/anthology/P/P05/P 05 1033 
+D. Chiang Hierarchical phrase-based translation Computational Linguistics 2007 33 2 201 228 
+J. Civera and J. M. Vilar and E. Cubel and A. L. Lagarda and S. Barrachina and E. Vidal and F. Casacuberta and D. Picó and J. González From Machine Translation to Computer Assisted Translation using Finite-State Models Proceedings of the 2004 Conference on Empirical Methods in Natural Language Processing (EMNLP04) 2004 Barcelona 
+J. Civera and A. Juan Domain Adaptation in Statistical Machine Translation with Mixture Modelling Proceedings of the Second Workshop on Statistical Machine Translation June 2007 Prague Czech Republic Association for Computational Linguistics 177 180 
+A. Clark Learning morphology with pair hidden Markov models Proc. of the 39th Annual Meeting of the Association for Computational Linguistics (Companion Volume) Toulouse France 55 60 2001 
+M. Collins Head-Driven Statistical Models for Natural Language Parsing Computational Linguistics 2003 29 4 589 637 
+C.M. Cook and A. Rosenfeld and A.R. Aronson Grammatical Inference by Hill Climbing Informational Sciences 1976 10 59 80 
+D. Coppersmith and S. Winograd Matrix multiplication via arithmetic progressions J. Symb. Comput. 9 3 1990 0747 7171 251 280 Academic Press Inc. 
+A. Corazza and R. de Mori and R. Gretter and G. Satta Optimal Probabilistic Evaluation Functions for Search Controlled by Stochastic Context-Free Grammars IEEE Trans. Pattern Analysis and Machine Intelligence 1994 16 10 1018 1027 
+T.M. Cover and J.A. Thomas Elements of Information Theory 1991 John Wiley and Sons 
+E. Cubel and J. González and A. Lagarda and F. Casacuberta and A. Juan and E. Vidal Adapting finite-state translation to the {TransType2} project Proceedings of the Joint Conference combining the 8th International Workshop of the European Association for Machine Translation and the 4th Controlled Language Applications Workshop XX-xx 2003 Dublin Ireland 
+A.P. Dempster and N.M. Laird and D.B. Rubin Maximum likelihood from incomplete data via the EM algorithm (with discussion) Journal of the Royal Statistical Society 1977 ser. B. 39 1 38 
+P.A. Devijver Baum's forward-backward algorithm revisited Pattern Recognition Letters 1985 3 369 373 
+D. Llorens and F. Casacuberta and E. Segarra and J.A. Sánchez and P. Aibar and M.J. Castro Acoustic and syntactical modeling with the ATROS system Proc. of ICASSP'99 1999 Phoenix (Arizona) USA 641 644 2 
+R. Duda and P. Hart Pattern Classification and Scene Analysis 1973 John Wiley and Sons 
+P. Dupont Efficient Integration of Context-Free Grammars Based Language Models in Continuous Speech Recognition New Advances and Trends in Speech Recognition and Coding NATO ASI 1993 179 182 
+P. Dupont Utilisation et apprentissage de modèle de langage pour la reconnaissance de la parole continue 1996 ? Ph. D. dissertation 
+R. Durbin and S. Eddy and A. Krogh and G. Mitchison Biological sequence analysis: probabilistic models of proteins and nucleic acids Cambridge University Press 1998 
+J. Earley An efficient context-free parsing algorithm Communications of the ACM 1970 8 6 451 455 
+Y. Ephraim and L.R. Rabiner On the relation between modeling approaches for speech recognition IEEE on Trans. on Information Theory 1990 36 2 372 380 
+J.A. Feldman and G. Lakoff and A. Stolcke and S.H. Weber Miniature Language Acquisition: A touchstone for cognitive science International Computer Science Institute Berkeley CA USA 1990 TR- 90 009 
+G.D. Forney The Viterbi Algorithm Proceedings of the IEEE 1973 268 278 61(3) 
+G. Foster and R. Kuhn Mixture-Model Adaptation for {SMT} Proceedings of the Second Workshop on Statistical Machine Translation June 2007 Prague Czech Republic Association for Computational Linguistics 128 135 
+K.S. Fu and T.L. Booth Grammatical Inference: Introduction and Survey--Part I IEEE Trans. on System Man and Cybernetics 1975 January SMC-5 1 95 111 
+K.S. Fu and T.L. Booth Grammatical Inference: Introduction and Survey--Part II IEEE Trans. on System Man and Cybernetics 1975 July SMC-5 4 409 423 
+K.S. Fu Syntactic Pattern Recognition and Applications 1982 Prentice-Hall 
+G. Sanchis-Trilles and D. Ortiz-MartÃ­nez and J. Civera and F. Casacuberta and E. Vidal and H. Hoang Improving Interactive Machine Translation via Mouse Actions EMNLP 2008: conference on Empirical Methods in Natural Language Processing October 485 494 2008 Waikiki Honolulu Hawaii 
+M.I. Galiano and R. Granell and LL.F. Hurtado and A. Miguel and J.A. Sánchez and E. Sanchís La plataforma de adquisición de diálogos en el proyecto DIHANA Proceeding of the SEPLN: XIX Congreso de la Sociedad Española para el Procesamiento del Lenguaje Natural SEPLN 2003 Septiembre 343 344 
+J. García and J.A. Sánchez and J.M. Benedí Performance and Improvements of a Language Model based on Stochastic Context-Free Grammars Iberian Conference on Pattern Recognition and Image Analysis 2003 June F.J. Perales and A.J.C. Campilho and N. Pérez and A. Sanfeliu Springer Lecture Notes in Computer Science 2652 271 278 
+P. García and E. Vidal Inference of k-Testable Languages in the Strict Sense and Applications to Syntactic Pattern Recognition IEEE Trans. Pattern Analysis and Machine Intelligence 1990 12 9 920 925 
+J.M. García-Gómez and J.M. Benedí and J. Vicente and M. Robles Corpus-Based Learning of Stochastic Context-Free Grammars combined with Hidden Markov Models for tRNA Modelling Internation Journal of Pattern Recognition 2005 
+G. Gascó and J.A. Sánchez A* Parsing with Large Vocabularies Proceedings of the International Conference Recent Advances in Natural Language Processing 27 29 September 2007 Borovets Bulgaria 215 219 
+G. Gascó and J.A. Sánchez Syntax augmented inversion transduction grammars for machine translation In 11th International Conference on Intelligent Text Processing and Computational Linguistics (CICLING) March 2010 
+J. Gilet and W. Ward A Language Model Combining Trigrams and Stochastic Context-Free Grammars In 5th International Conference on Spoken Language Processing 1998 2319 2322 Sidney Australia 
+J. Goldsmith Unsupervised Learning of the Morphology of a Natural Language Computational Linguistics 2001 27 2 153 198 
+R.C. González and M.G. Thomason Syntactic Pattern Recognition: an Introduction 1978 Addisson-Wesley 
+P.S. Gopalakrishnan and D. Kanevsky and A. {\uppercase{n}}adas and D. {\uppercase{n}}ahamoo An inequality for rational functions with applications to some statistical estimation problems IEEE Transactions on Information Theory 1991 37 1 107 113 
+J.E. Hopcroft and J.D. Ullman Introduction to Automata Theory Languages and Computation 1979 Addison-Wesley 
+J. J. Horning A Study of Grammatical Inference 1969 Dep. Comput. Sci. Stanford Univ. Stanford Calif. Ph. D. dissertation 
+E. Horowitz and S. Sahni Fundamentals of Data Structures in Pascal 1990 Computer Science Press Third Edition 
+X.D. Huang and Y. Ariki and M.A. Jack Hidden Markov Models for Speech Recognition 1990 Edinburgh University Press Third Edition 
+F. Jelinek Continuous speech recognition by statistical methods Proc. IEEE 1976 4 64 532 556 
+F. Jelinek R. Mercer S. Roukos Classifying words for improved statistical language model Proc. ICASSP-90 1990 621 624 Detroit Michigan USA 
+F. Jelinek and J.D. Lafferty Computation of the Probability of Initial Substring Generation by Stochastic Context-Free Grammars Computational Linguistics 1991 17 3 315 323 
+F. Jelinek and J.D. Lafferty and R.L. Mercer Basic Methods of Probabilistic Context-Free Grammars Speech Recognition and Understanding. Recent Advances 1992 P. Laface and R. De Mori Springer-Verlag 345 360 
+F. Jelinek Statistical Methods for Speech Recognition 1998 MIT Press 
+V.M. Jiménez and A. Marzal Computation of the N Best Parse Trees for Weighted and Stochastic Context-Free Grammars Advances in Pattern Recognition 2000 F.J. Ferri and J.M. Iñesta and A. Amin and P. Pudil Springer-Verlag Lecture Notes in Computer Science 1876 183 192 
+M. Johnson PCFG Models of Linguistic Tree Representations Computational Linguistics 1998 24 4 613 632 
+D. Jurafsky and C. Wooters and J. Segal and A. Stolcke and E. Fosler and G. Tajchman and N. Morgan Using a Stochastic Context-Free Grammar as a Language Model for Speech Recognition Proc. ICASSP-95 1995 189 192 
+W.K. Kim and S. Khudanpur and J. Wu Smoothing Issues in the Structured Language Model Proc. EUROSPEECH'01 717 720 2001 Aalborg Denmark 
+Dan Klein and Christopher D. Manning A* Parsing: Fast Exact {V}iterbi Parse Selection Proceedings of HLT-NAACL 03 40 47 2003 
+R. Knesser Improved clustering techniques for class-based Statistical language model Proc. EUROSPEECH'93 1993 973 976 Berlín Alemania 
+P. Koehn Pharaoh: a beam search decoder for phrase-based statistical machine translation models Proc. of AMTA 2004 
+P. Koehn Europarl: A Parallel Corpus for Statistical Machine Translation Proc. of MT Summit 2005 
+P. Koehn and C. Monz Proceedings on the Workshop on Statistical Machine Translation June 2006 New York City Association for Computational Linguistics 
+P. Koehn Philipp and J. Schroeder Experiments in Domain Adaptation for Statistical Machine Translation Proceedings of the Second Workshop on Statistical Machine Translation June 2007 Prague Czech Republic Association for Computational Linguistics 224 227 
+P. Koehn A Web-Based Interactive Computer Aided Translation Tool Proc. of the ACL-IJCNLP 17 20 August 3 Suntec Singapore 2009 ACL and AFNLP 
+K. Lari and S.J. Young The Estimation of Stochastic Context-Free Grammars using the Inside-Outside Algorithm Computer Speech and Language 1990 4 35 56 
+K. Lari and S.J. Young Applications of Stochatic Context-Free Grammars using the Inside-Outside Algorithm Computer Speech and Language 1991 5 237 257 
+Matthew Lease and Eugene Charniak and Mark Johnson and David McClosky A Look At Parsing and Its Applications Proceedings of the Twenty-First National Conference on Artificial Intelligence (AAAI-06) 16 20 July 2006 http://www.cs.brown.edu/people/mlease/aaai06.pdf 
+L. Lee Fast Context-Free Grammar Parsing Requires Fast Boolean Matrix Multiplication Journal of the ACM 2002 49 1 1 15 January 
+K.F. Lee and S. Mahajan Corrective and Reinforcement learning for Speaker-Independent Continuous Speech Recognition Computer Speech and Language 1990 4 231 245 
+Percy Liang and Dan Klein Online {E}{M} for Unsupervised Models Proceedings of the HLT-NAACL 09 611 619 2003 
+D. Linares and J.M. Benedí and J.A. Sánchez Learning of Stochastic Context-Free Grammars by means of Estimation Algorithms and Initial Treebank Grammars Iberian Conference on Pattern Recognition and Image Analysis 2003 June F.J. Perales and A.J.C. Campilho and N. Pérez and A. Sanfeliu 403 410 Springer Lecture Notes in Computer Science 2652 
+D. Linares and J.M. Benedí and J.A. Sánchez A Hybrid Language Model based on Stochastic Context-Free Grammars ECML/PKDD 2003 Workshop on Learning Context-Free Grammars 41 52 2003 C. de la Higuera and P. Adriaans and M. van Zaanen and J. Oncina Septembre 
+D. Linares and J.M. Benedí and J.A. Sánchez Earley-based stochastic context-free grammar estimation from bracketed corpora and its use in a hybrid language model Proceeding of the SEPLN: XIX Congreso de la Sociedad Española para el Procesamiento del Lenguaje 2003 Septiembre 31 183 190 
+D. Linares and J.M. Benedí and J.A. Sánchez A Hybrid Language Model based on a Combination of N-grams and Stochastic Context-Free Grammars ACM Trans. on Asian Language Information Processing 2004 June 3 2 113 127 
+E. M\"akinen On the structural grammatical inference problem for some classes of context-free grammars. Information Processing Letters 1992 April 42 1 5 
+D. Marcu and W. Wong A phrase-based joint probability model for statistical machine translation Proc. of the Conference on Empirical Methods in Natural Language Processing 2002 
+M.P. Marcus and B. Santorini and M.A. Marcinkiewicz Building a Large Annotated Corpus of {E}nglish: the {P}enn {T}reebank Computational Linguistics 1993 19 2 313 330 
+S.C. Martin and A. Kellner and T. Portele Interpolation of Stochastic Grammar and Word Bigram Models in Natural Language Understanding International Conference on Spoken Language Processing 2000 Beijing China 
+F. J. Maryanski Inference of Probabilistic Grammars 1974 July Dep. Elec. Eng. and Comput. Sci. Univ. Connecticut Storrs Ct Ph. D. dissertation 
+F.J. Maryanski and T.L. Booth Inference of Finite-State Probabilistic Grammars IEEE. Transactions on Computers 1977 C-26 6 521 536 
+F.J. Maryanski and M.T. Thomason Properties of Stochastic Syntax-Directed Tranlation Schemata Journal of Computer and Information Sciences 1979 8 2 89 110 
+A. Marzal Cálculo de las $k$ mejores soluciones a problemas de programaci\'{o}n dinámica 1994 Universidad Polit\'{e}cnica de Valencia Ph. D. dissertation 
+S. McRoy Using Multiple Knowledge Sources for Word Sense Discrimination Computational Linguistics 1992 18 1 1 30 
+D. McClosky and E. Charniak and M. Johnson Reranking and Self-Training for Parser Adaptation Proceedings of the 21st International Conference on Computational Linguistics and 44th Annual Meeting of the Association for Computational Linguistics (ACL'06) July 2006 Sydney Australia 337 344 Association for Computational Linguistics 
+N. Merhav and Y. Ephraim Maximum Likelihood Hidden Markov Modeling using a dominant Sequence of States IEEE. Transactions on Signal Processing 1991 39 9 2111 2115 
+N. Merhav and Y. Ephraim Hidden Markov Modeling using a dominant State Sequence with Application to Speech Recognition Computer Speech and Language 1991 5 327 339 
+B. Merialdo On the Locality of the Forward-Backward Algorithm IEEE Trans. on Speech and Audio Processing 1993 1 2 255 257 
+T.K. Moon The expectation-maximization algorithm IEEE Signal Processing Magazine 1996 November 47 60 
+NIST National Institute of Standards and Technology Machine Translation Evaluation http://www.nist.gov/speech/tests/mt/mt2001/resource/ 
+F. Nevado and J.A. Sánchez and J.M. Benedí Combination of Estimation Algorithms and Grammatical Inference Techniques to Learn Stochastic Context-Free Grammars Grammatical Inference and Applications LNAI 1891 2000 Arlindo L. Oliveira Springer-Verlag 196 206 
+F. Nevado and J.M. Benedí and J.A. Sánchez Lexical decoding based on the combination of category-based stochastic models and word-category distribution models Proc. IX Spanish Symposium on Pattern Recognition and Image Analysis AERFAI 2001 May J.S. Sánchez and F. Pla 183 188 1 Castelló España 
+H. {\uppercase{n}}ey Dynamic Programing Parsing for Context-Free Grammars in Continous Speech Recognition IEEE Trans. Signal Processing 1991 February 39 2 336 340 
+H. {\uppercase{n}}ey Stochastic Grammars and Pattern Recognition Speech Recognition and Understanding. Recent Advances 1992 P. Laface and R. De Mori Springer-Verlag 319 344 
+H. {\uppercase{n}}ey and U. Essen and R. Knesser On Structuring Probabilistic Dependences in Stochastic Language Modelling Computer Speech and Language 1994 8 1 38 
+T.R. Niesler and P.C. Woodland Combination of word-based and category-based language models International Conference on Spoken Language Processing 1996 1779 1782 
+S. Nie{\ss}en and H. Ney Statistical Machine Translation with Scarce Resources Using Morpho-syntactic Information Computational Linguistics 2004 30 2 181 204 
+F. J. Och and H. Ney Improved Statistical Alignment Models Proc. of ACL 440 447 Hongkong China October 2000 
+F. J. Och and S. Vogel and H. Ney The RWTH system for statistical translation of spoken dialogues Proc. of HLT X--X San Diego USA Mar 2001 
+F.J. Och and H. Ney Discriminative training and maximum entropy models for statistical machine translation Proc. of ACL 2002 
+F.J. Och et al. Final Report of Johns Hopkins 2003 Summer Workshop on Syntax for Statistical Machine Translation 2003 
+F.J. Och and H. Ney A systematic comparison of various statistical alignment models Computational Linguistics 2003 29 1 19 52 
+F.J. Och and R. Zens and H. Ney Efficient Search for Interactive Statistical Machine Translation Proceedings of the 10th Conference of the European Chapter of the Association for Computational Linguistics (EACL) 387 393 2003 Budapest Hungary April 
+F.J. Och Minimum Error Rate Training in Statistical Machine Translation Proceedings of the 41st Annual Meeting of the Association for Computational Linguistics July 2003 Sapporo Japan Association for Computational Linguistics 160 167 
+F.J. Och and et al. A Smorgasbord of Features for Statistical Machine Translation Proc. of the 2004 Meeting of the North American chapter of the Association for Computational Linguistics (NAACL-04) Boston MA 2004 
+F.J. Och and H. Ney The alignment template approach to statistical machine tranlation Computational Linguistics 2004 30 4 417 450 
+K. Papineni and S. Roukos and T. Ward and W.J. Zhu BLEU: a method for automatic evaluation of machine translation Proc. 40th Annual meeting of the ACL 311 318 2002 
+F. Pereira and Y. Schabes Inside-outside reestimation from partially bracketed corpora Proceedings of the 30th Annual Meeting of the Association for Computational Linguistics 1992 128 135 University of Delaware 
+L. Rabiner and B.H. Juang Fundamentals of speech recognition Prentice-Hall 1993 
+A. Ratnaparkhi A Maximum Entropy Model for Part-of-Speech Tagging Proc. Empiriral Methods in Natural Language Processing 133 142 1996 University of Pennsylvania May 
+B.D. Ripley Pattern recognition and neural networks Cambridge university press 1996 
+B. Roark Probabilistic Top-Down Parsing and Language Modeling Computational Linguistics 2001 27 2 249 276 
+M.A. Rocha and J.A. SÃ¡nchez Machine Translation of the {P}enn {T}reebank to {S}panish I Joint SIG-IL/Microsoft Workshop on Speech and Language Technologies for Iberian Languages Porto Salvo Portugal 3 4 September 2009 
+R. Rosenfeld The {C}{M}{U} Statistical Language Modeling Toolkit and its use in the 1994 ARPA CSR Evaluation ARPA Spoken Language Technology Workshop Austin Texas USA 1995 
+"Stuart Russell and Peter Norvig" "Artificial Intelligence: A Modern Approach" "Prentice-Hall" 2003 "Englewood Cliffs NJ" "Second" 
+Stuart J. Russell and Peter Norving Artificial Intelligence: A Modern Approach Prentice Hall Englewood Cliffs NJ 1995 
+W. Rytter Context-free recognition via shortest paths computation: a version of Valiant's algorithm Theoretical Computer Science 1995 143 343 352 
+NAACL NAACL 2006 Workshop on Statistical Machine Translation http://www.statmt.org/wmt06/ 
+S. Sahni Concepts in Discrete Mathematics 1985 Camelot Pub. Co. 
+Y. Sakakibara Learning Context-Free Grammars from Structural Data in Polynomial Time Theoretical Computer Science 1990 76 223 242 
+Y. Sakakibara Efficient Learning of Context-Free Grammars from Positive Structural Examples Information and Computation 1992 97 23 60 
+Y. Sakakibara and M. Brown and R. Hughey and I.S. Mian and K. Sj\"{o}lander and R.C. Underwood and D. Haussle The Application of Stochastic Context-Free Grammars to Folding Aligning and Modeling Homologous RNA Univ. of California 1993 Santa Cruz Ca. UCSC-CRL- 94 14 Computer and Information Science 
+I. Salvador and J.M. Benedí RNA Modeling by Combining Stochastic Context-Free Grammars and n-Gram Models International Journal of Pattern Recognition and Artificial Intelligence 2002 16 3 309 315 
+C. Samuelsson and W. Reichl A Class-BAsed Language Model for Large-Vocabulary Speech Recognition Extracted from Part-of-Speech Statistics Proceedings of ICASSP 537 540 1999 
+J.A. Sánchez and J.M. Benedí Obtaining Word Phrases with Stochastic Inversion Transduction Grammars for Phrase-based Statistical Machine Translation Proc. 11th Annual conference of the European Association for Machine Translation 179 186 Oslo Norway June 2006 
+J.A. Sánchez and J.M. Benedí Stochastic Inversion Transduction Grammars for Obtaining Word Phrases for Phrase-based Statistical Machine Translation Proc. of Workshop on Statistical Machine Translation. HLT-NAACL 06 130 133 New York USA June 2006 
+J.A. Sánchez and J.M. Benedí Statistical Inductive Learning of Regular Formal Language Grammatical Inference and Applications 1994 R.C. Carrasco and J. Oncina Springer-Verlag 130 138 
+J.A. Sánchez and J.M. Benedí and F. Casacuberta Comparison between the Inside-Outside Algorithm and the Viterbi Algorithm for Stochastic Context-Free Grammars Advances in Structural and Syntactical Pattern Recognition 1996 P. Perner and P. Wang and A. Rosenfeld Springer-Verlag 50 59 
+J.A. Sánchez and J.M. Benedí Gramáticas Incontextuales Probabilísticas Consistentes Departamento de Sistemas Informáticos y Computaci\'{o}n. Universidad Polit\'{e}cnica de Valencia. 1996 DSIC-II/20/96 
+J.A. Sánchez and J.M. Benedí Consistency of Stochastic Context-Free Grammmars from Probabilistic Estimation Based on Growth Transformation IEEE Trans. Pattern Analysis and Machine Intelligence 1997 19 9 1052 1055 
+J.A. Sánchez and J.M. Benedí Computation of the probability of the best derivation of an initial substring from a stochastic context-free grammar Proc. VII Spanish Symposium on Pattern Recognition and Image Analysis AERFAI 1997 April A. Sanfeliu and J.J. Villanueva and J. Vitrià 181 186 Barcelona España 
+J.A. Sánchez and J.M. Benedí Study of different algorithms for estimating the probability distributions of stochastic context-free grammars: a new proposal based on the $k$-best derivations Departamento de Sistemas Informáticos y Computaci\'{o}n. Universidad Polit\'{e}cnica de Valencia. 1998 DSIC-II/05/98 
+J.A. Sánchez and J.M. Benedí Estimation of the probability distributions of stochastic context-free grammars from the $k$-best derivations In 5th International Conference on Spoken Language Processing 1998 2495 2498 Sidney Australia 
+J.A. Sánchez Estimación de gramáticas incontextuales probabilísticas y su aplicación en modelización del lenguaje 1998 Universidad Politécnica de Valencia Ph. D. dissertation ({\em in preparation}) 
+J.A. Sánchez and J.M. Benedí Probabilistic estimation of stochastic context-free grammar from the $k$-best derivations Proc. VIII Spanish Symposium on Pattern Recognition and Image Analysis AERFAI 1999 May M.I. Torres and A. Sanfeliu 2 7 8 Bilbao España 
+J.A. Sánchez and J.M. Benedí Learning of Stochastic Context-Free Grammars by means of Estimation Algorithms Proc. EUROSPEECH'99 4 1799 1802 Budapest Hungary 1999 
+J.A. Sánchez and F. Casacuberta and P. Aibar and D. Llorens and M.J. Castro Fast phoneme look-ahead in the Atros system Proc. VIII Spanish Symposium on Pattern Recognition and Image Analysis AERFAI 1999 May M.I. Torres and A. Sanfeliu 1 77 84 Bilbao España 
+D. Sankoff and J.B. Kruskal (eds.) Time warps string edits and macromolecules Addison-Wesley 1983 
+A. Sarkar Conditions on consistency of probabilistic tree adjoining grammars Proc. of COLING98 1998 International Committee on Computational Linguistics 
+S. Sato and M. Nagao Memory-based translation Proceedings of the 13th International Conference on Computational Linguistics 3: 247 252 1990 Helsinki Finland 
+P. Schone and D. Jurafsky Knowledge-free induction of morphology using latent semantic analysis Proc. of the 4th Conf. on Computational Natural Language Learning Lisbon Portugal 2000 
+N. Serrano and A. Sanchis and A. Juan Balancing Error and Supervision Effort in Interactive-Predictive Handwritten Text Recognition Proceedings of the 15th International Conference on Intelligent User Interfaces (IUI 2010) Hong Kong (China) 2010 February 373 376 
+B. Seetles and M. Craven An Analysis of Active Learning Strategies for Sequence Labeling Tasks Proc. of the Conference on Empirical Methods in Natural Language Processing EMNLP 1069 1078 2008 ACL press 
+M. Siu and M. Ostendorf Variable N-Grams and Extensions for Conversational Speech Language Modeling IEEE Trans. on Speech and Audio Processing 2000 8 1 63 75 
+A. Stolcke Bayesian Learning of Probabilistic Language Models 1994 Berkeley CA. University of California 
+A. Stolcke An Efficient Probabilistic Context-Free Parsing Algorithm that Computes Prefix Probabilities Computational Linguistics 1995 21 2 165 200 
+V. Strassen Gaussian Elimination is Not Optimal Numerische Mathematik 1969 13 354 356 
+E. Sumita Example-based machine translation using dp-matching between word sequences Proceedings of the Data-Driven Machine Translation Workshop 39th Annual Meeting of the Association for Computational Linguists 18--X 2001 July Toulouse France 
+TT2 Transtype2 computer assisted translation (TT2). Technical report. Information Society Technologies (IST) Program. IST- 2001 32091 . 2002 
+L. Tessiore and W. v. Hahn Functional validation of a machine translation system: Verbmobil Verbmobil: Foundations of speech-to-speech-translation 611 631 Berlin Germany 2000 
+R.A. Thompson Determination of Probabilistic Grammars for Functionally Specified Probability-Measure Languages IEEE Transactions on Computers 1974 June C-23 6 603 614 
+J. Tomás and F. Casacuberta Monotone Statistical Translation using Word Groups Proceedings of the Machine Translation Summit VIII 357 361 2001 Santiago de Compostela 
+J. Tomás and J. Lloret and F. Casacuberta Phrase-Based Alignment Models for Statistical Machine Translation Iberian Conference on Pattern Recognition and Image Analysis 605 613 Lecture Notes in Computer Science Springer-Verlag 3523 2005 Estoril (Portugal) June 
+A.H. Toselli and V. Romero and E. Vidal Computer Assisted Transcription of Text Images and Multimodal Interaction Proceedings of the 5th Joint Workshop on Multimodal Interaction and Related Machine Learning Algorithms LNCS 5237 296 308 September 2008 Utrecht The Netherlands 
+L.G. Valiant General Context-Free Recognition in Less than Cubic Time Journal of computer and system sciences 1975 10 308 315 
+J.L. Verdu-Mas and M.L Forcada and R.C. Carrasco and J. Calera-Rubio Tree k-Grammar Models for Natural Language Modelling and Parsing Proceeding of the Joint IAPR International Workshop on Syntactical and Structural Pattern Recognition 2002 56 63 Springer T. Caelli and A. Amin and R.P.W. Duin and M. Kamel and D. de Ridder 2396 Lecture Notes in Computer Science 
+E. Vidal and F. Casacuberta Learning finite-state models for machine translation Grammatical Inference: Algorithms and Applications. Proceedings of the 7th International Coloquium ICGI 2004 16 27 Springer 2004 3264 Lecture Notes in Artificial Intelligence Athens Greece October Invited conference 
+E. Vidal Grammatical inference: an introductory survey Grammatical Inference and Applications LNAI 862 1994 R.C. Carrasco and J. Oncina Springer-Verlag 1 4 
+S. Vogel and Y. Zhang and F. Huang and A. Tribble and A. Venugopal and B. Zhao and A. Waibel The CMU statistical machine translation system Proc. of the Ninth Machine Translation Summit 2003 
+C.S. Wetherell Probabilistic Languages: A Review and some Open Questions Computing Surveys 1980 12 4 361 379 
+D. Wu Stochastic inversion transduction grammars and bilingual parsing of parallel corpora Computational Linguistics 1997 23 3 377 404 
+K. Yamada and K. Knight A syntax-based statistical translation model Proc. of the 39th Annual Meeting of the Association of Computational Linguistics 2001 523 530 
+K. Yamada and K. Knight " A Decoder for Syntax-based Statistical MT}" Meeting of the Association for Computational Linguistics 303 310 2002 
+T. Yokomori Learning context-free languages efficiently SIGFAI 1988 104 123 
+R. Zens and F.J. Och and H. Ney Phrase-based statistical machine translation Proc. of the 25th Annual German Conference on Artificial Intelligence LNAI 2479 18 32 2002 
+"A comparative Study on Reordeing Constraints in Statistical Machine Translation" "R. Zens and H. Ney" "Proceedings of the 41th Annual Meeting of the ACL" " 144 151 " 2003 
+R. Zens and H. Ney Improvements in Phrase-Based Statistical Machine Translation Proceedings of the Human Language Technology Conference (HLT-NAACL) 257 264 2004 Boston MA May 
+R. Zens and H. Ney and T. Watanabe and E. Sumita Reordering Constraints for Phrase-Based Statistical Machine Translation Proceedings of the 20th International Conference on Computational Linguistics (CoLing) 205 211 2004 August Geneve Switzerland 
+Hao Zhang and Daniel Gildea Stochastic Lexicalized Inversion Transduction Grammar for Alignment Proceedings of the 43rd Annual Conference of the Association for Computational Linguistics (ACL-05) 2005 Ann Arbor MI 
+M. Zimmermann and J.C. Chappelier and H. Bunke Offline Grammar-Based Recognition of Handwritten Sentences IEEE Transactions on Pattern Analysis and Machine Intelligence 2006 28 5 818 821 

@@ -1,0 +1,37 @@
+
+; Version LPG-td-1.4
+; Seed 60974781
+; Command line: /home/miguel/Documentos/PIN/PLANIFICADORES/PLANIFICADOR LPG/lpg-td -o domain_functional.pddl -f problem_functional.pddl -n 2 
+; Problem problem_functional.pddl
+; Time 1.93
+; Search time 1.84
+; Parsing time 0.03
+; Mutex time 0.06
+; MakeSpan 153.00
+
+first_solution_cpu_time: 1.93 
+Solution number: 1
+Total time:      1.93
+Search time:     1.84
+Actions:         14
+Duration:        153.000
+Plan quality:    153.000 
+Total Num Flips: 597
+
+
+0.0002:   (UNSTACK C8 T4 A2 S21 L2) [10.5000]
+10.5005:   (STACKONCONTAINER_REGULAR C8 C6 A2 S23 L2) [14.5000]
+25.0008:   (UNSTACK T4 S21 A2 S21 L2) [16.5000]
+41.5010:   (PLACEINRAIL L2 L1 A2 T4 R2) [18.5000]
+60.0013:   (TRANSPORT R2 T4 L2 L1) [11.5000]
+71.5015:   (PICKFROMRAIL R2 L1 L2 T4 A1) [21.5000]
+93.0018:   (STACKONCONTAINER_TARGET T4 C10 A1 S12 L1) [8.5000]
+60.0013:   (UNSTACK C2 T3 A2 S22 L2) [5.5000]
+65.5015:   (STACKONCONTAINER_REGULAR C2 C8 A2 S23 L2) [9.5000]
+75.0018:   (UNSTACK T3 C5 A2 S22 L2) [11.5000]
+93.0018:   (PLACEINRAIL L2 L1 A2 T3 R2) [18.5000]
+111.5020:   (TRANSPORT R2 T3 L2 L1) [11.5000]
+123.0023:   (PICKFROMRAIL R2 L1 L2 T3 A1) [21.5000]
+144.5025:   (STACKONCONTAINER_TARGET T3 T7 A1 S11 L1) [8.5000]
+
+
