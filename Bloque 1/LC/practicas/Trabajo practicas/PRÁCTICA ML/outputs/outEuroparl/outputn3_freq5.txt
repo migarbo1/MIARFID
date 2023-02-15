@@ -1,0 +1,2 @@
+file ../../Corpus Europarl/test.txt: 49821 sentences, 1238073 words, 6715 OOVs
+0 zeroprobs, logprob= -2442224 ppl= 80.58081 ppl1= 96.24056

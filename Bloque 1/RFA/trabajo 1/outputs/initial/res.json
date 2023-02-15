@@ -1,0 +1,39 @@
+{
+    "linRegVanilla": {
+        "CER": 9.00,
+        "IT": 0.25,
+        "AUC": 86.8
+    },
+    "linRegNorm": {
+        "CER": 10.14,
+        "IT": 0.265,
+        "AUC": 89.4
+    },
+    "SGDvanilla": {
+        "CER": 10.32,
+        "IT": 0.267,
+        "AUC": "not available for hinge"
+    },
+    "SGD(log-loss)": {
+        "CER": 8.89,
+        "IT": 0.245,
+        "AUC": 88.1
+    },
+    "SGDNorm(log-loss)": {
+        "CER": 10.0,
+        "IT": 0.26,
+        "AUC": 89.4
+    },
+    "Perceptron(l1)": {
+        "CER": 10.97,
+        "IT": 0.27,
+        "AUC": 88.6
+    },
+    "RidgeVanilla": {
+        "CER": 9.92,
+        "IT": 0.26,
+        "AUC": 90.0
+    }
+
+
+}

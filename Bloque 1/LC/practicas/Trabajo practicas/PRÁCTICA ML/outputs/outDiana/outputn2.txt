@@ -1,0 +1,2 @@
+file ../Corpus Dihana/dihana.prueba1.txt: 1169 sentences, 8372 words, 0 OOVs
+0 zeroprobs, logprob= -10016.61 ppl= 11.2163 ppl1= 15.71962

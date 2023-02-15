@@ -1,0 +1,10 @@
+Acceso a la herramienta SRILM
+
+- Editar fichero ".bashrc", por ejemplo en una ventana de sistema con "gedit".
+- Añadir la línea:
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:/opt/srilm-1.7.3/bin/i686-m64/
+- Guardar
+- Cerrar ventana sistema
+- Abrir otra ventana sistema para comprobar que se ha actualizado la variable PATH, por ejemplo ejecutar "echo $PATH"
+
+
