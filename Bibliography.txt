@@ -1,0 +1,28 @@
+NLP:
+- Introduction to Natural Language Processing, Computational Linguistics and Speech recognition -- D.Jurafsky
+- Foundations of Statistical Natural Language Processing -- Christopher D. Manning 
+
+Machine Translation:
+- Statistical Machine Translation -- Philipp Koehn
+- Neural Machine Translation -- Philipp Koehn
+- Seq-to-seq models
+
+Probabilistic Context-Free Grammars:
+- Probabilistic Context-Free Grammars -- M. Collins
+
+Conditional Random Fields:
+- An Introduction to Conditional Random Fields. Machine Learning -- C. Sutton and A. McCallum
+
+
+Pattern Recognition and Machine Learning:
+- Probabilistic Machine learning: An introduction -- Kevin P. Murphy
+- Pattern Recognition and Machine Learning -- Christopher M. Bishop
+- Deep Learning -- Ian Goodfellow, Yoshua bengio and Aaron Courville
+- Multimodal Interactive Pattern Recognition and Applications -- F. Casacuberta E.Vidal
+
+Automated Planning:
+- Automated Planning. Theory and Practice -- Ghallab, Nau, Traverso
+
+MultiAgent Systems:
+- An introduction to MultiAgent Systems -- Michael Wooldridge
+- MultiAgent Systems: Introduction and Coordination Control -- Magdi S. Mahmoud
