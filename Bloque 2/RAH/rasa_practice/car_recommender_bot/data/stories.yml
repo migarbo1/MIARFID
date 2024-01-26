@@ -44,6 +44,14 @@ stories:
       - intent: with_max_mileage
       - action: utter_response_max_mileage
 
+  - story: send by email
+    steps:
+      - intent: send_by_email
+      - action: send_by_email_form
+      - active_loop: send_by_email
+      - action: send_by_email_form
+      - action: send_by_email
+
   - story: interactive_story_1
     steps:
     - intent: greet

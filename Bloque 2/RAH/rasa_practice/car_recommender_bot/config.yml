@@ -13,6 +13,7 @@ pipeline:
   dimensions:
   - amount-of-money
   - distance
+  - email
 - name: DIETClassifier
   epochs: 100
 

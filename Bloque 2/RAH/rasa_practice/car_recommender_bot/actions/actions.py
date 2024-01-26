@@ -4,7 +4,9 @@ from rasa_sdk.forms import FormValidationAction, Action
 from rasa_sdk.events import SlotSet
 import pandas as pd
 import numpy as np
+import smtplib
 import random
+import ssl
 import os
 import re
 
@@ -23,7 +25,9 @@ class ResetSlots(Action):
             SlotSet("km_driven_per_day", None),
             SlotSet("has_garage", None),
             SlotSet("yearly_income", None),
-            SlotSet("constant_payments", None)
+            SlotSet("constant_payments", None),
+            SlotSet("user_email", None),
+            SlotSet("selected_car", None)
         ]
     
 class ComputeBestFuelType(Action):
@@ -63,6 +67,39 @@ class ComputeBestFuelType(Action):
             dispatcher.utter_message(text=f'On average, Diesel cars cost {diesel_overprice:.2f}€ more, although them consume less and this fuel is cheaper. \nGiven the actual fuel price, you will get the return of investment in {years_til_benefit:.0f} years. That\'s less than the recommended value (10). \nSo i suggest you to get a Diesel car.')
             return []
         
+class SendByEmail(Action):
+
+    def name(self):
+        return "send_by_email"
+    
+    async def run(self, dispatcher, tracker, domain):
+        selected_car = tracker.get_slot('selected_car')
+        user_email = tracker.get_slot('user_email')
+
+        try:
+            server = smtplib.SMTP("mail.gmx.com", 587)
+            server.starttls(context=ssl.create_default_context())
+            server.login('carbot@gmx.es', 'iamabotXDXD')
+            from_email = 'carbot@gmx.es'
+            to_emails = [user_email]
+            body = selected_car
+            headers = f"From: {from_email}\r\n"
+            headers += f"To: {', '.join(to_emails)}\r\n"
+            headers += f"Subject: Retrieved car!\r\n"
+            email_message = headers + "\r\n" + body
+            server.sendmail(from_email, to_emails, email_message)
+
+        except Exception as e:
+            print(e)
+
+        finally:
+            server.quit()
+            dispatcher.utter_message(text=f'Email sent to {user_email}. You should receive it in any minute')
+
+
+        return []
+    
+
 class ComputeBestMaxPrice(Action):
 
     def name(self):
@@ -121,7 +158,10 @@ class Query(Action):
                 dispatcher.utter_message(text=f'Before applying the price limit, I had {len(query_res)} cars for you. But none meet your price limitations. If you like increase it and try again.')
                 return []
 
-            dispatcher.utter_message(text=f'Here\'s the perfect car that I have for you on my database: \n{self.to_string(final_query_res.sample())}')
+            selected_car = self.to_string(final_query_res.sample())
+            tracker.slots['selected_car'] = selected_car
+
+            dispatcher.utter_message(text=f'Here\'s the perfect car that I have for you on my database: \n{selected_car}')
         else:
             dispatcher.utter_message(text=f'TO get a car first you have to specify the required parameters')
         return []

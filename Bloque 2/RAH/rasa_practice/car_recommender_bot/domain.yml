@@ -20,7 +20,9 @@ intents:
 - with_fuel_type
 - with_max_mileage
 - with_max_price
+- send_by_email
 entities:
+- email
 - year
 - fuel
 - transmission
@@ -143,6 +145,20 @@ slots:
       conditions:
       - active_loop: info_income_form
         requested_slot: wants_to_spec_info
+  selected_car:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  user_email:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: email
+      conditions:
+      - active_loop: send_by_email_form
+        requested_slot: user_email
 responses:
   utter_youre_welcome:
   - text: You're welcome! Tell me if you need something else!
@@ -192,6 +208,8 @@ responses:
   - text: Do you want to give me some information about your income and spents so I can help you better specifying the max price?
   utter_response_max_mileage:
   - text: Mileage really depends on the car purpose. If you want a long lasting car it should be nearly zero, althoug the car will be more expensive. On the other hand, if you have a sudden need, you can buy a cheap car with hundreds of miles by paying almost no money.
+  utter_ask_user_email:
+  - text: Sure! Introduce the email where you want to receive the information. 
 actions:
 - utter_youre_welcome
 - utter_help_with_what
@@ -207,6 +225,7 @@ actions:
 - validate_info_fuel_type_form
 - validate_info_income_form
 - validate_info_car_form
+- send_by_email
 forms:
   info_fuel_type_form:
     required_slots:
@@ -224,3 +243,6 @@ forms:
     - km_driven_prev_owner
     - fuel
     - transmission
+  send_by_email_form:
+    required_slots:
+      - user_email

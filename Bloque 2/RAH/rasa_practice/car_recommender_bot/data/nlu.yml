@@ -191,3 +191,9 @@ nlu:
     - Diesel
     - Petrol
     - Electric
+- intent: send_by_email
+  examples: |
+    - can you send it to me by email?
+    - sent it by email
+    - i want it in my email
+    - forward it to my email

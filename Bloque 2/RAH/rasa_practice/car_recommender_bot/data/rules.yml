@@ -39,6 +39,12 @@ rules:
       - action: action_deactivate_loop
       - active_loop: null
 
+  - rule: send by email
+    steps:
+      - intent: send_by_email
+      - action: send_by_email_form
+      - active_loop: send_by_email_form
+
   - rule: know the specifics
     steps:
       - intent: know_the_specifics
@@ -87,3 +93,10 @@ rules:
       - active_loop: null
       - action: query
       
+  - rule: submit send by email
+    condition:
+      - active_loop: send_by_email_form
+    steps:
+      - action: send_by_email_form
+      - active_loop: null
+      - action: send_by_email
