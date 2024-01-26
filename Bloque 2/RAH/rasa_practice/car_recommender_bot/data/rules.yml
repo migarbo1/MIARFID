@@ -1,0 +1,89 @@
+version: '3.1'
+
+rules:
+
+  - rule: Greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Bye
+    steps:
+      - intent: goodbye
+      - action: utter_bye
+
+  - rule: Thx
+    steps:
+      - intent: thanks
+      - action: utter_youre_welcome
+
+  - rule: Ask_other
+    steps:
+      - intent: other
+      - action: query
+
+  - rule: ask help
+    steps:
+      - intent: ask_help
+      - action: utter_help_with_what
+
+  - rule: reset
+    steps:
+      - intent: reset
+      - action: reset
+
+  - rule: cancel
+    steps:
+      - intent: cancel
+      - action: reset
+      - action: action_deactivate_loop
+      - active_loop: null
+
+  - rule: know the specifics
+    steps:
+      - intent: know_the_specifics
+      - action: info_car_form
+      - active_loop: info_car_form 
+
+  - rule: help with fuel type
+    steps:
+      - intent: with_fuel_type
+      - action: info_fuel_type_form
+      - active_loop: info_fuel_type_form
+
+  - rule: help with max price
+    steps:
+      - intent: with_max_price
+      - action: utter_info_about_prices
+      - action: info_income_form
+      - active_loop: info_income_form
+
+  - rule: help with mileage
+    steps:
+      - intent: with_max_mileage
+      - action: utter_response_max_mileage
+
+  - rule: submit fuel type form
+    condition:
+      - active_loop: info_fuel_type_form
+    steps:
+      - action: info_fuel_type_form
+      - active_loop: null
+      - action: compute_best_fuel_type
+  
+  - rule: submit income form
+    condition:
+      - active_loop: info_income_form
+    steps:
+      - action: info_income_form
+      - active_loop: null
+      - action: compute_best_max_price
+
+  - rule: submit car info form
+    condition:
+      - active_loop: info_car_form
+    steps:
+      - action: info_car_form
+      - active_loop: null
+      - action: query
+      

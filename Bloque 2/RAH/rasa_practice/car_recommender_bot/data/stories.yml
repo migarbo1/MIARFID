@@ -1,0 +1,290 @@
+version: "3.1"
+
+stories:
+
+  - story: help with fuel type
+    steps:
+      - intent: ask_help
+      - action: utter_help_with_what
+      - intent: with_fuel_type
+      - action: info_fuel_type_form
+      - active_loop: info_fuel_type_form
+      # finish form
+      - action: info_fuel_type_form
+      - active_loop: null
+      - action: compute_best_fuel_type
+
+  - story: help with max price (yes)
+    steps:
+      - intent: ask_help
+      - action: utter_help_with_what
+      - intent: with_max_price
+      - action: utter_info_about_prices
+      - action: info_income_form
+      - active_loop: info_income_form
+      # finish form
+      - action: info_income_form
+      - active_loop: null
+      - action: compute_best_max_price
+
+  - story: car specs form
+    steps:
+      - intent: know_the_specifics
+      - action: info_car_form
+      - active_loop: info_car_form
+      # finish form
+      - action: info_car_form
+      - active_loop: null
+      - action: query
+
+  - story: help with mileage
+    steps:
+      - intent: ask_help
+      - action: utter_help_with_what
+      - intent: with_max_mileage
+      - action: utter_response_max_mileage
+
+  - story: interactive_story_1
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_help
+    - action: utter_help_with_what
+    - intent: with_max_mileage
+    - action: utter_response_max_mileage
+    - intent: thanks
+    - action: utter_youre_welcome
+    - intent: goodbye
+    - action: utter_bye
+
+  - story: interactive_story_2
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_help
+    - action: utter_help_with_what
+    - intent: with_fuel_type
+    - action: info_fuel_type_form
+    - active_loop: info_fuel_type_form
+    - slot_was_set:
+      - requested_slot: has_garage
+    - intent: deny
+    - slot_was_set:
+      - has_garage: no
+    - action: info_fuel_type_form
+    - slot_was_set:
+      - has_garage: no
+    - slot_was_set:
+      - requested_slot: km_driven_per_day
+    - intent: input_distance
+      entities:
+      - distance: 20
+    - slot_was_set:
+      - km_driven_per_day: 20
+    - action: info_fuel_type_form
+    - slot_was_set:
+      - km_driven_per_day: 20
+    - slot_was_set:
+      - requested_slot: null
+    - active_loop: null
+    - action: compute_best_fuel_type
+    - intent: thanks
+    - action: utter_youre_welcome
+    - intent: goodbye
+    - action: utter_bye
+
+  - story: interactive_story_3
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: know_the_specifics
+    - action: info_car_form
+    - active_loop: info_car_form
+    - slot_was_set:
+      - requested_slot: year
+    - intent: input_year
+    - slot_was_set:
+      - year: '2015'
+    - action: info_car_form
+    - slot_was_set:
+      - year: '2015'
+    - slot_was_set:
+      - requested_slot: selling_price
+    - intent: input_money
+      entities:
+      - amount-of-money: 40000
+    - slot_was_set:
+      - selling_price: 40000
+    - action: info_car_form
+    - slot_was_set:
+      - selling_price: 40000
+    - slot_was_set:
+      - requested_slot: km_driven_prev_owner
+    - intent: input_distance
+      entities:
+      - distance: 2000
+    - slot_was_set:
+      - km_driven_prev_owner: 2000
+    - action: info_car_form
+    - slot_was_set:
+      - km_driven_prev_owner: 2000
+    - slot_was_set:
+      - requested_slot: fuel
+    - intent: with_fuel_type
+    - slot_was_set:
+      - fuel: Diesel
+    - action: info_car_form
+    - slot_was_set:
+      - fuel: Diesel
+    - slot_was_set:
+      - requested_slot: transmission
+    - intent: with_fuel_type
+    - slot_was_set:
+      - transmission: Manual
+    - action: info_car_form
+    - slot_was_set:
+      - transmission: Manual
+    - slot_was_set:
+      - requested_slot: null
+    - active_loop: null
+    - action: query
+    - intent: other
+    - action: query
+    - intent: thanks
+    - action: utter_youre_welcome
+    - intent: goodbye
+    - action: utter_bye
+
+  - story: interactive_story_4
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_help
+    - action: utter_help_with_what
+    - intent: with_fuel_type
+    - action: info_fuel_type_form
+    - active_loop: info_fuel_type_form
+    - slot_was_set:
+      - requested_slot: has_garage
+    - intent: deny
+    - slot_was_set:
+      - has_garage: no
+    - action: info_fuel_type_form
+    - slot_was_set:
+      - has_garage: no
+    - slot_was_set:
+      - requested_slot: km_driven_per_day
+    - intent: input_distance
+      entities:
+      - distance: 25
+    - slot_was_set:
+      - km_driven_per_day: 25
+    - action: info_fuel_type_form
+    - slot_was_set:
+      - km_driven_per_day: 25
+    - slot_was_set:
+      - requested_slot: null
+    - active_loop: null
+    - action: compute_best_fuel_type
+    - intent: thanks
+    - action: utter_youre_welcome
+    - intent: ask_help
+    - action: utter_help_with_what
+    - intent: with_max_price
+    - action: utter_info_about_prices
+    - action: info_income_form
+    - active_loop: info_income_form
+    - slot_was_set:
+      - requested_slot: wants_to_spec_info
+    - intent: affirm
+    - slot_was_set:
+      - wants_to_spec_info: okey
+    - action: info_income_form
+    - slot_was_set:
+      - wants_to_spec_info: okey
+    - slot_was_set:
+      - requested_slot: yearly_income
+    - intent: input_money
+      entities:
+      - amount-of-money: 32000
+    - slot_was_set:
+      - yearly_income: 32000
+    - action: info_income_form
+    - slot_was_set:
+      - yearly_income: 32000
+    - slot_was_set:
+      - requested_slot: constant_payments
+    - intent: input_money
+      entities:
+      - amount-of-money: 1000
+    - slot_was_set:
+      - constant_payments: 1000
+    - action: info_income_form
+    - slot_was_set:
+      - constant_payments: 1000
+    - slot_was_set:
+      - requested_slot: null
+    - active_loop: null
+    - action: compute_best_max_price
+    - intent: thanks
+    - action: utter_youre_welcome
+    - intent: know_the_specifics
+    - action: info_car_form
+    - active_loop: info_car_form
+    - slot_was_set:
+      - requested_slot: year
+    - intent: input_year
+    - slot_was_set:
+      - year: '2015'
+    - action: info_car_form
+    - slot_was_set:
+      - year: '2015'
+    - slot_was_set:
+      - requested_slot: selling_price
+    - intent: input_money
+      entities:
+      - amount-of-money: 45000
+    - slot_was_set:
+      - selling_price: 45000
+    - action: info_car_form
+    - slot_was_set:
+      - selling_price: 45000
+    - slot_was_set:
+      - requested_slot: km_driven_prev_owner
+    - intent: input_money
+      entities:
+      - amount-of-money: 10000
+    - intent: input_distance
+      entities:
+      - distance: 10000
+    - slot_was_set:
+      - km_driven_prev_owner: 10000
+    - action: info_car_form
+    - slot_was_set:
+      - km_driven_prev_owner: 10000
+    - slot_was_set:
+      - requested_slot: fuel
+    - intent: tell_info
+    - slot_was_set:
+      - fuel: Petrol
+    - action: info_car_form
+    - slot_was_set:
+      - fuel: Petrol
+    - slot_was_set:
+      - requested_slot: transmission
+    - intent: tell_info
+    - slot_was_set:
+      - transmission: Manual
+    - action: info_car_form
+    - slot_was_set:
+      - transmission: Manual
+    - slot_was_set:
+      - requested_slot: null
+    - active_loop: null
+    - action: query
+    - intent: other
+    - action: query
+    - intent: thanks
+    - action: utter_youre_welcome
+    - intent: goodbye
+    - action: utter_bye
