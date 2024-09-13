@@ -1,0 +1,26 @@
+recipe: default.v1
+language: en
+
+pipeline:
+- name: SpacyNLP
+  model: en_core_web_md
+- name: SpacyTokenizer
+- name: SpacyFeaturizer
+- name: RegexFeaturizer
+- name: DucklingEntityExtractor
+  url: http://localhost:8000
+  locale: en_US
+  dimensions:
+  - amount-of-money
+  - distance
+  - email
+- name: DIETClassifier
+  epochs: 100
+
+policies:
+- name: RulePolicy
+- name: MemoizationPolicy
+- name: TEDPolicy
+  max_history: 5
+  epochs: 100
+assistant_id: 20240124-204411-instant-silo

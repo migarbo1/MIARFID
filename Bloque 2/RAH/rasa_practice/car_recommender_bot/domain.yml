@@ -1,0 +1,248 @@
+version: '3.1'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- affirm
+- ask_help
+- cancel
+- deny
+- goodbye
+- greet
+- input_distance
+- input_money
+- input_year
+- know_the_specifics
+- other
+- reset
+- tell_info
+- thanks
+- with_fuel_type
+- with_max_mileage
+- with_max_price
+- send_by_email
+entities:
+- email
+- year
+- fuel
+- transmission
+- has_garage
+- distance
+- amount-of-money
+slots:
+  year:
+    type: float
+    influence_conversation: false
+    min_value: 1992
+    max_value: 2020
+    initial_value: null
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: info_car_form
+        requested_slot: year
+  selling_price:
+    type: float
+    influence_conversation: false
+    initial_value: null
+    min_value: 0
+    mappings:
+    - type: from_entity
+      entity: amount-of-money
+      intent:
+      - input_money
+      conditions:
+      - active_loop: info_car_form
+        requested_slot: selling_price
+  km_driven_prev_owner:
+    type: float
+    influence_conversation: false
+    initial_value: null
+    mappings:
+    - type: from_entity
+      entity: distance
+      intent:
+      - input_distance
+      conditions:
+      - active_loop: info_car_form
+        requested_slot: km_driven_prev_owner
+  fuel:
+    type: categorical
+    influence_conversation: false
+    initial_value: null
+    values:
+    - Electric
+    - Diesel
+    - Petrol
+    mappings:
+    - type: from_text
+      intent:
+      - tell_info
+      conditions:
+      - active_loop: info_car_form
+        requested_slot: fuel
+  transmission:
+    type: categorical
+    influence_conversation: false
+    initial_value: null
+    values:
+    - Automatic
+    - Manual
+    mappings:
+    - type: from_text
+      intent:
+      - tell_info
+      conditions:
+      - active_loop: info_car_form
+        requested_slot: transmission
+  km_driven_per_day:
+    type: float
+    min_value: 0
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: distance
+      intent:
+      - input_distance
+      conditions:
+      - active_loop: info_fuel_type_form
+        requested_slot: km_driven_per_day
+  has_garage:
+    type: bool
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: info_fuel_type_form
+        requested_slot: has_garage
+  yearly_income:
+    type: float
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: amount-of-money
+      intent:
+      - input_money
+      conditions:
+      - active_loop: info_income_form
+        requested_slot: yearly_income
+  constant_payments:
+    type: float
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: amount-of-money
+      intent:
+      - input_money
+      conditions:
+      - active_loop: info_income_form
+        requested_slot: constant_payments
+  wants_to_spec_info:
+    type: bool
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: info_income_form
+        requested_slot: wants_to_spec_info
+  selected_car:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  user_email:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: email
+      conditions:
+      - active_loop: send_by_email_form
+        requested_slot: user_email
+responses:
+  utter_youre_welcome:
+  - text: You're welcome! Tell me if you need something else!
+  utter_default:
+  - text: I don't understand. Please try again.
+  utter_greet:
+  - text: Hi I'm CarBot, a chatbot designed to help you the best car given your needs. You can tell me your preferences in terms of year of fabrication, max price, max mileage, fuel and transmission types. If you need help deciding any of these, I can give you a hand.
+  utter_help_with_what:
+  - text: What can I help you with? The fuel type, max price or max mileage
+  utter_bye:
+  - text: Bye then. Have a nice day!
+  utter_ask_year:
+  - text: ¿How old do you want your car to be? I'll search for cars made after that year.
+  utter_incorrect_year:
+  - text: Sadly there's no DeLorean in my database. Please try again with a year between 1992 and 2020.
+  utter_ask_selling_price:
+  - text: ¿Up to how much do you want or can spend?
+  utter_incorrect_selling_price:
+  - text: Hahahaha! Very funny. Aldough it seems that you have to pay to get a car... Try with other amount!
+  utter_ask_km_driven_prev_owner:
+  - text: If the car is from a previous owner, ¿Whats the maximum mileage you will accept?
+  utter_incorrect_km_driven_prev_owner:
+  - text: Even if you drive backwards, the mile counter still goes up ;). Please specify a positive amount.
+  utter_ask_fuel:
+  - text: About the engine type, ¿Do you prefer a Diesel, Petrol or Electric engine?
+  utter_try_again_fuel:
+  - text: With that info, do you know now which engine type do you prefer?
+  utter_incorrect_fuel:
+  - text: Please specify one of the above stated engine types.
+  utter_ask_transmission:
+  - text: Do you prefer your car Automatic or Manual?
+  utter_ask_has_garage:
+  - text: Do you own a closed garage?
+  utter_ask_km_driven_per_day:
+  - text: How many miles do you expect to drive on a daily basis?
+  utter_incorrect_km_driven_per_day:
+  - text: Please, be serius. I'm trying to help you here... Try again.
+  utter_info_about_prices:
+  - text: A car is not an investment, it is a service. It's also something that you should be able to pay withing 5 to 7 years.
+  utter_positive_amount:
+  - text: Please, specify a positive amount.
+  utter_ask_yearly_income:
+  - text: Could you please tell me which is your yearly income, so i can help you decide the maximum price for your car?
+  utter_ask_constant_payments:
+  - text: How much do you spend monthly in recurrent payments?
+  utter_ask_wants_to_spec_info:
+  - text: Do you want to give me some information about your income and spents so I can help you better specifying the max price?
+  utter_response_max_mileage:
+  - text: Mileage really depends on the car purpose. If you want a long lasting car it should be nearly zero, althoug the car will be more expensive. On the other hand, if you have a sudden need, you can buy a cheap car with hundreds of miles by paying almost no money.
+  utter_ask_user_email:
+  - text: Sure! Introduce the email where you want to receive the information. 
+actions:
+- utter_youre_welcome
+- utter_help_with_what
+- utter_bye
+- compute_best_fuel_type
+- utter_greet
+- utter_info_about_prices
+- query
+- compute_best_max_price
+- reset
+- utter_ask_for_financial_info
+- utter_response_max_mileage
+- validate_info_fuel_type_form
+- validate_info_income_form
+- validate_info_car_form
+- send_by_email
+forms:
+  info_fuel_type_form:
+    required_slots:
+    - has_garage
+    - km_driven_per_day
+  info_income_form:
+    required_slots:
+    - wants_to_spec_info
+    - yearly_income
+    - constant_payments
+  info_car_form:
+    required_slots:
+    - year
+    - selling_price
+    - km_driven_prev_owner
+    - fuel
+    - transmission
+  send_by_email_form:
+    required_slots:
+      - user_email

@@ -1,0 +1,199 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hello there
+    - Hey
+    - Greetings
+    - Good morning
+    - Hi robot
+    - hi
+- intent: goodbye
+  examples: |
+    - Bye
+    - Bye-Bye
+    - See ya
+    - See you next time
+    - bye
+- intent: affirm
+  examples: |
+    - Yes
+    - Correct
+    - Agree
+    - Indeed
+    - Sure
+    - Absolutely
+    - Exactly
+    - Okey
+    - Let's go
+    - Why not
+    - Let's do it
+    - yes
+    - okey
+- intent: deny
+  examples: |
+    - No
+    - Nop
+    - No way
+    - No thanks
+    - I don't want to
+    - Never
+    - no
+- intent: thanks
+  examples: |
+    - Thanks
+    - Thx
+    - ty
+    - Thank you
+    - Apreciated
+    - Okey, thanks
+    - Okey thanks
+    - I see, thanks
+    - thanks
+    - ohey thanks
+    - Oh, i see. Thanks
+    - I understand, Thanks
+    - i love it! thanks
+- intent: other
+  examples: |
+    - Other
+    - Other one
+    - Give me another example
+    - Search again
+    - Give me more
+    - Other car
+    - other
+- intent: know_the_specifics
+  examples: |
+    - I want to search for a car
+    - Now i know the specifics of my car
+    - Now i know what i need
+    - I know my needs
+    - I know what i want
+    - I know the specifics
+    - I know how i want my car to be
+    - I know how to filter
+    - I know them
+    - I know my preferences
+    - I don't need any help
+    - Now i know the specifics
+    - i know
+    - i know everything
+- intent: ask_help
+  examples: |
+    - I could use some help
+    - I need help
+    - Maybe you can help me
+    - I need assistance
+    - I don't know the specifics
+    - Mayme you can assist me
+    - I need guidance
+    - I need council
+    - Help me to decide
+    - Help
+    - Help me
+    - Help me with this
+    - Asist me
+    - i need help
+    - i need more help
+    - i have more questions
+    - I have more doubs
+    - I have doubts
+    - help
+- intent: with_fuel_type
+  examples: |
+    - With the fuel type
+    - Fuel type
+    - Which fuel type
+    - Engine type
+    - Choosing fuel
+    - I don't know if Diesel, Petrol or Electric
+    - I have doubts about the fuel
+    - with the fuel type
+    - fuel type
+- intent: with_max_price
+  examples: |
+    - Which should be the max price?
+    - With the price
+    - with the maximum price
+    - What should be the max price?
+    - How much should I pay?
+    - with the max price
+    - max price
+    - with max price
+- intent: with_max_mileage
+  examples: |
+    - Mileage
+    - How many miles should it have?
+    - What should be the mileage?
+    - With the miles
+    - with the mileage
+    - with mileage
+    - Maximum miles
+    - Miles at the time
+    - the mileage
+    - mileage
+- intent: input_distance
+  examples: |
+    - About 90km
+    - Rounding the 50 km
+    - No more than 75km
+    - 85 km at most
+    - 15 miles
+    - 32 miles in all day
+    - less than 50km
+    - less than 50 km
+    - 25km
+    - 15000km
+    - 60km
+    - 20km
+    - 2000km
+    - 10000km
+- intent: input_year
+  examples: |
+    - After 1992
+    - Around 2020
+    - Later than 2005
+    - 2015
+- intent: input_money
+  examples: |
+    - 35000€
+    - 25000€
+    - 5000 euros
+    - 250€
+    - 55555€
+    - 1200€
+    - 350€
+    - 40000€
+    - 32000€
+    - 1000€
+    - 45000€
+    - no more than 500€
+    - around 500€
+    - more or less 800€
+    - less than 5000€
+- intent: cancel
+  examples: |
+    - cancel
+    - break
+    - stop
+- intent: reset
+  examples: |
+    - reset
+    - start again
+    - restart
+- intent: tell_info
+  examples: |
+    - Manual
+    - Automatic
+    - Diesel
+    - Petrol
+    - Electric
+- intent: send_by_email
+  examples: |
+    - can you send it to me by email?
+    - sent it by email
+    - i want it in my email
+    - forward it to my email
