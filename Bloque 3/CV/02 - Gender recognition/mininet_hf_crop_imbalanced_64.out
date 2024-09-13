@@ -1,0 +1,259 @@
+(10585, 100, 100, 3)
+(2648, 100, 100, 3)
+['03', '512', '200', '0', '3', 'd', '64']
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 32, 64, 64]             896
+       BatchNorm2d-2           [-1, 32, 64, 64]              64
+              ReLU-3           [-1, 32, 64, 64]               0
+            Conv2d-4           [-1, 32, 64, 64]           9,248
+       BatchNorm2d-5           [-1, 32, 64, 64]              64
+              ReLU-6           [-1, 32, 64, 64]               0
+         MaxPool2d-7           [-1, 32, 32, 32]               0
+            Conv2d-8           [-1, 32, 32, 32]           9,248
+       BatchNorm2d-9           [-1, 32, 32, 32]              64
+             ReLU-10           [-1, 32, 32, 32]               0
+           Conv2d-11           [-1, 32, 32, 32]           9,248
+      BatchNorm2d-12           [-1, 32, 32, 32]              64
+             ReLU-13           [-1, 32, 32, 32]               0
+        MaxPool2d-14           [-1, 32, 16, 16]               0
+           Conv2d-15           [-1, 64, 16, 16]          18,496
+      BatchNorm2d-16           [-1, 64, 16, 16]             128
+             ReLU-17           [-1, 64, 16, 16]               0
+           Conv2d-18           [-1, 64, 16, 16]          36,928
+      BatchNorm2d-19           [-1, 64, 16, 16]             128
+             ReLU-20           [-1, 64, 16, 16]               0
+        MaxPool2d-21             [-1, 64, 8, 8]               0
+           Linear-22                    [-1, 2]           8,194
+================================================================
+Total params: 92,770
+Trainable params: 92,770
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.05
+Forward/backward pass size (MB): 8.59
+Params size (MB): 0.35
+Estimated Total Size (MB): 8.99
+----------------------------------------------------------------
+epoch: 1 (11.01s) -- loss: 0.5388 -- dev_loss: 0.5198 -- ETA: 2202.58s
+
+epoch: 2 (11.13s) -- loss: 0.5054 -- dev_loss: 0.4985 -- ETA: 2215.84s
+
+epoch: 3 (10.89s) -- loss: 0.4739 -- dev_loss: 0.4518 -- ETA: 2156.34s
+
+epoch: 4 (10.82s) -- loss: 0.4298 -- dev_loss: 0.4023 -- ETA: 2132.15s
+
+epoch: 5 (10.82s) -- loss: 0.3626 -- dev_loss: 0.3303 -- ETA: 2120.10s
+
+epoch: 6 (11.03s) -- loss: 0.2927 -- dev_loss: 0.2576 -- ETA: 2150.25s
+
+epoch: 7 (10.85s) -- loss: 0.2554 -- dev_loss: 0.2179 -- ETA: 2104.01s
+
+epoch: 8 (11.02s) -- loss: 0.2326 -- dev_loss: 0.2284 -- ETA: 2126.01s
+
+epoch: 9 (10.50s) -- loss: 0.2199 -- dev_loss: 0.1952 -- ETA: 2015.64s
+
+epoch: 10 (10.68s) -- loss: 0.2103 -- dev_loss: 0.1901 -- ETA: 2039.92s
+
+epoch: 11 (10.86s) -- loss: 0.1978 -- dev_loss: 0.1673 -- ETA: 2062.98s
+
+epoch: 12 (10.82s) -- loss: 0.1882 -- dev_loss: 0.1670 -- ETA: 2044.68s
+
+epoch: 13 (11.10s) -- loss: 0.1806 -- dev_loss: 0.1814 -- ETA: 2086.21s
+
+epoch: 14 (10.72s) -- loss: 0.1757 -- dev_loss: 0.1627 -- ETA: 2004.90s
+
+epoch: 15 (10.91s) -- loss: 0.1715 -- dev_loss: 0.1562 -- ETA: 2029.73s
+
+epoch: 16 (11.03s) -- loss: 0.1685 -- dev_loss: 0.1507 -- ETA: 2040.01s
+
+epoch: 17 (10.92s) -- loss: 0.1613 -- dev_loss: 0.1443 -- ETA: 2009.39s
+
+epoch: 18 (10.84s) -- loss: 0.1569 -- dev_loss: 0.1436 -- ETA: 1983.68s
+
+epoch: 19 (10.86s) -- loss: 0.1539 -- dev_loss: 0.1399 -- ETA: 1975.98s
+
+epoch: 20 (10.87s) -- loss: 0.1519 -- dev_loss: 0.1556 -- ETA: 1966.94s
+
+epoch: 21 (10.71s) -- loss: 0.1460 -- dev_loss: 0.1297 -- ETA: 1926.98s
+
+epoch: 22 (10.59s) -- loss: 0.1432 -- dev_loss: 0.1267 -- ETA: 1894.82s
+
+epoch: 23 (10.82s) -- loss: 0.1404 -- dev_loss: 0.1218 -- ETA: 1926.15s
+
+epoch: 24 (10.84s) -- loss: 0.1367 -- dev_loss: 0.1472 -- ETA: 1919.51s
+
+epoch: 25 (10.48s) -- loss: 0.1412 -- dev_loss: 0.1360 -- ETA: 1844.07s
+
+epoch: 26 (10.47s) -- loss: 0.1349 -- dev_loss: 0.1327 -- ETA: 1831.77s
+
+epoch: 27 (10.68s) -- loss: 0.1308 -- dev_loss: 0.1139 -- ETA: 1858.78s
+
+epoch: 28 (11.04s) -- loss: 0.1287 -- dev_loss: 0.1314 -- ETA: 1909.97s
+
+epoch: 29 (10.49s) -- loss: 0.1273 -- dev_loss: 0.1247 -- ETA: 1804.12s
+
+epoch: 30 (10.73s) -- loss: 0.1233 -- dev_loss: 0.1135 -- ETA: 1834.09s
+
+epoch: 31 (10.69s) -- loss: 0.1231 -- dev_loss: 0.1153 -- ETA: 1817.02s
+
+epoch: 32 (10.48s) -- loss: 0.1179 -- dev_loss: 0.1089 -- ETA: 1770.72s
+
+epoch: 33 (10.92s) -- loss: 0.1170 -- dev_loss: 0.1131 -- ETA: 1834.24s
+
+epoch: 34 (10.71s) -- loss: 0.1190 -- dev_loss: 0.1095 -- ETA: 1788.51s
+
+epoch: 35 (10.82s) -- loss: 0.1118 -- dev_loss: 0.1122 -- ETA: 1795.52s
+
+epoch: 36 (10.88s) -- loss: 0.1098 -- dev_loss: 0.1191 -- ETA: 1794.91s
+
+epoch: 37 (10.48s) -- loss: 0.1088 -- dev_loss: 0.1132 -- ETA: 1719.39s
+
+epoch: 38 (10.67s) -- loss: 0.1043 -- dev_loss: 0.1060 -- ETA: 1740.01s
+
+epoch: 39 (10.71s) -- loss: 0.1051 -- dev_loss: 0.1110 -- ETA: 1735.79s
+
+epoch: 40 (10.54s) -- loss: 0.1031 -- dev_loss: 0.0966 -- ETA: 1697.14s
+
+epoch: 41 (10.85s) -- loss: 0.0983 -- dev_loss: 0.1078 -- ETA: 1735.76s
+
+epoch: 42 (10.52s) -- loss: 0.1004 -- dev_loss: 0.0939 -- ETA: 1673.42s
+
+epoch: 43 (10.75s) -- loss: 0.0988 -- dev_loss: 0.1065 -- ETA: 1698.09s
+
+epoch: 44 (10.51s) -- loss: 0.0944 -- dev_loss: 0.0929 -- ETA: 1650.27s
+
+epoch: 45 (10.97s) -- loss: 0.0948 -- dev_loss: 0.0948 -- ETA: 1711.27s
+
+epoch: 46 (10.52s) -- loss: 0.0906 -- dev_loss: 0.0923 -- ETA: 1630.92s
+
+epoch: 47 (10.94s) -- loss: 0.0925 -- dev_loss: 0.0973 -- ETA: 1684.70s
+
+epoch: 48 (10.51s) -- loss: 0.0905 -- dev_loss: 0.1092 -- ETA: 1607.90s
+
+epoch: 49 (10.71s) -- loss: 0.0905 -- dev_loss: 0.1040 -- ETA: 1628.39s
+
+epoch: 50 (10.53s) -- loss: 0.0834 -- dev_loss: 0.0907 -- ETA: 1589.75s
+
+epoch: 51 (10.70s) -- loss: 0.0836 -- dev_loss: 0.0997 -- ETA: 1605.34s
+
+epoch: 52 (10.71s) -- loss: 0.0842 -- dev_loss: 0.0909 -- ETA: 1596.16s
+
+epoch: 53 (10.53s) -- loss: 0.0846 -- dev_loss: 0.1077 -- ETA: 1557.93s
+
+epoch: 54 (10.48s) -- loss: 0.0797 -- dev_loss: 0.0951 -- ETA: 1540.12s
+
+epoch: 55 (10.70s) -- loss: 0.0804 -- dev_loss: 0.0879 -- ETA: 1561.57s
+
+epoch: 56 (10.74s) -- loss: 0.0762 -- dev_loss: 0.0883 -- ETA: 1556.79s
+
+epoch: 57 (10.50s) -- loss: 0.0736 -- dev_loss: 0.0942 -- ETA: 1511.37s
+
+epoch: 58 (10.52s) -- loss: 0.0731 -- dev_loss: 0.0926 -- ETA: 1504.14s
+
+epoch: 59 (10.48s) -- loss: 0.0741 -- dev_loss: 0.1009 -- ETA: 1488.59s
+
+epoch: 60 (10.51s) -- loss: 0.0733 -- dev_loss: 0.0840 -- ETA: 1481.93s
+
+epoch: 61 (10.69s) -- loss: 0.0688 -- dev_loss: 0.0898 -- ETA: 1496.26s
+
+epoch: 62 (10.75s) -- loss: 0.0669 -- dev_loss: 0.0875 -- ETA: 1493.97s
+
+epoch: 63 (10.52s) -- loss: 0.0676 -- dev_loss: 0.0872 -- ETA: 1452.28s
+
+epoch: 64 (10.90s) -- loss: 0.0683 -- dev_loss: 0.0948 -- ETA: 1493.35s
+
+epoch: 65 (10.56s) -- loss: 0.0700 -- dev_loss: 0.1014 -- ETA: 1435.71s
+
+epoch: 66 (10.47s) -- loss: 0.0659 -- dev_loss: 0.0869 -- ETA: 1413.87s
+
+epoch: 67 (10.93s) -- loss: 0.0618 -- dev_loss: 0.1051 -- ETA: 1464.44s
+
+epoch: 68 (10.56s) -- loss: 0.0634 -- dev_loss: 0.0861 -- ETA: 1404.06s
+
+epoch: 69 (10.76s) -- loss: 0.0656 -- dev_loss: 0.0854 -- ETA: 1419.98s
+
+epoch: 70 (10.51s) -- loss: 0.0597 -- dev_loss: 0.1001 -- ETA: 1376.82s
+
+epoch: 71 (10.77s) -- loss: 0.0565 -- dev_loss: 0.0841 -- ETA: 1399.66s
+
+epoch: 72 (10.69s) -- loss: 0.0525 -- dev_loss: 0.0786 -- ETA: 1379.08s
+
+epoch: 73 (10.92s) -- loss: 0.0516 -- dev_loss: 0.0821 -- ETA: 1398.14s
+
+epoch: 74 (10.48s) -- loss: 0.0517 -- dev_loss: 0.0804 -- ETA: 1331.44s
+
+epoch: 75 (10.73s) -- loss: 0.0529 -- dev_loss: 0.0791 -- ETA: 1351.83s
+
+epoch: 76 (10.69s) -- loss: 0.0513 -- dev_loss: 0.0770 -- ETA: 1335.65s
+
+epoch: 77 (10.92s) -- loss: 0.0501 -- dev_loss: 0.0844 -- ETA: 1354.65s
+
+epoch: 78 (10.73s) -- loss: 0.0503 -- dev_loss: 0.0869 -- ETA: 1320.02s
+
+epoch: 79 (10.69s) -- loss: 0.0497 -- dev_loss: 0.0909 -- ETA: 1304.39s
+
+epoch: 80 (10.54s) -- loss: 0.0502 -- dev_loss: 0.0867 -- ETA: 1275.27s
+
+epoch: 81 (10.71s) -- loss: 0.0506 -- dev_loss: 0.0996 -- ETA: 1284.75s
+
+epoch: 82 (10.67s) -- loss: 0.0502 -- dev_loss: 0.0836 -- ETA: 1269.68s
+
+epoch: 83 (10.74s) -- loss: 0.0503 -- dev_loss: 0.0798 -- ETA: 1267.75s
+
+epoch: 84 (10.46s) -- loss: 0.0507 -- dev_loss: 0.0874 -- ETA: 1223.85s
+
+epoch: 85 (10.74s) -- loss: 0.0494 -- dev_loss: 0.0816 -- ETA: 1245.28s
+
+epoch: 86 (10.69s) -- loss: 0.0493 -- dev_loss: 0.0780 -- ETA: 1229.90s
+
+epoch: 87 (10.52s) -- loss: 0.0491 -- dev_loss: 0.0927 -- ETA: 1198.95s
+
+epoch: 88 (10.56s) -- loss: 0.0492 -- dev_loss: 0.0830 -- ETA: 1193.72s
+
+epoch: 89 (10.57s) -- loss: 0.0488 -- dev_loss: 0.0992 -- ETA: 1183.68s
+
+epoch: 90 (10.55s) -- loss: 0.0501 -- dev_loss: 0.0883 -- ETA: 1171.24s
+
+epoch: 91 (10.71s) -- loss: 0.0484 -- dev_loss: 0.0922 -- ETA: 1178.43s
+
+epoch: 92 (10.47s) -- loss: 0.0487 -- dev_loss: 0.0796 -- ETA: 1140.73s
+
+epoch: 93 (10.55s) -- loss: 0.0481 -- dev_loss: 0.0957 -- ETA: 1139.24s
+
+epoch: 94 (10.77s) -- loss: 0.0475 -- dev_loss: 0.0819 -- ETA: 1151.92s
+
+epoch: 95 (10.45s) -- loss: 0.0477 -- dev_loss: 0.0858 -- ETA: 1107.24s
+
+epoch: 96 (10.73s) -- loss: 0.0473 -- dev_loss: 0.0788 -- ETA: 1126.65s
+
+epoch: 97 (10.65s) -- loss: 0.0475 -- dev_loss: 0.0782 -- ETA: 1107.48s
+
+epoch: 98 (10.48s) -- loss: 0.0477 -- dev_loss: 0.1029 -- ETA: 1079.81s
+
+epoch: 99 (10.51s) -- loss: 0.0487 -- dev_loss: 0.0868 -- ETA: 1072.29s
+
+epoch: 100 (10.92s) -- loss: 0.0474 -- dev_loss: 0.0978 -- ETA: 1103.10s
+
+epoch: 101 (10.52s) -- loss: 0.0473 -- dev_loss: 0.0787 -- ETA: 1052.32s
+
+epoch: 102 (10.48s) -- loss: 0.0481 -- dev_loss: 0.0849 -- ETA: 1038.00s
+
+epoch: 103 (10.52s) -- loss: 0.0471 -- dev_loss: 0.0793 -- ETA: 1031.26s
+
+epoch: 104 (10.49s) -- loss: 0.0460 -- dev_loss: 0.0810 -- ETA: 1017.44s
+
+epoch: 105 (10.59s) -- loss: 0.0456 -- dev_loss: 0.0863 -- ETA: 1016.42s
+
+epoch: 106 (10.46s) -- loss: 0.0455 -- dev_loss: 0.0870 -- ETA: 994.02s
+
+epoch: 107 (10.48s) -- loss: 0.0466 -- dev_loss: 0.1030 -- ETA: 985.52s
+
+epoch: 108 (10.51s) -- loss: 0.0464 -- dev_loss: 0.0780 -- ETA: 977.64s
+
+epoch: 109 (10.46s) -- loss: 0.0465 -- dev_loss: 0.0805 -- ETA: 962.62s
+
+epoch: 110 (10.46s) -- loss: 0.0451 -- dev_loss: 0.0784 -- ETA: 952.19s
+
+Accuracy of the network mininet_hf_crop_imbalanced_64 on the 2648 test images: 96.90 %

@@ -1,0 +1,453 @@
+(791, 250, 250, 3)
+(784, 250, 250, 3)
+['43', '0.3', '128', '200', '150', '1e-1', '1e-4', 'vgg']
+BilinearNet(
+  (net): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+    (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU(inplace=True)
+    (6): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (7): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (8): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (9): ReLU(inplace=True)
+    (10): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (11): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (12): ReLU(inplace=True)
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (15): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (16): ReLU(inplace=True)
+    (17): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (18): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (19): ReLU(inplace=True)
+    (20): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (21): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (22): ReLU(inplace=True)
+    (23): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (24): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (25): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (26): ReLU(inplace=True)
+    (27): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (28): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (29): ReLU(inplace=True)
+    (30): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (31): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (32): ReLU(inplace=True)
+    (33): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (34): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (35): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (36): ReLU(inplace=True)
+    (37): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (38): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (39): ReLU(inplace=True)
+    (40): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (41): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (42): ReLU(inplace=True)
+  )
+  (out): Linear(in_features=262144, out_features=20, bias=True)
+)
+epoch: 1 (9.13) -- loss: 2.9882 -- test_accuracy: 16.5816 -- ETA: 1826.37
+
+epoch: 2 (6.79) -- loss: 2.9555 -- test_accuracy: 19.1327 -- ETA: 1350.76
+
+epoch: 3 (6.91) -- loss: 2.9264 -- test_accuracy: 22.9592 -- ETA: 1367.87
+
+epoch: 4 (6.64) -- loss: 2.9024 -- test_accuracy: 17.9847 -- ETA: 1308.56
+
+epoch: 5 (6.31) -- loss: 2.8807 -- test_accuracy: 17.9847 -- ETA: 1236.56
+
+epoch: 6 (6.23) -- loss: 2.8607 -- test_accuracy: 19.2602 -- ETA: 1213.94
+
+epoch: 7 (6.35) -- loss: 2.8362 -- test_accuracy: 19.2602 -- ETA: 1232.65
+
+epoch: 8 (6.27) -- loss: 2.8170 -- test_accuracy: 22.8316 -- ETA: 1209.33
+
+epoch: 9 (6.67) -- loss: 2.7965 -- test_accuracy: 28.1888 -- ETA: 1280.62
+
+epoch: 10 (6.71) -- loss: 2.7730 -- test_accuracy: 31.2500 -- ETA: 1281.21
+
+epoch: 11 (6.88) -- loss: 2.7570 -- test_accuracy: 33.6735 -- ETA: 1306.63
+
+epoch: 12 (6.48) -- loss: 2.7368 -- test_accuracy: 38.5204 -- ETA: 1224.34
+
+epoch: 13 (6.69) -- loss: 2.7130 -- test_accuracy: 42.0918 -- ETA: 1258.12
+
+epoch: 14 (7.36) -- loss: 2.6934 -- test_accuracy: 43.7500 -- ETA: 1375.62
+
+epoch: 15 (6.57) -- loss: 2.6837 -- test_accuracy: 44.0051 -- ETA: 1222.39
+
+epoch: 16 (6.68) -- loss: 2.6646 -- test_accuracy: 46.4286 -- ETA: 1236.24
+
+epoch: 17 (6.81) -- loss: 2.6412 -- test_accuracy: 46.8112 -- ETA: 1253.53
+
+epoch: 18 (6.43) -- loss: 2.6219 -- test_accuracy: 45.5357 -- ETA: 1177.06
+
+epoch: 19 (6.20) -- loss: 2.6068 -- test_accuracy: 44.1327 -- ETA: 1129.23
+
+epoch: 20 (6.40) -- loss: 2.5950 -- test_accuracy: 44.6429 -- ETA: 1158.34
+
+epoch: 21 (6.60) -- loss: 2.5798 -- test_accuracy: 47.4490 -- ETA: 1188.14
+
+epoch: 22 (6.97) -- loss: 2.5677 -- test_accuracy: 50.3827 -- ETA: 1247.77
+
+epoch: 23 (6.44) -- loss: 2.5422 -- test_accuracy: 50.0000 -- ETA: 1145.71
+
+epoch: 24 (6.20) -- loss: 2.5243 -- test_accuracy: 50.1276 -- ETA: 1097.29
+
+epoch: 25 (6.46) -- loss: 2.5071 -- test_accuracy: 52.0408 -- ETA: 1136.13
+
+epoch: 26 (6.32) -- loss: 2.4908 -- test_accuracy: 51.5306 -- ETA: 1105.67
+
+epoch: 27 (6.27) -- loss: 2.4789 -- test_accuracy: 50.0000 -- ETA: 1091.12
+
+epoch: 28 (6.27) -- loss: 2.4790 -- test_accuracy: 51.5306 -- ETA: 1084.29
+
+epoch: 29 (6.25) -- loss: 2.4582 -- test_accuracy: 50.8929 -- ETA: 1074.31
+
+epoch: 30 (6.50) -- loss: 2.4546 -- test_accuracy: 52.0408 -- ETA: 1111.18
+
+epoch: 31 (6.49) -- loss: 2.4383 -- test_accuracy: 51.2755 -- ETA: 1103.75
+
+epoch: 32 (6.27) -- loss: 2.4089 -- test_accuracy: 52.0408 -- ETA: 1059.79
+
+epoch: 33 (6.35) -- loss: 2.4050 -- test_accuracy: 51.0204 -- ETA: 1066.11
+
+epoch: 34 (6.48) -- loss: 2.4001 -- test_accuracy: 50.5102 -- ETA: 1082.47
+
+epoch: 35 (6.50) -- loss: 2.3925 -- test_accuracy: 51.2755 -- ETA: 1079.80
+
+epoch: 36 (6.23) -- loss: 2.3695 -- test_accuracy: 50.7653 -- ETA: 1028.17
+
+epoch: 37 (6.27) -- loss: 2.3564 -- test_accuracy: 50.6378 -- ETA: 1028.11
+
+epoch: 38 (6.47) -- loss: 2.3503 -- test_accuracy: 49.8724 -- ETA: 1054.90
+
+epoch: 39 (6.58) -- loss: 2.3240 -- test_accuracy: 50.8929 -- ETA: 1066.40
+
+epoch: 40 (6.64) -- loss: 2.3336 -- test_accuracy: 52.1684 -- ETA: 1069.04
+
+epoch: 41 (6.71) -- loss: 2.3107 -- test_accuracy: 52.9337 -- ETA: 1072.88
+
+epoch: 42 (6.80) -- loss: 2.3142 -- test_accuracy: 52.4235 -- ETA: 1081.20
+
+epoch: 43 (6.46) -- loss: 2.3005 -- test_accuracy: 52.5510 -- ETA: 1020.43
+
+epoch: 44 (6.60) -- loss: 2.2903 -- test_accuracy: 53.4439 -- ETA: 1036.22
+
+epoch: 45 (6.63) -- loss: 2.2735 -- test_accuracy: 52.8061 -- ETA: 1034.83
+
+epoch: 46 (6.46) -- loss: 2.2623 -- test_accuracy: 54.0816 -- ETA: 1001.83
+
+epoch: 47 (6.69) -- loss: 2.2449 -- test_accuracy: 52.1684 -- ETA: 1030.72
+
+epoch: 48 (6.51) -- loss: 2.2542 -- test_accuracy: 52.6786 -- ETA: 996.37
+
+epoch: 49 (6.44) -- loss: 2.2492 -- test_accuracy: 53.4439 -- ETA: 978.66
+
+epoch: 50 (6.22) -- loss: 2.2276 -- test_accuracy: 54.0816 -- ETA: 939.13
+
+epoch: 51 (6.20) -- loss: 2.2198 -- test_accuracy: 54.0816 -- ETA: 929.67
+
+epoch: 52 (6.39) -- loss: 2.2134 -- test_accuracy: 54.4643 -- ETA: 952.34
+
+epoch: 53 (6.75) -- loss: 2.2165 -- test_accuracy: 53.9541 -- ETA: 998.97
+
+epoch: 54 (6.21) -- loss: 2.1932 -- test_accuracy: 53.9541 -- ETA: 912.22
+
+epoch: 55 (6.47) -- loss: 2.2085 -- test_accuracy: 55.3571 -- ETA: 944.86
+
+epoch: 56 (6.67) -- loss: 2.1809 -- test_accuracy: 56.2500 -- ETA: 966.69
+
+epoch: 57 (6.49) -- loss: 2.1798 -- test_accuracy: 55.1020 -- ETA: 934.34
+
+epoch: 58 (6.24) -- loss: 2.1688 -- test_accuracy: 55.6122 -- ETA: 892.07
+
+epoch: 59 (6.43) -- loss: 2.1472 -- test_accuracy: 56.1224 -- ETA: 913.49
+
+epoch: 60 (6.46) -- loss: 2.1512 -- test_accuracy: 56.5051 -- ETA: 910.30
+
+epoch: 61 (6.80) -- loss: 2.1471 -- test_accuracy: 56.8878 -- ETA: 951.69
+
+epoch: 62 (6.51) -- loss: 2.1394 -- test_accuracy: 56.1224 -- ETA: 905.01
+
+epoch: 63 (6.48) -- loss: 2.1417 -- test_accuracy: 56.8878 -- ETA: 894.26
+
+epoch: 64 (6.63) -- loss: 2.1153 -- test_accuracy: 56.7602 -- ETA: 908.81
+
+epoch: 65 (6.65) -- loss: 2.1190 -- test_accuracy: 57.6531 -- ETA: 903.75
+
+epoch: 66 (6.71) -- loss: 2.1242 -- test_accuracy: 58.5459 -- ETA: 906.44
+
+epoch: 67 (6.44) -- loss: 2.1116 -- test_accuracy: 58.4184 -- ETA: 863.46
+
+epoch: 68 (6.20) -- loss: 2.1063 -- test_accuracy: 57.9082 -- ETA: 823.95
+
+epoch: 69 (6.45) -- loss: 2.1015 -- test_accuracy: 58.2908 -- ETA: 851.91
+
+epoch: 70 (6.21) -- loss: 2.0946 -- test_accuracy: 57.9082 -- ETA: 813.38
+
+epoch: 71 (6.63) -- loss: 2.0791 -- test_accuracy: 58.1633 -- ETA: 862.01
+
+epoch: 72 (6.20) -- loss: 2.0744 -- test_accuracy: 56.1224 -- ETA: 799.61
+
+epoch: 73 (6.18) -- loss: 2.0718 -- test_accuracy: 56.2500 -- ETA: 791.08
+
+epoch: 74 (6.21) -- loss: 2.0619 -- test_accuracy: 55.9949 -- ETA: 788.91
+
+epoch: 75 (6.37) -- loss: 2.0569 -- test_accuracy: 55.9949 -- ETA: 803.03
+
+epoch: 76 (6.19) -- loss: 2.0565 -- test_accuracy: 55.1020 -- ETA: 773.39
+
+epoch: 77 (6.20) -- loss: 2.0470 -- test_accuracy: 55.2296 -- ETA: 769.28
+
+epoch: 78 (6.29) -- loss: 2.0354 -- test_accuracy: 54.8469 -- ETA: 773.61
+
+epoch: 79 (6.61) -- loss: 2.0329 -- test_accuracy: 55.1020 -- ETA: 806.63
+
+epoch: 80 (6.40) -- loss: 2.0304 -- test_accuracy: 54.2092 -- ETA: 774.74
+
+epoch: 81 (6.20) -- loss: 2.0472 -- test_accuracy: 54.3367 -- ETA: 743.88
+
+epoch: 82 (6.65) -- loss: 2.0236 -- test_accuracy: 56.2500 -- ETA: 791.20
+
+epoch: 83 (6.23) -- loss: 2.0341 -- test_accuracy: 55.1020 -- ETA: 735.32
+
+epoch: 84 (6.60) -- loss: 2.0237 -- test_accuracy: 56.1224 -- ETA: 771.91
+
+epoch: 85 (6.21) -- loss: 2.0356 -- test_accuracy: 57.9082 -- ETA: 720.80
+
+epoch: 86 (6.41) -- loss: 2.0233 -- test_accuracy: 57.1429 -- ETA: 737.16
+
+epoch: 87 (6.50) -- loss: 2.0097 -- test_accuracy: 57.5255 -- ETA: 740.76
+
+epoch: 88 (6.50) -- loss: 1.9960 -- test_accuracy: 57.6531 -- ETA: 734.15
+
+epoch: 89 (6.30) -- loss: 2.0180 -- test_accuracy: 58.1633 -- ETA: 705.63
+
+epoch: 90 (6.31) -- loss: 2.0018 -- test_accuracy: 57.7806 -- ETA: 700.17
+
+epoch: 91 (6.20) -- loss: 2.0016 -- test_accuracy: 56.5051 -- ETA: 681.54
+
+epoch: 92 (6.33) -- loss: 2.0001 -- test_accuracy: 57.2704 -- ETA: 689.87
+
+epoch: 93 (6.04) -- loss: 1.9829 -- test_accuracy: 56.8878 -- ETA: 652.76
+
+epoch: 94 (6.27) -- loss: 1.9724 -- test_accuracy: 56.6327 -- ETA: 670.48
+
+epoch: 95 (6.25) -- loss: 1.9791 -- test_accuracy: 57.1429 -- ETA: 661.99
+
+epoch: 96 (6.26) -- loss: 1.9851 -- test_accuracy: 57.9082 -- ETA: 657.72
+
+epoch: 97 (6.47) -- loss: 1.9636 -- test_accuracy: 57.9082 -- ETA: 673.28
+
+epoch: 98 (6.50) -- loss: 1.9656 -- test_accuracy: 58.5459 -- ETA: 669.01
+
+epoch: 99 (6.49) -- loss: 1.9555 -- test_accuracy: 58.8010 -- ETA: 662.12
+
+epoch: 100 (6.79) -- loss: 1.9678 -- test_accuracy: 56.3776 -- ETA: 685.92
+
+epoch: 101 (6.58) -- loss: 1.9657 -- test_accuracy: 57.0153 -- ETA: 657.54
+
+epoch: 102 (6.76) -- loss: 1.9508 -- test_accuracy: 56.8878 -- ETA: 668.88
+
+epoch: 103 (6.18) -- loss: 1.9378 -- test_accuracy: 57.2704 -- ETA: 605.47
+
+epoch: 104 (6.66) -- loss: 1.9369 -- test_accuracy: 57.5255 -- ETA: 646.36
+
+epoch: 105 (6.43) -- loss: 1.9533 -- test_accuracy: 57.2704 -- ETA: 617.37
+
+epoch: 106 (6.37) -- loss: 1.9368 -- test_accuracy: 57.5255 -- ETA: 604.92
+
+epoch: 107 (6.20) -- loss: 1.9479 -- test_accuracy: 58.2908 -- ETA: 582.72
+
+epoch: 108 (6.19) -- loss: 1.9570 -- test_accuracy: 57.7806 -- ETA: 575.77
+
+epoch: 109 (6.10) -- loss: 1.9351 -- test_accuracy: 58.5459 -- ETA: 561.61
+
+epoch: 110 (6.23) -- loss: 1.9304 -- test_accuracy: 57.5255 -- ETA: 566.64
+
+epoch: 111 (6.86) -- loss: 1.9165 -- test_accuracy: 59.1837 -- ETA: 617.76
+
+epoch: 112 (6.63) -- loss: 1.9167 -- test_accuracy: 58.5459 -- ETA: 589.67
+
+epoch: 113 (6.17) -- loss: 1.9088 -- test_accuracy: 58.8010 -- ETA: 543.09
+
+epoch: 114 (6.67) -- loss: 1.9318 -- test_accuracy: 58.6735 -- ETA: 580.58
+
+epoch: 115 (6.25) -- loss: 1.9145 -- test_accuracy: 59.1837 -- ETA: 537.31
+
+epoch: 116 (6.20) -- loss: 1.9166 -- test_accuracy: 58.0357 -- ETA: 526.65
+
+epoch: 117 (6.25) -- loss: 1.8974 -- test_accuracy: 57.6531 -- ETA: 524.87
+
+epoch: 118 (6.08) -- loss: 1.9096 -- test_accuracy: 56.7602 -- ETA: 504.58
+
+epoch: 119 (6.24) -- loss: 1.8983 -- test_accuracy: 58.5459 -- ETA: 511.49
+
+epoch: 120 (6.49) -- loss: 1.9090 -- test_accuracy: 58.0357 -- ETA: 525.90
+
+epoch: 121 (6.38) -- loss: 1.9056 -- test_accuracy: 58.1633 -- ETA: 510.64
+
+epoch: 122 (6.21) -- loss: 1.9128 -- test_accuracy: 58.4184 -- ETA: 490.66
+
+epoch: 123 (6.24) -- loss: 1.8993 -- test_accuracy: 58.8010 -- ETA: 486.57
+
+epoch: 124 (6.39) -- loss: 1.9011 -- test_accuracy: 57.1429 -- ETA: 491.67
+
+epoch: 125 (6.26) -- loss: 1.9121 -- test_accuracy: 58.8010 -- ETA: 475.50
+
+epoch: 126 (6.00) -- loss: 1.8860 -- test_accuracy: 59.1837 -- ETA: 450.06
+
+epoch: 127 (6.40) -- loss: 1.8989 -- test_accuracy: 56.7602 -- ETA: 473.68
+
+epoch: 128 (6.40) -- loss: 1.8899 -- test_accuracy: 58.1633 -- ETA: 467.45
+
+epoch: 129 (6.39) -- loss: 1.8899 -- test_accuracy: 58.2908 -- ETA: 460.10
+
+epoch: 130 (6.14) -- loss: 1.8879 -- test_accuracy: 57.9082 -- ETA: 436.00
+
+epoch: 131 (6.36) -- loss: 1.8927 -- test_accuracy: 59.5663 -- ETA: 445.13
+
+epoch: 132 (6.39) -- loss: 1.8909 -- test_accuracy: 58.8010 -- ETA: 440.81
+
+epoch: 133 (6.36) -- loss: 1.8917 -- test_accuracy: 59.9490 -- ETA: 432.22
+
+epoch: 134 (6.36) -- loss: 1.8991 -- test_accuracy: 59.5663 -- ETA: 426.26
+
+epoch: 135 (6.21) -- loss: 1.8745 -- test_accuracy: 58.8010 -- ETA: 409.71
+
+epoch: 136 (6.23) -- loss: 1.8715 -- test_accuracy: 59.6939 -- ETA: 405.00
+
+epoch: 137 (6.41) -- loss: 1.8657 -- test_accuracy: 58.9286 -- ETA: 410.48
+
+epoch: 138 (6.43) -- loss: 1.8693 -- test_accuracy: 59.4388 -- ETA: 405.25
+
+epoch: 139 (6.41) -- loss: 1.8740 -- test_accuracy: 59.9490 -- ETA: 397.53
+
+epoch: 140 (6.27) -- loss: 1.8593 -- test_accuracy: 59.0561 -- ETA: 382.67
+
+epoch: 141 (6.15) -- loss: 1.8517 -- test_accuracy: 58.5459 -- ETA: 368.99
+
+epoch: 142 (6.62) -- loss: 1.8501 -- test_accuracy: 58.8010 -- ETA: 390.53
+
+epoch: 143 (6.42) -- loss: 1.8612 -- test_accuracy: 58.0357 -- ETA: 372.14
+
+epoch: 144 (6.28) -- loss: 1.8440 -- test_accuracy: 59.6939 -- ETA: 357.73
+
+epoch: 145 (6.23) -- loss: 1.8493 -- test_accuracy: 58.1633 -- ETA: 348.62
+
+epoch: 146 (6.29) -- loss: 1.8794 -- test_accuracy: 58.2908 -- ETA: 345.88
+
+epoch: 147 (6.20) -- loss: 1.8470 -- test_accuracy: 59.4388 -- ETA: 334.70
+
+epoch: 148 (6.47) -- loss: 1.8430 -- test_accuracy: 60.3316 -- ETA: 342.78
+
+epoch: 149 (6.46) -- loss: 1.8544 -- test_accuracy: 59.8214 -- ETA: 335.84
+
+epoch: 150 (6.20) -- loss: 1.8534 -- test_accuracy: 60.0765 -- ETA: 315.99
+
+unfrozen network
+epoch: 151 (6.19) -- loss: 1.8511 -- test_accuracy: 60.0765 -- ETA: 309.50
+
+epoch: 152 (8.41) -- loss: 1.6935 -- test_accuracy: 62.6276 -- ETA: 411.94
+
+epoch: 153 (8.36) -- loss: 1.2940 -- test_accuracy: 67.4745 -- ETA: 401.45
+
+epoch: 154 (8.25) -- loss: 1.0995 -- test_accuracy: 70.4082 -- ETA: 387.67
+
+epoch: 155 (8.42) -- loss: 0.9638 -- test_accuracy: 72.1939 -- ETA: 387.29
+
+epoch: 156 (8.23) -- loss: 0.8450 -- test_accuracy: 74.2347 -- ETA: 370.17
+
+epoch: 157 (8.43) -- loss: 0.7316 -- test_accuracy: 76.0204 -- ETA: 370.88
+
+epoch: 158 (8.18) -- loss: 0.6466 -- test_accuracy: 76.4031 -- ETA: 351.88
+
+epoch: 159 (8.37) -- loss: 0.5723 -- test_accuracy: 77.9337 -- ETA: 351.56
+
+epoch: 160 (8.00) -- loss: 0.5247 -- test_accuracy: 77.9337 -- ETA: 327.85
+
+epoch: 161 (8.19) -- loss: 0.4540 -- test_accuracy: 78.8265 -- ETA: 327.61
+
+epoch: 162 (8.32) -- loss: 0.4120 -- test_accuracy: 78.5714 -- ETA: 324.62
+
+epoch: 163 (7.53) -- loss: 0.3698 -- test_accuracy: 78.4439 -- ETA: 286.08
+
+epoch: 164 (8.06) -- loss: 0.3314 -- test_accuracy: 79.3367 -- ETA: 298.12
+
+epoch: 165 (7.96) -- loss: 0.3064 -- test_accuracy: 78.9541 -- ETA: 286.41
+
+epoch: 166 (7.95) -- loss: 0.2928 -- test_accuracy: 79.5918 -- ETA: 278.24
+
+epoch: 167 (8.19) -- loss: 0.2669 -- test_accuracy: 78.0612 -- ETA: 278.52
+
+epoch: 168 (7.78) -- loss: 0.2525 -- test_accuracy: 78.4439 -- ETA: 256.77
+
+epoch: 169 (7.82) -- loss: 0.2375 -- test_accuracy: 78.8265 -- ETA: 250.10
+
+epoch: 170 (7.81) -- loss: 0.2261 -- test_accuracy: 78.9541 -- ETA: 242.14
+
+epoch: 171 (7.97) -- loss: 0.2160 -- test_accuracy: 78.8265 -- ETA: 238.99
+
+epoch: 172 (7.92) -- loss: 0.2093 -- test_accuracy: 79.7194 -- ETA: 229.68
+
+epoch: 173 (7.98) -- loss: 0.1997 -- test_accuracy: 79.3367 -- ETA: 223.31
+
+epoch: 174 (7.80) -- loss: 0.2004 -- test_accuracy: 79.0816 -- ETA: 210.73
+
+epoch: 175 (7.93) -- loss: 0.1882 -- test_accuracy: 79.7194 -- ETA: 206.13
+
+epoch: 176 (7.72) -- loss: 0.1849 -- test_accuracy: 79.2092 -- ETA: 193.09
+
+epoch: 177 (7.73) -- loss: 0.1788 -- test_accuracy: 78.6990 -- ETA: 185.47
+
+epoch: 178 (7.95) -- loss: 0.1753 -- test_accuracy: 78.8265 -- ETA: 182.84
+
+epoch: 179 (7.94) -- loss: 0.1726 -- test_accuracy: 79.5918 -- ETA: 174.66
+
+epoch: 180 (7.82) -- loss: 0.1680 -- test_accuracy: 78.6990 -- ETA: 164.19
+
+epoch: 181 (7.63) -- loss: 0.1651 -- test_accuracy: 78.3163 -- ETA: 152.68
+
+epoch: 182 (7.94) -- loss: 0.1646 -- test_accuracy: 78.6990 -- ETA: 150.89
+
+epoch: 183 (7.95) -- loss: 0.1624 -- test_accuracy: 78.6990 -- ETA: 143.11
+
+epoch: 184 (7.70) -- loss: 0.1601 -- test_accuracy: 79.2092 -- ETA: 130.85
+
+epoch: 185 (7.52) -- loss: 0.1562 -- test_accuracy: 79.5918 -- ETA: 120.28
+
+epoch: 186 (7.69) -- loss: 0.1544 -- test_accuracy: 78.3163 -- ETA: 115.37
+
+epoch: 187 (7.52) -- loss: 0.1550 -- test_accuracy: 79.0816 -- ETA: 105.35
+
+epoch: 188 (7.99) -- loss: 0.1518 -- test_accuracy: 79.4643 -- ETA: 103.84
+
+epoch: 189 (7.96) -- loss: 0.1515 -- test_accuracy: 78.4439 -- ETA: 95.53
+
+epoch: 190 (8.18) -- loss: 0.1513 -- test_accuracy: 79.3367 -- ETA: 90.00
+
+epoch: 191 (7.54) -- loss: 0.1481 -- test_accuracy: 78.9541 -- ETA: 75.40
+
+epoch: 192 (7.70) -- loss: 0.1481 -- test_accuracy: 78.9541 -- ETA: 69.31
+
+epoch: 193 (7.76) -- loss: 0.1465 -- test_accuracy: 78.9541 -- ETA: 62.08
+
+epoch: 194 (7.95) -- loss: 0.1562 -- test_accuracy: 79.3367 -- ETA: 55.65
+
+epoch: 195 (7.78) -- loss: 0.1496 -- test_accuracy: 78.4439 -- ETA: 46.65
+
+epoch: 196 (7.71) -- loss: 0.1488 -- test_accuracy: 79.3367 -- ETA: 38.57
+
+epoch: 197 (7.71) -- loss: 0.1473 -- test_accuracy: 79.4643 -- ETA: 30.82
+
+epoch: 198 (8.03) -- loss: 0.1448 -- test_accuracy: 78.8265 -- ETA: 24.10
+
+epoch: 199 (7.84) -- loss: 0.1479 -- test_accuracy: 78.9541 -- ETA: 15.68
+
+epoch: 200 (8.04) -- loss: 0.1456 -- test_accuracy: 78.6990 -- ETA: 8.04
+
+Accuracy of the network vgg_128_43_3_200_150_1e-1_1e-4 on the 784 test images: 79.85 %
